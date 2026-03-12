@@ -480,9 +480,10 @@
         renderStats();
         renderOffers();
       } catch (err) {
-        els.cards.innerHTML = `<div class="error">تعذر تحميل all-offers.json. تأكد أن الملف موجود بجانب index.html وأن الموقع منشور بشكل صحيح.</div>`;
-        els.summaryLine.textContent = 'تعذر تحميل البيانات';
-        console.error(err);
+  els.cards.innerHTML = `<div class="error">حدث خطأ أثناء تحميل أو عرض البيانات.</div>`;
+  els.summaryLine.textContent = err?.message || 'تعذر تحميل البيانات';
+  console.error(err);
+}ole.error(err);
       }
     }
 
