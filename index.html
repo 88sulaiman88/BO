@@ -363,18 +363,12 @@
     }
 
     function formatDate(dateStr) {
-  if (!dateStr) return '—';
-  const d = new Date(dateStr);
-  if (Number.isNaN(d.getTime())) return dateStr;
-
-  return new Intl.DateTimeFormat('ar-SA', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-    hour: 'numeric',
-    minute: '2-digit'
-  }).format(d);
-}
+      if (!dateStr) return '—';
+      if (/^\d{4}-\d{2}-\d{2}$/.test(dateStr)) return dateStr;
+      const d = new Date(dateStr);
+      if (Number.isNaN(d.getTime())) return dateStr;
+      return d.toISOString().slice(0, 10);
+    }
 
     function filterOffers() {
       const query = els.searchInput.value.trim();
@@ -446,15 +440,12 @@
         details.className = 'details';
         details.textContent = offer.details || '—';
 
-const footer = document.createElement('div');
-footer.className = 'footer';
-
-if (offer.code) {
-  const small = document.createElement('div');
-  small.className = 'chip';
-  small.textContent = `الكود: ${offer.code}`;
-  footer.appendChild(small);
-}
+        const footer = document.createElement('div');
+        footer.className = 'footer';
+        const small = document.createElement('div');
+        small.className = 'chip';
+        small.textContent = offer.code ? `الكود: ${offer.code}` : ' '; 
+        footer.appendChild(small);
 
         if (offer.source) {
           const link = document.createElement('a');
