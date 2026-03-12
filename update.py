@@ -27,8 +27,8 @@ from zoneinfo import ZoneInfo
 from pathlib import Path
 from typing import Any, Dict, List
 
-TODAY = date.today().isoformat()
-
+GENERATED_AT = datetime.now(ZoneInfo("Asia/Riyadh")).isoformat(timespec="seconds")
+TODAY = GENERATED_AT[:10]
 
 def log(msg: str) -> None:
     print(f"[update] {msg}")
