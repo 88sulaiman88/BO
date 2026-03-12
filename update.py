@@ -268,7 +268,7 @@ def main() -> None:
     banks_summary.sort(key=lambda x: x["bank"])
 
     payload = {
-        "generated_at": TODAY,
+        "generated_at": GENERATED_AT,
         "total_banks": len(banks_summary),
         "total_offers": len(offers),
         "banks": banks_summary,
