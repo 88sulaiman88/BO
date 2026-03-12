@@ -96,7 +96,8 @@
       color: var(--text);
     }
     .checkbox input { accent-color: var(--accent); }
-    .reset-btn {
+    .reset-btn,
+    .bank-filter {
       border: 1px solid var(--line);
       background: #fff;
       color: var(--text);
@@ -104,6 +105,13 @@
       padding: 10px 16px;
       font: inherit;
       cursor: pointer;
+    }
+    .bank-filter {
+      min-width: 180px;
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      text-align: center;
     }
     .meta-bar {
       margin-top: 22px;
@@ -247,6 +255,7 @@
       .search { height: 54px; font-size: 17px; }
       .summary { flex-direction: column; align-items: flex-start; }
       .cards { grid-template-columns: 1fr; }
+      .bank-filter { min-width: 150px; }
     }
   </style>
 </head>
@@ -259,6 +268,9 @@
         <input id="searchInput" class="search" type="text" placeholder="مثال: بول، شاورمر، هنقرستيشن، فوغو" autocomplete="off" />
       </div>
       <div class="controls">
+        <select id="bankFilter" class="bank-filter">
+          <option value="">كل البنوك</option>
+        </select>
         <label class="checkbox"><input type="checkbox" id="hideExpired" checked> إخفاء العروض المنتهية</label>
         <button id="resetBtn" class="reset-btn" type="button">إعادة</button>
       </div>
@@ -284,6 +296,7 @@
 
     const els = {
       searchInput: document.getElementById('searchInput'),
+      bankFilter: document.getElementById('bankFilter'),
       hideExpired: document.getElementById('hideExpired'),
       resetBtn: document.getElementById('resetBtn'),
       cards: document.getElementById('cards'),
@@ -364,17 +377,38 @@
 
     function formatDate(dateStr) {
       if (!dateStr) return '—';
-      if (/^\d{4}-\d{2}-\d{2}$/.test(dateStr)) return dateStr;
       const d = new Date(dateStr);
       if (Number.isNaN(d.getTime())) return dateStr;
-      return d.toISOString().slice(0, 10);
+
+      return new Intl.DateTimeFormat('ar-SA', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+        hour: 'numeric',
+        minute: '2-digit'
+      }).format(d);
+    }
+
+    function populateBankFilter() {
+      const banks = [...new Set(allOffers.map(o => o.bank).filter(Boolean))].sort();
+      els.bankFilter.innerHTML = '<option value="">كل البنوك</option>';
+
+      banks.forEach(bank => {
+        const option = document.createElement('option');
+        option.value = bank;
+        option.textContent = bank;
+        els.bankFilter.appendChild(option);
+      });
     }
 
     function filterOffers() {
       const query = els.searchInput.value.trim();
       const hideExpired = els.hideExpired.checked;
+      const bank = els.bankFilter.value;
+
       return allOffers.filter(offer => {
         if (hideExpired && offer.expired) return false;
+        if (bank && offer.bank !== bank) return false;
         return isMatch(offer, query);
       });
     }
@@ -442,10 +476,13 @@
 
         const footer = document.createElement('div');
         footer.className = 'footer';
-        const small = document.createElement('div');
-        small.className = 'chip';
-        small.textContent = offer.code ? `الكود: ${offer.code}` : ' '; 
-        footer.appendChild(small);
+
+        if (offer.code) {
+          const small = document.createElement('div');
+          small.className = 'chip';
+          small.textContent = `الكود: ${offer.code}`;
+          footer.appendChild(small);
+        }
 
         if (offer.source) {
           const link = document.createElement('a');
@@ -470,38 +507,41 @@
       els.generatedAt.textContent = formatDate(dataMeta.generated_at);
     }
 
-async function loadData() {
-  const cardsEl = document.getElementById('cards');
-  const summaryEl = document.getElementById('summaryLine');
+    async function loadData() {
+      const cardsEl = document.getElementById('cards');
+      const summaryEl = document.getElementById('summaryLine');
 
-  try {
-    summaryEl.textContent = 'جاري طلب البيانات...';
+      try {
+        summaryEl.textContent = 'جاري طلب البيانات...';
 
-    const res = await fetch('./all-offers.json', { cache: 'no-store' });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const res = await fetch('./all-offers.json', { cache: 'no-store' });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
-    summaryEl.textContent = 'جاري قراءة البيانات...';
+        summaryEl.textContent = 'جاري قراءة البيانات...';
 
-    const data = await res.json();
+        const data = await res.json();
 
-    summaryEl.textContent = 'جاري تجهيز النتائج...';
+        summaryEl.textContent = 'جاري تجهيز النتائج...';
 
-    dataMeta = data || {};
-    allOffers = Array.isArray(data?.offers) ? data.offers : [];
+        dataMeta = data || {};
+        allOffers = Array.isArray(data?.offers) ? data.offers : [];
 
-    renderStats();
-    renderOffers();
-  } catch (err) {
-    console.error(err);
-    cardsEl.innerHTML = `<div class="error">حدث خطأ: ${err?.message || 'غير معروف'}</div>`;
-    summaryEl.textContent = err?.message || 'تعذر تحميل البيانات';
-  }
-}
+        populateBankFilter();
+        renderStats();
+        renderOffers();
+      } catch (err) {
+        console.error(err);
+        cardsEl.innerHTML = `<div class="error">حدث خطأ: ${err?.message || 'غير معروف'}</div>`;
+        summaryEl.textContent = err?.message || 'تعذر تحميل البيانات';
+      }
+    }
 
     els.searchInput.addEventListener('input', renderOffers);
+    els.bankFilter.addEventListener('change', renderOffers);
     els.hideExpired.addEventListener('change', renderOffers);
     els.resetBtn.addEventListener('click', () => {
       els.searchInput.value = '';
+      els.bankFilter.value = '';
       els.hideExpired.checked = true;
       renderOffers();
     });
