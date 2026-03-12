@@ -470,22 +470,27 @@
       els.generatedAt.textContent = formatDate(dataMeta.generated_at);
     }
 
-    async function loadData() {
-      try {
-        const res = await fetch('./all-offers.json', { cache: 'no-store' });
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        const data = await res.json();
-        dataMeta = data || {};
-        allOffers = Array.isArray(data?.offers) ? data.offers : [];
-        renderStats();
-        renderOffers();
-      } catch (err) {
-  els.cards.innerHTML = `<div class="error">حدث خطأ أثناء تحميل أو عرض البيانات.</div>`;
-  els.summaryLine.textContent = err?.message || 'تعذر تحميل البيانات';
-  console.error(err);
-}ole.error(err);
-      }
-    }
+async function loadData() {
+  try {
+    const res = await fetch('./all-offers.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+    const raw = await res.text();
+    console.log('RAW JSON preview:', raw.slice(0, 300));
+
+    const data = JSON.parse(raw);
+
+    dataMeta = data || {};
+    allOffers = Array.isArray(data?.offers) ? data.offers : [];
+
+    renderStats();
+    renderOffers();
+  } catch (err) {
+    els.cards.innerHTML = `<div class="error">حدث خطأ: ${err?.message || 'غير معروف'}</div>`;
+    els.summaryLine.textContent = err?.message || 'تعذر تحميل البيانات';
+    console.error('LOAD ERROR:', err);
+  }
+}
 
     els.searchInput.addEventListener('input', renderOffers);
     els.hideExpired.addEventListener('change', renderOffers);
