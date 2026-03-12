@@ -2,10 +2,8 @@ name: Update offers
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
   schedule:
-    - cron: "15 3 * * *"   # يوميًا 03:15 UTC = 06:15 صباحًا بتوقيت السعودية تقريبًا
+    - cron: "15 3 * * *"
 
 permissions:
   contents: write
@@ -20,12 +18,19 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
+
+      - name: Show repo files
+        run: |
+          echo "Current directory:"
+          pwd
+          echo "Repo contents:"
+          find . -maxdepth 3 -type f | sort
 
       - name: Run updater
         run: python update.py
