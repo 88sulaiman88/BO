@@ -446,12 +446,15 @@
         details.className = 'details';
         details.textContent = offer.details || '—';
 
-        const footer = document.createElement('div');
-        footer.className = 'footer';
-        const small = document.createElement('div');
-        small.className = 'chip';
-        small.textContent = offer.code ? `الكود: ${offer.code}` : '';
-        footer.appendChild(small);
+const footer = document.createElement('div');
+footer.className = 'footer';
+
+if (offer.code) {
+  const small = document.createElement('div');
+  small.className = 'chip';
+  small.textContent = `الكود: ${offer.code}`;
+  footer.appendChild(small);
+}
 
         if (offer.source) {
           const link = document.createElement('a');
