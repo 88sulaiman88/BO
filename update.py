@@ -4,44 +4,33 @@
 """
 يجمع ملفات عروض البنوك المحلية ويولّد all-offers.json.
 
-الاستخدام:
+الاستخدام المحلي:
   python update.py
 
-المتوقع أن يكون لديك هذا الترتيب:
-  .
-  ├─ index.html
-  ├─ all-offers.json
-  ├─ update.py
-  └─ banks/
-     ├─ Inma Offer.txt
-     ├─ Riyadh Offer.txt
-     ├─ Rajhi.txt
-     ├─ Saib.json
-     ├─ Ahli.txt
-     ├─ AlJazira.txt
-     ├─ ENBD.txt
-     ├─ ANB.txt
-     └─ BSF.txt
+الاستخدام عبر GitHub Actions:
+- يشغّل السكربت داخل الريبو
+- يعيد بناء all-offers.json من ملفات البنوك الموجودة
+- إذا تغيّر الملف، يمكن للـ workflow عمل commit تلقائي
 
-ملاحظة:
+مهم:
 - هذا السكربت لا يسحب من مواقع البنوك مباشرة.
-- دوره الحالي: قراءة ملفات البنوك الموجودة لديك محليًا وتوحيدها ثم إنتاج all-offers.json.
-- لاحقًا تقدر توسّعه ليشمل scraping مباشر لكل بنك.
+- دوره الحالي: قراءة ملفات البنوك الموجودة في الريبو/المجلد محليًا وتوحيدها.
+- لاحقًا يمكن توسيعه ليشمل scraping مباشر لكل بنك.
 """
 
 from __future__ import annotations
 
 import json
 import re
+from datetime import date
 from pathlib import Path
 from typing import Any, Dict, List
-from datetime import datetime, timezone
 
-TODAY = datetime.now(timezone.utc).date().isoformat()
+TODAY = date.today().isoformat()
 
 
-def log(message: str) -> None:
-    print(message, flush=True)
+def log(msg: str) -> None:
+    print(f"[update] {msg}")
 
 
 def slugify(text: str) -> str:
@@ -195,7 +184,7 @@ def normalize_offer(raw: Dict[str, Any], meta: Dict[str, str], index: int) -> Di
     }
 
 
-def collect_bank_files(banks_dir: Path) -> List[Path]:
+def collect_bank_files(search_dirs: List[Path]) -> List[Path]:
     preferred = [
         "Inma Offer.txt",
         "Riyadh Offer.txt",
@@ -210,39 +199,56 @@ def collect_bank_files(banks_dir: Path) -> List[Path]:
     ]
 
     found: List[Path] = []
-    for name in preferred:
-        path = banks_dir / name
-        if path.exists():
-            found.append(path)
+    for base in search_dirs:
+        for name in preferred:
+            path = base / name
+            if path.exists():
+                found.append(path)
 
-    return found
+    unique: List[Path] = []
+    seen = set()
+    for path in found:
+        key = str(path.resolve())
+        if key not in seen:
+            seen.add(key)
+            unique.append(path)
+    return unique
 
 
 def main() -> None:
     root = Path(__file__).resolve().parent
-    preferred_banks_dir = root / "banks"
-    banks_dir = preferred_banks_dir if preferred_banks_dir.exists() else root
+    search_dirs = [root / "banks", root / "data" / "banks", root]
+    existing_dirs = [p for p in search_dirs if p.exists()]
     output_file = root / "all-offers.json"
 
-    bank_files = collect_bank_files(banks_dir)
+    bank_files = collect_bank_files(existing_dirs)
     if not bank_files:
-        place = "banks/" if preferred_banks_dir.exists() else "المجلد الحالي"
-        raise SystemExit(f"لم أجد أي ملفات بنوك داخل {place}")
+        raise SystemExit("لم أجد أي ملفات بنوك. ضعها بجانب update.py أو داخل banks/ أو data/banks/")
+
+    log(f"تاريخ التوليد: {TODAY}")
+    log(f"مجلدات البحث: {', '.join(str(p.relative_to(root)) if p != root else '.' for p in existing_dirs)}")
+    log(f"عدد ملفات البنوك المكتشفة: {len(bank_files)}")
 
     banks_summary: List[Dict[str, Any]] = []
     offers: List[Dict[str, Any]] = []
 
     selected_saib = None
-    if (banks_dir / "Saib.json").exists():
-        selected_saib = (banks_dir / "Saib.json").resolve()
+    for d in existing_dirs:
+        saib_json = d / "Saib.json"
+        if saib_json.exists():
+            selected_saib = saib_json.resolve()
+            break
 
     for path in bank_files:
         if selected_saib and path.name == "Saib.txt":
+            log(f"تخطي {path.name} لأن Saib.json موجود")
             continue
 
         data = load_json(path)
         meta = normalize_bank_meta(data)
         raw_offers = data["offers"] if isinstance(data, dict) and "offers" in data else data
+        if not isinstance(raw_offers, list):
+            raise ValueError(f"صيغة غير متوقعة في {path.name}: expected list of offers")
 
         banks_summary.append({
             "bank": meta["bank"],
@@ -252,22 +258,26 @@ def main() -> None:
             "offers_count": len(raw_offers),
             "file": path.name,
         })
+        log(f"{path.name}: {len(raw_offers)} عرض")
 
         for idx, raw in enumerate(raw_offers, start=1):
             offers.append(normalize_offer(raw, meta, idx))
+
+    offers.sort(key=lambda x: (x.get("bank", ""), x.get("merchant", ""), x.get("title", "")))
+    banks_summary.sort(key=lambda x: x["bank"])
 
     payload = {
         "generated_at": TODAY,
         "total_banks": len(banks_summary),
         "total_offers": len(offers),
-        "banks": sorted(banks_summary, key=lambda x: x["bank"]),
+        "banks": banks_summary,
         "offers": offers,
     }
 
     output_file.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"تم إنشاء {output_file.name}")
-    print(f"- عدد البنوك: {payload['total_banks']}")
-    print(f"- عدد العروض: {payload['total_offers']}")
+    log(f"تم إنشاء {output_file.name}")
+    log(f"إجمالي البنوك: {payload['total_banks']}")
+    log(f"إجمالي العروض: {payload['total_offers']}")
 
 
 if __name__ == "__main__":
