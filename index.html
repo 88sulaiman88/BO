@@ -4,173 +4,448 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>دليل عروض البطاقات البنكية</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #0b1020;
-      --panel: #121933;
-      --panel-2: #1a2242;
-      --text: #f3f6ff;
-      --muted: #b7c0df;
-      --line: rgba(255,255,255,.08);
-      --accent: #6ea8fe;
-      --accent-2: #8b5cf6;
-      --danger: #ff6b6b;
-      --ok: #22c55e;
-      --chip: rgba(255,255,255,.08);
-      --shadow: 0 18px 50px rgba(0,0,0,.22);
-      --radius: 18px;
+      --bg: #f5f7fb;
+      --surface: rgba(255,255,255,.78);
+      --surface-strong: #ffffff;
+      --text: #182033;
+      --muted: #6b7280;
+      --line: rgba(24,32,51,.08);
+      --accent: #2952ff;
+      --accent-soft: rgba(41,82,255,.08);
+      --danger: #d14343;
+      --danger-soft: rgba(209,67,67,.08);
+      --shadow: 0 18px 60px rgba(17, 24, 39, .08);
+      --radius-xl: 28px;
+      --radius-lg: 22px;
+      --radius-md: 16px;
+      --radius-sm: 12px;
     }
+
     * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
     body {
       margin: 0;
-      font-family: "Segoe UI", Tahoma, Arial, sans-serif;
-      background: linear-gradient(180deg, #0b1020 0%, #0f1730 100%);
       color: var(--text);
+      font-family: "Tajawal", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at top, rgba(41,82,255,.08), transparent 30%),
+        linear-gradient(180deg, #f7f9fc 0%, #eef2f8 100%);
     }
     a { color: inherit; }
-    .wrap { max-width: 1320px; margin: 0 auto; padding: 24px; }
+
+    .container {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 32px 0 52px;
+    }
+
     .hero {
-      background: linear-gradient(135deg, rgba(110,168,254,.18), rgba(139,92,246,.18));
-      border: 1px solid var(--line);
+      text-align: center;
+      padding: 34px 22px 22px;
+      border: 1px solid rgba(255,255,255,.7);
+      border-radius: var(--radius-xl);
+      background: linear-gradient(180deg, rgba(255,255,255,.82), rgba(255,255,255,.68));
+      backdrop-filter: blur(14px);
       box-shadow: var(--shadow);
-      border-radius: 28px;
-      padding: 28px;
-      margin-bottom: 20px;
     }
-    .hero h1 { margin: 0 0 10px; font-size: clamp(28px, 4vw, 44px); }
-    .hero p { margin: 0; color: var(--muted); line-height: 1.8; }
-    .stats { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 14px; margin-top: 22px; }
-    .stat { background: rgba(255,255,255,.05); border: 1px solid var(--line); border-radius: 18px; padding: 16px; }
-    .stat .n { font-size: 28px; font-weight: 700; margin-top: 6px; }
-    .grid { display: grid; grid-template-columns: 320px 1fr; gap: 20px; align-items: start; }
-    .panel { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
-    .filters { position: sticky; top: 16px; padding: 18px; }
-    .filters h2, .results h2 { margin: 0 0 16px; font-size: 20px; }
-    .field { margin-bottom: 14px; }
-    .field label { display:block; margin-bottom:8px; color: var(--muted); font-size: 14px; }
-    .input, .select { width:100%; border:1px solid var(--line); background: var(--panel-2); color: var(--text); border-radius: 14px; padding: 12px 14px; font-size: 15px; }
-    .checkrow { display:flex; gap:10px; align-items:center; margin-top:10px; color: var(--muted); }
-    .actions { display:flex; gap:10px; flex-wrap:wrap; margin-top: 16px; }
-    button { border:0; border-radius: 14px; padding: 12px 16px; cursor:pointer; font-weight:700; }
-    .btn-primary { background: linear-gradient(135deg, var(--accent), var(--accent-2)); color:white; }
-    .btn-secondary { background: rgba(255,255,255,.08); color: var(--text); border:1px solid var(--line); }
-    .results { padding: 18px; }
-    .toolbar { display:flex; gap:12px; justify-content:space-between; align-items:center; flex-wrap:wrap; margin-bottom: 16px; }
-    .chips { display:flex; gap:8px; flex-wrap:wrap; }
-    .chip { background: var(--chip); border:1px solid var(--line); color: var(--text); border-radius:999px; padding:8px 12px; font-size: 13px; }
-    .cards { display:grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 16px; }
-    .card { background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.02)); border:1px solid var(--line); border-radius: 18px; padding: 16px; display:flex; flex-direction:column; gap: 12px; }
-    .topline { display:flex; justify-content:space-between; gap:12px; align-items:start; }
-    .bank { color: var(--accent); font-weight:700; font-size:14px; }
-    .title { font-size: 20px; font-weight: 800; line-height: 1.5; }
-    .discount { font-size: 16px; font-weight: 800; }
-    .meta { display:flex; gap:8px; flex-wrap:wrap; }
-    .meta .chip { font-size: 12px; }
-    .details { color: var(--muted); line-height: 1.8; font-size: 14px; }
-    .footer { display:flex; justify-content:space-between; align-items:center; gap:12px; margin-top:auto; flex-wrap:wrap; }
-    .source { text-decoration:none; background: rgba(110,168,254,.14); border:1px solid rgba(110,168,254,.25); padding:10px 12px; border-radius: 12px; }
-    .expired { outline: 1px solid rgba(255,107,107,.45); box-shadow: inset 0 0 0 999px rgba(255,107,107,.06); }
-    .expired-badge { background: rgba(255,107,107,.15); color: #ffc0c0; border-color: rgba(255,107,107,.3); }
-    .small { font-size: 12px; color: var(--muted); }
-    .empty { text-align:center; padding: 40px 20px; color: var(--muted); border:1px dashed var(--line); border-radius:18px; }
-    @media (max-width: 980px) {
-      .grid { grid-template-columns: 1fr; }
-      .filters { position: static; }
-      .stats { grid-template-columns: repeat(2, minmax(0,1fr)); }
+    .hero h1 {
+      margin: 0;
+      font-size: clamp(2rem, 4.5vw, 3.6rem);
+      font-weight: 800;
+      letter-spacing: -.02em;
     }
+    .hero p {
+      margin: 12px auto 0;
+      max-width: 680px;
+      font-size: 1.04rem;
+      line-height: 1.8;
+      color: var(--muted);
+    }
+
+    .search-box {
+      margin: 24px auto 0;
+      max-width: 760px;
+      position: relative;
+    }
+    .search-input {
+      width: 100%;
+      height: 64px;
+      padding: 0 22px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255,255,255,.92);
+      color: var(--text);
+      box-shadow: 0 12px 36px rgba(17,24,39,.07);
+      font: inherit;
+      font-size: 1.05rem;
+      outline: none;
+      transition: .18s ease;
+    }
+    .search-input:focus {
+      border-color: rgba(41,82,255,.35);
+      box-shadow: 0 14px 40px rgba(41,82,255,.12);
+    }
+    .search-input::placeholder { color: #98a1b2; }
+
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 18px;
+    }
+    .stat {
+      min-width: 120px;
+      padding: 12px 16px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.68);
+      border: 1px solid rgba(255,255,255,.85);
+      box-shadow: 0 8px 20px rgba(17,24,39,.04);
+    }
+    .stat .label {
+      color: var(--muted);
+      font-size: .86rem;
+    }
+    .stat .value {
+      margin-top: 4px;
+      font-size: 1.2rem;
+      font-weight: 800;
+    }
+
+    .controls {
+      margin-top: 22px;
+      padding: 16px;
+      display: grid;
+      grid-template-columns: 1.1fr .9fr .7fr auto;
+      gap: 12px;
+      align-items: center;
+      border: 1px solid rgba(255,255,255,.7);
+      border-radius: 22px;
+      background: linear-gradient(180deg, rgba(255,255,255,.75), rgba(255,255,255,.64));
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(12px);
+    }
+    .control {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .control label {
+      color: var(--muted);
+      font-size: .88rem;
+      padding-inline: 2px;
+    }
+    .select {
+      width: 100%;
+      height: 48px;
+      padding: 0 14px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.9);
+      color: var(--text);
+      font: inherit;
+      outline: none;
+    }
+    .toggle {
+      align-self: end;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      min-height: 48px;
+      padding: 0 12px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: rgba(255,255,255,.9);
+      color: var(--text);
+      white-space: nowrap;
+      user-select: none;
+      cursor: pointer;
+    }
+    .toggle input { inline-size: 18px; block-size: 18px; accent-color: var(--accent); }
+
+    .results-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin: 18px 0 14px;
+      padding: 0 4px;
+    }
+    .results-head h2 {
+      margin: 0;
+      font-size: 1.2rem;
+    }
+    .summary {
+      color: var(--muted);
+      font-size: .95rem;
+    }
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .chip {
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: var(--surface);
+      border: 1px solid rgba(255,255,255,.8);
+      color: #394150;
+      font-size: .85rem;
+      box-shadow: 0 6px 16px rgba(17,24,39,.04);
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      min-height: 250px;
+      padding: 18px;
+      border-radius: var(--radius-lg);
+      border: 1px solid rgba(255,255,255,.82);
+      background: linear-gradient(180deg, rgba(255,255,255,.86), rgba(255,255,255,.72));
+      backdrop-filter: blur(14px);
+      box-shadow: 0 16px 42px rgba(17,24,39,.06);
+      transition: transform .16s ease, box-shadow .16s ease;
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 18px 48px rgba(17,24,39,.09);
+    }
+    .card.expired {
+      border-color: rgba(209,67,67,.22);
+      background: linear-gradient(180deg, rgba(255,255,255,.8), rgba(255,247,247,.9));
+    }
+    .topline {
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      align-items: flex-start;
+    }
+    .bank {
+      color: var(--accent);
+      font-size: .92rem;
+      font-weight: 700;
+    }
+    .title {
+      margin-top: 4px;
+      font-size: 1.36rem;
+      line-height: 1.45;
+      font-weight: 800;
+      letter-spacing: -.01em;
+    }
+    .discount {
+      flex-shrink: 0;
+      padding: 10px 12px;
+      border-radius: 14px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: .98rem;
+      font-weight: 800;
+    }
+    .meta {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .meta .chip { background: rgba(255,255,255,.65); }
+    .details {
+      color: #4b5563;
+      line-height: 1.9;
+      font-size: .96rem;
+    }
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin-top: auto;
+      flex-wrap: wrap;
+    }
+    .small {
+      color: var(--muted);
+      font-size: .84rem;
+    }
+    .source {
+      text-decoration: none;
+      padding: 10px 14px;
+      border-radius: 12px;
+      background: #fff;
+      border: 1px solid var(--line);
+      font-weight: 700;
+      transition: .16s ease;
+    }
+    .source:hover {
+      border-color: rgba(41,82,255,.28);
+      color: var(--accent);
+    }
+    .expired-badge {
+      background: var(--danger-soft) !important;
+      color: var(--danger);
+    }
+    .empty {
+      grid-column: 1 / -1;
+      padding: 44px 18px;
+      text-align: center;
+      color: var(--muted);
+      border-radius: 24px;
+      border: 1px dashed rgba(24,32,51,.14);
+      background: rgba(255,255,255,.55);
+    }
+
+    @media (max-width: 900px) {
+      .controls {
+        grid-template-columns: 1fr;
+      }
+      .toggle { justify-content: center; }
+      .results-head {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
     @media (max-width: 640px) {
-      .wrap { padding: 14px; }
-      .hero, .results, .filters { padding: 16px; }
-      .stats { grid-template-columns: 1fr; }
-      .cards { grid-template-columns: 1fr; }
+      .container { width: min(100% - 18px, 1120px); padding-top: 18px; }
+      .hero { padding: 24px 14px 18px; }
+      .controls { padding: 12px; }
+      .search-input { height: 58px; font-size: 1rem; }
+      .title { font-size: 1.18rem; }
+      .discount { font-size: .92rem; }
+      .card { padding: 16px; min-height: auto; }
     }
   </style>
 </head>
 <body>
-  <div class="wrap">
+  <main class="container">
     <section class="hero">
       <h1>دليل عروض البطاقات البنكية</h1>
-      <p>نسخة محلية تعمل مباشرة على جهازك. تحتوي على بيانات البنوك المرفوعة حاليًا داخل الملف نفسه، لذلك يمكنك فتحها فورًا بدون سيرفر. لاحقًا نقدر نرجّعها للهيكل الصحيح: <strong>index.html</strong> خفيف + ملفات <strong>JSON</strong> خارجية.</p>
+      <p>ابحث باسم المتجر أو العرض، وتصفّح النتائج بشكل سريع وواضح.</p>
+
+      <div class="search-box">
+        <input id="searchInput" class="search-input" type="text" placeholder="ابحث: بول، نون، هنقرستيشن، شي بسيط غلط بالإملاء عادي" />
+      </div>
+
       <div class="stats">
-        <div class="stat"><div>إجمالي العروض</div><div class="n" id="statOffers">0</div></div>
-        <div class="stat"><div>عدد البنوك</div><div class="n" id="statBanks">0</div></div>
-        <div class="stat"><div>الفئات</div><div class="n" id="statCategories">0</div></div>
-        <div class="stat"><div>العروض المعروضة</div><div class="n" id="statShown">0</div></div>
+        <div class="stat"><div class="label">العروض</div><div class="value" id="statOffers">0</div></div>
+        <div class="stat"><div class="label">البنوك</div><div class="value" id="statBanks">0</div></div>
+        <div class="stat"><div class="label">المعروض الآن</div><div class="value" id="statShown">0</div></div>
       </div>
     </section>
 
-    <div class="grid">
-      <aside class="panel filters">
-        <h2>البحث والتصفية</h2>
-        <div class="field">
-          <label for="searchInput">ابحث باسم المتجر أو العرض أو التفاصيل</label>
-          <input id="searchInput" class="input" type="text" placeholder="مثال: هنقرستيشن، بول، مطاعم، 20%" />
-        </div>
-        <div class="field">
-          <label for="bankFilter">البنك</label>
-          <select id="bankFilter" class="select"></select>
-        </div>
-        <div class="field">
-          <label for="categoryFilter">الفئة</label>
-          <select id="categoryFilter" class="select"></select>
-        </div>
-        <div class="field">
-          <label for="sortFilter">الترتيب</label>
-          <select id="sortFilter" class="select">
-            <option value="default">افتراضي</option>
-            <option value="bank">حسب البنك</option>
-            <option value="merchant">حسب المتجر</option>
-            <option value="discount">حسب نسبة الخصم</option>
-            <option value="expiry">حسب تاريخ الانتهاء</option>
-          </select>
-        </div>
-        <label class="checkrow"><input type="checkbox" id="onlineOnly" /> أونلاين فقط</label>
-        <label class="checkrow"><input type="checkbox" id="hideExpired" /> إخفاء العروض المنتهية</label>
-        <div class="actions">
-          <button class="btn-primary" id="copyJsonBtn">نسخ النتائج كـ JSON</button>
-          <button class="btn-secondary" id="resetBtn">إعادة التصفية</button>
-        </div>
-        <div class="small" style="margin-top:14px; line-height:1.7;">
-          ملاحظة: هذه النسخة مدمجة داخل ملف واحد لتشتغل عندك الآن بدون تعليق الكانفس. معماريًا، هذا حل تشغيلي مؤقت فقط.
-        </div>
-      </aside>
+    <section class="controls">
+      <div class="control">
+        <label for="bankFilter">البنك</label>
+        <select id="bankFilter" class="select"></select>
+      </div>
+      <label class="toggle">
+        <input type="checkbox" id="hideExpired" checked />
+        إخفاء العروض المنتهية
+      </label>
+      <button id="resetBtn" class="select" type="button" style="cursor:pointer; font-weight:700;">إعادة الضبط</button>
+    </section>
 
-      <section class="panel results">
-        <div class="toolbar">
-          <div>
-            <h2>العروض</h2>
-            <div class="small" id="summaryLine"></div>
-          </div>
-          <div class="chips" id="activeChips"></div>
-        </div>
-        <div class="cards" id="cards"></div>
-      </section>
-    </div>
-  </div>
+    <section class="results-head">
+      <div>
+        <h2>النتائج</h2>
+        <div class="summary" id="summaryLine"></div>
+      </div>
+      <div class="chips" id="activeChips"></div>
+    </section>
+
+    <section class="cards" id="cards"></section>
+  </main>
 
   <script>
-    
-    let BANKS = [];
-    let OFFERS = [];
-    let CATEGORIES = [];
-    let BANK_NAMES = [];
-const els = {
+    const els = {
       searchInput: document.getElementById('searchInput'),
       bankFilter: document.getElementById('bankFilter'),
-      categoryFilter: document.getElementById('categoryFilter'),
-      sortFilter: document.getElementById('sortFilter'),
-      onlineOnly: document.getElementById('onlineOnly'),
       hideExpired: document.getElementById('hideExpired'),
       resetBtn: document.getElementById('resetBtn'),
-      copyJsonBtn: document.getElementById('copyJsonBtn'),
       cards: document.getElementById('cards'),
       summaryLine: document.getElementById('summaryLine'),
       activeChips: document.getElementById('activeChips'),
       statOffers: document.getElementById('statOffers'),
       statBanks: document.getElementById('statBanks'),
-      statCategories: document.getElementById('statCategories'),
       statShown: document.getElementById('statShown'),
     };
+
+    let DATA = null;
+    let OFFERS = [];
+    let BANK_NAMES = [];
+
+    function normalizeArabic(text) {
+      return String(text || '')
+        .toLowerCase()
+        .replace(/[أإآٱ]/g, 'ا')
+        .replace(/ؤ/g, 'و')
+        .replace(/ئ/g, 'ي')
+        .replace(/ة/g, 'ه')
+        .replace(/ى/g, 'ي')
+        .replace(/[\u064B-\u065F\u0670]/g, '')
+        .replace(/[^\p{L}\p{N}\s%]/gu, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+    }
+
+    function levenshtein(a, b) {
+      if (a === b) return 0;
+      if (!a.length) return b.length;
+      if (!b.length) return a.length;
+      const prev = Array.from({ length: b.length + 1 }, (_, i) => i);
+      for (let i = 1; i <= a.length; i++) {
+        let diag = i - 1;
+        prev[0] = i;
+        for (let j = 1; j <= b.length; j++) {
+          const temp = prev[j];
+          const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+          prev[j] = Math.min(prev[j] + 1, prev[j - 1] + 1, diag + cost);
+          diag = temp;
+        }
+      }
+      return prev[b.length];
+    }
+
+    function fuzzyWordMatch(query, candidate) {
+      if (!query || !candidate) return false;
+      if (candidate.includes(query) || query.includes(candidate)) return true;
+      const diff = Math.abs(candidate.length - query.length);
+      const allowance = query.length <= 4 ? 1 : query.length <= 8 ? 2 : 3;
+      if (diff > allowance) return false;
+      return levenshtein(query, candidate) <= allowance;
+    }
+
+    function matchesSearch(offer, rawQuery) {
+      const query = normalizeArabic(rawQuery);
+      if (!query) return true;
+
+      const haystack = normalizeArabic([
+        offer.title,
+        offer.merchant,
+        offer.bank,
+        offer.category,
+        offer.discount,
+        offer.details,
+        offer.code,
+        ...(offer.cards || [])
+      ].join(' '));
+
+      if (haystack.includes(query)) return true;
+
+      const qWords = query.split(' ').filter(Boolean);
+      const tokens = [...new Set(haystack.split(' ').filter(Boolean))];
+
+      return qWords.every(qWord => tokens.some(token => fuzzyWordMatch(qWord, token)));
+    }
 
     function populateSelect(select, items, allLabel) {
       select.innerHTML = '';
@@ -191,168 +466,114 @@ const els = {
       return m ? Number(m[1]) : -1;
     }
 
-    function normalize(s) {
-      return String(s || '')
-        .toLowerCase()
-        .replace(/أ|إ|آ/g, 'ا')
-        .replace(/ة/g, 'ه')
-        .replace(/ى/g, 'ي')
-        .replace(/\s+/g, ' ')
-        .trim();
-    }
-
-    function matchesSearch(offer, q) {
-      if (!q) return true;
-      const hay = normalize([
-        offer.title, offer.merchant, offer.bank, offer.category,
-        offer.discount, offer.details, offer.code,
-        ...(offer.cards || [])
-      ].join(' '));
-      return hay.includes(normalize(q));
-    }
-
     function filterOffers() {
-      const q = els.searchInput.value;
+      const query = els.searchInput.value;
       const bank = els.bankFilter.value;
-      const category = els.categoryFilter.value;
-      const onlineOnly = els.onlineOnly.checked;
       const hideExpired = els.hideExpired.checked;
-      let items = OFFERS.filter(o =>
-        matchesSearch(o, q) &&
-        (!bank || o.bank === bank) &&
-        (!category || o.category === category) &&
-        (!onlineOnly || o.online) &&
-        (!hideExpired || !o.expired)
+
+      let items = OFFERS.filter(offer =>
+        matchesSearch(offer, query) &&
+        (!bank || offer.bank === bank) &&
+        (!hideExpired || !offer.expired)
       );
 
-      switch (els.sortFilter.value) {
-        case 'bank':
-          items.sort((a,b) => (a.bank || '').localeCompare(b.bank || '', 'ar'));
-          break;
-        case 'merchant':
-          items.sort((a,b) => (a.merchant || '').localeCompare(b.merchant || '', 'ar'));
-          break;
-        case 'discount':
-          items.sort((a,b) => getDiscountNumber(b.discount) - getDiscountNumber(a.discount));
-          break;
-        case 'expiry':
-          items.sort((a,b) => (a.valid_until || '9999-99-99').localeCompare(b.valid_until || '9999-99-99'));
-          break;
-      }
       return items;
     }
 
-    function renderChips(items) {
+    function renderChips() {
       const chips = [];
-      if (els.searchInput.value) chips.push(`بحث: ${els.searchInput.value}`);
+      if (els.searchInput.value.trim()) chips.push(`بحث: ${els.searchInput.value.trim()}`);
       if (els.bankFilter.value) chips.push(`البنك: ${els.bankFilter.value}`);
-      if (els.categoryFilter.value) chips.push(`الفئة: ${els.categoryFilter.value}`);
-      if (els.onlineOnly.checked) chips.push('أونلاين فقط');
-      if (els.hideExpired.checked) chips.push('بدون منتهي');
-      els.activeChips.innerHTML = chips.map(c => `<span class="chip">${c}</span>`).join('');
+      if (els.hideExpired.checked) chips.push('المعروض الآن فقط');
+      els.activeChips.innerHTML = chips.map(chip => `<span class="chip">${chip}</span>`).join('');
     }
 
-    
-    async function loadData() {
-      try {
-        els.summaryLine.textContent = 'جارٍ تحميل العروض...';
-        const response = await fetch('./all-offers.json', { cache: 'no-store' });
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        const data = await response.json();
-        OFFERS = Array.isArray(data.offers) ? data.offers : [];
-        BANKS = Array.isArray(data.banks) ? data.banks : [];
-        BANK_NAMES = [...new Set(OFFERS.map(o => o.bank).filter(Boolean))].sort((a,b) => a.localeCompare(b, 'ar'));
-        CATEGORIES = [...new Set(OFFERS.map(o => o.category).filter(Boolean))].sort((a,b) => a.localeCompare(b, 'ar'));
-
-        populateSelect(els.bankFilter, BANK_NAMES, 'كل البنوك');
-        populateSelect(els.categoryFilter, CATEGORIES, 'كل الفئات');
-        render();
-      } catch (error) {
-        console.error(error);
-        els.cards.innerHTML = '<div class="empty">تعذر تحميل all-offers.json. تأكد أن الملف موجود بجانب index.html، وشغّل الصفحة عبر سيرفر محلي مثل <code>python -m http.server</code>.</div>';
-        els.summaryLine.textContent = 'فشل تحميل البيانات.';
-      }
-    }
-
-    function render() {
-      const items = filterOffers();
-      renderChips(items);
-      els.statOffers.textContent = OFFERS.length.toLocaleString('ar');
-      els.statBanks.textContent = BANKS.length.toLocaleString('ar');
-      els.statCategories.textContent = CATEGORIES.length.toLocaleString('ar');
-      els.statShown.textContent = items.length.toLocaleString('ar');
-      els.summaryLine.textContent = `إجمالي النتائج المعروضة: ${items.length} من أصل ${OFFERS.length} عرض.`;
-
-      if (!items.length) {
-        els.cards.innerHTML = '<div class="empty">لا توجد نتائج مطابقة للتصفية الحالية.</div>';
-        return;
-      }
-
-      els.cards.innerHTML = items.map(offer => `
+    function offerCard(offer) {
+      const title = offer.title || offer.merchant || 'عرض بدون عنوان';
+      const details = offer.details || 'لا توجد تفاصيل إضافية.';
+      const checkedAt = offer.checked_at || DATA?.generated_at || '—';
+      return `
         <article class="card ${offer.expired ? 'expired' : ''}">
           <div class="topline">
             <div>
               <div class="bank">${offer.bank || 'غير محدد'}</div>
-              <div class="title">${offer.title || offer.merchant || 'عرض بدون عنوان'}</div>
+              <div class="title">${title}</div>
             </div>
-            <div class="discount">${offer.discount || '—'}</div>
+            <div class="discount">${offer.discount || 'عرض'}</div>
           </div>
+
           <div class="meta">
             ${offer.merchant ? `<span class="chip">${offer.merchant}</span>` : ''}
             ${offer.category ? `<span class="chip">${offer.category}</span>` : ''}
-            ${offer.online ? `<span class="chip">أونلاين</span>` : ''}
-            ${offer.city ? `<span class="chip">${offer.city}</span>` : ''}
-            ${offer.country ? `<span class="chip">${offer.country}</span>` : ''}
             ${offer.expired ? `<span class="chip expired-badge">منتهي</span>` : ''}
+            ${offer.online ? `<span class="chip">أونلاين</span>` : ''}
           </div>
-          <div class="details">${offer.details || 'لا توجد تفاصيل إضافية.'}</div>
+
+          <div class="details">${details}</div>
+
           <div class="meta">
-            ${(offer.cards || []).map(card => `<span class="chip">${card}</span>`).join('')}
+            ${(offer.cards || []).slice(0, 3).map(card => `<span class="chip">${card}</span>`).join('')}
+            ${offer.valid_until ? `<span class="chip">حتى ${offer.valid_until}</span>` : ''}
             ${offer.code ? `<span class="chip">كود: ${offer.code}</span>` : ''}
-            ${offer.valid_until ? `<span class="chip">ينتهي: ${offer.valid_until}</span>` : ''}
           </div>
+
           <div class="footer">
-            <div class="small">آخر تحقق: ${offer.checked_at || '—'}</div>
+            <div class="small">آخر تحديث: ${checkedAt}</div>
             ${offer.source ? `<a class="source" href="${offer.source}" target="_blank" rel="noopener noreferrer">المصدر</a>` : ''}
           </div>
         </article>
-      `).join('');
+      `;
+    }
+
+    function render() {
+      const items = filterOffers();
+      renderChips();
+      els.statOffers.textContent = OFFERS.length.toLocaleString('ar');
+      els.statBanks.textContent = BANK_NAMES.length.toLocaleString('ar');
+      els.statShown.textContent = items.length.toLocaleString('ar');
+      els.summaryLine.textContent = `${items.length.toLocaleString('ar')} نتيجة من أصل ${OFFERS.length.toLocaleString('ar')} عرض`;
+
+      if (!items.length) {
+        els.cards.innerHTML = '<div class="empty">ما لقيت نتيجة مطابقة. جرّب اسم قريب أو اكتب بشكل أبسط.</div>';
+        return;
+      }
+
+      els.cards.innerHTML = items.map(offerCard).join('');
     }
 
     function resetFilters() {
       els.searchInput.value = '';
       els.bankFilter.value = '';
-      els.categoryFilter.value = '';
-      els.sortFilter.value = 'default';
-      els.onlineOnly.checked = false;
-      els.hideExpired.checked = false;
+      els.hideExpired.checked = true;
       render();
     }
 
-    async function copyFilteredJson() {
-      const items = filterOffers();
-      const text = JSON.stringify(items, null, 2);
+    async function loadData() {
       try {
-        await navigator.clipboard.writeText(text);
-        els.copyJsonBtn.textContent = 'تم النسخ';
-        setTimeout(() => els.copyJsonBtn.textContent = 'نسخ النتائج كـ JSON', 1500);
-      } catch (e) {
-        alert('تعذر النسخ التلقائي. افتح أدوات المطور أو استخدم نسخة حديثة من المتصفح.');
+        const response = await fetch('./all-offers.json', { cache: 'no-store' });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        DATA = await response.json();
+        OFFERS = Array.isArray(DATA.offers) ? DATA.offers : [];
+        BANK_NAMES = Array.isArray(DATA.banks)
+          ? DATA.banks.map(bank => bank.bank).filter(Boolean).sort((a, b) => a.localeCompare(b, 'ar'))
+          : [...new Set(OFFERS.map(offer => offer.bank).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'ar'));
+
+        populateSelect(els.bankFilter, BANK_NAMES, 'كل البنوك');
+        render();
+      } catch (error) {
+        console.error(error);
+        els.cards.innerHTML = '<div class="empty">تعذر تحميل العروض. تأكد أن ملف <strong>all-offers.json</strong> موجود بجانب <strong>index.html</strong>.</div>';
+        els.summaryLine.textContent = 'فشل تحميل البيانات';
       }
     }
 
-    ['input','change'].forEach(evt => {
+    ['input', 'change'].forEach(evt => {
       els.searchInput.addEventListener(evt, render);
       els.bankFilter.addEventListener(evt, render);
-      els.categoryFilter.addEventListener(evt, render);
-      els.sortFilter.addEventListener(evt, render);
-      els.onlineOnly.addEventListener(evt, render);
       els.hideExpired.addEventListener(evt, render);
     });
 
     els.resetBtn.addEventListener('click', resetFilters);
-    els.copyJsonBtn.addEventListener('click', copyFilteredJson);
-
     loadData();
   </script>
 </body>
