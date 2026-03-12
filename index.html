@@ -266,15 +266,14 @@
         <div class="pill">العروض: <strong id="statOffers">0</strong></div>
         <div class="pill">البنوك: <strong id="statBanks">0</strong></div>
         <div class="pill">المعروض الآن: <strong id="statShown">0</strong></div>
-        <!-- تم نقل آخر تحديث إلى سطر النتائج -->
+        <div class="pill">آخر تحديث: <strong id="generatedAt">—</strong></div>
       </div>
     </section>
 
     <section class="results">
-<div class="summary">
-  <div id="summaryLine">جارٍ تحميل العروض...</div>
-  <div id="summaryDate">آخر تحديث: —</div>
-</div>
+      <div class="summary">
+        <div id="summaryLine">جارٍ تحميل العروض...</div>
+      </div>
       <div id="cards" class="cards"></div>
     </section>
   </main>
@@ -290,7 +289,6 @@
       cards: document.getElementById('cards'),
       summaryLine: document.getElementById('summaryLine'),
       statOffers: document.getElementById('statOffers'),
-summaryDate: document.getElementById('summaryDate'),
       statBanks: document.getElementById('statBanks'),
       statShown: document.getElementById('statShown'),
       generatedAt: document.getElementById('generatedAt'),
@@ -475,14 +473,11 @@ if (offer.code) {
       });
     }
 
- function renderStats() {
-  const formattedDate = formatDate(dataMeta.generated_at);
-
-  els.statOffers.textContent = String(allOffers.length);
-  els.statBanks.textContent = String(new Set(allOffers.map(o => o.bank).filter(Boolean)).size);
-  els.generatedAt.textContent = formattedDate;
-  els.summaryDate.textContent = `آخر تحديث: ${formattedDate}`;
-}
+    function renderStats() {
+      els.statOffers.textContent = String(allOffers.length);
+      els.statBanks.textContent = String(new Set(allOffers.map(o => o.bank).filter(Boolean)).size);
+      els.generatedAt.textContent = formatDate(dataMeta.generated_at);
+    }
 
     async function loadData() {
       try {
