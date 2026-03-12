@@ -471,14 +471,20 @@
     }
 
 async function loadData() {
+  const cardsEl = document.getElementById('cards');
+  const summaryEl = document.getElementById('summaryLine');
+
   try {
+    summaryEl.textContent = 'جاري طلب البيانات...';
+
     const res = await fetch('./all-offers.json', { cache: 'no-store' });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
-    const raw = await res.text();
-    console.log('RAW JSON preview:', raw.slice(0, 300));
+    summaryEl.textContent = 'جاري قراءة البيانات...';
 
-    const data = JSON.parse(raw);
+    const data = await res.json();
+
+    summaryEl.textContent = 'جاري تجهيز النتائج...';
 
     dataMeta = data || {};
     allOffers = Array.isArray(data?.offers) ? data.offers : [];
@@ -486,9 +492,9 @@ async function loadData() {
     renderStats();
     renderOffers();
   } catch (err) {
-    els.cards.innerHTML = `<div class="error">حدث خطأ: ${err?.message || 'غير معروف'}</div>`;
-    els.summaryLine.textContent = err?.message || 'تعذر تحميل البيانات';
-    console.error('LOAD ERROR:', err);
+    console.error(err);
+    cardsEl.innerHTML = `<div class="error">حدث خطأ: ${err?.message || 'غير معروف'}</div>`;
+    summaryEl.textContent = err?.message || 'تعذر تحميل البيانات';
   }
 }
 
