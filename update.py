@@ -35,8 +35,13 @@ import json
 import re
 from pathlib import Path
 from typing import Any, Dict, List
+from datetime import datetime, timezone
 
-TODAY = "2026-03-12"
+TODAY = datetime.now(timezone.utc).date().isoformat()
+
+
+def log(message: str) -> None:
+    print(message, flush=True)
 
 
 def slugify(text: str) -> str:
