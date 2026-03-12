@@ -4,448 +4,173 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>دليل عروض البطاقات البنكية</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #f5f7fb;
-      --surface: rgba(255,255,255,.78);
-      --surface-strong: #ffffff;
-      --text: #182033;
-      --muted: #6b7280;
-      --line: rgba(24,32,51,.08);
-      --accent: #2952ff;
-      --accent-soft: rgba(41,82,255,.08);
-      --danger: #d14343;
-      --danger-soft: rgba(209,67,67,.08);
-      --shadow: 0 18px 60px rgba(17, 24, 39, .08);
-      --radius-xl: 28px;
-      --radius-lg: 22px;
-      --radius-md: 16px;
-      --radius-sm: 12px;
+      --bg: #0b1020;
+      --panel: #121933;
+      --panel-2: #1a2242;
+      --text: #f3f6ff;
+      --muted: #b7c0df;
+      --line: rgba(255,255,255,.08);
+      --accent: #6ea8fe;
+      --accent-2: #8b5cf6;
+      --danger: #ff6b6b;
+      --ok: #22c55e;
+      --chip: rgba(255,255,255,.08);
+      --shadow: 0 18px 50px rgba(0,0,0,.22);
+      --radius: 18px;
     }
-
     * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
     body {
       margin: 0;
+      font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+      background: linear-gradient(180deg, #0b1020 0%, #0f1730 100%);
       color: var(--text);
-      font-family: "Tajawal", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background:
-        radial-gradient(circle at top, rgba(41,82,255,.08), transparent 30%),
-        linear-gradient(180deg, #f7f9fc 0%, #eef2f8 100%);
     }
     a { color: inherit; }
-
-    .container {
-      width: min(1120px, calc(100% - 32px));
-      margin: 0 auto;
-      padding: 32px 0 52px;
-    }
-
+    .wrap { max-width: 1320px; margin: 0 auto; padding: 24px; }
     .hero {
-      text-align: center;
-      padding: 34px 22px 22px;
-      border: 1px solid rgba(255,255,255,.7);
-      border-radius: var(--radius-xl);
-      background: linear-gradient(180deg, rgba(255,255,255,.82), rgba(255,255,255,.68));
-      backdrop-filter: blur(14px);
+      background: linear-gradient(135deg, rgba(110,168,254,.18), rgba(139,92,246,.18));
+      border: 1px solid var(--line);
       box-shadow: var(--shadow);
+      border-radius: 28px;
+      padding: 28px;
+      margin-bottom: 20px;
     }
-    .hero h1 {
-      margin: 0;
-      font-size: clamp(2rem, 4.5vw, 3.6rem);
-      font-weight: 800;
-      letter-spacing: -.02em;
+    .hero h1 { margin: 0 0 10px; font-size: clamp(28px, 4vw, 44px); }
+    .hero p { margin: 0; color: var(--muted); line-height: 1.8; }
+    .stats { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 14px; margin-top: 22px; }
+    .stat { background: rgba(255,255,255,.05); border: 1px solid var(--line); border-radius: 18px; padding: 16px; }
+    .stat .n { font-size: 28px; font-weight: 700; margin-top: 6px; }
+    .grid { display: grid; grid-template-columns: 320px 1fr; gap: 20px; align-items: start; }
+    .panel { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
+    .filters { position: sticky; top: 16px; padding: 18px; }
+    .filters h2, .results h2 { margin: 0 0 16px; font-size: 20px; }
+    .field { margin-bottom: 14px; }
+    .field label { display:block; margin-bottom:8px; color: var(--muted); font-size: 14px; }
+    .input, .select { width:100%; border:1px solid var(--line); background: var(--panel-2); color: var(--text); border-radius: 14px; padding: 12px 14px; font-size: 15px; }
+    .checkrow { display:flex; gap:10px; align-items:center; margin-top:10px; color: var(--muted); }
+    .actions { display:flex; gap:10px; flex-wrap:wrap; margin-top: 16px; }
+    button { border:0; border-radius: 14px; padding: 12px 16px; cursor:pointer; font-weight:700; }
+    .btn-primary { background: linear-gradient(135deg, var(--accent), var(--accent-2)); color:white; }
+    .btn-secondary { background: rgba(255,255,255,.08); color: var(--text); border:1px solid var(--line); }
+    .results { padding: 18px; }
+    .toolbar { display:flex; gap:12px; justify-content:space-between; align-items:center; flex-wrap:wrap; margin-bottom: 16px; }
+    .chips { display:flex; gap:8px; flex-wrap:wrap; }
+    .chip { background: var(--chip); border:1px solid var(--line); color: var(--text); border-radius:999px; padding:8px 12px; font-size: 13px; }
+    .cards { display:grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 16px; }
+    .card { background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.02)); border:1px solid var(--line); border-radius: 18px; padding: 16px; display:flex; flex-direction:column; gap: 12px; }
+    .topline { display:flex; justify-content:space-between; gap:12px; align-items:start; }
+    .bank { color: var(--accent); font-weight:700; font-size:14px; }
+    .title { font-size: 20px; font-weight: 800; line-height: 1.5; }
+    .discount { font-size: 16px; font-weight: 800; }
+    .meta { display:flex; gap:8px; flex-wrap:wrap; }
+    .meta .chip { font-size: 12px; }
+    .details { color: var(--muted); line-height: 1.8; font-size: 14px; }
+    .footer { display:flex; justify-content:space-between; align-items:center; gap:12px; margin-top:auto; flex-wrap:wrap; }
+    .source { text-decoration:none; background: rgba(110,168,254,.14); border:1px solid rgba(110,168,254,.25); padding:10px 12px; border-radius: 12px; }
+    .expired { outline: 1px solid rgba(255,107,107,.45); box-shadow: inset 0 0 0 999px rgba(255,107,107,.06); }
+    .expired-badge { background: rgba(255,107,107,.15); color: #ffc0c0; border-color: rgba(255,107,107,.3); }
+    .small { font-size: 12px; color: var(--muted); }
+    .empty { text-align:center; padding: 40px 20px; color: var(--muted); border:1px dashed var(--line); border-radius:18px; }
+    @media (max-width: 980px) {
+      .grid { grid-template-columns: 1fr; }
+      .filters { position: static; }
+      .stats { grid-template-columns: repeat(2, minmax(0,1fr)); }
     }
-    .hero p {
-      margin: 12px auto 0;
-      max-width: 680px;
-      font-size: 1.04rem;
-      line-height: 1.8;
-      color: var(--muted);
-    }
-
-    .search-box {
-      margin: 24px auto 0;
-      max-width: 760px;
-      position: relative;
-    }
-    .search-input {
-      width: 100%;
-      height: 64px;
-      padding: 0 22px;
-      border: 1px solid var(--line);
-      border-radius: 999px;
-      background: rgba(255,255,255,.92);
-      color: var(--text);
-      box-shadow: 0 12px 36px rgba(17,24,39,.07);
-      font: inherit;
-      font-size: 1.05rem;
-      outline: none;
-      transition: .18s ease;
-    }
-    .search-input:focus {
-      border-color: rgba(41,82,255,.35);
-      box-shadow: 0 14px 40px rgba(41,82,255,.12);
-    }
-    .search-input::placeholder { color: #98a1b2; }
-
-    .stats {
-      display: flex;
-      justify-content: center;
-      gap: 12px;
-      flex-wrap: wrap;
-      margin-top: 18px;
-    }
-    .stat {
-      min-width: 120px;
-      padding: 12px 16px;
-      border-radius: 999px;
-      background: rgba(255,255,255,.68);
-      border: 1px solid rgba(255,255,255,.85);
-      box-shadow: 0 8px 20px rgba(17,24,39,.04);
-    }
-    .stat .label {
-      color: var(--muted);
-      font-size: .86rem;
-    }
-    .stat .value {
-      margin-top: 4px;
-      font-size: 1.2rem;
-      font-weight: 800;
-    }
-
-    .controls {
-      margin-top: 22px;
-      padding: 16px;
-      display: grid;
-      grid-template-columns: 1.1fr .9fr .7fr auto;
-      gap: 12px;
-      align-items: center;
-      border: 1px solid rgba(255,255,255,.7);
-      border-radius: 22px;
-      background: linear-gradient(180deg, rgba(255,255,255,.75), rgba(255,255,255,.64));
-      box-shadow: var(--shadow);
-      backdrop-filter: blur(12px);
-    }
-    .control {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-    }
-    .control label {
-      color: var(--muted);
-      font-size: .88rem;
-      padding-inline: 2px;
-    }
-    .select {
-      width: 100%;
-      height: 48px;
-      padding: 0 14px;
-      border-radius: 14px;
-      border: 1px solid var(--line);
-      background: rgba(255,255,255,.9);
-      color: var(--text);
-      font: inherit;
-      outline: none;
-    }
-    .toggle {
-      align-self: end;
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      min-height: 48px;
-      padding: 0 12px;
-      border: 1px solid var(--line);
-      border-radius: 14px;
-      background: rgba(255,255,255,.9);
-      color: var(--text);
-      white-space: nowrap;
-      user-select: none;
-      cursor: pointer;
-    }
-    .toggle input { inline-size: 18px; block-size: 18px; accent-color: var(--accent); }
-
-    .results-head {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 12px;
-      margin: 18px 0 14px;
-      padding: 0 4px;
-    }
-    .results-head h2 {
-      margin: 0;
-      font-size: 1.2rem;
-    }
-    .summary {
-      color: var(--muted);
-      font-size: .95rem;
-    }
-    .chips {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-    .chip {
-      padding: 8px 12px;
-      border-radius: 999px;
-      background: var(--surface);
-      border: 1px solid rgba(255,255,255,.8);
-      color: #394150;
-      font-size: .85rem;
-      box-shadow: 0 6px 16px rgba(17,24,39,.04);
-    }
-
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
-      gap: 16px;
-    }
-    .card {
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      gap: 14px;
-      min-height: 250px;
-      padding: 18px;
-      border-radius: var(--radius-lg);
-      border: 1px solid rgba(255,255,255,.82);
-      background: linear-gradient(180deg, rgba(255,255,255,.86), rgba(255,255,255,.72));
-      backdrop-filter: blur(14px);
-      box-shadow: 0 16px 42px rgba(17,24,39,.06);
-      transition: transform .16s ease, box-shadow .16s ease;
-    }
-    .card:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 18px 48px rgba(17,24,39,.09);
-    }
-    .card.expired {
-      border-color: rgba(209,67,67,.22);
-      background: linear-gradient(180deg, rgba(255,255,255,.8), rgba(255,247,247,.9));
-    }
-    .topline {
-      display: flex;
-      justify-content: space-between;
-      gap: 14px;
-      align-items: flex-start;
-    }
-    .bank {
-      color: var(--accent);
-      font-size: .92rem;
-      font-weight: 700;
-    }
-    .title {
-      margin-top: 4px;
-      font-size: 1.36rem;
-      line-height: 1.45;
-      font-weight: 800;
-      letter-spacing: -.01em;
-    }
-    .discount {
-      flex-shrink: 0;
-      padding: 10px 12px;
-      border-radius: 14px;
-      background: var(--accent-soft);
-      color: var(--accent);
-      font-size: .98rem;
-      font-weight: 800;
-    }
-    .meta {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-    .meta .chip { background: rgba(255,255,255,.65); }
-    .details {
-      color: #4b5563;
-      line-height: 1.9;
-      font-size: .96rem;
-    }
-    .footer {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 12px;
-      margin-top: auto;
-      flex-wrap: wrap;
-    }
-    .small {
-      color: var(--muted);
-      font-size: .84rem;
-    }
-    .source {
-      text-decoration: none;
-      padding: 10px 14px;
-      border-radius: 12px;
-      background: #fff;
-      border: 1px solid var(--line);
-      font-weight: 700;
-      transition: .16s ease;
-    }
-    .source:hover {
-      border-color: rgba(41,82,255,.28);
-      color: var(--accent);
-    }
-    .expired-badge {
-      background: var(--danger-soft) !important;
-      color: var(--danger);
-    }
-    .empty {
-      grid-column: 1 / -1;
-      padding: 44px 18px;
-      text-align: center;
-      color: var(--muted);
-      border-radius: 24px;
-      border: 1px dashed rgba(24,32,51,.14);
-      background: rgba(255,255,255,.55);
-    }
-
-    @media (max-width: 900px) {
-      .controls {
-        grid-template-columns: 1fr;
-      }
-      .toggle { justify-content: center; }
-      .results-head {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-    }
-
     @media (max-width: 640px) {
-      .container { width: min(100% - 18px, 1120px); padding-top: 18px; }
-      .hero { padding: 24px 14px 18px; }
-      .controls { padding: 12px; }
-      .search-input { height: 58px; font-size: 1rem; }
-      .title { font-size: 1.18rem; }
-      .discount { font-size: .92rem; }
-      .card { padding: 16px; min-height: auto; }
+      .wrap { padding: 14px; }
+      .hero, .results, .filters { padding: 16px; }
+      .stats { grid-template-columns: 1fr; }
+      .cards { grid-template-columns: 1fr; }
     }
   </style>
 </head>
 <body>
-  <main class="container">
+  <div class="wrap">
     <section class="hero">
       <h1>دليل عروض البطاقات البنكية</h1>
-      <p>ابحث باسم المتجر أو العرض، وتصفّح النتائج بشكل سريع وواضح.</p>
-
-      <div class="search-box">
-        <input id="searchInput" class="search-input" type="text" placeholder="ابحث: بول، نون، هنقرستيشن، شي بسيط غلط بالإملاء عادي" />
-      </div>
-
+      <p>نسخة محلية تعمل مباشرة على جهازك. تحتوي على بيانات البنوك المرفوعة حاليًا داخل الملف نفسه، لذلك يمكنك فتحها فورًا بدون سيرفر. لاحقًا نقدر نرجّعها للهيكل الصحيح: <strong>index.html</strong> خفيف + ملفات <strong>JSON</strong> خارجية.</p>
       <div class="stats">
-        <div class="stat"><div class="label">العروض</div><div class="value" id="statOffers">0</div></div>
-        <div class="stat"><div class="label">البنوك</div><div class="value" id="statBanks">0</div></div>
-        <div class="stat"><div class="label">المعروض الآن</div><div class="value" id="statShown">0</div></div>
+        <div class="stat"><div>إجمالي العروض</div><div class="n" id="statOffers">0</div></div>
+        <div class="stat"><div>عدد البنوك</div><div class="n" id="statBanks">0</div></div>
+        <div class="stat"><div>الفئات</div><div class="n" id="statCategories">0</div></div>
+        <div class="stat"><div>العروض المعروضة</div><div class="n" id="statShown">0</div></div>
       </div>
     </section>
 
-    <section class="controls">
-      <div class="control">
-        <label for="bankFilter">البنك</label>
-        <select id="bankFilter" class="select"></select>
-      </div>
-      <label class="toggle">
-        <input type="checkbox" id="hideExpired" checked />
-        إخفاء العروض المنتهية
-      </label>
-      <button id="resetBtn" class="select" type="button" style="cursor:pointer; font-weight:700;">إعادة الضبط</button>
-    </section>
+    <div class="grid">
+      <aside class="panel filters">
+        <h2>البحث والتصفية</h2>
+        <div class="field">
+          <label for="searchInput">ابحث باسم المتجر أو العرض أو التفاصيل</label>
+          <input id="searchInput" class="input" type="text" placeholder="مثال: هنقرستيشن، بول، مطاعم، 20%" />
+        </div>
+        <div class="field">
+          <label for="bankFilter">البنك</label>
+          <select id="bankFilter" class="select"></select>
+        </div>
+        <div class="field">
+          <label for="categoryFilter">الفئة</label>
+          <select id="categoryFilter" class="select"></select>
+        </div>
+        <div class="field">
+          <label for="sortFilter">الترتيب</label>
+          <select id="sortFilter" class="select">
+            <option value="default">افتراضي</option>
+            <option value="bank">حسب البنك</option>
+            <option value="merchant">حسب المتجر</option>
+            <option value="discount">حسب نسبة الخصم</option>
+            <option value="expiry">حسب تاريخ الانتهاء</option>
+          </select>
+        </div>
+        <label class="checkrow"><input type="checkbox" id="onlineOnly" /> أونلاين فقط</label>
+        <label class="checkrow"><input type="checkbox" id="hideExpired" /> إخفاء العروض المنتهية</label>
+        <div class="actions">
+          <button class="btn-primary" id="copyJsonBtn">نسخ النتائج كـ JSON</button>
+          <button class="btn-secondary" id="resetBtn">إعادة التصفية</button>
+        </div>
+        <div class="small" style="margin-top:14px; line-height:1.7;">
+          ملاحظة: هذه النسخة مدمجة داخل ملف واحد لتشتغل عندك الآن بدون تعليق الكانفس. معماريًا، هذا حل تشغيلي مؤقت فقط.
+        </div>
+      </aside>
 
-    <section class="results-head">
-      <div>
-        <h2>النتائج</h2>
-        <div class="summary" id="summaryLine"></div>
-      </div>
-      <div class="chips" id="activeChips"></div>
-    </section>
-
-    <section class="cards" id="cards"></section>
-  </main>
+      <section class="panel results">
+        <div class="toolbar">
+          <div>
+            <h2>العروض</h2>
+            <div class="small" id="summaryLine"></div>
+          </div>
+          <div class="chips" id="activeChips"></div>
+        </div>
+        <div class="cards" id="cards"></div>
+      </section>
+    </div>
+  </div>
 
   <script>
+    const BANKS = [{"bank": "مصرف الإنماء", "bank_id": "alinma", "source_page": "https://www.alinma.com/Media-Campaigns/Stores", "checked_at": "2026-03-11", "offers_count": 27}, {"bank": "مصرف الراجحي", "bank_id": "alrajhi", "source_page": "https://www.alrajhibank.com.sa/Personal/Discounts?category=B1F6C9499BC149DB80CF92FEA7B6757A&sort=Default&page=1", "checked_at": "2026-03-11", "offers_count": 29}, {"bank": "بنك الرياض", "bank_id": "riyad-bank", "source_page": "https://www.riyadbank.com/ar/personal-banking/credit-cards/offers", "checked_at": "2026-03-11", "offers_count": 19}, {"bank": "البنك السعودي للاستثمار", "bank_id": "saib", "source_page": "https://www.saib.com.sa/ar/aseel_program", "checked_at": "2026-03-11", "offers_count": 33}, {"bank": "البنك الأهلي السعودي", "bank_id": "SNB", "source_page": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11", "offers_count": 48}, {"bank": "بنك الجزيرة", "bank_id": "bank_aljazira", "source_page": "", "checked_at": "", "offers_count": 12}, {"bank": "البنك العربي الوطني", "bank_id": "anb", "source_page": "", "checked_at": "", "offers_count": 18}, {"bank": "البنك السعودي الفرنسي", "bank_id": "bsf", "source_page": "https://bsf.sa/arabic/personal/cards/offers/all-offers", "checked_at": "2026-03-11", "offers_count": 8}, {"bank": "بنك الإمارات دبي الوطني", "bank_id": "emirates_nbd", "source_page": "", "checked_at": "", "offers_count": 6}];
+    const OFFERS = [{"id": "alinma-bleco-001", "bank": "مصرف الإنماء", "bank_id": "alinma", "title": "بلاكو", "merchant": "بلاكو", "category": "automotive", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2025-04-27", "valid_until": "2026-04-15", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alinma.com/ar/Media-Campaigns/Stores/Cars-Accessories-and-Services/Bleco", "checked_at": "2026-03-11"}, {"id": "alinma-dalal-boutique-001", "bank": "مصرف الإنماء", "bank_id": "alinma", "title": "دلال بوتيك", "merchant": "دلال بوتيك", "category": "fashion_beauty", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2026-02-25", "valid_until": "2027-01-01", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alinma.com/ar/Media-Campaigns/Stores/Fashion-and-beauty/Dalal-boutique", "checked_at": "2026-03-11"}, {"id": "alinma-cote-nail-spa-001", "bank": "مصرف الإنماء", "bank_id": "alinma", "title": "كوت سبا", "merchant": "كوت سبا", "category": "health_beauty", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2026-02-16", "valid_until": "2027-01-29", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alinma.com/ar/Media-Campaigns/Stores/Health-and-Medical/Cote-nail-Spa", "checked_at": "2026-03-11"}, {"id": "alinma-al-muhaidb-residence-001", "bank": "مصرف الإنماء", "bank_id": "alinma", "title": "المهيدب ريزدنس", "merchant": "المهيدب ريزدنس", "category": "hotel", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2026-02-15", "valid_until": "2027-01-30", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alinma.com/ar/Media-Campaigns/Stores/Travel-and-Tour/Al-Muhaidb-Residence", "checked_at": "2026-03-11"}, {"id": "alinma-ewaa-hotels-001", "bank": "مصرف الإنماء", "bank_id": "alinma", "title": "فنادق إيواء", "merchant": "فنادق إيواء", "category": "hotel", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2026-02-15", "valid_until": "2027-01-30", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alinma.com/ar/Media-Campaigns/Stores/Travel-and-Tour/EWAA-Hotels", "checked_at": "2026-03-11"}, {"id": "alinma-grand-plaza-hotels-001", "bank": "مصرف الإنماء", "bank_id": "alinma", "title": "فنادق جراند بلازا", "merchant": "فنادق جراند بلازا", "category": "hotel", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2026-02-15", "valid_until": "2027-01-30", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alinma.com/ar/Media-Campaigns/Stores/Travel-and-Tour/Grand-Plaza-Hotels", "checked_at": "2026-03-11"}, {"id": "alinma-urth-caffe-001", "bank": "مصرف الإنماء", "bank_id": "alinma", "title": "أيرث كافيه", "merchant": "أيرث كافيه", "category": "cafe", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2025-12-07", "valid_until": "2026-11-20", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alinma.com/ar/Media-Campaigns/Stores/Restaurants-and-Sweets/Urth-Caffe", "checked_at": "2026-03-11"}, {"id": "alinma-coya-001", "bank": "مصرف الإنماء", "bank_id": "alinma", "title": "مطعم كويا", "merchant": "مطعم كويا", "category": "restaurants", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2025-12-07", "valid_until": "2026-11-20", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alinma.com/ar/Media-Campaigns/Stores/Restaurants-and-Sweets/Coya-Restaurant", "checked_at": "2026-03-11"}, {"id": "alinma-crazy-pizza-001", "bank": "مصرف الإنماء", "bank_id": "alinma", "title": "كريزي بيتزا", "merchant": "كريزي بيتزا", "category": "restaurants", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2025-12-07", "valid_until": "2026-11-20", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alinma.com/ar/Media-Campaigns/Stores/Restaurants-and-Sweets/Crazy-pizza", "checked_at": "2026-03-11"}, {"id": "alinma-grintahub-001", "bank": "مصرف الإنماء", "bank_id": "alinma", "title": "غرينتاهب", "merchant": "غرينتاهب", "category": "entertainment", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2026-01-07", "valid_until": "2026-12-30", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alinma.com/ar/Media-Campaigns/Stores/E-commerce-websites/GrintaHub", "checked_at": "2026-03-11"}, {"id": "alinma-kayzo-001", "bank": "مصرف الإنماء", "bank_id": "alinma", "title": "مطعم كايزو", "merchant": "مطعم كايزو", "category": "restaurants", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2025-12-07", "valid_until": "2026-11-20", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alinma.com/ar/Media-Campaigns/Stores/Restaurants-and-Sweets/Kayzo-Restaurant", "checked_at": "2026-03-11"}, {"id": "alinma-robata-riyadh-001", "bank": "مصرف الإنماء", "bank_id": "alinma", "title": "مطعم روباتا الرياض", "merchant": "مطعم روباتا الرياض", "category": "restaurants", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2025-12-07", "valid_until": "2026-11-20", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alinma.com/ar/Media-Campaigns/Stores/Restaurants-and-Sweets/Robata-Riyadh--Restaurant", "checked_at": "2026-03-11"}, {"id": "alinma-signor-sassi-001", "bank": "مصرف الإنماء", "bank_id": "alinma", "title": "مطعم فيلا سينيور ساسي", "merchant": "مطعم فيلا سينيور ساسي", "category": "restaurants", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2025-12-07", "valid_until": "2026-11-20", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alinma.com/ar/Media-Campaigns/Stores/Restaurants-and-Sweets/Signor-Sassi-Resturant", "checked_at": "2026-03-11"}, {"id": "alinma-jara-001", "bank": "مصرف الإنماء", "bank_id": "alinma", "title": "مكتبة جارا", "merchant": "مكتبة جارا", "category": "education", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2025-07-09", "valid_until": "2026-06-30", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alinma.com/ar/Media-Campaigns/Stores/Education-and-Training/Jara", "checked_at": "2026-03-11"}, {"id": "alinma-ago-001", "bank": "مصرف الإنماء", "bank_id": "alinma", "title": "اجو", "merchant": "اجو", "category": "restaurants", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2025-12-07", "valid_until": "2026-11-20", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alinma.com/ar/Media-Campaigns/Stores/Restaurants-and-Sweets/AGO", "checked_at": "2026-03-11"}, {"id": "alinma-beefbar-001", "bank": "مصرف الإنماء", "bank_id": "alinma", "title": "مطعم بيف بار", "merchant": "مطعم بيف بار", "category": "restaurants", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2025-12-07", "valid_until": "2026-11-20", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alinma.com/ar/Media-Campaigns/Stores/Restaurants-and-Sweets/Beefbar-Resturant", "checked_at": "2026-03-11"}, {"id": "alinma-bazil-001", "bank": "مصرف الإنماء", "bank_id": "alinma", "title": "بازل", "merchant": "بازل", "category": "jewelry_perfume", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2025-12-07", "valid_until": "2026-12-31", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alinma.com/ar/Media-Campaigns/Stores/Jewelry-and-watches-and-perfumes/Bazil", "checked_at": "2026-03-11"}, {"id": "alinma-myazu-001", "bank": "مصرف الإنماء", "bank_id": "alinma", "title": "مطعم ميازو", "merchant": "مطعم ميازو", "category": "restaurants", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2025-12-07", "valid_until": "2026-11-20", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alinma.com/ar/Media-Campaigns/Stores/Restaurants-and-Sweets/MYAZU-Resturant", "checked_at": "2026-03-11"}, {"id": "alinma-michael-kors-001", "bank": "مصرف الإنماء", "bank_id": "alinma", "title": "مايكل كورس", "merchant": "مايكل كورس", "category": "fashion_beauty", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2026-01-19", "valid_until": "2026-03-19", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alinma.com/ar/Media-Campaigns/Stores/Fashion-and-beauty/Michael-Kors", "checked_at": "2026-03-11"}, {"id": "alinma-san-carlo-cicchetti-001", "bank": "مصرف الإنماء", "bank_id": "alinma", "title": "مطعم سان كارلو شيكيتي", "merchant": "مطعم سان كارلو شيكيتي", "category": "restaurants", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2025-12-07", "valid_until": "2026-11-20", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alinma.com/ar/Media-Campaigns/Stores/Restaurants-and-Sweets/San-Carlo-Cicchetti-Restaurant", "checked_at": "2026-03-11"}, {"id": "alinma-clarks-shoes-001", "bank": "مصرف الإنماء", "bank_id": "alinma", "title": "كلاركس", "merchant": "كلاركس", "category": "international_offers", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2026-02-10", "valid_until": "2026-03-10", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alinma.com/ar/Media-Campaigns/Stores/International-Offers/Clarks-Shoes", "checked_at": "2026-03-11"}, {"id": "alinma-6th-street-001", "bank": "مصرف الإنماء", "bank_id": "alinma", "title": "6th Street", "merchant": "6th Street", "category": "international_offers", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2026-02-10", "valid_until": "2026-03-31", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alinma.com/ar/Media-Campaigns/Stores/International-Offers/6th-Street", "checked_at": "2026-03-11"}, {"id": "alinma-beverly-hills-polo-club-001", "bank": "مصرف الإنماء", "bank_id": "alinma", "title": "Beverly Hills Polo Club", "merchant": "Beverly Hills Polo Club", "category": "international_offers", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2026-02-10", "valid_until": "2026-03-10", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alinma.com/ar/Media-Campaigns/Stores/International-Offers/Beverly-Hills-Polo-Club", "checked_at": "2026-03-11"}, {"id": "alinma-voco-001", "bank": "مصرف الإنماء", "bank_id": "alinma", "title": "فوكو", "merchant": "فوكو", "category": "hotel", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2026-03-03", "valid_until": "2026-03-16", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alinma.com/ar/Media-Campaigns/Stores/Restaurants-and-Sweets/Voco", "checked_at": "2026-03-11"}, {"id": "alinma-stily-001", "bank": "مصرف الإنماء", "bank_id": "alinma", "title": "ستايلي", "merchant": "ستايلي", "category": "automotive", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2026-02-16", "valid_until": "2026-12-30", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alinma.com/ar/Media-Campaigns/Stores/Cars-Accessories-and-Services/Stily", "checked_at": "2026-03-11"}, {"id": "alinma-toyota-001", "bank": "مصرف الإنماء", "bank_id": "alinma", "title": "TOYOTA", "merchant": "TOYOTA", "category": "automotive_finance", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2026-02-26", "valid_until": "2026-03-31", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alinma.com/ar/Media-Campaigns/Stores/alinma-Products-and-Services-Offers/TOYOTA", "checked_at": "2026-03-11"}, {"id": "alinma-lexus-001", "bank": "مصرف الإنماء", "bank_id": "alinma", "title": "LEXUS", "merchant": "LEXUS", "category": "automotive_finance", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2026-02-19", "valid_until": "2026-03-31", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alinma.com/ar/Media-Campaigns/Stores/alinma-Products-and-Services-Offers/LEXUS", "checked_at": "2026-03-11"}, {"id": "alrajhi-aok", "bank": "مصرف الراجحي", "bank_id": "alrajhi", "title": "خصم 20% لدى AOK", "merchant": "AOK", "category": "restaurants", "discount": "20%", "details": "", "cards": ["credit"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alrajhibank.com.sa/Personal/Discounts?category=B1F6C9499BC149DB80CF92FEA7B6757A&sort=Default&page=1", "checked_at": "2026-03-11"}, {"id": "alrajhibank-pulse", "bank": "مصرف الراجحي", "bank_id": "alrajhi", "title": "قهوة اليوم مجانًا وخصم 50% على Carota Cake", "merchant": "PULSE", "category": "restaurants", "discount": "50%", "details": "", "cards": ["credit"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alrajhibank.com.sa/Personal/Discounts?category=B1F6C9499BC149DB80CF92FEA7B6757A&sort=Default&page=1", "checked_at": "2026-03-11"}, {"id": "alrajhi-wbj", "bank": "مصرف الراجحي", "bank_id": "alrajhi", "title": "وجبة WBJ بـ29 ريال", "merchant": "WBJ", "category": "restaurants", "discount": "29 ريال", "details": "", "cards": ["credit"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alrajhibank.com.sa/Personal/Discounts?category=B1F6C9499BC149DB80CF92FEA7B6757A&sort=Default&page=1", "checked_at": "2026-03-11"}, {"id": "alrajhi-row-café", "bank": "مصرف الراجحي", "bank_id": "alrajhi", "title": "خصم 20% على البودينغ مع قهوة اليوم الصغيرة مجانًا", "merchant": "Row café", "category": "restaurants", "discount": "20%", "details": "", "cards": ["credit"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alrajhibank.com.sa/Personal/Discounts?category=B1F6C9499BC149DB80CF92FEA7B6757A&sort=Default&page=1", "checked_at": "2026-03-11"}, {"id": "alrajhi-tim-hortons", "bank": "مصرف الراجحي", "bank_id": "alrajhi", "title": "خصم 20% لدى تيم هورتنز", "merchant": "Tim Hortons", "category": "restaurants", "discount": "20%", "details": "", "cards": ["credit"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alrajhibank.com.sa/Personal/Discounts?category=B1F6C9499BC149DB80CF92FEA7B6757A&sort=Default&page=1", "checked_at": "2026-03-11"}, {"id": "alrajhi-starbucks", "bank": "مصرف الراجحي", "bank_id": "alrajhi", "title": "اشترِ مشروبًا واحصل على الثاني مجانًا", "merchant": "Starbucks", "category": "restaurants", "discount": "عرض خاص", "details": "", "cards": ["credit"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alrajhibank.com.sa/Personal/Discounts?category=B1F6C9499BC149DB80CF92FEA7B6757A&sort=Default&page=1", "checked_at": "2026-03-11"}, {"id": "alrajhi-shovel", "bank": "مصرف الراجحي", "bank_id": "alrajhi", "title": "قهوة اليوم مجانًا", "merchant": "Shovel", "category": "restaurants", "discount": "عرض خاص", "details": "", "cards": ["credit"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alrajhibank.com.sa/Personal/Discounts?category=B1F6C9499BC149DB80CF92FEA7B6757A&sort=Default&page=1", "checked_at": "2026-03-11"}, {"id": "alrajhi-drcafe", "bank": "مصرف الراجحي", "bank_id": "alrajhi", "title": "مشروب مختار بـ5 ريال", "merchant": "Dr.Cafe", "category": "restaurants", "discount": "5 ريال", "details": "", "cards": ["credit"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alrajhibank.com.sa/Personal/Discounts?category=B1F6C9499BC149DB80CF92FEA7B6757A&sort=Default&page=1", "checked_at": "2026-03-11"}, {"id": "alrajhi-nana", "bank": "مصرف الراجحي", "bank_id": "alrajhi", "title": "قسائم حتى 100 ريال لمستخدمي نانا الجدد", "merchant": "Nana", "category": "restaurants", "discount": "100 ريال", "details": "", "cards": ["credit"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alrajhibank.com.sa/Personal/Discounts?category=B1F6C9499BC149DB80CF92FEA7B6757A&sort=Default&page=1", "checked_at": "2026-03-11"}, {"id": "alrajhi-antifat", "bank": "مصرف الراجحي", "bank_id": "alrajhi", "title": "خصم 25% لدى AntiFat+", "merchant": "AntiFat+", "category": "restaurants", "discount": "25%", "details": "", "cards": ["credit"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alrajhibank.com.sa/Personal/Discounts?category=B1F6C9499BC149DB80CF92FEA7B6757A&sort=Default&page=1", "checked_at": "2026-03-11"}, {"id": "alrajhi-durma", "bank": "مصرف الراجحي", "bank_id": "alrajhi", "title": "آيس كريم توفي صغير بـ3 ريال", "merchant": "Durma", "category": "restaurants", "discount": "3 ريال", "details": "", "cards": ["credit"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alrajhibank.com.sa/Personal/Discounts?category=B1F6C9499BC149DB80CF92FEA7B6757A&sort=Default&page=1", "checked_at": "2026-03-11"}, {"id": "alrajhi-urth-caffe", "bank": "مصرف الراجحي", "bank_id": "alrajhi", "title": "خصم 15% لدى Urth Caffe", "merchant": "Urth Caffe", "category": "restaurants", "discount": "15%", "details": "", "cards": ["credit", "prepaid"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alrajhibank.com.sa/Personal/Discounts?category=B1F6C9499BC149DB80CF92FEA7B6757A&sort=Default&page=1", "checked_at": "2026-03-11"}, {"id": "alrajhi-shawarma-and-more", "bank": "مصرف الراجحي", "bank_id": "alrajhi", "title": "اشترِ ساندويتش واحصل على الثاني مجانًا", "merchant": "Shawarma and more", "category": "restaurants", "discount": "عرض خاص", "details": "", "cards": ["credit"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alrajhibank.com.sa/Personal/Discounts?category=B1F6C9499BC149DB80CF92FEA7B6757A&sort=Default&page=1", "checked_at": "2026-03-11"}, {"id": "alrajhi-brsk", "bank": "مصرف الراجحي", "bank_id": "alrajhi", "title": "اشترِ مشروبًا واحصل على الثاني مجانًا", "merchant": "BRSK", "category": "restaurants", "discount": "عرض خاص", "details": "", "cards": ["credit"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alrajhibank.com.sa/Personal/Discounts?category=B1F6C9499BC149DB80CF92FEA7B6757A&sort=Default&page=1", "checked_at": "2026-03-11"}, {"id": "alrajhi-also", "bank": "مصرف الراجحي", "bank_id": "alrajhi", "title": "خصم 10% لدى Also", "merchant": "Also", "category": "restaurants", "discount": "10%", "details": "", "cards": ["credit", "prepaid"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alrajhibank.com.sa/Personal/Discounts?category=B1F6C9499BC149DB80CF92FEA7B6757A&sort=Default&page=1", "checked_at": "2026-03-11"}, {"id": "alrajhi-enjoy-25", "bank": "مصرف الراجحي", "bank_id": "alrajhi", "title": "25,000 نقطة مكافأة إضافية للمطاعم", "merchant": "Enjoy 25", "category": "restaurants", "discount": "500 ريال", "details": "", "cards": ["credit"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alrajhibank.com.sa/Personal/Discounts?category=B1F6C9499BC149DB80CF92FEA7B6757A&sort=Default&page=1", "checked_at": "2026-03-11"}, {"id": "alrajhi-kork-and-aghatti-restaurant", "bank": "مصرف الراجحي", "bank_id": "alrajhi", "title": "خصم 15% لدى Kork and Aghatti", "merchant": "Kork and Aghatti restaurant", "category": "restaurants", "discount": "15%", "details": "", "cards": ["credit", "prepaid"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alrajhibank.com.sa/Personal/Discounts?category=B1F6C9499BC149DB80CF92FEA7B6757A&sort=Default&page=1", "checked_at": "2026-03-11"}, {"id": "alrajhi-drive-coffee", "bank": "مصرف الراجحي", "bank_id": "alrajhi", "title": "قهوة اليوم مجانًا من Drive Coffee", "merchant": "Drive Coffee", "category": "restaurants", "discount": "عرض خاص", "details": "", "cards": ["credit"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alrajhibank.com.sa/Personal/Discounts?category=B1F6C9499BC149DB80CF92FEA7B6757A&sort=Default&page=1", "checked_at": "2026-03-11"}, {"id": "alrajhi-ruya-restaurants", "bank": "مصرف الراجحي", "bank_id": "alrajhi", "title": "خصم 10% لدى RUYA", "merchant": "RUYA restaurants", "category": "restaurants", "discount": "10%", "details": "", "cards": ["credit"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alrajhibank.com.sa/Personal/Discounts?category=B1F6C9499BC149DB80CF92FEA7B6757A&sort=Default&page=1", "checked_at": "2026-03-11"}, {"id": "alrajhi-ratio", "bank": "مصرف الراجحي", "bank_id": "alrajhi", "title": "اشترِ سحلب أو هوت شوكلت واحصل على الثاني مجانًا", "merchant": "Ratio", "category": "restaurants", "discount": "عرض خاص", "details": "", "cards": ["credit"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alrajhibank.com.sa/Personal/Discounts?category=B1F6C9499BC149DB80CF92FEA7B6757A&sort=Default&page=1", "checked_at": "2026-03-11"}, {"id": "alrajhi-lolimpo-restaurant", "bank": "مصرف الراجحي", "bank_id": "alrajhi", "title": "خصم 15% لدى L'olimpo", "merchant": "Lolimpo restaurant", "category": "restaurants", "discount": "15%", "details": "", "cards": ["credit", "prepaid"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alrajhibank.com.sa/Personal/Discounts?category=B1F6C9499BC149DB80CF92FEA7B6757A&sort=Default&page=1", "checked_at": "2026-03-11"}, {"id": "alrajhi-bello-sweets-anoosh", "bank": "مصرف الراجحي", "bank_id": "alrajhi", "title": "خصم 25% لدى Anoosh", "merchant": "Bello Sweets / Anoosh", "category": "restaurants", "discount": "25%", "details": "", "cards": ["credit"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alrajhibank.com.sa/Personal/Discounts?category=B1F6C9499BC149DB80CF92FEA7B6757A&sort=Default&page=1", "checked_at": "2026-03-11"}, {"id": "alrajhi-chapati-and-karak", "bank": "مصرف الراجحي", "bank_id": "alrajhi", "title": "اشترِ كارك كبير واحصل على الثاني مجانًا", "merchant": "Chapati and Karak", "category": "restaurants", "discount": "عرض خاص", "details": "", "cards": ["credit"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alrajhibank.com.sa/Personal/Discounts?category=B1F6C9499BC149DB80CF92FEA7B6757A&sort=Default&page=1", "checked_at": "2026-03-11"}, {"id": "alrajhi-castello-coffee", "bank": "مصرف الراجحي", "bank_id": "alrajhi", "title": "عرض Castello Coffee", "merchant": "Castello Coffee", "category": "restaurants", "discount": "", "details": "", "cards": ["credit", "prepaid"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alrajhibank.com.sa/Personal/Discounts?category=B1F6C9499BC149DB80CF92FEA7B6757A&sort=Default&page=1", "checked_at": "2026-03-11"}, {"id": "alrajhi-dominos", "bank": "مصرف الراجحي", "bank_id": "alrajhi", "title": "خصم 35% لدى دومينوز", "merchant": "Domino's", "category": "restaurants", "discount": "35%", "details": "", "cards": ["credit"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alrajhibank.com.sa/Personal/Discounts?category=B1F6C9499BC149DB80CF92FEA7B6757A&sort=Default&page=1", "checked_at": "2026-03-11"}, {"id": "alrajhi-modawar-cafeteria", "bank": "مصرف الراجحي", "bank_id": "alrajhi", "title": "اشترِ واحدة واحصل على الثانية مجانًا", "merchant": "Modawar cafeteria", "category": "restaurants", "discount": "عرض خاص", "details": "", "cards": ["credit"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alrajhibank.com.sa/Personal/Discounts?category=B1F6C9499BC149DB80CF92FEA7B6757A&sort=Default&page=1", "checked_at": "2026-03-11"}, {"id": "alrajhi-sama-cafe", "bank": "مصرف الراجحي", "bank_id": "alrajhi", "title": "اشترِ هوت شوكلت متوسط واحصل على الثاني مجانًا", "merchant": "Sama Cafe", "category": "restaurants", "discount": "عرض خاص", "details": "", "cards": ["credit"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alrajhibank.com.sa/Personal/Discounts?category=B1F6C9499BC149DB80CF92FEA7B6757A&sort=Default&page=1", "checked_at": "2026-03-11"}, {"id": "alrajhi-buffalo-wild-wings", "bank": "مصرف الراجحي", "bank_id": "alrajhi", "title": "خصم 15% لدى Buffalo Wild Wings", "merchant": "Buffalo Wild Wings", "category": "restaurants", "discount": "15%", "details": "", "cards": ["credit"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alrajhibank.com.sa/Personal/Discounts?category=B1F6C9499BC149DB80CF92FEA7B6757A&sort=Default&page=1", "checked_at": "2026-03-11"}, {"id": "alrajhi-wister-sa", "bank": "مصرف الراجحي", "bank_id": "alrajhi", "title": "خصم 50% على Crunchy Maple Medium Meal", "merchant": "WISTER SA", "category": "restaurants", "discount": "50%", "details": "", "cards": ["credit"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alrajhibank.com.sa/Personal/Discounts?category=B1F6C9499BC149DB80CF92FEA7B6757A&sort=Default&page=1", "checked_at": "2026-03-11"}, {"id": "riyad-dettaglioauto-001", "bank": "بنك الرياض", "bank_id": "riyad-bank", "title": "ديتاليّو أوتو", "merchant": "ديتاليّو أوتو", "category": "automotive", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2026-02-26", "valid_until": "2026-03-30", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.riyadbank.com/dettaglioauto1", "checked_at": "2026-03-11"}, {"id": "riyad-lasuran-beauty-spa-001", "bank": "بنك الرياض", "bank_id": "riyad-bank", "title": "لاسوران بيوتي سبا", "merchant": "لاسوران بيوتي سبا", "category": "health_beauty", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "", "valid_until": "2026-12-31", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.riyadbank.com/lasuran-beauty-spa", "checked_at": "2026-03-11"}, {"id": "riyad-elyzee-medical-001", "bank": "بنك الرياض", "bank_id": "riyad-bank", "title": "اليزيه الطبي", "merchant": "اليزيه الطبي", "category": "health_beauty", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2026-02-25", "valid_until": "2026-12-01", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.riyadbank.com/elyzee-medical", "checked_at": "2026-03-11"}, {"id": "riyad-key-cafe-001", "bank": "بنك الرياض", "bank_id": "riyad-bank", "title": "كي كافيه", "merchant": "كي كافيه", "category": "cafe", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2025-06-26", "valid_until": "2026-04-30", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.riyadbank.com/key-cafe1", "checked_at": "2026-03-11"}, {"id": "riyad-sica-cafe-roastery-001", "bank": "بنك الرياض", "bank_id": "riyad-bank", "title": "محمصة سيكا", "merchant": "محمصة سيكا", "category": "cafe", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "", "valid_until": "2026-09-01", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.riyadbank.com/sica-caf%C3%A9-roastery", "checked_at": "2026-03-11"}, {"id": "riyad-soil-001", "bank": "بنك الرياض", "bank_id": "riyad-bank", "title": "سويل", "merchant": "سويل", "category": "cafe", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "", "valid_until": "2026-10-07", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.riyadbank.com/soil-roasters", "checked_at": "2026-03-11"}, {"id": "riyad-flyin-001", "bank": "بنك الرياض", "bank_id": "riyad-bank", "title": "فلاي إن", "merchant": "فلاي إن", "category": "travel", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2026-02-16", "valid_until": "2026-03-01", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.riyadbank.com/flyin-hassad", "checked_at": "2026-03-11"}, {"id": "riyad-9round-001", "bank": "بنك الرياض", "bank_id": "riyad-bank", "title": "9Round", "merchant": "9Round", "category": "fitness", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "", "valid_until": "2026-03-18", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.riyadbank.com/9round2", "checked_at": "2026-03-11"}, {"id": "riyad-aura-001", "bank": "بنك الرياض", "bank_id": "riyad-bank", "title": "أورا", "merchant": "أورا", "category": "lifestyle", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2025-11-20", "valid_until": "2026-11-20", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.riyadbank.com/aura1", "checked_at": "2026-03-11"}, {"id": "riyad-kids-gardens-preschool-001", "bank": "بنك الرياض", "bank_id": "riyad-bank", "title": "حضانة حدائق الأطفال", "merchant": "حضانة حدائق الأطفال", "category": "lifestyle", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2025-11-20", "valid_until": "2026-11-20", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.riyadbank.com/kids-gardens-preschool", "checked_at": "2026-03-11"}, {"id": "riyad-il-baretto-001", "bank": "بنك الرياض", "bank_id": "riyad-bank", "title": "إل باريتو", "merchant": "إل باريتو", "category": "restaurants", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "2025-10-20", "valid_until": "2026-07-03", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.riyadbank.com/il-baretto", "checked_at": "2026-03-11"}, {"id": "riyad-crust-house-001", "bank": "بنك الرياض", "bank_id": "riyad-bank", "title": "كراست هاوس", "merchant": "كراست هاوس", "category": "restaurants", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "", "valid_until": "2026-07-31", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.riyadbank.com/crust-house", "checked_at": "2026-03-11"}, {"id": "riyad-assam-ara-001", "bank": "بنك الرياض", "bank_id": "riyad-bank", "title": "آسام آرا", "merchant": "آسام آرا", "category": "restaurants", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "", "valid_until": "2026-07-31", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.riyadbank.com/assam-ara", "checked_at": "2026-03-11"}, {"id": "riyad-life-ways-clinic-001", "bank": "بنك الرياض", "bank_id": "riyad-bank", "title": "عيادات لايف ويز", "merchant": "عيادات لايف ويز", "category": "health_beauty", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "", "valid_until": "2026-12-31", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.riyadbank.com/life-way-s-clinic", "checked_at": "2026-03-11"}, {"id": "riyad-up-core-pilates-001", "bank": "بنك الرياض", "bank_id": "riyad-bank", "title": "آب كور بيلاتس", "merchant": "آب كور بيلاتس", "category": "fitness", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "", "valid_until": "2026-08-02", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.riyadbank.com/UP-Core-Pilates", "checked_at": "2026-03-11"}, {"id": "riyad-muhammad-al-dosari-hospital-001", "bank": "بنك الرياض", "bank_id": "riyad-bank", "title": "مستشفى محمد الدوسري", "merchant": "مستشفى محمد الدوسري", "category": "health_beauty", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "", "valid_until": "2026-10-01", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.riyadbank.com/muhammad-al-dosari-hospital", "checked_at": "2026-03-11"}, {"id": "riyad-raffles-al-areen-palace-bahrain-001", "bank": "بنك الرياض", "bank_id": "riyad-bank", "title": "رافلز العرين بالاس البحرين", "merchant": "رافلز العرين بالاس البحرين", "category": "hotel", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.riyadbank.com/ar/personal-banking/credit-cards/offers", "checked_at": "2026-03-11"}, {"id": "riyad-fraser-suites-hotel-riyadh-001", "bank": "بنك الرياض", "bank_id": "riyad-bank", "title": "فريزر سويتس الرياض", "merchant": "فريزر سويتس الرياض", "category": "hotel", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "", "valid_until": "2026-08-31", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.riyadbank.com/fraser-suites-hotel-riyadh", "checked_at": "2026-03-11"}, {"id": "riyad-abwaab-001", "bank": "بنك الرياض", "bank_id": "riyad-bank", "title": "أبواب", "merchant": "أبواب", "category": "lifestyle", "discount": "", "details": "", "cards": [], "code": "", "valid_from": "", "valid_until": "2026-07-14", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.riyadbank.com/abwaab", "checked_at": "2026-03-11"}, {"id": "saib-001", "bank": "البنك السعودي للاستثمار", "bank_id": "saib", "title": "دبليو فايف", "merchant": "دبليو فايف", "category": "مطاعم", "discount": "10% خصم", "details": "خصم 10% لدى دبليو فايف بعد إضافة بطاقة البنك السعودي للاستثمار في التطبيق واختيار الدفع عبر بطاقة مدى أو البطاقة الائتمانية.", "cards": ["بطاقة نشطة من البنك السعودي للاستثمار"], "code": "", "valid_from": "", "valid_until": "2026-12-31", "country": "السعودية", "city": "", "online": true, "expired": false, "source": "https://www.saib.com.sa/ar/w5", "checked_at": "2026-03-11"}, {"id": "saib-002", "bank": "البنك السعودي للاستثمار", "bank_id": "saib", "title": "بادل ان", "merchant": "بادل ان", "category": "أسلوب حياة", "discount": "15% خصم", "details": "خصم 15% لدى بادل ان. الفترة الصباحية من 7:00 صباحًا إلى 11:30 صباحًا بسعر 272 ريال بدل 320 ريال، والفترة المسائية من 1:00 ظهرًا إلى 2:30 صباحًا بسعر 323 ريال بدل 380 ريال.", "cards": ["بطاقة نشطة من البنك السعودي للاستثمار"], "code": "", "valid_from": "", "valid_until": "2026-12-31", "country": "السعودية", "city": "", "online": false, "expired": false, "source": "https://www.saib.com.sa/ar/padel", "checked_at": "2026-03-11"}, {"id": "saib-003", "bank": "البنك السعودي للاستثمار", "bank_id": "saib", "title": "اجيو", "merchant": "اجيو", "category": "مطاعم", "discount": "20% خصم", "details": "خصم 20% لدى اجيو عند الدفع ببطاقات مدى أو البطاقات الائتمانية. يسري من الأحد إلى الخميس على جميع الطلبات من قائمة A La Carte (تناول الطعام فقط).", "cards": ["بطاقات مدى", "بطاقات ائتمانية"], "code": "", "valid_from": "", "valid_until": "2026-12-31", "country": "السعودية", "city": "", "online": false, "expired": false, "source": "https://www.saib.com.sa/ar/agio", "checked_at": "2026-03-11"}, {"id": "saib-004", "bank": "البنك السعودي للاستثمار", "bank_id": "saib", "title": "روكا", "merchant": "روكا", "category": "مطاعم", "discount": "20% خصم", "details": "خصم 20% يوميًا من 1:00 مساءً إلى 5:30 مساءً، و10% من 8:00 مساءً إلى 11:00 مساءً. يطبق على قائمة الطعام كاملة حتى 5 أشخاص لكل طاولة.", "cards": ["بطاقات ائتمانية"], "code": "", "valid_from": "", "valid_until": "2026-12-31", "country": "السعودية", "city": "", "online": false, "expired": false, "source": "https://www.saib.com.sa/ar/roka", "checked_at": "2026-03-11"}, {"id": "saib-005", "bank": "البنك السعودي للاستثمار", "bank_id": "saib", "title": "مستر تشاو", "merchant": "مستر تشاو", "category": "مطاعم", "discount": "20% خصم", "details": "خصم 20% من الأحد إلى الخميس من 1:00 مساءً إلى 6:00 مساءً. يطبق على قائمة الطعام كاملة حتى 5 أشخاص لكل طاولة.", "cards": ["بطاقات ائتمانية"], "code": "", "valid_from": "", "valid_until": "2026-12-31", "country": "السعودية", "city": "", "online": false, "expired": false, "source": "https://www.saib.com.sa/ar/mr-chow", "checked_at": "2026-03-11"}, {"id": "saib-006", "bank": "البنك السعودي للاستثمار", "bank_id": "saib", "title": "رويا", "merchant": "رويا", "category": "مطاعم", "discount": "20% خصم", "details": "خصم 20% من الأحد إلى الخميس من 1:00 مساءً إلى 6:00 مساءً. يطبق على قائمة الطعام كاملة حتى 5 أشخاص لكل طاولة.", "cards": ["بطاقات ائتمانية"], "code": "", "valid_from": "", "valid_until": "2026-12-31", "country": "السعودية", "city": "", "online": false, "expired": false, "source": "https://www.saib.com.sa/ar/ruya", "checked_at": "2026-03-11"}, {"id": "saib-007", "bank": "البنك السعودي للاستثمار", "bank_id": "saib", "title": "صبحي كابر", "merchant": "صبحي كابر", "category": "مطاعم", "discount": "20% خصم", "details": "خصم 20% من الأحد إلى الخميس من 12:30 مساءً إلى 6:00 مساءً. يطبق على قائمة الطعام كاملة حتى 5 أشخاص لكل طاولة.", "cards": ["بطاقات ائتمانية"], "code": "", "valid_from": "", "valid_until": "2026-12-31", "country": "السعودية", "city": "", "online": false, "expired": false, "source": "https://www.saib.com.sa/ar/sobhy-kaber", "checked_at": "2026-03-11"}, {"id": "saib-008", "bank": "البنك السعودي للاستثمار", "bank_id": "saib", "title": "بلاك تاب", "merchant": "بلاك تاب", "category": "مطاعم", "discount": "20% خصم", "details": "خصم 20% في فرع الرياض من الأحد إلى الخميس من 1:00 مساءً إلى 6:00 مساءً، وفي فرع جدة من الأحد إلى الثلاثاء من 8:00 صباحًا إلى 6:00 مساءً. يطبق على قائمة الطعام كاملة حتى 5 أشخاص لكل طاولة.", "cards": ["بطاقات ائتمانية"], "code": "", "valid_from": "", "valid_until": "2025-12-31", "country": "السعودية", "city": "الرياض / جدة", "online": false, "expired": true, "source": "https://www.saib.com.sa/ar/blacktap", "checked_at": "2026-03-11"}, {"id": "saib-009", "bank": "البنك السعودي للاستثمار", "bank_id": "saib", "title": "ال باريتو", "merchant": "ال باريتو", "category": "مطاعم", "discount": "20% خصم", "details": "خصم 20% من الأحد إلى الخميس من 1:00 مساءً إلى 6:00 مساءً. يطبق على قائمة الطعام كاملة حتى 5 أشخاص لكل طاولة.", "cards": ["بطاقات ائتمانية"], "code": "", "valid_from": "", "valid_until": "2026-12-31", "country": "السعودية", "city": "", "online": false, "expired": false, "source": "https://www.saib.com.sa/ar/ilbaretto", "checked_at": "2026-03-11"}, {"id": "saib-010", "bank": "البنك السعودي للاستثمار", "bank_id": "saib", "title": "أنتروكوت كافيه دو باريس", "merchant": "أنتروكوت كافيه دو باريس", "category": "مطاعم", "discount": "15% خصم", "details": "خصم 15% عند الدفع باستخدام بطاقة نشطة من البنك السعودي للاستثمار. الفروع المذكورة: برج الفيصلية، لوميير سنتر، مجمع ليسن فالي، العلا - البلد القديمة.", "cards": ["بطاقة نشطة من البنك السعودي للاستثمار"], "code": "", "valid_from": "", "valid_until": "2026-12-31", "country": "السعودية", "city": "الرياض / العلا", "online": false, "expired": false, "source": "https://www.saib.com.sa/ar/entrecote-cafe-de-paris", "checked_at": "2026-03-11"}, {"id": "saib-011", "bank": "البنك السعودي للاستثمار", "bank_id": "saib", "title": "الفاخرة", "merchant": "الفاخرة", "category": "تسوق", "discount": "10% خصم", "details": "خصم 10% على خدمات تفصيل الثياب (قماش داخلي)، و25% على تفصيل الدقلة والسديري والكوت والبشت، و20% على جميع التطريزات. يستثنى من الخصم الموسم الشتوي من 15 نوفمبر حتى 31 يناير، وموسم رمضان من 15 شعبان حتى 30 رمضان.", "cards": ["بطاقات مدى", "بطاقات ائتمانية"], "code": "", "valid_from": "", "valid_until": "2026-12-31", "country": "السعودية", "city": "", "online": false, "expired": false, "source": "https://www.saib.com.sa/ar/al-fakhrah", "checked_at": "2026-03-11"}, {"id": "saib-012", "bank": "البنك السعودي للاستثمار", "bank_id": "saib", "title": "ميازو", "merchant": "ميازو", "category": "مطاعم", "discount": "20% خصم", "details": "خصم 20% من الأحد إلى الخميس من 1:00 مساءً إلى 6:00 مساءً. يسري على جميع الطلبات من قائمة A La Carte (تناول الطعام فقط).", "cards": ["بطاقات مدى", "بطاقات ائتمانية"], "code": "", "valid_from": "", "valid_until": "2026-12-31", "country": "السعودية", "city": "", "online": false, "expired": false, "source": "https://www.saib.com.sa/ar/myazu", "checked_at": "2026-03-11"}, {"id": "saib-013", "bank": "البنك السعودي للاستثمار", "bank_id": "saib", "title": "سنيور ساسي", "merchant": "سنيور ساسي", "category": "مطاعم", "discount": "20% خصم", "details": "خصم 20% من الأحد إلى الخميس من 1:00 مساءً إلى 6:00 مساءً. يسري على جميع الطلبات من قائمة A La Carte (تناول الطعام فقط).", "cards": ["بطاقات مدى", "بطاقات ائتمانية"], "code": "", "valid_from": "", "valid_until": "2026-12-31", "country": "السعودية", "city": "", "online": false, "expired": false, "source": "https://www.saib.com.sa/ar/signor-sassi", "checked_at": "2026-03-11"}, {"id": "saib-014", "bank": "البنك السعودي للاستثمار", "bank_id": "saib", "title": "كريزي بيتزا", "merchant": "كريزي بيتزا", "category": "مطاعم", "discount": "20% خصم", "details": "خصم 20% على قائمة A La Carte. في عود سكوير من 1:00 مساءً إلى 8:00 مساءً، وفي فرع التحلية طوال اليوم بحسب الوصف، بينما الشروط تنص على 1:00 مساءً إلى 6:00 مساءً. المدينة المذكورة: الرياض.", "cards": ["بطاقات مدى", "بطاقات ائتمانية"], "code": "", "valid_from": "", "valid_until": "2026-12-31", "country": "السعودية", "city": "الرياض", "online": false, "expired": false, "source": "https://www.saib.com.sa/ar/crazy-pizza", "checked_at": "2026-03-11"}, {"id": "saib-015", "bank": "البنك السعودي للاستثمار", "bank_id": "saib", "title": "روباتا", "merchant": "روباتا", "category": "مطاعم", "discount": "20% خصم", "details": "خصم 20% من الأحد إلى الخميس من 1:00 مساءً إلى 6:00 مساءً على جميع الطلبات من قائمة A La Carte (تناول الطعام فقط).", "cards": ["بطاقات مدى", "بطاقات ائتمانية"], "code": "", "valid_from": "", "valid_until": "2026-12-31", "country": "السعودية", "city": "", "online": false, "expired": false, "source": "https://www.saib.com.sa/ar/robata", "checked_at": "2026-03-11"}, {"id": "saib-016", "bank": "البنك السعودي للاستثمار", "bank_id": "saib", "title": "سان كارلو", "merchant": "سان كارلو", "category": "مطاعم", "discount": "20% خصم", "details": "خصم 20% من الأحد إلى الخميس من 1:00 مساءً إلى 6:00 مساءً على جميع الطلبات من قائمة A La Carte (تناول الطعام فقط).", "cards": ["بطاقات مدى", "بطاقات ائتمانية"], "code": "", "valid_from": "", "valid_until": "2026-12-31", "country": "السعودية", "city": "", "online": false, "expired": false, "source": "https://www.saib.com.sa/ar/san-carlo-cicchetti", "checked_at": "2026-03-11"}, {"id": "saib-017", "bank": "البنك السعودي للاستثمار", "bank_id": "saib", "title": "كايزو", "merchant": "كايزو", "category": "مطاعم", "discount": "20% خصم", "details": "خصم 20% من الأحد إلى الخميس من 1:00 مساءً إلى 6:00 مساءً على جميع الطلبات من قائمة A La Carte (تناول الطعام فقط).", "cards": ["بطاقات مدى", "بطاقات ائتمانية"], "code": "", "valid_from": "", "valid_until": "2026-12-31", "country": "السعودية", "city": "", "online": false, "expired": false, "source": "https://www.saib.com.sa/ar/kayzo", "checked_at": "2026-03-11"}, {"id": "saib-018", "bank": "البنك السعودي للاستثمار", "bank_id": "saib", "title": "بيف بار", "merchant": "بيف بار", "category": "مطاعم", "discount": "20% خصم", "details": "خصم 20% من الأحد إلى الخميس حتى 31 ديسمبر 2026، باستثناء يوم الاثنين لأن المطعم مغلق. العرض متاح طوال اليوم وعلى قائمة A La Carte (تناول الطعام فقط).", "cards": ["بطاقات مدى", "بطاقات ائتمانية"], "code": "", "valid_from": "", "valid_until": "2026-12-31", "country": "السعودية", "city": "", "online": false, "expired": false, "source": "https://www.saib.com.sa/ar/beefbar", "checked_at": "2026-03-11"}, {"id": "saib-019", "bank": "البنك السعودي للاستثمار", "bank_id": "saib", "title": "إرث كافيه", "merchant": "إرث كافيه", "category": "مطاعم", "discount": "15% خصم", "details": "خصم 15% من الأحد إلى الخميس من 7:00 صباحًا إلى 5:00 مساءً على جميع الطلبات من قائمة A La Carte (تناول الطعام فقط).", "cards": ["بطاقات مدى", "بطاقات ائتمانية"], "code": "", "valid_from": "", "valid_until": "2026-12-31", "country": "السعودية", "city": "", "online": false, "expired": false, "source": "https://www.saib.com.sa/ar/urth-caffe", "checked_at": "2026-03-11"}, {"id": "saib-020", "bank": "البنك السعودي للاستثمار", "bank_id": "saib", "title": "الشايع للساعات", "merchant": "الشايع للساعات", "category": "تسوق", "discount": "15% خصم", "details": "خصم 15% عند الدفع باستخدام بطاقة نشطة من البنك السعودي للاستثمار.", "cards": ["بطاقة نشطة من البنك السعودي للاستثمار"], "code": "", "valid_from": "", "valid_until": "2025-12-31", "country": "السعودية", "city": "", "online": false, "expired": true, "source": "https://www.saib.com.sa/ar/al-shaya-watches", "checked_at": "2026-03-11"}, {"id": "saib-021", "bank": "البنك السعودي للاستثمار", "bank_id": "saib", "title": "مركز إجادة للتخاطب والنطق", "merchant": "مركز إجادة للتخاطب والنطق", "category": "خدمات", "discount": "15% خصم", "details": "خصم 15% عند الدفع باستخدام بطاقة نشطة من البنك السعودي للاستثمار. الفرع المذكور: الدمام.", "cards": ["بطاقة نشطة من البنك السعودي للاستثمار"], "code": "", "valid_from": "", "valid_until": "2026-12-31", "country": "السعودية", "city": "الدمام", "online": false, "expired": false, "source": "https://www.saib.com.sa/ar/ejadah", "checked_at": "2026-03-11"}, {"id": "saib-022", "bank": "البنك السعودي للاستثمار", "bank_id": "saib", "title": "كلار نيل سبا", "merchant": "كلار نيل سبا", "category": "أسلوب حياة", "discount": "15% خصم", "details": "خصم 15% عند الدفع باستخدام بطاقة نشطة من البنك السعودي للاستثمار.", "cards": ["بطاقة نشطة من البنك السعودي للاستثمار"], "code": "", "valid_from": "", "valid_until": "2026-12-31", "country": "السعودية", "city": "", "online": false, "expired": false, "source": "https://www.saib.com.sa/ar/klar-spa", "checked_at": "2026-03-11"}, {"id": "saib-023", "bank": "البنك السعودي للاستثمار", "bank_id": "saib", "title": "عالم الخزائن", "merchant": "عالم الخزائن", "category": "منزل وأثاث", "discount": "15% خصم", "details": "خصم 15% عند الدفع باستخدام بطاقة نشطة من البنك السعودي للاستثمار. يسري العرض في جميع الفروع بالمملكة.", "cards": ["بطاقة نشطة من البنك السعودي للاستثمار"], "code": "", "valid_from": "", "valid_until": "2026-12-31", "country": "السعودية", "city": "جميع الفروع بالمملكة", "online": false, "expired": false, "source": "https://www.saib.com.sa/ar/closet-world", "checked_at": "2026-03-11"}, {"id": "saib-024", "bank": "البنك السعودي للاستثمار", "bank_id": "saib", "title": "الخزائن المبتكرة", "merchant": "الخزائن المبتكرة", "category": "منزل وأثاث", "discount": "20% خصم", "details": "خصم 20% عند الدفع باستخدام بطاقة نشطة من البنك السعودي للاستثمار. يسري العرض في جميع الفروع بالمملكة.", "cards": ["بطاقة نشطة من البنك السعودي للاستثمار"], "code": "", "valid_from": "", "valid_until": "2026-12-31", "country": "السعودية", "city": "جميع الفروع بالمملكة", "online": false, "expired": false, "source": "https://www.saib.com.sa/ar/creative-closets", "checked_at": "2026-03-11"}, {"id": "saib-025", "bank": "البنك السعودي للاستثمار", "bank_id": "saib", "title": "مطعم لو روليه دو لانتركوت", "merchant": "مطعم لو روليه دو لانتركوت", "category": "مطاعم", "discount": "15% خصم", "details": "خصم 15% عند الدفع باستخدام بطاقة نشطة من البنك السعودي للاستثمار.", "cards": ["بطاقة نشطة من البنك السعودي للاستثمار"], "code": "", "valid_from": "", "valid_until": "2026-12-31", "country": "السعودية", "city": "", "online": false, "expired": false, "source": "https://www.saib.com.sa/ar/le-relais-de-l-entrecote", "checked_at": "2026-03-11"}, {"id": "saib-026", "bank": "البنك السعودي للاستثمار", "bank_id": "saib", "title": "القرية النجدية", "merchant": "القرية النجدية", "category": "مطاعم", "discount": "10% خصم", "details": "خصم 10% لدى القرية النجدية. العرض يشمل عملاء فئة الذهبي والبلاتينيوم.", "cards": ["بطاقة نشطة من البنك السعودي للاستثمار"], "code": "", "valid_from": "", "valid_until": "2026-12-31", "country": "السعودية", "city": "", "online": false, "expired": false, "source": "https://www.saib.com.sa/ar/najd-village", "checked_at": "2026-03-11"}, {"id": "saib-027", "bank": "البنك السعودي للاستثمار", "bank_id": "saib", "title": "مطعم المياس", "merchant": "مطعم المياس", "category": "مطاعم", "discount": "10% خصم", "details": "خصم 10% لدى مطعم المياس. العرض يشمل عملاء فئة الذهبي والبلاتينيوم. الفرع المذكور في الرياض - شارع الأمير سلطان بن عبدالعزيز.", "cards": ["بطاقة نشطة من البنك السعودي للاستثمار"], "code": "", "valid_from": "", "valid_until": "2026-12-31", "country": "السعودية", "city": "الرياض", "online": false, "expired": false, "source": "https://www.saib.com.sa/ar/almayass", "checked_at": "2026-03-11"}, {"id": "saib-028", "bank": "البنك السعودي للاستثمار", "bank_id": "saib", "title": "ملاذ للتأمين", "merchant": "ملاذ للتأمين", "category": "خدمات", "discount": "10% ضد الغير و15% للتأمين الشامل", "details": "خصم 10% على تأمين ضد الغير بحد أقصى 50 ريال، و15% على التأمين الشامل بحد أقصى 1500 ريال عبر الخدمات الإلكترونية. الرمز الترويجي SAIB.", "cards": ["بطاقة نشطة من البنك السعودي للاستثمار"], "code": "SAIB", "valid_from": "", "valid_until": "2026-12-31", "country": "السعودية", "city": "", "online": true, "expired": false, "source": "https://www.saib.com.sa/ar/malath-insurance", "checked_at": "2026-03-11"}, {"id": "saib-029", "bank": "البنك السعودي للاستثمار", "bank_id": "saib", "title": "المطار", "merchant": "المطار", "category": "سفر", "discount": "5% على الطيران و10% على الفنادق", "details": "خصم 5% على رحلات الطيران و10% على حجوزات الفنادق، مع استرداد نقدي كنقاط في المحفظة: SAIB10 للفنادق وSAIB5 للطيران. التاجر يعمل داخل المملكة العربية السعودية.", "cards": ["بطاقات مدى", "بطاقات ائتمانية"], "code": "SAIB10 / SAIB5", "valid_from": "", "valid_until": "2026-12-31", "country": "السعودية", "city": "المملكة العربية السعودية", "online": true, "expired": false, "source": "https://www.saib.com.sa/ar/almatar", "checked_at": "2026-03-11"}, {"id": "saib-030", "bank": "البنك السعودي للاستثمار", "bank_id": "saib", "title": "3M", "merchant": "3M", "category": "سيارات", "discount": "حتى 40% خصم", "details": "أفلام العزل الحراري 35%، حماية مقدمة السيارة PPF 35%، خدمات التلميع 35%، حماية السيارة نانو/هيبر شيلد 40%، وحماية الزجاج الأمامي من الكسر 40%.", "cards": ["بطاقة نشطة من البنك السعودي للاستثمار"], "code": "", "valid_from": "", "valid_until": "2026-12-31", "country": "السعودية", "city": "", "online": false, "expired": false, "source": "https://www.saib.com.sa/ar/3m", "checked_at": "2026-03-11"}, {"id": "saib-031", "bank": "البنك السعودي للاستثمار", "bank_id": "saib", "title": "سعد باشماخ", "merchant": "سعد باشماخ", "category": "تسوق", "discount": "15% خصم", "details": "خصم 15% عند الدفع باستخدام بطاقة نشطة من البنك السعودي للاستثمار. الفروع المذكورة: شارع العليا العام - العقارية 2، فندق الريتز كارلتون الرياض، وفندق الفورسيزون الرياض.", "cards": ["بطاقة نشطة من البنك السعودي للاستثمار"], "code": "", "valid_from": "", "valid_until": "", "country": "السعودية", "city": "الرياض", "online": false, "expired": false, "source": "https://www.saib.com.sa/ar/saad-bashammakh", "checked_at": "2026-03-11"}, {"id": "saib-032", "bank": "البنك السعودي للاستثمار", "bank_id": "saib", "title": "البدر للنظارات", "merchant": "البدر للنظارات", "category": "تسوق", "discount": "حتى 20% خصم", "details": "خصم يصل إلى 20% على جميع أنواع النظارات، ما عدا ماركات كارتير وشانيل ومايباخ وعدسات النظارات الطبية واللاصقة. كود الخصم SAIB.", "cards": ["بطاقة نشطة من البنك السعودي للاستثمار"], "code": "SAIB", "valid_from": "", "valid_until": "", "country": "السعودية", "city": "", "online": true, "expired": false, "source": "https://www.saib.com.sa/ar/al-badr-optical", "checked_at": "2026-03-11"}, {"id": "saib-033", "bank": "البنك السعودي للاستثمار", "bank_id": "saib", "title": "بنيهانا", "merchant": "بنيهانا", "category": "مطاعم", "discount": "10% خصم", "details": "خصم 10% عند الدفع باستخدام بطاقة نشطة من البنك السعودي للاستثمار.", "cards": ["بطاقة نشطة من البنك السعودي للاستثمار"], "code": "", "valid_from": "", "valid_until": "2026-12-31", "country": "السعودية", "city": "", "online": false, "expired": false, "source": "https://www.saib.com.sa/ar/benihana", "checked_at": "2026-03-11"}, {"id": "223", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "أوشن سبا", "merchant": "أوشن سبا", "category": "صحة", "discount": "", "details": "استمتع بخصم 20% من أوشن سبا داخل الفروع عند استخدام بطاقة لك أو بطاقات SNB الائتمانية ومدى من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "224", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "SHEIN", "merchant": "SHEIN", "category": "التسوق", "discount": "", "details": "استمتع بخصم 20% من شي إن عند استخدام بطاقات SNB من Visa استخدم الرمز الترويجي: VISA26", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "225", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "iHerb", "merchant": "iHerb", "category": "التسوق", "discount": "", "details": "استمتع بخصم يصل إلى 25% على مشترياتك من iHerb عند استخدام بطاقات SNB من Visa للعملاء الجدد خصم 25% و للعملاء الحاليين خصم 10%", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "226", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "بي اف تشانقز", "merchant": "بي اف تشانقز", "category": "مطاعم", "discount": "", "details": "استمتع بخصم 20% لدى \"بي اف تشانقز\" عند استخدام بطاقات SNB الائتمانية وبطاقة لك من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "227", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "تكساس رودهاوس", "merchant": "تكساس رودهاوس", "category": "مطاعم", "discount": "", "details": "استمتع بخصم 20% من \"تكساس رودهاوس\" عند استخدام بطاقات SNB الائتمانية وبطاقة لك من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "228", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "Farfetch", "merchant": "Farfetch", "category": "التسوق", "discount": "", "details": "استمتع بخصم يصل إلى 500 ريال لدى FARFETCH عند استخدام بطاقات SNB من Visa", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "229", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "ريزينج كينز", "merchant": "ريزينج كينز", "category": "مطاعم", "discount": "", "details": "استمتع بخصم 20% من \"ريزينج كينز\" عند استخدام بطاقات SNB الائتمانية أو بطاقة لك من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "230", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "Vogacloset", "merchant": "Vogacloset", "category": "التسوق", "discount": "", "details": "استمتع بخصم10% من Vogacloset عند استخدام بطاقات SNB من Visa", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "231", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "شيك شاك", "merchant": "شيك شاك", "category": "مطاعم", "discount": "", "details": "استمتع بخصم 20% لدى \"شيك شاك\" عند استخدام بطاقات SNB الائتمانية وبطاقة لك من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "232", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "الشمس والرمال للرياضة", "merchant": "الشمس والرمال للرياضة", "category": "التسوق", "discount": "", "details": "استمتع بخصم يصل إلى %20 من الشمس والرمال للرياضة عند استخدام بطاقات SNB من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "233", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "ستاربكس", "merchant": "ستاربكس", "category": "التسوق", "discount": "", "details": "استمتع بخصم 20% من \"ستاربكس\" عند استخدام بطاقات SNB الائتمانية وبطاقة لك من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "234", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "V Shape", "merchant": "V Shape", "category": "صحة", "discount": "", "details": "استمتع بخصم يصل الى 30% من V Shape عند استخدام بطاقات SNB من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "235", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "زد ميلز", "merchant": "زد ميلز", "category": "صحة", "discount": "", "details": "استمتع بخصم 20% من زد ميلز عند استخدام بطاقات SNB الائتمانية ومدى من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "236", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "بيور جيم", "merchant": "بيور جيم", "category": "صحة", "discount": "", "details": "استمتع بخصم 30% من بيور جيم عند استخدام بطاقات SNB من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "237", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "Nazih", "merchant": "Nazih", "category": "التسوق", "discount": "", "details": "استمتع بخصم 10% من Nazih عند استخدام بطاقات SNB الائتمانية ومدى من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "238", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "جاهز", "merchant": "جاهز", "category": "مطاعم/التسوق", "discount": "", "details": "استمتع بـ كاش باك على قهوتك من \"جاهز\" عند استخدام بطاقات SNB الائتمانية أو بطاقة لك من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "239", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "IHG", "merchant": "IHG", "category": "عروض الفنادق", "discount": "", "details": "استمتع بخصم 15٪ من فنادق ومنتجعات IHG عند الحجز باستخدام بطاقات SNB من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "240", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "Wafi Gourmet", "merchant": "Wafi Gourmet", "category": "مطاعم", "discount": "", "details": "استمتع بخصم 15% في مطعم \"Wafi Gourmet\" عند استخدام بطاقات SNB الائتمانية أو مدى من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "241", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "Akira Back - دبي", "merchant": "Akira Back - دبي", "category": "مطاعم", "discount": "", "details": "استمتع بخصم 15% في مطعم \"Akira Back\" عند استخدام بطاقات SNB الائتمانية أو مدى من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "242", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "Mohalla", "merchant": "Mohalla", "category": "مطاعم", "discount": "", "details": "استمتع بخصم 15% في مطعم \"Mohalla\" عند استخدام بطاقات SNB الائتمانية أو مدى من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "243", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "Namu", "merchant": "Namu", "category": "مطاعم", "discount": "", "details": "استمتع بخصم 15% في مطعم \"Namu\" عند استخدام بطاقات SNB الائتمانية أو مدى من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "244", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "Amazon Prime Offer", "merchant": "Amazon Prime Offer", "category": "التسوق", "discount": "", "details": "استمتع باشتراك أمازون برايم مقدمًا من ماستركارد يصل حتى 6 أشهر بالإضافة الى خصم 15% (حتى 50 ريال) مرة واحدة كل 30 يوما (حتى 4 أشهر متتالية) باستخدام بطاقات مدى أو البطاقات الائتمانية من البنك الأهلي السعودي من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "245", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "كوستا في مطارات دبي", "merchant": "كوستا في مطارات دبي", "category": "مطاعم/عروض المطارات", "discount": "", "details": "استمتع ب 4 مأكولات/مشروبات مجانية من اختيارك في كوستا فرع مطارات دبي عند استخدام بطاقة SNB من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "246", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "هنقرستيشن", "merchant": "هنقرستيشن", "category": "مطاعم/التسوق", "discount": "", "details": "استمتع بخصم 30% كل ثلاثاء من \"هنقرستيشن\" بحد خصم أقصى 30 ريال سعودي باستخدام بطاقات SNB الائتمانية من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "247", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "كريم", "merchant": "كريم", "category": "عروض المطارات", "discount": "", "details": "استمتع برحلتين مجانية من وإلى المطار من تطبيق كريم عند استخدام بطاقة SNB وورلد من ماستركارد، بالإضافة إلى ست رحلات مجانية من وإلى المطار عند استخدام بطاقة SNB وورلد إليت من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "248", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "Heathrow Express", "merchant": "Heathrow Express", "category": "عروض المطارات", "discount": "", "details": "استمتع بخصم 12٪ على رحلاتك عبر Heathrow Express عند الحجز باستخدام بطاقات SNB من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "249", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "Trip.com", "merchant": "Trip.com", "category": "عروض الفنادق/عروض الطيران", "discount": "", "details": "استمتع بخصم حتى 10% من \"Trip.com\" عند استخدامك بطاقات البنك الأهلي السعودي من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "250", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "مجوهرات الفارسي", "merchant": "مجوهرات الفارسي", "category": "التسوق", "discount": "", "details": "استمتع بخصم 20% من \"مجوهرات الفارسي\" باستخدام بطاقات البنك الأهلي السعودي من مدى او البطاقات الائتمانية", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "251", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "فيرمونت تغازوت باي (المغرب)", "merchant": "فيرمونت تغازوت باي (المغرب)", "category": "عروض الفنادق", "discount": "", "details": "استمتع بخصم حتى 20% من فندق \"فيرمونت تغازوت باي (المغرب)\" باستخدام بطاقات البنك الأهلي السعودي الائتمانية من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "252", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "بووست", "merchant": "بووست", "category": "ترفيه", "discount": "", "details": "استمتع بخصم %10 من بووست عند استخدام بطاقات البنك الأهلي السعودي الائتمانية ومدى من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "253", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "لوفت", "merchant": "لوفت", "category": "التسوق", "discount": "", "details": "استمتع بخصم 40% لدى معارض \"لوفت\" للديكور والمفروشات الأنيقة باستخدام بطاقات البنك الأهلي السعودي", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "254", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "دبدوب", "merchant": "دبدوب", "category": "ترفيه", "discount": "", "details": "استمتع باسترداد نقدي بنسبة 40% من دبدوب باستخدام بطاقات البنك الأهلي السعودي الائتمانية أو مدى من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "255", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "EL&N London", "merchant": "EL&N London", "category": "مطاعم", "discount": "", "details": "استمتع بخصم 15% من EL&N London عند استخدام بطاقات SNB من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "256", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "ظلال الكريستال", "merchant": "ظلال الكريستال", "category": "خدمات", "discount": "", "details": "استمتع بخصم بنسبة 50% من ظلال الكريستال عند استخدام بطاقات البنك الأهلي السعودي الائتمانية أو مدى من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "257", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "بيت الشاورما", "merchant": "بيت الشاورما", "category": "مطاعم", "discount": "", "details": "استمتع بخصم 10% في \"بيت الشاورما\" عند استخدام بطاقات SNB من ماستركارد باستخدام الرمز الترويجي: SNB10", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "258", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "صالات لجندز", "merchant": "صالات لجندز", "category": "ترفيه", "discount": "", "details": "استمتع بخصم 10% على ساعات اللعب في \"صالات لجندز\" باستخدام بطاقات البنك الأهلي السعودي الائتمانية أو مدى من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "259", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "كراما يوغا", "merchant": "كراما يوغا", "category": "صحة", "discount": "", "details": "استمتع بخصم بنسبة 10% من (كراما يوغا) باستخدام بطاقات البنك الأهلي السعودي (الائتمانية ومدى) من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "260", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "بوكونشينو مايفير، بوكونشينو سوهو، وأوستيريا ديل مارِه - لندن", "merchant": "بوكونشينو مايفير، بوكونشينو سوهو، وأوستيريا ديل مارِه - لندن", "category": "دولي", "discount": "", "details": "استمتع بخصم 10% لدى بوكونشينو مايفير، بوكونشينو سوهو، وأوستيريا ديل مارِه عند استخدام بطاقات البنك الأهلي السعودي الائتمانية أو مدى من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "261", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "Ferns N Petals", "merchant": "Ferns N Petals", "category": "التسوق", "discount": "", "details": "استمتع بخصم 15% Ferns N Petals عند استخدام بطاقات SNB الائتمانية أو مدى من ماستركارد باستخدام الرمز الترويجي: SNB15", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "262", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "دلال بوتيك", "merchant": "دلال بوتيك", "category": "التسوق", "discount": "", "details": "استمتع بخصم 30% في \"دلال بوتيك\" عند استخدام رمز الخصم SNB30 أو عند الدفع بواسطة بطاقات ائتمان أو مدى (ماستركارد) من SNB", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "263", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "درايف7", "merchant": "درايف7", "category": "خدمات", "discount": "", "details": "استمتع بخصم %20 من درايف7 وأكثر من 30% عند استخدام بطاقات SNB من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "264", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "المسافر", "merchant": "المسافر", "category": "عروض الفنادق", "discount": "", "details": "اكتشف العالم مع برنامج إليت من SNB واستمتع بتجارب حجز فاخرة مصممة خصيصًا لك من قبل مستشاري السفر في \"المسافر\"", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "265", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "بيتونيا", "merchant": "بيتونيا", "category": "التسوق", "discount": "", "details": "استمتع بخصم 15% في بيتونيا عند الدفع باستخدام بطاقات SNB من ماستركارد، على مشتريات بقيمة 5,000 ريال أو أكثر. كود الخصم: SNB15", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "266", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "مجوهرات مصلي", "merchant": "مجوهرات مصلي", "category": "التسوق", "discount": "", "details": "استمتع بخصم 5% لدى مجوهرات مصلي عند استخدام بطاقات SNB من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "267", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "Amani Boutique", "merchant": "Amani Boutique", "category": "التسوق", "discount": "", "details": "استمتع بخصم 10٪ لدى \"Amani Boutique\" للأزياء التركية عند استخدام بطاقات SNB", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "268", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "Rentalcars.com", "merchant": "Rentalcars.com", "category": "تأجير السيارات", "discount": "", "details": "استمتع بخصم 10% من \"Rentalcars.com\" باستخدام بطاقات البنك الأهلي السعودي الفرسان من Visa", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "269", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "المليوري", "merchant": "المليوري", "category": "مطاعم", "discount": "", "details": "استمتع بخصم 10% مع برد الشتاء من\"المليوري\" باستخدام بطاقات البنك الأهلي السعودي", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "270", "bank": "البنك الأهلي السعودي", "bank_id": "SNB", "title": "GLAM MODA", "merchant": "GLAM MODA", "category": "التسوق", "discount": "", "details": "استمتع بخصم 15% من GLAM MODA عند استخدام بطاقاتSNB الائتمانية ومدى من ماستركارد", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions", "checked_at": "2026-03-11"}, {"id": "bank_aljazira-001", "bank": "بنك الجزيرة", "bank_id": "bank_aljazira", "title": "هنقرستيشن - رمضان", "merchant": "هنقرستيشن", "category": "مطاعم", "discount": "30% خصم", "details": "احصل على خصم 30% على طلبات هنقرستيشن عند الدفع باستخدام بطاقة بنك الجزيرة ماستركارد الائتمانية خلال شهر رمضان.", "cards": ["بطاقات ماستركارد الائتمانية"], "code": "", "valid_from": "", "valid_until": "", "country": "السعودية", "city": "", "online": true, "expired": false, "source": "https://www.aljazirabank.com.sa/ar-sa/personal/promotional-offers", "checked_at": ""}, {"id": "bank_aljazira-002", "bank": "بنك الجزيرة", "bank_id": "bank_aljazira", "title": "Trendyol", "merchant": "Trendyol", "category": "تسوق", "discount": "20% خصم", "details": "استمتع بخصم 20% على أزياءك المفضلة من Trendyol عند الدفع باستخدام بطاقات بنك الجزيرة ماستركارد الائتمانية وإدخال رمز الخصم MASTERCARD.", "cards": ["بطاقات ماستركارد الائتمانية"], "code": "MASTERCARD", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": true, "expired": false, "source": "https://www.aljazirabank.com.sa/Trendyol", "checked_at": ""}, {"id": "bank_aljazira-003", "bank": "بنك الجزيرة", "bank_id": "bank_aljazira", "title": "التميمي للأقمشة", "merchant": "التميمي للأقمشة", "category": "تسوق", "discount": "20% خصم", "details": "خصم 20% لدى التميمي للأقمشة عند استخدام بطاقة بنك الجزيرة الائتمانية أو مدى. الرمز الترويجي BAJ24 صالح على الموقع الإلكتروني فقط، والعرض يسري في الفروع والموقع الإلكتروني على المنتجات غير المخفضة أو الترويجية فقط.", "cards": ["بطاقات ائتمانية", "بطاقات مدى"], "code": "BAJ24", "valid_from": "2024-06-01", "valid_until": "2025-05-07", "country": "السعودية", "city": "", "online": true, "expired": true, "source": "https://www.aljazirabank.com.sa/ar-sa/personal/Cards/Offers/Partners-Offers", "checked_at": ""}, {"id": "bank_aljazira-004", "bank": "بنك الجزيرة", "bank_id": "bank_aljazira", "title": "ريفي", "merchant": "ريفي", "category": "تسوق", "discount": "حتى 20% خصم + 7% إضافية", "details": "خصم 20% على المنتجات غير المخفضة والعروض الترويجية مع الرمز BAJ24 لمرة واحدة لكل عميل، وخصم إضافي 7% على جميع المنتجات مع الرمز BAJ7. العرض على الموقع الإلكتروني فقط.", "cards": ["بطاقات ائتمانية", "بطاقات مدى"], "code": "BAJ24 / BAJ7", "valid_from": "2024-06-01", "valid_until": "2025-05-20", "country": "السعودية", "city": "", "online": true, "expired": true, "source": "https://www.aljazirabank.com.sa/ar-sa/personal/Cards/Offers/Partners-Offers", "checked_at": ""}, {"id": "bank_aljazira-005", "bank": "بنك الجزيرة", "bank_id": "bank_aljazira", "title": "سيفي", "merchant": "سيفي", "category": "تسوق", "discount": "10% خصم حتى 30 ريال", "details": "خصم 10% حتى 30 ريال عند الشراء بمبلغ 99 ريال وأكثر باستخدام بطاقات بنك الجزيرة الائتمانية أو مدى، على المتجر الإلكتروني فقط، وبالرمز BAJ24.", "cards": ["بطاقات ائتمانية", "بطاقات مدى"], "code": "BAJ24", "valid_from": "", "valid_until": "", "country": "السعودية", "city": "", "online": true, "expired": false, "source": "https://www.aljazirabank.com.sa/ar-sa/personal/Cards/Offers/Partners-Offers", "checked_at": ""}, {"id": "bank_aljazira-006", "bank": "بنك الجزيرة", "bank_id": "bank_aljazira", "title": "ستايلي", "merchant": "ستايلي", "category": "تسوق", "discount": "حتى 20% خصم", "details": "10% خصم على المنتجات المخفضة و20% خصم على المنتجات غير المخفضة عند استخدام بطاقة بنك الجزيرة الائتمانية أو مدى مع الرمز BAJ24 على الموقع الإلكتروني أو التطبيق.", "cards": ["بطاقات ائتمانية", "بطاقات مدى"], "code": "BAJ24", "valid_from": "", "valid_until": "", "country": "السعودية", "city": "", "online": true, "expired": false, "source": "https://www.aljazirabank.com.sa/ar-sa/personal/Cards/Offers/Partners-Offers", "checked_at": ""}, {"id": "bank_aljazira-007", "bank": "بنك الجزيرة", "bank_id": "bank_aljazira", "title": "مكعب", "merchant": "مكعب", "category": "تسوق", "discount": "10% خصم", "details": "خصم 10% لدى مكعب عند استخدام بطاقة بنك الجزيرة الائتمانية أو مدى مع الرمز الترويجي BAJ24 على الموقع الإلكتروني أو التطبيق.", "cards": ["بطاقات ائتمانية", "بطاقات مدى"], "code": "BAJ24", "valid_from": "", "valid_until": "", "country": "السعودية", "city": "", "online": true, "expired": false, "source": "https://www.aljazirabank.com.sa/ar-sa/personal/Cards/Offers/Partners-Offers", "checked_at": ""}, {"id": "bank_aljazira-008", "bank": "بنك الجزيرة", "bank_id": "bank_aljazira", "title": "نور غاليري", "merchant": "نور غاليري", "category": "تسوق", "discount": "10% خصم", "details": "خصم 10% على جميع المنتجات لدى نور غاليري عند استخدام بطاقة بنك الجزيرة الائتمانية أو مدى. رمز العرض للموقع الإلكتروني فقط هو Jazira.", "cards": ["بطاقات ائتمانية", "بطاقات مدى"], "code": "Jazira", "valid_from": "2024-01-25", "valid_until": "2024-12-31", "country": "السعودية", "city": "", "online": true, "expired": true, "source": "https://www.aljazirabank.com.sa/ar-sa/personal/Cards/Offers/Partners-Offers", "checked_at": ""}, {"id": "bank_aljazira-009", "bank": "بنك الجزيرة", "bank_id": "bank_aljazira", "title": "تشيلك", "merchant": "تشيلك", "category": "تسوق", "discount": "10% خصم", "details": "خصم 10% لدى تشيلك عند استخدام بطاقة بنك الجزيرة الائتمانية أو مدى على جميع المنتجات ما عدا المنتجات المخفضة. الرمز الخاص بالموقع الإلكتروني هو Jazira.", "cards": ["بطاقات ائتمانية", "بطاقات مدى"], "code": "Jazira", "valid_from": "2024-01-25", "valid_until": "2024-12-31", "country": "السعودية", "city": "", "online": true, "expired": true, "source": "https://www.aljazirabank.com.sa/ar-sa/personal/Cards/Offers/Partners-Offers", "checked_at": ""}, {"id": "bank_aljazira-010", "bank": "بنك الجزيرة", "bank_id": "bank_aljazira", "title": "رمز الأعمال", "merchant": "رمز الأعمال", "category": "تسوق", "discount": "10% خصم", "details": "خصم 10% لدى رمز الأعمال عند استخدام بطاقة بنك الجزيرة الائتمانية أو مدى.", "cards": ["بطاقات ائتمانية", "بطاقات مدى"], "code": "", "valid_from": "2024-01-25", "valid_until": "2024-12-31", "country": "السعودية", "city": "", "online": false, "expired": true, "source": "https://www.aljazirabank.com.sa/ar-sa/personal/Cards/Offers/Partners-Offers", "checked_at": ""}, {"id": "bank_aljazira-011", "bank": "بنك الجزيرة", "bank_id": "bank_aljazira", "title": "بنش هوم", "merchant": "بنش هوم", "category": "منزل وأثاث", "discount": "10% خصم", "details": "خصم 10% لدى بنش هوم عند استخدام بطاقة بنك الجزيرة الائتمانية أو مدى. الخصم على جميع المنتجات ما عدا المنتجات المخفضة.", "cards": ["بطاقات ائتمانية", "بطاقات مدى"], "code": "", "valid_from": "2024-01-25", "valid_until": "2024-12-31", "country": "السعودية", "city": "", "online": false, "expired": true, "source": "https://www.aljazirabank.com.sa/ar-sa/personal/Cards/Offers/Partners-Offers", "checked_at": ""}, {"id": "bank_aljazira-012", "bank": "بنك الجزيرة", "bank_id": "bank_aljazira", "title": "عبدالغني إرث المجوهرات", "merchant": "عبدالغني إرث المجوهرات", "category": "مجوهرات", "discount": "30% خصم", "details": "خصم 30% على جميع المنتجات لدى عبدالغني إرث المجوهرات عند استخدام بطاقة بنك الجزيرة الائتمانية أو مدى.", "cards": ["بطاقات ائتمانية", "بطاقات مدى"], "code": "", "valid_from": "2023-03-21", "valid_until": "2025-03-10", "country": "السعودية", "city": "", "online": false, "expired": true, "source": "https://www.aljazirabank.com.sa/ar-sa/personal/Cards/Offers/Partners-Offers", "checked_at": ""}, {"id": "anb-001", "bank": "البنك العربي الوطني", "bank_id": "anb", "title": "هنقرستيشن", "merchant": "هنقرستيشن", "category": "تطبيقات", "discount": "30% خصم", "details": "خصم 30% مع هنقرستيشن عند استخدام بطاقات anb ماستركارد.", "cards": ["بطاقات ماستركارد"], "code": "", "valid_from": "", "valid_until": "", "country": "السعودية", "city": "", "online": true, "expired": false, "source": "https://anb.com.sa/ar/web/anb/cc-offers", "checked_at": ""}, {"id": "anb-002", "bank": "البنك العربي الوطني", "bank_id": "anb", "title": "مانترا سبا", "merchant": "مانترا سبا", "category": "الصحة", "discount": "20% خصم", "details": "خصم 20% على سبا النساء عند حد أدنى 300 ريال، و20% على سبا الرجال عند حد أدنى 240 ريال. العرض في الفرع فقط ولا يشمل الخدمات المنزلية.", "cards": ["بطاقات ائتمانية", "بطاقات مدى"], "code": "", "valid_from": "2025-08-01", "valid_until": "2026-06-01", "country": "السعودية", "city": "", "online": false, "expired": false, "source": "https://anb.com.sa/ar/web/anb/cc-offers", "checked_at": ""}, {"id": "anb-003", "bank": "البنك العربي الوطني", "bank_id": "anb", "title": "فايانا", "merchant": "فايانا", "category": "تسوق", "discount": "15% خصم", "details": "خصم 15% على الموقع الإلكتروني باستخدام جميع بطاقات anb الائتمانية وبطاقات مدى مع رمز الخصم ANB15.", "cards": ["بطاقات ائتمانية", "بطاقات مدى"], "code": "ANB15", "valid_from": "2025-08-01", "valid_until": "2026-06-01", "country": "السعودية", "city": "", "online": true, "expired": false, "source": "https://anb.com.sa/ar/web/anb/cc-offers", "checked_at": ""}, {"id": "anb-004", "bank": "البنك العربي الوطني", "bank_id": "anb", "title": "ايرث كافيه", "merchant": "ايرث كافيه", "category": "مطاعم", "discount": "15% خصم", "details": "خصم 15% في فروع الرياض وجدة والخبر، من الأحد إلى الخميس من 7 صباحًا إلى 6 مساءً، على قائمة الطعام الرئيسية فقط وللطلبات الداخلية.", "cards": ["بطاقات ائتمانية"], "code": "", "valid_from": "2025-07-15", "valid_until": "2026-06-22", "country": "السعودية", "city": "الرياض / جدة / الخبر", "online": false, "expired": false, "source": "https://anb.com.sa/ar/web/anb/cc-offers", "checked_at": ""}, {"id": "anb-005", "bank": "البنك العربي الوطني", "bank_id": "anb", "title": "فيكت هوم", "merchant": "فيكت هوم", "category": "تسوق", "discount": "25% خصم", "details": "خصم 25% على الموقع الإلكتروني عند الدفع ببطاقات anb الائتمانية أو مدى مع رمز الخصم ANB10.", "cards": ["بطاقات ائتمانية", "بطاقات مدى"], "code": "ANB10", "valid_from": "2025-08-01", "valid_until": "2026-06-01", "country": "السعودية", "city": "", "online": true, "expired": false, "source": "https://anb.com.sa/ar/web/anb/cc-offers", "checked_at": ""}, {"id": "anb-006", "bank": "البنك العربي الوطني", "bank_id": "anb", "title": "مقهى ومحمصة سويل", "merchant": "مقهى ومحمصة سويل", "category": "مطاعم", "discount": "15% خصم", "details": "الخصم صالح على منتجات القهوة عبر الموقع باستخدام الرمز ANB10، كما ينطبق على جميع مشروبات القهوة في المعرض عند الدفع ببطاقة البنك.", "cards": ["بطاقات ائتمانية", "بطاقات مدى"], "code": "ANB10", "valid_from": "2025-05-18", "valid_until": "2026-05-30", "country": "السعودية", "city": "", "online": true, "expired": false, "source": "https://anb.com.sa/ar/web/anb/cc-offers", "checked_at": ""}, {"id": "anb-007", "bank": "البنك العربي الوطني", "bank_id": "anb", "title": "كراما يوغا", "merchant": "كراما يوغا", "category": "الصحة", "discount": "10% خصم", "details": "خصم 10% في المعرض عند الدفع ببطاقات البنك العربي الوطني.", "cards": ["بطاقات ائتمانية", "بطاقات مدى"], "code": "", "valid_from": "2025-08-01", "valid_until": "2026-05-14", "country": "السعودية", "city": "", "online": false, "expired": false, "source": "https://anb.com.sa/ar/web/anb/cc-offers", "checked_at": ""}, {"id": "anb-008", "bank": "البنك العربي الوطني", "bank_id": "anb", "title": "صالون أيوليت", "merchant": "صالون أيوليت", "category": "الصحة", "discount": "20% خصم", "details": "خصم 20% لا يشمل المنتجات أو الباقات أو الخدمات المخفضة. العرض متاح في المعرض.", "cards": ["بطاقات ائتمانية", "بطاقات مدى"], "code": "", "valid_from": "2025-07-04", "valid_until": "2026-07-04", "country": "السعودية", "city": "", "online": false, "expired": false, "source": "https://anb.com.sa/ar/web/anb/cc-offers", "checked_at": ""}, {"id": "anb-009", "bank": "البنك العربي الوطني", "bank_id": "anb", "title": "هوبو", "merchant": "هوبو", "category": "تسوق", "discount": "10% خصم", "details": "خصم 10% على الموقع الإلكتروني باستخدام بطاقة البنك العربي الوطني مع رمز الخصم ANB10.", "cards": ["بطاقات ائتمانية", "بطاقات مدى"], "code": "ANB10", "valid_from": "2025-08-01", "valid_until": "2026-05-28", "country": "السعودية", "city": "", "online": true, "expired": false, "source": "https://anb.com.sa/ar/web/anb/cc-offers", "checked_at": ""}, {"id": "anb-010", "bank": "البنك العربي الوطني", "bank_id": "anb", "title": "مزرود", "merchant": "مزرود", "category": "تسوق", "discount": "10% خصم", "details": "خصم 10% على الموقع الإلكتروني عند إضافة الرمز الترويجي ANB10 أثناء الدفع ببطاقات anb مدى أو الائتمان.", "cards": ["بطاقات ائتمانية", "بطاقات مدى"], "code": "ANB10", "valid_from": "2025-05-13", "valid_until": "2026-05-13", "country": "السعودية", "city": "", "online": true, "expired": false, "source": "https://anb.com.sa/ar/web/anb/cc-offers", "checked_at": ""}, {"id": "anb-011", "bank": "البنك العربي الوطني", "bank_id": "anb", "title": "إي إم بوكس", "merchant": "إي إم بوكس", "category": "الصحة", "discount": "10% خصم", "details": "خصم 10% في الفرع فقط. العرض قابل للاستخدام مرة واحدة فقط لكل عملية شراء.", "cards": ["بطاقات ائتمانية", "بطاقات مدى"], "code": "", "valid_from": "2025-08-10", "valid_until": "2026-05-04", "country": "السعودية", "city": "", "online": false, "expired": false, "source": "https://anb.com.sa/ar/web/anb/cc-offers", "checked_at": ""}, {"id": "anb-012", "bank": "البنك العربي الوطني", "bank_id": "anb", "title": "نادي إلكسير النسائي", "merchant": "نادي إلكسير النسائي", "category": "الصحة", "discount": "30% خصم", "details": "خصم 30% في الفرع فقط عند الدفع ببطاقات البنك العربي الوطني.", "cards": ["بطاقات ائتمانية", "بطاقات مدى"], "code": "", "valid_from": "2025-08-01", "valid_until": "2026-05-11", "country": "السعودية", "city": "", "online": false, "expired": false, "source": "https://anb.com.sa/ar/web/anb/cc-offers", "checked_at": ""}, {"id": "anb-013", "bank": "البنك العربي الوطني", "bank_id": "anb", "title": "بلاي ويل", "merchant": "بلاي ويل", "category": "أخرى", "discount": "15% خصم", "details": "خصم 15% على الألعاب الحركية في المعرض. العرض لا ينطبق على المخيمات الصيفية أو الورش، وصالح طوال الأسبوع عدا الإثنين والثلاثاء.", "cards": ["بطاقات ائتمانية", "بطاقات مدى"], "code": "", "valid_from": "2025-08-01", "valid_until": "2026-06-01", "country": "السعودية", "city": "", "online": false, "expired": false, "source": "https://anb.com.sa/ar/web/anb/cc-offers", "checked_at": ""}, {"id": "anb-014", "bank": "البنك العربي الوطني", "bank_id": "anb", "title": "فندق ميسان رحاب المسك", "merchant": "فندق ميسان رحاب المسك", "category": "السفر والسياحة", "discount": "15% خصم على الغرف والمأكولات و50% على تأجير القاعات", "details": "خصم 15% على الغرف والمأكولات والمشروبات، و50% على تأجير القاعات. يشترط الحجز المسبق عبر الهاتف أو الواتساب أو الموقع.", "cards": ["بطاقات ائتمانية", "بطاقات مدى"], "code": "", "valid_from": "2025-07-27", "valid_until": "2026-07-27", "country": "السعودية", "city": "", "online": false, "expired": false, "source": "https://anb.com.sa/ar/web/anb/cc-offers", "checked_at": ""}, {"id": "anb-015", "bank": "البنك العربي الوطني", "bank_id": "anb", "title": "فلورينا", "merchant": "فلورينا", "category": "تسوق", "discount": "10% خصم", "details": "خصم 10% عند الدفع ببطاقات البنك العربي الوطني مع استخدام رمز الخصم ANB10. العرض غير ساري خلال مواسم التخفيضات.", "cards": ["بطاقات ائتمانية", "بطاقات مدى"], "code": "ANB10", "valid_from": "2025-06-23", "valid_until": "2026-06-23", "country": "السعودية", "city": "", "online": true, "expired": false, "source": "https://anb.com.sa/ar/web/anb/cc-offers", "checked_at": ""}, {"id": "anb-016", "bank": "البنك العربي الوطني", "bank_id": "anb", "title": "كت اند كوت", "merchant": "كت اند كوت", "category": "الصحة", "discount": "20% خصم", "details": "خصم 20% يشمل جميع الخدمات باستثناء خدمات تركيب الأظافر الصناعية. العرض متاح في الفرع.", "cards": ["بطاقات ائتمانية", "بطاقات مدى"], "code": "", "valid_from": "2025-08-01", "valid_until": "2026-07-13", "country": "السعودية", "city": "", "online": false, "expired": false, "source": "https://anb.com.sa/ar/web/anb/cc-offers", "checked_at": ""}, {"id": "anb-017", "bank": "البنك العربي الوطني", "bank_id": "anb", "title": "الركن السويسري", "merchant": "الركن السويسري", "category": "تسوق", "discount": "10% خصم إضافي", "details": "خصم إضافي 10% بدون حد أقصى. في الفرع بإبراز البطاقة، وعبر الإنترنت باستخدام كود SANB10.", "cards": ["بطاقات ائتمانية"], "code": "SANB10", "valid_from": "", "valid_until": "2026-01-12", "country": "السعودية", "city": "", "online": true, "expired": true, "source": "https://anb.com.sa/ar/web/anb/cc-offers", "checked_at": ""}, {"id": "anb-018", "bank": "البنك العربي الوطني", "bank_id": "anb", "title": "توب غان", "merchant": "توب غان", "category": "تطبيقات", "discount": "15% خصم", "details": "خصم 15% على الموقع والتطبيق باستخدام رمز الخصم ANB. لا يوجد حد أدنى للإنفاق والرمز متعدد الاستخدام.", "cards": ["بطاقات ائتمانية", "بطاقات مدى"], "code": "ANB", "valid_from": "2025-01-30", "valid_until": "2025-11-01", "country": "السعودية", "city": "", "online": true, "expired": true, "source": "https://anb.com.sa/ar/web/anb/cc-offers", "checked_at": ""}, {"id": "bsf-sf-line", "bank": "البنك السعودي الفرنسي", "bank_id": "bsf", "title": "خصم 20% لدى محلات SF Line", "merchant": "SF Line", "category": "shopping", "discount": "20%", "details": "", "cards": ["credit", "prepaid", "mada"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://bsf.sa/arabic/personal/cards/offers/all-offers", "checked_at": "2026-03-11"}, {"id": "bsf-pilates-room", "bank": "البنك السعودي الفرنسي", "bank_id": "bsf", "title": "خصم 15% لدى The Pilates Room", "merchant": "The Pilates Room", "category": "lifestyle", "discount": "15%", "details": "", "cards": ["credit", "prepaid", "mada"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://bsf.sa/arabic/personal/cards/offers/all-offers", "checked_at": "2026-03-11"}, {"id": "bsf-trip-com", "bank": "البنك السعودي الفرنسي", "bank_id": "bsf", "title": "خصم يصل إلى 20% على Trip.com", "merchant": "Trip.com", "category": "travel", "discount": "حتى 20%", "details": "", "cards": ["mastercard"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://bsf.sa/arabic/personal/cards/offers/all-offers", "checked_at": "2026-03-11"}, {"id": "bsf-indigo-home", "bank": "البنك السعودي الفرنسي", "bank_id": "bsf", "title": "خصم 15% لدى Indigo Home", "merchant": "Indigo Home", "category": "lifestyle", "discount": "15%", "details": "", "cards": ["credit", "prepaid", "mada"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://bsf.sa/arabic/personal/cards/offers/all-offers", "checked_at": "2026-03-11"}, {"id": "bsf-symphony-clinic", "bank": "البنك السعودي الفرنسي", "bank_id": "bsf", "title": "خصم يصل إلى 15% لدى عيادات سيمفوني", "merchant": "عيادات سيمفوني", "category": "health", "discount": "حتى 15%", "details": "", "cards": ["credit", "prepaid", "mada"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://bsf.sa/arabic/personal/cards/offers/all-offers", "checked_at": "2026-03-11"}, {"id": "bsf-chotto-matte", "bank": "البنك السعودي الفرنسي", "bank_id": "bsf", "title": "خصم 20% على الغداء و15% على العشاء لدى شاتو ماتو", "merchant": "شاتو ماتو", "category": "restaurants", "discount": "20% غداء / 15% عشاء", "details": "", "cards": [], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://bsf.sa/arabic/personal/cards/offers/all-offers", "checked_at": "2026-03-11"}, {"id": "bsf-lifeways", "bank": "البنك السعودي الفرنسي", "bank_id": "bsf", "title": "خصم يصل إلى 30% لدى مركز لايف وايز", "merchant": "مركز لايف وايز", "category": "health", "discount": "حتى 30%", "details": "", "cards": ["credit", "prepaid", "mada"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://bsf.sa/arabic/personal/cards/offers/all-offers", "checked_at": "2026-03-11"}, {"id": "bsf-park-inn-dubai-motor-city", "bank": "البنك السعودي الفرنسي", "bank_id": "bsf", "title": "خصم 20% على الغرف في فندق بارك إن باي راديسون دبي موتور سيتي", "merchant": "Park Inn by Radisson Dubai Motor City", "category": "travel", "discount": "20%", "details": "", "cards": ["mada", "credit"], "code": "", "valid_from": "", "valid_until": "", "country": "", "city": "", "online": false, "expired": false, "source": "https://bsf.sa/arabic/personal/cards/offers/all-offers", "checked_at": "2026-03-11"}, {"id": "emirates_nbd-001", "bank": "بنك الإمارات دبي الوطني", "bank_id": "emirates_nbd", "title": "Voco Riyadh", "merchant": "Voco Riyadh", "category": "مطاعم", "discount": "20% خصم في Horizon Restaurant و10% خصم في Ramadan Tent", "details": "20% خصم على إجمالي الفاتورة في Horizon Restaurant، و10% خصم على إجمالي الفاتورة في Ramadan Tent عند الدفع ببطاقات بنك الإمارات دبي الوطني.", "cards": ["بطاقات ائتمانية", "بطاقات مدى"], "code": "", "valid_from": "2026-02-18", "valid_until": "2026-03-19", "country": "السعودية", "city": "الرياض", "online": false, "expired": false, "source": "https://www.emiratesnbd.com.sa/en/deals/dining/voco-riyadh-offer", "checked_at": ""}, {"id": "emirates_nbd-002", "bank": "بنك الإمارات دبي الوطني", "bank_id": "emirates_nbd", "title": "EL & N London", "merchant": "EL & N London", "category": "مطاعم", "discount": "15% خصم", "details": "خصم 15% بدون حد أقصى عند الدفع ببطاقات بنك الإمارات دبي الوطني الائتمانية أو الخصم.", "cards": ["بطاقات ائتمانية", "بطاقات خصم"], "code": "", "valid_from": "", "valid_until": "2026-05-30", "country": "السعودية", "city": "", "online": false, "expired": false, "source": "https://www.emiratesnbd.com.sa/en/deals/dining/el-and-n-london", "checked_at": ""}, {"id": "emirates_nbd-003", "bank": "بنك الإمارات دبي الوطني", "bank_id": "emirates_nbd", "title": "Lunch in a box", "merchant": "Lunch in a box", "category": "مطاعم", "discount": "10% خصم", "details": "خصم 10% على الفاتورة عند الدفع ببطاقات البنك الائتمانية أو الخصم. العرض متاح داخل المملكة العربية السعودية.", "cards": ["بطاقات ائتمانية", "بطاقات خصم"], "code": "", "valid_from": "2026-01-01", "valid_until": "2026-12-31", "country": "السعودية", "city": "الرياض", "online": false, "expired": false, "source": "https://www.emiratesnbd.com.sa/en/deals/dining/lunch-in-a-box", "checked_at": ""}, {"id": "emirates_nbd-004", "bank": "بنك الإمارات دبي الوطني", "bank_id": "emirates_nbd", "title": "Truffleers", "merchant": "Truffleers", "category": "مطاعم", "discount": "حتى 20% خصم", "details": "خصم يصل إلى 20% عند استخدام بطاقات بنك الإمارات دبي الوطني الائتمانية أو الخصم.", "cards": ["بطاقات ائتمانية", "بطاقات خصم"], "code": "ENBD", "valid_from": "", "valid_until": "2026-08-31", "country": "السعودية", "city": "", "online": false, "expired": false, "source": "https://www.emiratesnbd.com.sa/en/deals/dining/truffleers", "checked_at": ""}, {"id": "emirates_nbd-005", "bank": "بنك الإمارات دبي الوطني", "bank_id": "emirates_nbd", "title": "JON & Vinnys", "merchant": "JON & Vinnys", "category": "مطاعم", "discount": "20% خصم", "details": "خصم 20% على قائمة الطعام A La Carte عند الدفع ببطاقات بنك الإمارات دبي الوطني الائتمانية. العرض في فرع السليمانية فقط ومن الأحد إلى الثلاثاء من 8:00 صباحًا إلى 6:00 مساءً.", "cards": ["بطاقات ائتمانية"], "code": "", "valid_from": "", "valid_until": "2026-12-31", "country": "السعودية", "city": "الرياض", "online": false, "expired": false, "source": "https://www.emiratesnbd.com.sa/en/deals/dining/jon-and-vinnys", "checked_at": ""}, {"id": "emirates_nbd-006", "bank": "بنك الإمارات دبي الوطني", "bank_id": "emirates_nbd", "title": "Lulu Hypermarket", "merchant": "Lulu Hypermarket", "category": "تقسيط", "discount": "تقسيط 0%", "details": "خطة تقسيط بدون فوائد 0% لدى Lulu Hypermarket.", "cards": ["البطاقات المؤهلة"], "code": "", "valid_from": "", "valid_until": "2026-05-15", "country": "السعودية", "city": "", "online": false, "expired": false, "source": "https://www.emiratesnbd.com.sa/en/deals/0-installment-plan/lulu-hypermarket", "checked_at": ""}];
+    const CATEGORIES = ["automotive", "automotive_finance", "cafe", "education", "entertainment", "fashion_beauty", "fitness", "health", "health_beauty", "hotel", "international_offers", "jewelry_perfume", "lifestyle", "restaurants", "shopping", "travel", "أخرى", "أسلوب حياة", "التسوق", "السفر والسياحة", "الصحة", "تأجير السيارات", "ترفيه", "تسوق", "تطبيقات", "تقسيط", "خدمات", "دولي", "سفر", "سيارات", "صحة", "عروض الفنادق", "عروض الفنادق/عروض الطيران", "عروض المطارات", "مجوهرات", "مطاعم", "مطاعم/التسوق", "مطاعم/عروض المطارات", "منزل وأثاث"];
+    const BANK_NAMES = ["البنك الأهلي السعودي", "البنك السعودي الفرنسي", "البنك السعودي للاستثمار", "البنك العربي الوطني", "بنك الإمارات دبي الوطني", "بنك الجزيرة", "بنك الرياض", "مصرف الإنماء", "مصرف الراجحي"];
+
     const els = {
       searchInput: document.getElementById('searchInput'),
       bankFilter: document.getElementById('bankFilter'),
+      categoryFilter: document.getElementById('categoryFilter'),
+      sortFilter: document.getElementById('sortFilter'),
+      onlineOnly: document.getElementById('onlineOnly'),
       hideExpired: document.getElementById('hideExpired'),
       resetBtn: document.getElementById('resetBtn'),
+      copyJsonBtn: document.getElementById('copyJsonBtn'),
       cards: document.getElementById('cards'),
       summaryLine: document.getElementById('summaryLine'),
       activeChips: document.getElementById('activeChips'),
       statOffers: document.getElementById('statOffers'),
       statBanks: document.getElementById('statBanks'),
+      statCategories: document.getElementById('statCategories'),
       statShown: document.getElementById('statShown'),
     };
-
-    let DATA = null;
-    let OFFERS = [];
-    let BANK_NAMES = [];
-
-    function normalizeArabic(text) {
-      return String(text || '')
-        .toLowerCase()
-        .replace(/[أإآٱ]/g, 'ا')
-        .replace(/ؤ/g, 'و')
-        .replace(/ئ/g, 'ي')
-        .replace(/ة/g, 'ه')
-        .replace(/ى/g, 'ي')
-        .replace(/[\u064B-\u065F\u0670]/g, '')
-        .replace(/[^\p{L}\p{N}\s%]/gu, ' ')
-        .replace(/\s+/g, ' ')
-        .trim();
-    }
-
-    function levenshtein(a, b) {
-      if (a === b) return 0;
-      if (!a.length) return b.length;
-      if (!b.length) return a.length;
-      const prev = Array.from({ length: b.length + 1 }, (_, i) => i);
-      for (let i = 1; i <= a.length; i++) {
-        let diag = i - 1;
-        prev[0] = i;
-        for (let j = 1; j <= b.length; j++) {
-          const temp = prev[j];
-          const cost = a[i - 1] === b[j - 1] ? 0 : 1;
-          prev[j] = Math.min(prev[j] + 1, prev[j - 1] + 1, diag + cost);
-          diag = temp;
-        }
-      }
-      return prev[b.length];
-    }
-
-    function fuzzyWordMatch(query, candidate) {
-      if (!query || !candidate) return false;
-      if (candidate.includes(query) || query.includes(candidate)) return true;
-      const diff = Math.abs(candidate.length - query.length);
-      const allowance = query.length <= 4 ? 1 : query.length <= 8 ? 2 : 3;
-      if (diff > allowance) return false;
-      return levenshtein(query, candidate) <= allowance;
-    }
-
-    function matchesSearch(offer, rawQuery) {
-      const query = normalizeArabic(rawQuery);
-      if (!query) return true;
-
-      const haystack = normalizeArabic([
-        offer.title,
-        offer.merchant,
-        offer.bank,
-        offer.category,
-        offer.discount,
-        offer.details,
-        offer.code,
-        ...(offer.cards || [])
-      ].join(' '));
-
-      if (haystack.includes(query)) return true;
-
-      const qWords = query.split(' ').filter(Boolean);
-      const tokens = [...new Set(haystack.split(' ').filter(Boolean))];
-
-      return qWords.every(qWord => tokens.some(token => fuzzyWordMatch(qWord, token)));
-    }
 
     function populateSelect(select, items, allLabel) {
       select.innerHTML = '';
@@ -466,115 +191,150 @@
       return m ? Number(m[1]) : -1;
     }
 
-    function filterOffers() {
-      const query = els.searchInput.value;
-      const bank = els.bankFilter.value;
-      const hideExpired = els.hideExpired.checked;
+    function normalize(s) {
+      return String(s || '')
+        .toLowerCase()
+        .replace(/أ|إ|آ/g, 'ا')
+        .replace(/ة/g, 'ه')
+        .replace(/ى/g, 'ي')
+        .replace(/\s+/g, ' ')
+        .trim();
+    }
 
-      let items = OFFERS.filter(offer =>
-        matchesSearch(offer, query) &&
-        (!bank || offer.bank === bank) &&
-        (!hideExpired || !offer.expired)
+    function matchesSearch(offer, q) {
+      if (!q) return true;
+      const hay = normalize([
+        offer.title, offer.merchant, offer.bank, offer.category,
+        offer.discount, offer.details, offer.code,
+        ...(offer.cards || [])
+      ].join(' '));
+      return hay.includes(normalize(q));
+    }
+
+    function filterOffers() {
+      const q = els.searchInput.value;
+      const bank = els.bankFilter.value;
+      const category = els.categoryFilter.value;
+      const onlineOnly = els.onlineOnly.checked;
+      const hideExpired = els.hideExpired.checked;
+      let items = OFFERS.filter(o =>
+        matchesSearch(o, q) &&
+        (!bank || o.bank === bank) &&
+        (!category || o.category === category) &&
+        (!onlineOnly || o.online) &&
+        (!hideExpired || !o.expired)
       );
 
+      switch (els.sortFilter.value) {
+        case 'bank':
+          items.sort((a,b) => (a.bank || '').localeCompare(b.bank || '', 'ar'));
+          break;
+        case 'merchant':
+          items.sort((a,b) => (a.merchant || '').localeCompare(b.merchant || '', 'ar'));
+          break;
+        case 'discount':
+          items.sort((a,b) => getDiscountNumber(b.discount) - getDiscountNumber(a.discount));
+          break;
+        case 'expiry':
+          items.sort((a,b) => (a.valid_until || '9999-99-99').localeCompare(b.valid_until || '9999-99-99'));
+          break;
+      }
       return items;
     }
 
-    function renderChips() {
+    function renderChips(items) {
       const chips = [];
-      if (els.searchInput.value.trim()) chips.push(`بحث: ${els.searchInput.value.trim()}`);
+      if (els.searchInput.value) chips.push(`بحث: ${els.searchInput.value}`);
       if (els.bankFilter.value) chips.push(`البنك: ${els.bankFilter.value}`);
-      if (els.hideExpired.checked) chips.push('المعروض الآن فقط');
-      els.activeChips.innerHTML = chips.map(chip => `<span class="chip">${chip}</span>`).join('');
-    }
-
-    function offerCard(offer) {
-      const title = offer.title || offer.merchant || 'عرض بدون عنوان';
-      const details = offer.details || 'لا توجد تفاصيل إضافية.';
-      const checkedAt = offer.checked_at || DATA?.generated_at || '—';
-      return `
-        <article class="card ${offer.expired ? 'expired' : ''}">
-          <div class="topline">
-            <div>
-              <div class="bank">${offer.bank || 'غير محدد'}</div>
-              <div class="title">${title}</div>
-            </div>
-            <div class="discount">${offer.discount || 'عرض'}</div>
-          </div>
-
-          <div class="meta">
-            ${offer.merchant ? `<span class="chip">${offer.merchant}</span>` : ''}
-            ${offer.category ? `<span class="chip">${offer.category}</span>` : ''}
-            ${offer.expired ? `<span class="chip expired-badge">منتهي</span>` : ''}
-            ${offer.online ? `<span class="chip">أونلاين</span>` : ''}
-          </div>
-
-          <div class="details">${details}</div>
-
-          <div class="meta">
-            ${(offer.cards || []).slice(0, 3).map(card => `<span class="chip">${card}</span>`).join('')}
-            ${offer.valid_until ? `<span class="chip">حتى ${offer.valid_until}</span>` : ''}
-            ${offer.code ? `<span class="chip">كود: ${offer.code}</span>` : ''}
-          </div>
-
-          <div class="footer">
-            <div class="small">آخر تحديث: ${checkedAt}</div>
-            ${offer.source ? `<a class="source" href="${offer.source}" target="_blank" rel="noopener noreferrer">المصدر</a>` : ''}
-          </div>
-        </article>
-      `;
+      if (els.categoryFilter.value) chips.push(`الفئة: ${els.categoryFilter.value}`);
+      if (els.onlineOnly.checked) chips.push('أونلاين فقط');
+      if (els.hideExpired.checked) chips.push('بدون منتهي');
+      els.activeChips.innerHTML = chips.map(c => `<span class="chip">${c}</span>`).join('');
     }
 
     function render() {
       const items = filterOffers();
-      renderChips();
+      renderChips(items);
       els.statOffers.textContent = OFFERS.length.toLocaleString('ar');
-      els.statBanks.textContent = BANK_NAMES.length.toLocaleString('ar');
+      els.statBanks.textContent = BANKS.length.toLocaleString('ar');
+      els.statCategories.textContent = CATEGORIES.length.toLocaleString('ar');
       els.statShown.textContent = items.length.toLocaleString('ar');
-      els.summaryLine.textContent = `${items.length.toLocaleString('ar')} نتيجة من أصل ${OFFERS.length.toLocaleString('ar')} عرض`;
+      els.summaryLine.textContent = `إجمالي النتائج المعروضة: ${items.length} من أصل ${OFFERS.length} عرض.`;
 
       if (!items.length) {
-        els.cards.innerHTML = '<div class="empty">ما لقيت نتيجة مطابقة. جرّب اسم قريب أو اكتب بشكل أبسط.</div>';
+        els.cards.innerHTML = '<div class="empty">لا توجد نتائج مطابقة للتصفية الحالية.</div>';
         return;
       }
 
-      els.cards.innerHTML = items.map(offerCard).join('');
+      els.cards.innerHTML = items.map(offer => `
+        <article class="card ${offer.expired ? 'expired' : ''}">
+          <div class="topline">
+            <div>
+              <div class="bank">${offer.bank || 'غير محدد'}</div>
+              <div class="title">${offer.title || offer.merchant || 'عرض بدون عنوان'}</div>
+            </div>
+            <div class="discount">${offer.discount || '—'}</div>
+          </div>
+          <div class="meta">
+            ${offer.merchant ? `<span class="chip">${offer.merchant}</span>` : ''}
+            ${offer.category ? `<span class="chip">${offer.category}</span>` : ''}
+            ${offer.online ? `<span class="chip">أونلاين</span>` : ''}
+            ${offer.city ? `<span class="chip">${offer.city}</span>` : ''}
+            ${offer.country ? `<span class="chip">${offer.country}</span>` : ''}
+            ${offer.expired ? `<span class="chip expired-badge">منتهي</span>` : ''}
+          </div>
+          <div class="details">${offer.details || 'لا توجد تفاصيل إضافية.'}</div>
+          <div class="meta">
+            ${(offer.cards || []).map(card => `<span class="chip">${card}</span>`).join('')}
+            ${offer.code ? `<span class="chip">كود: ${offer.code}</span>` : ''}
+            ${offer.valid_until ? `<span class="chip">ينتهي: ${offer.valid_until}</span>` : ''}
+          </div>
+          <div class="footer">
+            <div class="small">آخر تحقق: ${offer.checked_at || '—'}</div>
+            ${offer.source ? `<a class="source" href="${offer.source}" target="_blank" rel="noopener noreferrer">المصدر</a>` : ''}
+          </div>
+        </article>
+      `).join('');
     }
 
     function resetFilters() {
       els.searchInput.value = '';
       els.bankFilter.value = '';
-      els.hideExpired.checked = true;
+      els.categoryFilter.value = '';
+      els.sortFilter.value = 'default';
+      els.onlineOnly.checked = false;
+      els.hideExpired.checked = false;
       render();
     }
 
-    async function loadData() {
+    async function copyFilteredJson() {
+      const items = filterOffers();
+      const text = JSON.stringify(items, null, 2);
       try {
-        const response = await fetch('./all-offers.json', { cache: 'no-store' });
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        DATA = await response.json();
-        OFFERS = Array.isArray(DATA.offers) ? DATA.offers : [];
-        BANK_NAMES = Array.isArray(DATA.banks)
-          ? DATA.banks.map(bank => bank.bank).filter(Boolean).sort((a, b) => a.localeCompare(b, 'ar'))
-          : [...new Set(OFFERS.map(offer => offer.bank).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'ar'));
-
-        populateSelect(els.bankFilter, BANK_NAMES, 'كل البنوك');
-        render();
-      } catch (error) {
-        console.error(error);
-        els.cards.innerHTML = '<div class="empty">تعذر تحميل العروض. تأكد أن ملف <strong>all-offers.json</strong> موجود بجانب <strong>index.html</strong>.</div>';
-        els.summaryLine.textContent = 'فشل تحميل البيانات';
+        await navigator.clipboard.writeText(text);
+        els.copyJsonBtn.textContent = 'تم النسخ';
+        setTimeout(() => els.copyJsonBtn.textContent = 'نسخ النتائج كـ JSON', 1500);
+      } catch (e) {
+        alert('تعذر النسخ التلقائي. افتح أدوات المطور أو استخدم نسخة حديثة من المتصفح.');
       }
     }
 
-    ['input', 'change'].forEach(evt => {
+    populateSelect(els.bankFilter, BANK_NAMES, 'كل البنوك');
+    populateSelect(els.categoryFilter, CATEGORIES, 'كل الفئات');
+
+    ['input','change'].forEach(evt => {
       els.searchInput.addEventListener(evt, render);
       els.bankFilter.addEventListener(evt, render);
+      els.categoryFilter.addEventListener(evt, render);
+      els.sortFilter.addEventListener(evt, render);
+      els.onlineOnly.addEventListener(evt, render);
       els.hideExpired.addEventListener(evt, render);
     });
 
     els.resetBtn.addEventListener('click', resetFilters);
-    loadData();
+    els.copyJsonBtn.addEventListener('click', copyFilteredJson);
+
+    render();
   </script>
 </body>
 </html>
