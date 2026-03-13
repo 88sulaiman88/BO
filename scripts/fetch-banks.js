@@ -630,7 +630,7 @@ async function main() {
     ["Rajhi", updateRajhi],
     ["Riyadh", updateRiyadh],
     ["SABB", updateSABB],
-    ["Saib", updateSaib"],
+    ["Saib", updateSaib],
   ];
 
   for (const [name, job] of jobs) {
