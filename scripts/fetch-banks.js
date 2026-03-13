@@ -66,7 +66,7 @@ async function fetchJson(url) {
   return res.json();
 }
 
-async function postForm(url, formData, referer = `${BSF_BASE}/arabic/personal/cards/offers/all-offers`) {
+async function postFormJson(url, formData, referer = `${BSF_BASE}/arabic/personal/cards/offers/all-offers`) {
   const body = new URLSearchParams(formData).toString();
 
   const res = await fetch(url, {
@@ -74,7 +74,7 @@ async function postForm(url, formData, referer = `${BSF_BASE}/arabic/personal/ca
     headers: {
       "user-agent": "Mozilla/5.0",
       "accept-language": "ar,en;q=0.9",
-      accept: "text/html,application/json,text/plain,*/*",
+      accept: "application/json, text/javascript, */*; q=0.01",
       "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
       "x-requested-with": "XMLHttpRequest",
       origin: BSF_BASE,
@@ -87,7 +87,7 @@ async function postForm(url, formData, referer = `${BSF_BASE}/arabic/personal/ca
     throw new Error(`HTTP ${res.status} for ${url}`);
   }
 
-  return res.text();
+  return res.json();
 }
 
 function absoluteUrl(url, base = RAJHI_BASE) {
@@ -499,38 +499,7 @@ function inferBsfCategoryFromPath(pageUrl) {
 }
 
 function extractBsfOfferBlocks($) {
-  const candidates = [];
-  const selectors = [
-    "article",
-    ".views-row",
-    ".card",
-    ".offer",
-    ".promotion",
-    ".item",
-    ".col",
-    "li",
-  ];
-
-  for (const selector of selectors) {
-    $(selector).each((_, el) => {
-      const node = $(el);
-      const text = cleanText(node.text());
-      const hrefs = node
-        .find("a[href]")
-        .map((__, a) => cleanText($(a).attr("href")))
-        .get()
-        .filter(Boolean);
-
-      if (!text || !hrefs.length) return;
-      if (!/خصم|استمتع|احصل|وفر|مجانا|مجاناً|عرض|بطاقات|%/i.test(text)) return;
-
-      candidates.push(el);
-    });
-
-    if (candidates.length) break;
-  }
-
-  return candidates;
+  return $("li.listingItemLI, li[class*='listingItemLI']").toArray();
 }
 
 function parseBsfExpiry(text) {
@@ -573,8 +542,9 @@ function parseBsfDiscount(text) {
 
 function parseBsfTitle(node, $) {
   const preferred = [
-    node.find("h1,h2,h3,h4,h5").first().text(),
+    node.find(".cards strong").first().text(),
     node.find("strong").first().text(),
+    node.find("h1,h2,h3,h4,h5").first().text(),
     node.find("img").first().attr("alt"),
     node.find("a").first().text(),
   ];
@@ -631,6 +601,28 @@ function extractBsfPortletId($) {
   return "999123456";
 }
 
+function extractBsfCondition($) {
+  const text = $.html() || "";
+
+  const patterns = [
+    /condition["']?\s*[:=]\s*["']([^"']+)["']/i,
+    /name=["']condition["'][^>]*value=["']([^"']+)["']/i,
+  ];
+
+  for (const pattern of patterns) {
+    const match = text.match(pattern);
+    if (match?.[1]) return cleanText(match[1]);
+  }
+
+  return "and MenuShowInMenu<>0";
+}
+
+function extractBsfLang($) {
+  const htmlLang = cleanText($("html").attr("lang")).toLowerCase();
+  if (htmlLang === "ar") return "3";
+  return "3";
+}
+
 function parseBsfOffersFromHtml(html, pageUrl, category) {
   const $ = cheerio.load(html);
   const blocks = extractBsfOfferBlocks($);
@@ -639,20 +631,16 @@ function parseBsfOffersFromHtml(html, pageUrl, category) {
 
   for (const el of blocks) {
     const node = $(el);
-    const fullText = cleanText(node.text());
-
-    const href =
-      node.find("a[href]").first().attr("href") ||
-      node.find("a[href]").last().attr("href") ||
-      "";
-
+    const href = cleanText(node.find("a.item[href]").attr("href") || node.find("a[href]").first().attr("href"));
     const fullUrl = normalizeBsfUrl(absoluteUrl(href, BSF_BASE));
     if (!fullUrl.startsWith(BSF_BASE)) continue;
 
+    const text = cleanText(node.find(".text").text() || node.text());
+    const dateText = cleanText(node.find(".date").text());
     const title = parseBsfTitle(node, $);
     const merchant = title || cleanText(node.find("img").first().attr("alt")) || "";
-    const expiryDate = parseBsfExpiry(fullText);
-    const discount = parseBsfDiscount(fullText);
+    const expiryDate = parseBsfExpiry(dateText || text);
+    const discount = parseBsfDiscount(text);
     const imageUrl = absoluteUrl(node.find("img").first().attr("src") || "", BSF_BASE);
 
     const key = `${fullUrl}||${title}`;
@@ -673,7 +661,7 @@ function parseBsfOffersFromHtml(html, pageUrl, category) {
       promoCode: null,
       expiryDate,
       status: "active",
-      notes: fullText,
+      notes: text,
       terms: [],
       link: fullUrl,
       imageUrl,
@@ -742,9 +730,11 @@ async function scrapeBsfListingPage(pageUrl) {
   const token = extractBsfVerificationToken($);
   const pageId = extractBsfPageId($);
   const pagePortletID = extractBsfPortletId($);
+  const condition = extractBsfCondition($);
+  const lang = extractBsfLang($);
 
   console.log(
-    `BSF paging config for ${pageUrl}: token=${token ? "yes" : "no"}, pageId=${pageId}, pagePortletID=${pagePortletID}`
+    `BSF paging config for ${pageUrl}: token=${token ? "yes" : "no"}, pageId=${pageId}, pagePortletID=${pagePortletID}, condition=${condition}, lang=${lang}`
   );
 
   const allOffers = [...firstPageOffers];
@@ -754,22 +744,37 @@ async function scrapeBsfListingPage(pageUrl) {
     return allOffers;
   }
 
+  let totalRecords = null;
   let stalePages = 0;
 
   for (let page = 2; page <= BSF_MAX_PAGES; page++) {
     try {
-      const htmlChunk = await postForm(BSF_LISTING_ENDPOINT, {
-        pageId,
-        pagePortletID,
-        page: String(page),
-        condition: " and MenuShowInMenu<>0 ",
-        lang: "3",
-        __RequestVerificationToken: token,
-      }, pageUrl);
+      const response = await postFormJson(
+        BSF_LISTING_ENDPOINT,
+        {
+          pageId,
+          pagePortletID,
+          page: String(page),
+          condition: ` ${condition} `,
+          lang,
+          __RequestVerificationToken: token,
+        },
+        pageUrl
+      );
 
+      if (!response?.success) {
+        console.error(`BSF load more returned unsuccessful response for ${pageUrl} page ${page}`);
+        break;
+      }
+
+      if (typeof response?.totalRecords === "number") {
+        totalRecords = response.totalRecords;
+      }
+
+      const htmlChunk = response?.html || "";
       const nextOffers = parseBsfOffersFromHtml(htmlChunk, pageUrl, category);
-      let added = 0;
 
+      let added = 0;
       for (const item of nextOffers) {
         const key = `${item.link}||${item.title}`;
         if (seen.has(key)) continue;
@@ -779,8 +784,12 @@ async function scrapeBsfListingPage(pageUrl) {
       }
 
       console.log(
-        `BSF load more for ${pageUrl} page ${page}: raw=${nextOffers.length}, added=${added}`
+        `BSF load more for ${pageUrl} page ${page}: raw=${nextOffers.length}, added=${added}, totalRecords=${totalRecords ?? "?"}, collected=${allOffers.length}`
       );
+
+      if (totalRecords && allOffers.length >= totalRecords) {
+        break;
+      }
 
       if (!nextOffers.length || added === 0) {
         stalePages += 1;
