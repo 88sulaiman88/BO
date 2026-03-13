@@ -223,7 +223,9 @@
       flex-direction: column;
       gap: 14px;
       transition: transform .15s ease, box-shadow .15s ease;
-      min-height: 260px;
+      min-height: 320px;
+      height: 320px;
+      overflow: hidden;
     }
 
     .card:hover {
@@ -287,9 +289,9 @@
       max-width: 220px;
       text-align: center;
       line-height: 1.5;
-      white-space: normal;
-      word-break: break-word;
-      overflow-wrap: anywhere;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
       align-self: flex-start;
     }
 
@@ -315,6 +317,7 @@
       align-items: center;
       justify-content: center;
       min-height: 72px;
+      overflow: hidden;
     }
 
     .footer {
@@ -323,15 +326,23 @@
       align-items: center;
       gap: 12px;
       margin-top: auto;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
     }
 
-    .meta-note {
+    .footer-right,
+    .footer-left {
+      min-width: 0;
+    }
+
+    .footer-right {
+      text-align: right;
       color: var(--muted);
       font-size: 13px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
+      font-weight: 600;
+    }
+
+    .footer-left {
+      text-align: left;
     }
 
     .link {
@@ -341,6 +352,13 @@
       border-radius: 12px;
       padding: 10px 12px;
       font-weight: 700;
+      display: inline-flex;
+      align-items: center;
+      white-space: nowrap;
+    }
+
+    .link:hover {
+      text-decoration: underline;
     }
 
     .empty,
@@ -408,6 +426,10 @@
       .details {
         min-height: auto;
       }
+
+      .footer {
+        flex-wrap: wrap;
+      }
     }
   </style>
 </head>
@@ -459,7 +481,7 @@
 
   <script>
     let allOffers = [];
-    let dataMeta = { generated_at: '' };
+    let dataMeta = { lastUpdated: '' };
     let isExpanded = false;
 
     const INITIAL_VISIBLE_COUNT = 6;
@@ -552,8 +574,18 @@
     function isMatch(offer, query) {
       if (!query.trim()) return true;
 
-      const primary = [offer.title, offer.merchant, offer.details, offer.discount].join(' ');
-      const secondary = [offer.bank, ...(offer.cards || [])].join(' ');
+      const primary = [
+        offer.title,
+        offer.merchant,
+        offer.details,
+        offer.discountText,
+        offer.terms
+      ].join(' ');
+
+      const secondary = [
+        offer.bank,
+        ...(offer.tags || [])
+      ].join(' ');
 
       return tokenMatchScore(query, primary) >= 1 || tokenMatchScore(query, secondary) >= 2;
     }
@@ -568,10 +600,15 @@
         timeZone: 'Asia/Riyadh',
         year: 'numeric',
         month: 'long',
-        day: 'numeric',
-        hour: 'numeric',
-        minute: '2-digit'
+        day: 'numeric'
       }).format(d);
+    }
+
+    function truncateText(text, maxLength = 140) {
+      const clean = String(text || '').replace(/\s+/g, ' ').trim();
+      if (!clean) return '—';
+      if (clean.length <= maxLength) return clean;
+      return clean.slice(0, maxLength).trim() + '...';
     }
 
     function populateBankFilter() {
@@ -606,7 +643,7 @@
       const { query, bank, hideExpired } = getFilterState();
 
       return allOffers.filter(offer => {
-        if (hideExpired && offer.expired) return false;
+        if (hideExpired && offer.isExpired) return false;
         if (bank && offer.bank !== bank) return false;
         return isMatch(offer, query);
       });
@@ -647,7 +684,7 @@
 
       visibleOffers.forEach(offer => {
         const card = document.createElement('article');
-        card.className = `card ${offer.expired ? 'expired' : ''}`;
+        card.className = `card ${offer.isExpired ? 'expired' : ''}`;
 
         const top = document.createElement('div');
         top.className = 'top';
@@ -670,10 +707,11 @@
 
         const discount = document.createElement('div');
         discount.className = 'discount';
-        discount.textContent = offer.discount || 'عرض متاح';
+        discount.title = offer.discountText || '';
+        discount.textContent = truncateText(offer.discountText || 'عرض خاص', 28);
         topSide.appendChild(discount);
 
-        if (offer.expired) {
+        if (offer.isExpired) {
           const expired = document.createElement('span');
           expired.className = 'expired-badge';
           expired.textContent = 'منتهي';
@@ -684,45 +722,32 @@
 
         const details = document.createElement('p');
         details.className = 'details';
-        details.textContent = offer.details || '—';
+        details.textContent = truncateText(
+          offer.details || offer.discountText || offer.terms || '',
+          150
+        );
 
         const footer = document.createElement('div');
         footer.className = 'footer';
 
-        const metaNote = document.createElement('div');
-        metaNote.className = 'meta-note';
+        const footerRight = document.createElement('div');
+        footerRight.className = 'footer-right';
+        footerRight.textContent = `ينتهي: ${formatDate(offer.endDate)}`;
 
-        if (offer.merchant && offer.merchant !== offer.title) {
-          const merchant = document.createElement('span');
-          merchant.textContent = offer.merchant;
-          metaNote.appendChild(merchant);
-        }
+        const footerLeft = document.createElement('div');
+        footerLeft.className = 'footer-left';
 
-        if (offer.valid_until) {
-          const validUntil = document.createElement('span');
-          validUntil.textContent = `ينتهي: ${offer.valid_until}`;
-          metaNote.appendChild(validUntil);
-        }
-
-        if (offer.code) {
-          const code = document.createElement('span');
-          code.textContent = `الكود: ${offer.code}`;
-          metaNote.appendChild(code);
-        }
-
-        if (metaNote.childNodes.length) {
-          footer.appendChild(metaNote);
-        }
-
-        if (offer.source) {
+        if (offer.offerUrl) {
           const link = document.createElement('a');
           link.className = 'link';
-          link.href = offer.source;
+          link.href = offer.offerUrl;
           link.target = '_blank';
           link.rel = 'noopener noreferrer';
-          link.textContent = 'تفاصيل العرض';
-          footer.appendChild(link);
+          link.textContent = 'المصدر';
+          footerLeft.appendChild(link);
         }
+
+        footer.append(footerRight, footerLeft);
 
         card.append(top, details, footer);
         els.cards.appendChild(card);
@@ -732,7 +757,7 @@
     function renderStats() {
       els.statOffers.textContent = String(allOffers.length);
       els.statBanks.textContent = String(new Set(allOffers.map(o => o.bank).filter(Boolean)).size);
-      els.generatedAt.textContent = formatDate(dataMeta.generated_at);
+      els.generatedAt.textContent = formatDate(dataMeta.lastUpdated);
     }
 
     async function loadData() {
