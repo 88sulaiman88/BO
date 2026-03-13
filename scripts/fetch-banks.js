@@ -236,9 +236,32 @@ function shouldKeepRajhiUrl(url) {
 
   if (!u.includes("/personal/offers/cardsoffers/")) return false;
   if (/\/(ar|en)\/personal\/offers\/cardsoffers\/?$/.test(u)) return false;
-  if (u.includes("/personal/offers/cardsoffers/viewall")) return false;
+
+  const blocked = [
+    "/personal/offers/cardsoffers/e-com",
+    "/personal/offers/cardsoffers/others",
+    "/personal/offers/cardsoffers/mokafaa",
+    "/personal/offers/cardsoffers/travel-and-entertainment",
+    "/personal/offers/cardsoffers/viewall"
+  ];
+
+  if (blocked.some((x) => u === x || u.endsWith(x))) return false;
+
+  const match = u.match(/\/personal\/offers\/cardsoffers\/(.+)$/);
+  if (!match || !match[1]) return false;
+
+  const rest = match[1].replace(/^en\//, "").replace(/^ar\//, "");
+  const segments = rest.split("/").filter(Boolean);
+
+  if (segments.length < 2) return false;
 
   return true;
+}
+
+function normalizeRajhiUrl(url) {
+  return String(url || "")
+    .replace("https://www.alrajhibank.com.sa/en/", "https://www.alrajhibank.com.sa/")
+    .replace("https://www.alrajhibank.com.sa/ar/", "https://www.alrajhibank.com.sa/");
 }
 
 function isProbablyBadTitle(title) {
@@ -251,7 +274,11 @@ function isProbablyBadTitle(title) {
     "offers",
     "العروض",
     "cards offers",
-    "عروض البطاقات"
+    "عروض البطاقات",
+    "e com",
+    "others",
+    "mokafaa",
+    "travel and entertainment"
   ];
 
   return badTitles.includes(t);
@@ -299,20 +326,8 @@ function extractMetaImage($) {
 }
 
 async function getRajhiOfferUrlsFromSitemap() {
-  try {
-    const xml = await fetchText(`${RAJHI_BASE}/sitemap.xml`);
-    const matches = [...xml.matchAll(/<loc>(.*?)<\/loc>/gi)].map((m) => cleanText(m[1]));
-
-    const urls = matches
-      .map((u) => absoluteUrl(u, RAJHI_BASE))
-      .filter(shouldKeepRajhiUrl);
-
-    console.log(`Rajhi sitemap candidate URLs: ${urls.length}`);
-    return [...new Set(urls)];
-  } catch (error) {
-    console.error(`Rajhi sitemap fetch failed: ${error.message}`);
-    return [];
-  }
+  console.log("Rajhi sitemap is temporarily disabled.");
+  return [];
 }
 
 async function getRajhiOfferUrlsFromPages() {
@@ -344,7 +359,7 @@ async function getRajhiOfferUrlsFromPages() {
     }
   }
 
-  const unique = [...new Set(found)];
+  const unique = [...new Set(found.map(normalizeRajhiUrl))];
   console.log(`Rajhi page-discovered URLs: ${unique.length}`);
   return unique;
 }
@@ -355,7 +370,7 @@ async function getRajhiOfferUrls() {
     getRajhiOfferUrlsFromPages()
   ]);
 
-  const merged = [...new Set([...fromSitemap, ...fromPages])];
+  const merged = [...new Set([...fromSitemap, ...fromPages].map(normalizeRajhiUrl))];
   console.log(`Rajhi total merged URLs: ${merged.length}`);
 
   if (merged.length) {
