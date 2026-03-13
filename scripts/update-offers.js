@@ -374,8 +374,7 @@ async function fetchInmaOffers() {
 }
 
 async function fetchRajhiOffers() {
-  console.log("Rajhi is temporarily excluded from merge.");
-  return [];
+  return readJsonFromTxt(path.join(BANKS_DIR, "Rajhi.txt"), []);
 }
 
 async function fetchRiyadhOffers() {
