@@ -1,477 +1,115 @@
 {
   "bank": "مصرف الراجحي",
   "bankCode": "alrajhi",
-  "source": "https://www.alrajhibank.com.sa/Personal/Discounts?category=B1F6C9499BC149DB80CF92FEA7B6757A&sort=Default&page=1",
-  "lastChecked": "2026-03-11",
+  "source": "https://www.alrajhibank.com.sa/en/Personal/Discounts",
+  "lastChecked": "2026-03-13",
+  "fetchedCount": 4,
+  "previousCount": 29,
   "offers": [
     {
-      "id": "alrajhi-aok",
-      "merchant": "AOK",
-      "title": "خصم 20% لدى AOK",
-      "category": "restaurants",
-      "discount": "20%",
-      "cards": [
-        "credit"
-      ],
-      "cardText": "بطاقات الراجحي Platinum وSignature وInfinite وBlack",
+      "id": "alrajhi-عبداللطيف-جميل",
+      "merchant": "عبداللطيف جميل",
+      "title": "عبداللطيف جميل",
+      "category": "",
+      "discount": "* 2.46% هامش ربح لعملاء محولين الراتب على مصرف الراجحي* 3.28% هامش ربح لعملاء غير محولين الراتب على مصرف الراجحييسري من 18 فبراير حتى تاريخ 31 مارس 2026يشترط ألا يقل راتب المستفيد عن 2,500 ريال.",
+      "cards": [],
+      "cardText": "",
       "promoCode": null,
-      "expiryDate": "2026-07-01",
+      "expiryDate": "2026-03-31",
       "status": "active",
-      "notes": "الخصم وقت الغداء من 1:00 ظهرًا إلى 6:00 مساءً من الأحد إلى الخميس | الحجز مطلوب | حد أقصى 5 أشخاص على الطاولة | ينطبق على قائمة A la carte فقط",
-      "sourceUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Food-and-Beverage/AOK"
+      "notes": "أفضل عروض رمضان على سيارات (لكزس) 2025-2026 تأجير السيارات بتحويل الراتب -دفعة أولى 0% -رسوم إدارية 0.50% -الدفعة الأخيرة 50% - المدة 60شهر - معدل النسبة السنوي شاملة التأمين يبدأ من 6.46% تأجير السيارات بدون تحويل الراتب -دفعة أولى 0% -رسوم إدارية 0.50% -الدفعة الأخيرة 40% -المدة 60 شهر -معدل النسبة السنوي شاملة التأمين يبدأ من 8.07% كيفية التقديم -تفضل بزيارة أقرب فرع إليك من فروع مصرف الراجحي او زيارة احدى المعارض المعتمدة لدى المصرف او الاتصال على الرقم 8001241222 -التقديم من خلال الموقع الإلكتروني. -التقديم من خلال التطبيق الــ alrajhi bank Applications (IOS - Android) يسري من 18 فبراير حتى تاريخ 31 مارس 2026",
+      "terms": [
+        "* 2.46% هامش ربح لعملاء محولين الراتب على مصرف الراجحي",
+        "* 3.28% هامش ربح لعملاء غير محولين الراتب على مصرف الراجحي",
+        "يسري من 18 فبراير حتى تاريخ 31 مارس 2026",
+        "يشترط ألا يقل راتب المستفيد عن 2,500 ريال.",
+        "الشروط والأحكام"
+      ],
+      "link": "https://www.alrajhibank.com.sa/Personal/Offers/CardsOffers/Finance-offers/Abdulatif-jamel-Lexus",
+      "imageUrl": "https://www.alrajhibank.com.sa/default-og-image.jpg",
+      "source": "alrajhi-cards-offers-scraper"
     },
     {
-      "id": "alrajhibank-pulse",
-      "merchant": "PULSE",
-      "title": "قهوة اليوم مجانًا وخصم 50% على Carota Cake",
-      "category": "restaurants",
-      "discount": "50%",
-      "cards": [
-        "credit"
-      ],
-      "cardText": "جميع بطاقات الراجحي",
+      "id": "alrajhi-صن-رول",
+      "merchant": "صن رول",
+      "title": "صن رول",
+      "category": "",
+      "discount": "صن رولاستمتع بخصم 20% لدى صن رولصالح حتى: ٢٤ ديسمبر ٢٠٢٦لزيارة المتجر الإلكتروني",
+      "cards": [],
+      "cardText": "",
       "promoCode": null,
-      "expiryDate": "2026-02-12",
-      "status": "expired",
-      "notes": "مرة واحدة لكل حامل بطاقة | غير قابل للجمع مع أكواد أو بطاقات هدايا أخرى",
-      "sourceUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Food-and-Beverage/PULSE"
+      "expiryDate": "2026-12-24",
+      "status": "active",
+      "notes": "استمتع بخصم 20% لدى صن رول مع بطاقات مصرف الراجحي. يسري العرض من 01 يناير حتى 24 ديسمبر 2026",
+      "terms": [
+        "يطبق العرض على جميع بطاقات مصرف الراجحي",
+        "احصل على خصم 20% عبر التطبيق والموقع الإلكتروني وفروع صن رول",
+        "لا يمكن دمج الخصم مع قسائم الهدايا أو أي عرض ترويجي آخر.",
+        "يحق للعميل الاستفادة من العرض أكثر من مرة.",
+        "للاستفادة من العرض الرجاء استخدام الرمز الترويجي ARB",
+        "للاستفادة من العرض الرجاء إبراز بطاقة مصرف الراجحي",
+        "تطبق شروط وأحكام مصرف الراجحي وصن رول",
+        "لزيارة المتجر الإلكتروني"
+      ],
+      "link": "https://www.alrajhibank.com.sa/Personal/Offers/CardsOffers/Furniture-and-Home-Appliances/Sun-Roll",
+      "imageUrl": "https://www.alrajhibank.com.sa/default-og-image.jpg",
+      "source": "alrajhi-cards-offers-scraper"
     },
     {
-      "id": "alrajhi-wbj",
-      "merchant": "WBJ",
-      "title": "وجبة WBJ بـ29 ريال",
-      "category": "restaurants",
-      "discount": "29 ريال",
-      "cards": [
-        "credit"
-      ],
-      "cardText": "جميع بطاقات الراجحي",
+      "id": "alrajhi-زيوكس",
+      "merchant": "زيوكس",
+      "title": "زيوكس",
+      "category": "",
+      "discount": "زيوكساستمتع بخصم 40% لدى زيوكسصالح حتى: ٣١ ديسمبر ٢٠٢٦للمزيد من المعلومات",
+      "cards": [],
+      "cardText": "",
       "promoCode": null,
-      "expiryDate": "2026-01-08",
-      "status": "expired",
-      "notes": "ساري في جميع فروع WBJ داخل السعودية | يمكن الاستفادة أكثر من مرة",
-      "sourceUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Food-and-Beverage/WBJ"
+      "expiryDate": "2026-12-31",
+      "status": "active",
+      "notes": "استمتع بخصم 40% لدى زيوكس مع بطاقات مصرف الراجحي. يسري العرض من 01 يناير حتى 31 ديسمبر 2026",
+      "terms": [
+        "يطبق العرض على جميع بطاقات مصرف الراجحي",
+        "احصل على خصم 40% عبر الفروع لدى زيوكس",
+        "خصم %40 على الخدمات المختارة من براند زيوكس و روكسن وأرفس، العازل الحراري، أفالم حماية الطالء، النانوسيراميك",
+        "لا يمكن دمج الخصم مع قسائم الهدايا أو أي عرض ترويجي آخر.",
+        "يحق للعميل الاستفادة من العرض أكثر من مرة.",
+        "للاستفادة من العرض الرجاء إبراز بطاقة مصرف الراجحي",
+        "تطبق شروط وأحكام مصرف الراجحي وزيوكس",
+        "للمزيد من المعلومات"
+      ],
+      "link": "https://www.alrajhibank.com.sa/Personal/Offers/CardsOffers/Car-Services/Xeoex",
+      "imageUrl": "https://www.alrajhibank.com.sa/default-og-image.jpg",
+      "source": "alrajhi-cards-offers-scraper"
     },
     {
-      "id": "alrajhi-row-café",
-      "merchant": "Row café",
-      "title": "خصم 20% على البودينغ مع قهوة اليوم الصغيرة مجانًا",
-      "category": "restaurants",
-      "discount": "20%",
-      "cards": [
-        "credit"
-      ],
-      "cardText": "جميع بطاقات الراجحي",
+      "id": "alrajhi-بطاقة-الفرسان-الائتمانية",
+      "merchant": "بطاقة الفرسان الائتمانية",
+      "title": "بطاقة الفرسان الائتمانية",
+      "category": "أخرى",
+      "discount": "",
+      "cards": [],
+      "cardText": "",
       "promoCode": null,
-      "expiryDate": "2025-11-13",
-      "status": "expired",
-      "notes": "العميل يختار القهوة حارة أو باردة | يمكن الاستفادة أكثر من مرة",
-      "sourceUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Food-and-Beverage/Row-cafe"
-    },
-    {
-      "id": "alrajhi-tim-hortons",
-      "merchant": "Tim Hortons",
-      "title": "خصم 20% لدى تيم هورتنز",
-      "category": "restaurants",
-      "discount": "20%",
-      "cards": [
-        "credit"
+      "expiryDate": "2026-02-28",
+      "status": "active",
+      "notes": "عرض حصري احصل على بطاقة الفرسان الائتمانية واستمتع بأميال ترحيبية إضافية وأميال مضاعفة على الإنفاق الدولي احصل على ما يصل إلى 10,000 ميل ترحيبي إضافي عند إصدار أي من بطاقات الفرسان الائتمانية الأميال الترحيبية: انفينيت : 10,000 ميل إضافي بلاتينيوم : 4,000 ميل إضافي يسري العرض من 25 يناير إلى 28 فبراير 2026",
+      "terms": [
+        "العرض على الإصدار الجديد لبطاقات الفرسان الائتمانية المصدرة في فترة الحملة:",
+        "من تاريخ 25 يناير 2026 حتى 28 فبراير 2026.",
+        "يتم استحقاق الأميال الترحيبية للحملة عند تفعيل البطاقة في فترة الحملة.",
+        "تطبق الأميال الترحيبية للحملة على البطاقة الأساسية فقط.",
+        "كسب مضاعفة الأميال على الإنفاق الدولي فقط لبطاقات الفرسان الأساسية والإضافية المصدرة في فترة الحملة.",
+        "يحق لكل عميل الاستفادة من مضاعفة الأميال على العمليات الدولية لمدة 60 يومًا من تاريخ إصدار البطاقة الأساسية ، و للبطاقة الإضافية تكون لمدة 60 من تاريخ إصدار البطاقة الأساسية .",
+        "سوف يتم إضافة الأميال الترحيبية للحملة خلال الأسبوع الأول لشهر مارس2026:(بطاقة الفرسان انفنيت 10,000 ميل ترحيبي)،(بطاقة الفرسان بلاتينيوم 4,000 ميل ترحيبي).",
+        "سوف يتم إضافة الأميال المضاعفة خلال الأسبوع الأول من شهر مايو 2026",
+        "يجب أن تكون بطاقة العميل الائتمانية نشطة ولا يوجد أي تأخر في السداد عند إضافة الأميال الترحيبية و المضاعفة.",
+        "الأميال غير قابلة للتحويل أو الاسترجاع.",
+        "يتحمل العميل مسؤولية تزويد المصرف بالرقم لعضوية الفرسان.",
+        "تطبق شروط وأحكام مصرف الراجحي و برنامج الفرسان"
       ],
-      "cardText": "جميع بطاقات الراجحي",
-      "promoCode": null,
-      "expiryDate": "2025-12-31",
-      "status": "expired",
-      "notes": "منافذ المطار مستثناة | غير متاح عبر Apple Pay أو المحافظ الرقمية",
-      "sourceUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Food-and-Beverage/tim-hortons"
-    },
-    {
-      "id": "alrajhi-starbucks",
-      "merchant": "Starbucks",
-      "title": "اشترِ مشروبًا واحصل على الثاني مجانًا",
-      "category": "restaurants",
-      "discount": "عرض خاص",
-      "cards": [
-        "credit"
-      ],
-      "cardText": "جميع بطاقات الراجحي",
-      "promoCode": null,
-      "expiryDate": "2025-12-04",
-      "status": "expired",
-      "notes": "مرة واحدة لكل حامل بطاقة",
-      "sourceUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Food-and-Beverage/Starbucks"
-    },
-    {
-      "id": "alrajhi-shovel",
-      "merchant": "Shovel",
-      "title": "قهوة اليوم مجانًا",
-      "category": "restaurants",
-      "discount": "عرض خاص",
-      "cards": [
-        "credit"
-      ],
-      "cardText": "جميع بطاقات الراجحي",
-      "promoCode": null,
-      "expiryDate": "2025-10-09",
-      "status": "expired",
-      "notes": "مرة واحدة لكل حامل بطاقة | غير قابل للجمع مع أكواد أو بطاقات هدايا أخرى",
-      "sourceUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Food-and-Beverage/Shovel"
-    },
-    {
-      "id": "alrajhi-drcafe",
-      "merchant": "Dr.Cafe",
-      "title": "مشروب مختار بـ5 ريال",
-      "category": "restaurants",
-      "discount": "5 ريال",
-      "cards": [
-        "credit"
-      ],
-      "cardText": "جميع بطاقات الراجحي",
-      "promoCode": null,
-      "expiryDate": "2025-08-07",
-      "status": "expired",
-      "notes": "غير قابل للجمع مع أكواد أو بطاقات هدايا أخرى | يمكن الاستفادة أكثر من مرة",
-      "sourceUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Food-and-Beverage/DrCafe"
-    },
-    {
-      "id": "alrajhi-nana",
-      "merchant": "Nana",
-      "title": "قسائم حتى 100 ريال لمستخدمي نانا الجدد",
-      "category": "restaurants",
-      "discount": "100 ريال",
-      "cards": [
-        "credit"
-      ],
-      "cardText": "عملاء الراجحي فقط",
-      "promoCode": null,
-      "expiryDate": "2025-07-31",
-      "status": "expired",
-      "notes": "العرض للمستخدمين الجدد فقط | القسائم صالحة لشهر من تاريخ التسجيل",
-      "sourceUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Food-and-Beverage/Nana"
-    },
-    {
-      "id": "alrajhi-antifat",
-      "merchant": "AntiFat+",
-      "title": "خصم 25% لدى AntiFat+",
-      "category": "restaurants",
-      "discount": "25%",
-      "cards": [
-        "credit"
-      ],
-      "cardText": "جميع بطاقات الراجحي (ومذكور أنه لحاملات بطاقات الراجحي الإناث)",
-      "promoCode": "ARB25",
-      "expiryDate": "2025-07-17",
-      "status": "expired",
-      "notes": "لا يشمل Tabby وTamara | يمكن الاستفادة أكثر من مرة",
-      "sourceUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Food-and-Beverage/AntiFat"
-    },
-    {
-      "id": "alrajhi-durma",
-      "merchant": "Durma",
-      "title": "آيس كريم توفي صغير بـ3 ريال",
-      "category": "restaurants",
-      "discount": "3 ريال",
-      "cards": [
-        "credit"
-      ],
-      "cardText": "جميع بطاقات الراجحي",
-      "promoCode": null,
-      "expiryDate": "2025-07-10",
-      "status": "expired",
-      "notes": "غير قابل للجمع مع أكواد أو بطاقات هدايا أخرى | يمكن الاستفادة أكثر من مرة",
-      "sourceUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Food-and-Beverage/Durma"
-    },
-    {
-      "id": "alrajhi-urth-caffe",
-      "merchant": "Urth Caffe",
-      "title": "خصم 15% لدى Urth Caffe",
-      "category": "restaurants",
-      "discount": "15%",
-      "cards": [
-        "credit",
-        "prepaid"
-      ],
-      "cardText": "بطاقات الراجحي الائتمانية ومسبقة الدفع",
-      "promoCode": null,
-      "expiryDate": "2025-07-01",
-      "status": "expired",
-      "notes": "الأحد إلى الخميس من 7:00 صباحًا إلى 8:00 مساءً | الفروع: الرياض وجدة والخبر | غير متاح الجمعة والسبت | غير متاح عبر Apple Pay أو mada Pay أو المحافظ الرقمية",
-      "sourceUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Food-and-Beverage/Urth-Caffe"
-    },
-    {
-      "id": "alrajhi-shawarma-and-more",
-      "merchant": "Shawarma and more",
-      "title": "اشترِ ساندويتش واحصل على الثاني مجانًا",
-      "category": "restaurants",
-      "discount": "عرض خاص",
-      "cards": [
-        "credit"
-      ],
-      "cardText": "جميع بطاقات الراجحي",
-      "promoCode": null,
-      "expiryDate": "2025-05-01",
-      "status": "expired",
-      "notes": "غير قابل للجمع مع أكواد أو بطاقات هدايا أخرى | يمكن الاستفادة أكثر من مرة",
-      "sourceUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Food-and-Beverage/shawarma"
-    },
-    {
-      "id": "alrajhi-brsk",
-      "merchant": "BRSK",
-      "title": "اشترِ مشروبًا واحصل على الثاني مجانًا",
-      "category": "restaurants",
-      "discount": "عرض خاص",
-      "cards": [
-        "credit"
-      ],
-      "cardText": "جميع بطاقات الراجحي",
-      "promoCode": null,
-      "expiryDate": "2025-02-27",
-      "status": "expired",
-      "notes": "المشروب الثاني من نفس نوع الأول | غير قابل للجمع مع أكواد أو بطاقات هدايا أخرى | يمكن الاستفادة أكثر من مرة",
-      "sourceUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Food-and-Beverage/BRSK"
-    },
-    {
-      "id": "alrajhi-also",
-      "merchant": "Also",
-      "title": "خصم 10% لدى Also",
-      "category": "restaurants",
-      "discount": "10%",
-      "cards": [
-        "credit",
-        "prepaid"
-      ],
-      "cardText": "بطاقات الراجحي الائتمانية ومسبقة الدفع",
-      "promoCode": null,
-      "expiryDate": "2025-02-15",
-      "status": "expired",
-      "notes": "غير متاح عبر Apple Pay أو mada Pay أو المحافظ الرقمية | غير قابل للجمع مع قسائم أو عروض أخرى",
-      "sourceUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Food-and-Beverage/Also"
-    },
-    {
-      "id": "alrajhi-enjoy-25",
-      "merchant": "Enjoy 25",
-      "title": "25,000 نقطة مكافأة إضافية للمطاعم",
-      "category": "restaurants",
-      "discount": "500 ريال",
-      "cards": [
-        "credit"
-      ],
-      "cardText": "لحاملي بطاقات ائتمان مختارين تلقوا إشعارًا في تطبيق الراجحي",
-      "promoCode": null,
-      "expiryDate": "2025-01-18",
-      "status": "expired",
-      "notes": "الحد الأدنى للإنفاق 500 ريال | تُحتسب أعلى عملية واحدة فقط | لا يشمل الشراء الإلكتروني",
-      "sourceUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Food-and-Beverage/Exclusive-Cashback-Offer"
-    },
-    {
-      "id": "alrajhi-kork-and-aghatti-restaurant",
-      "merchant": "Kork and Aghatti restaurant",
-      "title": "خصم 15% لدى Kork and Aghatti",
-      "category": "restaurants",
-      "discount": "15%",
-      "cards": [
-        "credit",
-        "prepaid"
-      ],
-      "cardText": "بطاقات الراجحي الائتمانية ومسبقة الدفع",
-      "promoCode": null,
-      "expiryDate": "2025-01-15",
-      "status": "expired",
-      "notes": "غير متاح عبر Apple Pay أو mada Pay أو المحافظ الرقمية | غير قابل للجمع مع قسائم أو عروض أخرى",
-      "sourceUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Food-and-Beverage/Kork-and-Aghatti-restaurant"
-    },
-    {
-      "id": "alrajhi-drive-coffee",
-      "merchant": "Drive Coffee",
-      "title": "قهوة اليوم مجانًا من Drive Coffee",
-      "category": "restaurants",
-      "discount": "عرض خاص",
-      "cards": [
-        "credit"
-      ],
-      "cardText": "جميع بطاقات الراجحي",
-      "promoCode": null,
-      "expiryDate": "2025-01-16",
-      "status": "expired",
-      "notes": "ساري يوم 16 يناير 2025 من 5:00 صباحًا إلى 5:00 مساءً",
-      "sourceUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Food-and-Beverage/Drive-Coffee"
-    },
-    {
-      "id": "alrajhi-ruya-restaurants",
-      "merchant": "RUYA restaurants",
-      "title": "خصم 10% لدى RUYA",
-      "category": "restaurants",
-      "discount": "10%",
-      "cards": [
-        "credit"
-      ],
-      "cardText": "بطاقات الراجحي Black وInfinite وSignature",
-      "promoCode": null,
-      "expiryDate": "2024-12-31",
-      "status": "expired",
-      "notes": "يشمل الغداء والعشاء | حد أقصى 5 أشخاص | غير قابل للجمع مع عروض أخرى",
-      "sourceUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Food-and-Beverage/ruya-restaurants"
-    },
-    {
-      "id": "alrajhi-ratio",
-      "merchant": "Ratio",
-      "title": "اشترِ سحلب أو هوت شوكلت واحصل على الثاني مجانًا",
-      "category": "restaurants",
-      "discount": "عرض خاص",
-      "cards": [
-        "credit"
-      ],
-      "cardText": "جميع بطاقات الراجحي",
-      "promoCode": null,
-      "expiryDate": "2024-12-11",
-      "status": "expired",
-      "notes": null,
-      "sourceUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Food-and-Beverage/Ratio-2"
-    },
-    {
-      "id": "alrajhi-lolimpo-restaurant",
-      "merchant": "Lolimpo restaurant",
-      "title": "خصم 15% لدى L'olimpo",
-      "category": "restaurants",
-      "discount": "15%",
-      "cards": [
-        "credit",
-        "prepaid"
-      ],
-      "cardText": "بطاقات الراجحي الائتمانية ومسبقة الدفع",
-      "promoCode": null,
-      "expiryDate": "2024-08-01",
-      "status": "expired",
-      "notes": "غير متاح عبر Apple Pay أو mada Pay أو المحافظ الرقمية | غير قابل للجمع مع قسائم أو عروض أخرى",
-      "sourceUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Food-and-Beverage/lolimpo-restaurant"
-    },
-    {
-      "id": "alrajhi-bello-sweets-anoosh",
-      "merchant": "Bello Sweets / Anoosh",
-      "title": "خصم 25% لدى Anoosh",
-      "category": "restaurants",
-      "discount": "25%",
-      "cards": [
-        "credit"
-      ],
-      "cardText": "جميع بطاقات الراجحي",
-      "promoCode": "ARB25",
-      "expiryDate": null,
-      "status": "unknown",
-      "notes": "المنتجات المخفضة مستثناة | غير قابل للجمع مع أكواد أو بطاقات هدايا أخرى | يمكن الاستفادة أكثر من مرة",
-      "sourceUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Food-and-Beverage/Bello"
-    },
-    {
-      "id": "alrajhi-chapati-and-karak",
-      "merchant": "Chapati and Karak",
-      "title": "اشترِ كارك كبير واحصل على الثاني مجانًا",
-      "category": "restaurants",
-      "discount": "عرض خاص",
-      "cards": [
-        "credit"
-      ],
-      "cardText": "جميع بطاقات الراجحي",
-      "promoCode": null,
-      "expiryDate": null,
-      "status": "unknown",
-      "notes": "للكرك الحار فقط باستثناء espresso Karak | مرة واحدة لكل فاتورة | غير قابل للجمع مع أكواد أو بطاقات هدايا أخرى",
-      "sourceUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Food-and-Beverage/Chapati-and-Karak"
-    },
-    {
-      "id": "alrajhi-castello-coffee",
-      "merchant": "Castello Coffee",
-      "title": "عرض Castello Coffee",
-      "category": "restaurants",
-      "discount": null,
-      "cards": [
-        "credit",
-        "prepaid"
-      ],
-      "cardText": "بطاقات الراجحي الائتمانية ومسبقة الدفع",
-      "promoCode": null,
-      "expiryDate": null,
-      "status": "unknown",
-      "notes": "غير قابل للجمع مع قسائم أو عروض أخرى | غير متاح عبر Apple Pay أو mada Pay أو المحافظ الرقمية",
-      "sourceUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Food-and-Beverage/Castello-Coffee"
-    },
-    {
-      "id": "alrajhi-dominos",
-      "merchant": "Domino's",
-      "title": "خصم 35% لدى دومينوز",
-      "category": "restaurants",
-      "discount": "35%",
-      "cards": [
-        "credit"
-      ],
-      "cardText": "جميع بطاقات الراجحي",
-      "promoCode": "ARB35",
-      "expiryDate": null,
-      "status": "unknown",
-      "notes": "غير قابل للجمع مع أكواد أو بطاقات هدايا أخرى | يمكن الاستفادة أكثر من مرة",
-      "sourceUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Food-and-Beverage/Dominos"
-    },
-    {
-      "id": "alrajhi-modawar-cafeteria",
-      "merchant": "Modawar cafeteria",
-      "title": "اشترِ واحدة واحصل على الثانية مجانًا",
-      "category": "restaurants",
-      "discount": "عرض خاص",
-      "cards": [
-        "credit"
-      ],
-      "cardText": "جميع بطاقات الراجحي",
-      "promoCode": null,
-      "expiryDate": null,
-      "status": "unknown",
-      "notes": "مرة واحدة لكل حامل بطاقة | غير قابل للجمع مع أكواد أو بطاقات هدايا أخرى",
-      "sourceUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Food-and-Beverage/Modawar"
-    },
-    {
-      "id": "alrajhi-sama-cafe",
-      "merchant": "Sama Cafe",
-      "title": "اشترِ هوت شوكلت متوسط واحصل على الثاني مجانًا",
-      "category": "restaurants",
-      "discount": "عرض خاص",
-      "cards": [
-        "credit"
-      ],
-      "cardText": "جميع بطاقات الراجحي",
-      "promoCode": null,
-      "expiryDate": null,
-      "status": "unknown",
-      "notes": "غير قابل للجمع مع أكواد أو بطاقات هدايا أخرى | يمكن الاستفادة أكثر من مرة",
-      "sourceUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Food-and-Beverage/Sama-Cafe"
-    },
-    {
-      "id": "alrajhi-buffalo-wild-wings",
-      "merchant": "Buffalo Wild Wings",
-      "title": "خصم 15% لدى Buffalo Wild Wings",
-      "category": "restaurants",
-      "discount": "15%",
-      "cards": [
-        "credit"
-      ],
-      "cardText": "جميع بطاقات الراجحي",
-      "promoCode": null,
-      "expiryDate": "2025-12-31",
-      "status": "expired",
-      "notes": "غير ساري في الإجازات الرسمية والمطارات | لا يوجد حد أدنى للإنفاق | غير متاح في التوصيل | غير متاح عبر Apple Pay أو المحافظ الرقمية",
-      "sourceUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Food-and-Beverage/Buffalo-Wild-Wings"
-    },
-    {
-      "id": "alrajhi-wister-sa",
-      "merchant": "WISTER SA",
-      "title": "خصم 50% على Crunchy Maple Medium Meal",
-      "category": "restaurants",
-      "discount": "50%",
-      "cards": [
-        "credit"
-      ],
-      "cardText": "جميع بطاقات الراجحي",
-      "promoCode": null,
-      "expiryDate": null,
-      "status": "unknown",
-      "notes": "العرض على أصناف محددة | ساري حتى نفاد الكمية | يمكن الاستفادة أكثر من مرة",
-      "sourceUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Food-and-Beverage/WISTER"
+      "link": "https://www.alrajhibank.com.sa/Personal/Offers/CardsOffers/Others/Al-Fursan-credit-card",
+      "imageUrl": "https://www.alrajhibank.com.sa/default-og-image.jpg",
+      "source": "alrajhi-cards-offers-scraper"
     }
   ]
 }
