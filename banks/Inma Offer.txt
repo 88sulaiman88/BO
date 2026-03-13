@@ -21,14 +21,21 @@
       "offer_id": "alinma-bleco-001",
       "merchant_name_ar": "بلاكو",
       "merchant_name_en": "Bleco",
-      "merchant_aliases": ["Bleco", "بلاكو"],
+      "merchant_aliases": [
+        "Bleco",
+        "بلاكو"
+      ],
       "category": "automotive",
       "discount_value": 10,
       "discount_type": "percentage",
       "discount_text": "10% + 5% إضافية مع التخفيضات",
       "start_date": "2025-04-27",
       "end_date": "2026-04-15",
-      "payment_methods": ["credit_card", "mada", "prepaid"],
+      "payment_methods": [
+        "credit_card",
+        "mada",
+        "prepaid"
+      ],
       "terms_summary": "خصم 10% على جميع المنتجات و5% إضافية عند وجود تخفيضات، مع استخدام الرمز Alinma، ويسري عبر الموقع والفروع.",
       "offer_url": "https://www.alinma.com/ar/Media-Campaigns/Stores/Cars-Accessories-and-Services/Bleco",
       "is_active": true,
@@ -38,14 +45,20 @@
       "offer_id": "alinma-dalal-boutique-001",
       "merchant_name_ar": "دلال بوتيك",
       "merchant_name_en": "Dalal Boutique",
-      "merchant_aliases": ["Dalal Boutique", "دلال بوتيك"],
+      "merchant_aliases": [
+        "Dalal Boutique",
+        "دلال بوتيك"
+      ],
       "category": "fashion_beauty",
       "discount_value": 35,
       "discount_type": "percentage",
       "discount_text": "35%",
       "start_date": "2026-02-25",
       "end_date": "2027-01-01",
-      "payment_methods": ["credit_card", "prepaid"],
+      "payment_methods": [
+        "credit_card",
+        "prepaid"
+      ],
       "terms_summary": "خصم 35% باستخدام الكود Alinma35، ولا يشمل المنتجات المخفضة، ويسري عبر التطبيق والفروع.",
       "offer_url": "https://www.alinma.com/ar/Media-Campaigns/Stores/Fashion-and-beauty/Dalal-boutique",
       "is_active": true,
@@ -55,14 +68,23 @@
       "offer_id": "alinma-cote-nail-spa-001",
       "merchant_name_ar": "كوت سبا",
       "merchant_name_en": "Cote nail Spa",
-      "merchant_aliases": ["Cote nail Spa", "Cote Spa", "كوت سبا"],
+      "merchant_aliases": [
+        "Cote nail Spa",
+        "Cote Spa",
+        "كوت سبا"
+      ],
       "category": "health_beauty",
       "discount_value": 15,
       "discount_type": "percentage",
       "discount_text": "15%",
       "start_date": "2026-02-16",
       "end_date": "2027-01-29",
-      "payment_methods": ["credit_card", "prepaid", "apple_pay", "mada_pay"],
+      "payment_methods": [
+        "credit_card",
+        "prepaid",
+        "apple_pay",
+        "mada_pay"
+      ],
       "terms_summary": "الخصم بالحجز عبر Fresha باستخدام الرمز Alinma، بلا حد أعلى، ويشمل فرع الرياض فقط، ويمكن تكراره.",
       "offer_url": "https://www.alinma.com/ar/Media-Campaigns/Stores/Health-and-Medical/Cote-nail-Spa",
       "is_active": true,
@@ -72,14 +94,23 @@
       "offer_id": "alinma-al-muhaidb-residence-001",
       "merchant_name_ar": "المهيدب ريزدنس",
       "merchant_name_en": "Al Muhaidb Residence",
-      "merchant_aliases": ["Al Muhaidb Residence", "المهيدب ريزدنس"],
+      "merchant_aliases": [
+        "Al Muhaidb Residence",
+        "المهيدب ريزدنس"
+      ],
       "category": "hotel",
       "discount_value": 15,
       "discount_type": "percentage",
       "discount_text": "15%",
       "start_date": "2026-02-15",
       "end_date": "2027-01-30",
-      "payment_methods": ["credit_card", "prepaid", "mada", "apple_pay", "mada_pay"],
+      "payment_methods": [
+        "credit_card",
+        "prepaid",
+        "mada",
+        "apple_pay",
+        "mada_pay"
+      ],
       "terms_summary": "بلا حد أعلى، قابل للتكرار، داخل السعودية فقط، ولا يجمع مع رمز ترويجي آخر.",
       "offer_url": "https://www.alinma.com/ar/Media-Campaigns/Stores/Travel-and-Tour/Al-Muhaidb-Residence",
       "is_active": true,
@@ -89,14 +120,23 @@
       "offer_id": "alinma-ewaa-hotels-001",
       "merchant_name_ar": "فنادق إيواء",
       "merchant_name_en": "EWAA Hotels",
-      "merchant_aliases": ["EWAA Hotels", "فنادق إيواء"],
+      "merchant_aliases": [
+        "EWAA Hotels",
+        "فنادق إيواء"
+      ],
       "category": "hotel",
       "discount_value": 15,
       "discount_type": "percentage",
       "discount_text": "15%",
       "start_date": "2026-02-15",
       "end_date": "2027-01-30",
-      "payment_methods": ["credit_card", "prepaid", "mada", "apple_pay", "mada_pay"],
+      "payment_methods": [
+        "credit_card",
+        "prepaid",
+        "mada",
+        "apple_pay",
+        "mada_pay"
+      ],
       "terms_summary": "بلا حد أعلى، قابل للتكرار، داخل السعودية فقط، ولا يجمع مع رمز ترويجي آخر.",
       "offer_url": "https://www.alinma.com/ar/Media-Campaigns/Stores/Travel-and-Tour/EWAA-Hotels",
       "is_active": true,
@@ -106,14 +146,23 @@
       "offer_id": "alinma-grand-plaza-hotels-001",
       "merchant_name_ar": "فنادق جراند بلازا",
       "merchant_name_en": "Grand Plaza Hotels",
-      "merchant_aliases": ["Grand Plaza Hotels", "فنادق جراند بلازا"],
+      "merchant_aliases": [
+        "Grand Plaza Hotels",
+        "فنادق جراند بلازا"
+      ],
       "category": "hotel",
       "discount_value": 15,
       "discount_type": "percentage",
       "discount_text": "15%",
       "start_date": "2026-02-15",
       "end_date": "2027-01-30",
-      "payment_methods": ["credit_card", "prepaid", "mada", "apple_pay", "mada_pay"],
+      "payment_methods": [
+        "credit_card",
+        "prepaid",
+        "mada",
+        "apple_pay",
+        "mada_pay"
+      ],
       "terms_summary": "بلا حد أعلى، متاح أكثر من مرة خلال الحملة، داخل السعودية فقط، ولا يجمع مع رمز ترويجي آخر.",
       "offer_url": "https://www.alinma.com/ar/Media-Campaigns/Stores/Travel-and-Tour/Grand-Plaza-Hotels",
       "is_active": true,
@@ -123,14 +172,21 @@
       "offer_id": "alinma-urth-caffe-001",
       "merchant_name_ar": "أيرث كافيه",
       "merchant_name_en": "Urth Caffe",
-      "merchant_aliases": ["Urth Caffe", "Urth Cafe", "أيرث كافيه", "ايرث كافيه"],
+      "merchant_aliases": [
+        "Urth Caffe",
+        "Urth Cafe",
+        "أيرث كافيه",
+        "ايرث كافيه"
+      ],
       "category": "cafe",
       "discount_value": 15,
       "discount_type": "percentage",
       "discount_text": "15%",
       "start_date": "2025-12-07",
       "end_date": "2026-11-20",
-      "payment_methods": ["credit_card"],
+      "payment_methods": [
+        "credit_card"
+      ],
       "terms_summary": "على الطلبات الانتقائية فقط، من الأحد إلى الخميس 7 صباحًا إلى 6 مساءً، ولا يشمل التوصيل، والفروع المشمولة الرياض وجدة والخبر.",
       "offer_url": "https://www.alinma.com/ar/Media-Campaigns/Stores/Restaurants-and-Sweets/Urth-Caffe",
       "is_active": true,
@@ -140,14 +196,21 @@
       "offer_id": "alinma-coya-001",
       "merchant_name_ar": "مطعم كويا",
       "merchant_name_en": "Coya Restaurant",
-      "merchant_aliases": ["Coya", "Coya Restaurant", "كويا", "مطعم كويا"],
+      "merchant_aliases": [
+        "Coya",
+        "Coya Restaurant",
+        "كويا",
+        "مطعم كويا"
+      ],
       "category": "restaurants",
       "discount_value": 20,
       "discount_type": "percentage",
       "discount_text": "20%",
       "start_date": "2025-12-07",
       "end_date": "2026-11-20",
-      "payment_methods": ["credit_card"],
+      "payment_methods": [
+        "credit_card"
+      ],
       "terms_summary": "على قائمة الطعام الانتقائية فقط، لا يشمل التوصيل، ويشمل فرع الرياض، ولا يجمع مع عروض أخرى.",
       "offer_url": "https://www.alinma.com/ar/Media-Campaigns/Stores/Restaurants-and-Sweets/Coya-Restaurant",
       "is_active": true,
@@ -157,14 +220,19 @@
       "offer_id": "alinma-crazy-pizza-001",
       "merchant_name_ar": "كريزي بيتزا",
       "merchant_name_en": "Crazy Pizza",
-      "merchant_aliases": ["Crazy Pizza", "كريزي بيتزا"],
+      "merchant_aliases": [
+        "Crazy Pizza",
+        "كريزي بيتزا"
+      ],
       "category": "restaurants",
       "discount_value": 20,
       "discount_type": "percentage",
       "discount_text": "20%",
       "start_date": "2025-12-07",
       "end_date": "2026-11-20",
-      "payment_methods": ["credit_card"],
+      "payment_methods": [
+        "credit_card"
+      ],
       "terms_summary": "على قائمة الطعام الانتقائية فقط، لا يشمل التوصيل، ويشمل فرع التحلية طوال الأسبوع واليوم، وفرعي عود سكوير ونورث يارد من الأحد إلى الخميس 1-6 مساءً.",
       "offer_url": "https://www.alinma.com/ar/Media-Campaigns/Stores/Restaurants-and-Sweets/Crazy-pizza",
       "is_active": true,
@@ -174,14 +242,22 @@
       "offer_id": "alinma-grintahub-001",
       "merchant_name_ar": "غرينتاهب",
       "merchant_name_en": "GrintaHub",
-      "merchant_aliases": ["GrintaHub", "غرينتاهب", "Grinta Hub"],
+      "merchant_aliases": [
+        "GrintaHub",
+        "غرينتاهب",
+        "Grinta Hub"
+      ],
       "category": "entertainment",
       "discount_value": 10,
       "discount_type": "percentage",
       "discount_text": "10%",
       "start_date": "2026-01-07",
       "end_date": "2026-12-30",
-      "payment_methods": ["credit_card", "mada", "prepaid"],
+      "payment_methods": [
+        "credit_card",
+        "mada",
+        "prepaid"
+      ],
       "terms_summary": "على جميع تذاكر المباريات باستخدام كود Alinma26، حتى 10 تذاكر للعملية الواحدة، ولا يشمل Apple Pay أو mada Pay أو المحافظ الإلكترونية.",
       "offer_url": "https://www.alinma.com/ar/Media-Campaigns/Stores/E-commerce-websites/GrintaHub",
       "is_active": true,
@@ -191,14 +267,21 @@
       "offer_id": "alinma-kayzo-001",
       "merchant_name_ar": "مطعم كايزو",
       "merchant_name_en": "Kayzo Restaurant",
-      "merchant_aliases": ["Kayzo", "Kayzo Restaurant", "كايزو", "مطعم كايزو"],
+      "merchant_aliases": [
+        "Kayzo",
+        "Kayzo Restaurant",
+        "كايزو",
+        "مطعم كايزو"
+      ],
       "category": "restaurants",
       "discount_value": 20,
       "discount_type": "percentage",
       "discount_text": "20%",
       "start_date": "2025-12-07",
       "end_date": "2026-11-20",
-      "payment_methods": ["credit_card"],
+      "payment_methods": [
+        "credit_card"
+      ],
       "terms_summary": "على قائمة الطعام الانتقائية فقط، من الأحد إلى الخميس 1-6 مساءً، لا يشمل التوصيل، ويشمل فرع الرياض.",
       "offer_url": "https://www.alinma.com/ar/Media-Campaigns/Stores/Restaurants-and-Sweets/Kayzo-Restaurant",
       "is_active": true,
@@ -208,14 +291,21 @@
       "offer_id": "alinma-robata-riyadh-001",
       "merchant_name_ar": "مطعم روباتا الرياض",
       "merchant_name_en": "Robata Riyadh Restaurant",
-      "merchant_aliases": ["Robata Riyadh", "Robata", "روباتا", "مطعم روباتا الرياض"],
+      "merchant_aliases": [
+        "Robata Riyadh",
+        "Robata",
+        "روباتا",
+        "مطعم روباتا الرياض"
+      ],
       "category": "restaurants",
       "discount_value": 20,
       "discount_type": "percentage",
       "discount_text": "20%",
       "start_date": "2025-12-07",
       "end_date": "2026-11-20",
-      "payment_methods": ["credit_card"],
+      "payment_methods": [
+        "credit_card"
+      ],
       "terms_summary": "على قائمة الطعام الانتقائية فقط، من الأحد إلى الخميس 1-6 مساءً، لا يشمل التوصيل، ويشمل فرع الرياض.",
       "offer_url": "https://www.alinma.com/ar/Media-Campaigns/Stores/Restaurants-and-Sweets/Robata-Riyadh--Restaurant",
       "is_active": true,
@@ -225,14 +315,21 @@
       "offer_id": "alinma-signor-sassi-001",
       "merchant_name_ar": "مطعم فيلا سينيور ساسي",
       "merchant_name_en": "Signor Sassi Restaurant",
-      "merchant_aliases": ["Signor Sassi", "سينيور ساسي", "فيلا سينيور ساسي", "مطعم فيلا سينيور ساسي"],
+      "merchant_aliases": [
+        "Signor Sassi",
+        "سينيور ساسي",
+        "فيلا سينيور ساسي",
+        "مطعم فيلا سينيور ساسي"
+      ],
       "category": "restaurants",
       "discount_value": 20,
       "discount_type": "percentage",
       "discount_text": "20%",
       "start_date": "2025-12-07",
       "end_date": "2026-11-20",
-      "payment_methods": ["credit_card"],
+      "payment_methods": [
+        "credit_card"
+      ],
       "terms_summary": "على قائمة الطعام الانتقائية فقط، من الأحد إلى الخميس 1-6 مساءً، لا يشمل التوصيل، ويشمل فرع الرياض فقط.",
       "offer_url": "https://www.alinma.com/ar/Media-Campaigns/Stores/Restaurants-and-Sweets/Signor-Sassi-Resturant",
       "is_active": true,
@@ -242,14 +339,22 @@
       "offer_id": "alinma-jara-001",
       "merchant_name_ar": "مكتبة جارا",
       "merchant_name_en": "Jara",
-      "merchant_aliases": ["Jara", "مكتبة جارا", "جارا"],
+      "merchant_aliases": [
+        "Jara",
+        "مكتبة جارا",
+        "جارا"
+      ],
       "category": "education",
       "discount_value": 20,
       "discount_type": "up_to_percentage",
       "discount_text": "حتى 20%",
       "start_date": "2025-07-09",
       "end_date": "2026-06-30",
-      "payment_methods": ["credit_card", "mada", "prepaid"],
+      "payment_methods": [
+        "credit_card",
+        "mada",
+        "prepaid"
+      ],
       "terms_summary": "10% على جميع المنتجات باستثناء فئات محددة، و20% على منتجات فرش لينو محددة في فرع الدمام، باستخدام كود Inma عبر المتجر الإلكتروني أو الفرع.",
       "offer_url": "https://www.alinma.com/ar/Media-Campaigns/Stores/Education-and-Training/Jara",
       "is_active": true,
@@ -259,14 +364,19 @@
       "offer_id": "alinma-ago-001",
       "merchant_name_ar": "اجو",
       "merchant_name_en": "AGO",
-      "merchant_aliases": ["AGO", "اجو"],
+      "merchant_aliases": [
+        "AGO",
+        "اجو"
+      ],
       "category": "restaurants",
       "discount_value": 20,
       "discount_type": "percentage",
       "discount_text": "20%",
       "start_date": "2025-12-07",
       "end_date": "2026-11-20",
-      "payment_methods": ["credit_card"],
+      "payment_methods": [
+        "credit_card"
+      ],
       "terms_summary": "على قائمة الطعام الانتقائية فقط، من الأحد إلى الخميس 1-6 مساءً، لا يشمل التوصيل، ويشمل فرع الرياض.",
       "offer_url": "https://www.alinma.com/ar/Media-Campaigns/Stores/Restaurants-and-Sweets/AGO",
       "is_active": true,
@@ -276,14 +386,20 @@
       "offer_id": "alinma-beefbar-001",
       "merchant_name_ar": "مطعم بيف بار",
       "merchant_name_en": "Beefbar Restaurant",
-      "merchant_aliases": ["Beefbar", "مطعم بيف بار", "بيف بار"],
+      "merchant_aliases": [
+        "Beefbar",
+        "مطعم بيف بار",
+        "بيف بار"
+      ],
       "category": "restaurants",
       "discount_value": 20,
       "discount_type": "percentage",
       "discount_text": "20%",
       "start_date": "2025-12-07",
       "end_date": "2026-11-20",
-      "payment_methods": ["credit_card"],
+      "payment_methods": [
+        "credit_card"
+      ],
       "terms_summary": "على قائمة الطعام الانتقائية فقط، لا يشمل التوصيل، ويشمل فرع الرياض، ولا يجمع مع عروض أخرى.",
       "offer_url": "https://www.alinma.com/ar/Media-Campaigns/Stores/Restaurants-and-Sweets/Beefbar-Resturant",
       "is_active": true,
@@ -293,14 +409,20 @@
       "offer_id": "alinma-bazil-001",
       "merchant_name_ar": "بازل",
       "merchant_name_en": "Bazil",
-      "merchant_aliases": ["Bazil", "بازل"],
+      "merchant_aliases": [
+        "Bazil",
+        "بازل"
+      ],
       "category": "jewelry_perfume",
       "discount_value": 10,
       "discount_type": "percentage",
       "discount_text": "10% إضافية بحد أقصى 30 ريال",
       "start_date": "2025-12-07",
       "end_date": "2026-12-31",
-      "payment_methods": ["credit_card", "prepaid"],
+      "payment_methods": [
+        "credit_card",
+        "prepaid"
+      ],
       "terms_summary": "خصم إضافي 10% بحد أقصى 30 ريال، باستخدام الكود AN10 عبر موقع أو تطبيق بازل فقط.",
       "offer_url": "https://www.alinma.com/ar/Media-Campaigns/Stores/Jewelry-and-watches-and-perfumes/Bazil",
       "is_active": true,
@@ -310,14 +432,20 @@
       "offer_id": "alinma-myazu-001",
       "merchant_name_ar": "مطعم ميازو",
       "merchant_name_en": "MYAZU Restaurant",
-      "merchant_aliases": ["MYAZU", "ميازو", "مطعم ميازو"],
+      "merchant_aliases": [
+        "MYAZU",
+        "ميازو",
+        "مطعم ميازو"
+      ],
       "category": "restaurants",
       "discount_value": 20,
       "discount_type": "percentage",
       "discount_text": "20%",
       "start_date": "2025-12-07",
       "end_date": "2026-11-20",
-      "payment_methods": ["credit_card"],
+      "payment_methods": [
+        "credit_card"
+      ],
       "terms_summary": "على قائمة الطعام الانتقائية فقط، من الأحد إلى الخميس 1-6 مساءً، لا يشمل التوصيل، ويشمل الرياض وجدة.",
       "offer_url": "https://www.alinma.com/ar/Media-Campaigns/Stores/Restaurants-and-Sweets/MYAZU-Resturant",
       "is_active": true,
@@ -327,14 +455,20 @@
       "offer_id": "alinma-michael-kors-001",
       "merchant_name_ar": "مايكل كورس",
       "merchant_name_en": "Michael Kors",
-      "merchant_aliases": ["Michael Kors", "مايكل كورس"],
+      "merchant_aliases": [
+        "Michael Kors",
+        "مايكل كورس"
+      ],
       "category": "fashion_beauty",
       "discount_value": 0,
       "discount_type": "unknown",
       "discount_text": "خصم غير مذكور بوضوح في المقتطف المتاح",
       "start_date": "2026-01-19",
       "end_date": "2026-03-19",
-      "payment_methods": ["credit_card", "prepaid"],
+      "payment_methods": [
+        "credit_card",
+        "prepaid"
+      ],
       "terms_summary": "يسري على المنتجات غير المخفضة، بحد أدنى 1500 ريال، داخل فروع المملكة فقط، ولا يجمع مع عرض آخر.",
       "offer_url": "https://www.alinma.com/ar/Media-Campaigns/Stores/Fashion-and-beauty/Michael-Kors",
       "is_active": false,
@@ -344,14 +478,20 @@
       "offer_id": "alinma-san-carlo-cicchetti-001",
       "merchant_name_ar": "مطعم سان كارلو شيكيتي",
       "merchant_name_en": "San Carlo Cicchetti Restaurant",
-      "merchant_aliases": ["San Carlo Cicchetti", "سان كارلو شيكيتي", "مطعم سان كارلو شيكيتي"],
+      "merchant_aliases": [
+        "San Carlo Cicchetti",
+        "سان كارلو شيكيتي",
+        "مطعم سان كارلو شيكيتي"
+      ],
       "category": "restaurants",
       "discount_value": 20,
       "discount_type": "percentage",
       "discount_text": "20%",
       "start_date": "2025-12-07",
       "end_date": "2026-11-20",
-      "payment_methods": ["credit_card"],
+      "payment_methods": [
+        "credit_card"
+      ],
       "terms_summary": "على قائمة الطعام الانتقائية فقط، من الأحد إلى الخميس 1-6 مساءً، لا يشمل التوصيل، ويشمل الرياض وجدة والخبر.",
       "offer_url": "https://www.alinma.com/ar/Media-Campaigns/Stores/Restaurants-and-Sweets/San-Carlo-Cicchetti-Restaurant",
       "is_active": true,
@@ -361,14 +501,20 @@
       "offer_id": "alinma-clarks-shoes-001",
       "merchant_name_ar": "كلاركس",
       "merchant_name_en": "Clarks Shoes",
-      "merchant_aliases": ["Clarks Shoes", "Clarks", "كلاركس"],
+      "merchant_aliases": [
+        "Clarks Shoes",
+        "Clarks",
+        "كلاركس"
+      ],
       "category": "international_offers",
       "discount_value": 20,
       "discount_type": "percentage",
       "discount_text": "20%",
       "start_date": "2026-02-10",
       "end_date": "2026-03-10",
-      "payment_methods": ["credit_card"],
+      "payment_methods": [
+        "credit_card"
+      ],
       "terms_summary": "باستخدام الرمز ALINMA عبر موقع كلاركس، حد أدنى 150 ريال، ومرة واحدة لكل بطاقة، ولا يشمل Apple Pay أو Mada Pay أو تمارا أو تابي أو الدفع عند الاستلام.",
       "offer_url": "https://www.alinma.com/ar/Media-Campaigns/Stores/International-Offers/Clarks-Shoes",
       "is_active": false,
@@ -378,14 +524,18 @@
       "offer_id": "alinma-6th-street-001",
       "merchant_name_ar": "6th Street",
       "merchant_name_en": "6th Street",
-      "merchant_aliases": ["6th Street"],
+      "merchant_aliases": [
+        "6th Street"
+      ],
       "category": "international_offers",
       "discount_value": 30,
       "discount_type": "percentage",
       "discount_text": "30% إضافية بحد أقصى 100 ريال",
       "start_date": "2026-02-10",
       "end_date": "2026-03-31",
-      "payment_methods": ["credit_card"],
+      "payment_methods": [
+        "credit_card"
+      ],
       "terms_summary": "عبر الموقع والتطبيق، بحد أدنى 200 ريال وبحد أقصى خصم 100 ريال، ومرة واحدة لكل عميل.",
       "offer_url": "https://www.alinma.com/ar/Media-Campaigns/Stores/International-Offers/6th-Street",
       "is_active": false,
@@ -395,14 +545,19 @@
       "offer_id": "alinma-beverly-hills-polo-club-001",
       "merchant_name_ar": "Beverly Hills Polo Club",
       "merchant_name_en": "Beverly Hills Polo Club",
-      "merchant_aliases": ["Beverly Hills Polo Club", "BHPC"],
+      "merchant_aliases": [
+        "Beverly Hills Polo Club",
+        "BHPC"
+      ],
       "category": "international_offers",
       "discount_value": 20,
       "discount_type": "percentage",
       "discount_text": "20%",
       "start_date": "2026-02-10",
       "end_date": "2026-03-10",
-      "payment_methods": ["credit_card"],
+      "payment_methods": [
+        "credit_card"
+      ],
       "terms_summary": "باستخدام الرمز ALINMA عبر الموقع، حد أدنى 199 ريال، ومرة واحدة لكل بطاقة.",
       "offer_url": "https://www.alinma.com/ar/Media-Campaigns/Stores/International-Offers/Beverly-Hills-Polo-Club",
       "is_active": false,
@@ -412,14 +567,21 @@
       "offer_id": "alinma-voco-001",
       "merchant_name_ar": "فوكو",
       "merchant_name_en": "Voco",
-      "merchant_aliases": ["Voco", "فوكو"],
+      "merchant_aliases": [
+        "Voco",
+        "فوكو"
+      ],
       "category": "hotel",
       "discount_value": 10,
       "discount_type": "percentage",
       "discount_text": "10%",
       "start_date": "2026-03-03",
       "end_date": "2026-03-16",
-      "payment_methods": ["credit_card", "prepaid", "mada"],
+      "payment_methods": [
+        "credit_card",
+        "prepaid",
+        "mada"
+      ],
       "terms_summary": "10% على خيمة الحارة الرمضانية بالكود alinma10، و10% على مطعم هورايزن وسول سبا بالكود alinma20 عبر تطبيق ذا شفز أو وي بوك.",
       "offer_url": "https://www.alinma.com/ar/Media-Campaigns/Stores/Restaurants-and-Sweets/Voco",
       "is_active": false,
@@ -429,14 +591,20 @@
       "offer_id": "alinma-stily-001",
       "merchant_name_ar": "ستايلي",
       "merchant_name_en": "Stily",
-      "merchant_aliases": ["Stily", "ستايلي"],
+      "merchant_aliases": [
+        "Stily",
+        "ستايلي"
+      ],
       "category": "automotive",
       "discount_value": 30,
       "discount_type": "percentage",
       "discount_text": "30%",
       "start_date": "2026-02-16",
       "end_date": "2026-12-30",
-      "payment_methods": ["credit_card", "prepaid"],
+      "payment_methods": [
+        "credit_card",
+        "prepaid"
+      ],
       "terms_summary": "على خدمات العناية بالسيارات، بلا حد أعلى، قابل للتكرار، داخل السعودية فقط، ويتطلب إبلاغ الكاشير قبل الدفع.",
       "offer_url": "https://www.alinma.com/ar/Media-Campaigns/Stores/Cars-Accessories-and-Services/Stily",
       "is_active": true,
@@ -446,7 +614,10 @@
       "offer_id": "alinma-toyota-001",
       "merchant_name_ar": "TOYOTA",
       "merchant_name_en": "TOYOTA",
-      "merchant_aliases": ["TOYOTA", "تويوتا"],
+      "merchant_aliases": [
+        "TOYOTA",
+        "تويوتا"
+      ],
       "category": "automotive_finance",
       "discount_value": 0.58,
       "discount_type": "apr_from",
@@ -463,7 +634,10 @@
       "offer_id": "alinma-lexus-001",
       "merchant_name_ar": "LEXUS",
       "merchant_name_en": "LEXUS",
-      "merchant_aliases": ["LEXUS", "لكزس"],
+      "merchant_aliases": [
+        "LEXUS",
+        "لكزس"
+      ],
       "category": "automotive_finance",
       "discount_value": 0.58,
       "discount_type": "apr_from",

@@ -12,14 +12,19 @@
       "offer_id": "riyad-dettaglioauto-001",
       "merchant_name_ar": "ديتاليّو أوتو",
       "merchant_name_en": "dettaglioauto",
-      "merchant_aliases": ["dettaglioauto", "ديتاليّو أوتو"],
+      "merchant_aliases": [
+        "dettaglioauto",
+        "ديتاليّو أوتو"
+      ],
       "category": "automotive",
       "discount_value": 40,
       "discount_type": "up_to_percentage",
       "discount_text": "حتى 40%",
       "start_date": "2026-02-26",
       "end_date": "2026-03-30",
-      "payment_methods": ["credit_card"],
+      "payment_methods": [
+        "credit_card"
+      ],
       "terms_summary": "خاص بعملاء التأجير التمويلي للسيارات من بنك الرياض، عبر كود خصم يُرسل برسالة نصية، ويشمل التظليل والنانو سيراميك وPPF.",
       "offer_url": "https://www.riyadbank.com/dettaglioauto1",
       "is_active": true,
@@ -29,14 +34,21 @@
       "offer_id": "riyad-lasuran-beauty-spa-001",
       "merchant_name_ar": "لاسوران بيوتي سبا",
       "merchant_name_en": "Lasuran Beauty Spa",
-      "merchant_aliases": ["Lasuran Beauty Spa", "لاسوران بيوتي سبا"],
+      "merchant_aliases": [
+        "Lasuran Beauty Spa",
+        "لاسوران بيوتي سبا"
+      ],
       "category": "health_beauty",
       "discount_value": 10,
       "discount_type": "percentage",
       "discount_text": "10%",
       "start_date": null,
       "end_date": "2026-12-31",
-      "payment_methods": ["credit_card", "mada", "prepaid"],
+      "payment_methods": [
+        "credit_card",
+        "mada",
+        "prepaid"
+      ],
       "terms_summary": "يتم استخدام كود RB10 عبر الموقع أو التطبيق، والخدمات للنساء والرجال.",
       "offer_url": "https://www.riyadbank.com/lasuran-beauty-spa",
       "is_active": true,
@@ -46,14 +58,22 @@
       "offer_id": "riyad-elyzee-medical-001",
       "merchant_name_ar": "اليزيه الطبي",
       "merchant_name_en": "Elyzee Medical",
-      "merchant_aliases": ["Elyzee Medical", "اليزيه الطبي", "Elyzee"],
+      "merchant_aliases": [
+        "Elyzee Medical",
+        "اليزيه الطبي",
+        "Elyzee"
+      ],
       "category": "health_beauty",
       "discount_value": 30,
       "discount_type": "up_to_percentage",
       "discount_text": "حتى 30%",
       "start_date": "2026-02-25",
       "end_date": "2026-12-01",
-      "payment_methods": ["credit_card", "mada", "prepaid"],
+      "payment_methods": [
+        "credit_card",
+        "mada",
+        "prepaid"
+      ],
       "terms_summary": "حتى 30% على خدمات محددة، والعرض صالح بجميع الفروع، ولا يُجمع مع العروض الأخرى إلا إذا ذُكر خلاف ذلك.",
       "offer_url": "https://www.riyadbank.com/elyzee-medical",
       "is_active": true,
@@ -63,14 +83,21 @@
       "offer_id": "riyad-key-cafe-001",
       "merchant_name_ar": "كي كافيه",
       "merchant_name_en": "Key Cafe",
-      "merchant_aliases": ["Key Cafe", "Key Café", "كي كافيه", "كي كافي"],
+      "merchant_aliases": [
+        "Key Cafe",
+        "Key Café",
+        "كي كافيه",
+        "كي كافي"
+      ],
       "category": "cafe",
       "discount_value": 15,
       "discount_type": "percentage",
       "discount_text": "15%",
       "start_date": "2025-06-26",
       "end_date": "2026-04-30",
-      "payment_methods": ["credit_card"],
+      "payment_methods": [
+        "credit_card"
+      ],
       "terms_summary": "العرض في جميع الفروع، ولا يُجمع مع عروض أو خصومات أو قسائم أخرى.",
       "offer_url": "https://www.riyadbank.com/key-cafe1",
       "is_active": true,
@@ -80,14 +107,22 @@
       "offer_id": "riyad-sica-cafe-roastery-001",
       "merchant_name_ar": "محمصة سيكا",
       "merchant_name_en": "Sica Cafe & Roastery",
-      "merchant_aliases": ["Sica Cafe", "Sica Café", "Sica Cafe & Roastery", "محمصة سيكا"],
+      "merchant_aliases": [
+        "Sica Cafe",
+        "Sica Café",
+        "Sica Cafe & Roastery",
+        "محمصة سيكا"
+      ],
       "category": "cafe",
       "discount_value": 15,
       "discount_type": "percentage",
       "discount_text": "15%",
       "start_date": null,
       "end_date": "2026-09-01",
-      "payment_methods": ["credit_card", "mada"],
+      "payment_methods": [
+        "credit_card",
+        "mada"
+      ],
       "terms_summary": "العرض على المشروبات وحبوب القهوة فقط، ولا يُجمع مع عروض أخرى.",
       "offer_url": "https://www.riyadbank.com/sica-caf%C3%A9-roastery",
       "is_active": true,
@@ -97,14 +132,22 @@
       "offer_id": "riyad-soil-001",
       "merchant_name_ar": "سويل",
       "merchant_name_en": "Soil",
-      "merchant_aliases": ["Soil", "سويل", "Soil Roasters"],
+      "merchant_aliases": [
+        "Soil",
+        "سويل",
+        "Soil Roasters"
+      ],
       "category": "cafe",
       "discount_value": 17,
       "discount_type": "percentage",
       "discount_text": "17%",
       "start_date": null,
       "end_date": "2026-10-07",
-      "payment_methods": ["credit_card", "mada", "prepaid"],
+      "payment_methods": [
+        "credit_card",
+        "mada",
+        "prepaid"
+      ],
       "terms_summary": "باستخدام بطاقات بنك الرياض مع كود Soil4RB.",
       "offer_url": "https://www.riyadbank.com/soil-roasters",
       "is_active": true,
@@ -114,14 +157,19 @@
       "offer_id": "riyad-flyin-001",
       "merchant_name_ar": "فلاي إن",
       "merchant_name_en": "Flyin",
-      "merchant_aliases": ["Flyin", "فلاي إن"],
+      "merchant_aliases": [
+        "Flyin",
+        "فلاي إن"
+      ],
       "category": "travel",
       "discount_value": 12,
       "discount_type": "up_to_percentage",
       "discount_text": "حتى 12%",
       "start_date": "2026-02-16",
       "end_date": "2026-03-01",
-      "payment_methods": ["hassad"],
+      "payment_methods": [
+        "hassad"
+      ],
       "terms_summary": "8% على الرحلات بحد 100 ريال و12% على الفنادق بحد 200 ريال، للحجوزات بتاريخ سفر حتى 2026-03-31.",
       "offer_url": "https://www.riyadbank.com/flyin-hassad",
       "is_active": false,
@@ -131,14 +179,20 @@
       "offer_id": "riyad-9round-001",
       "merchant_name_ar": "9Round",
       "merchant_name_en": "9Round",
-      "merchant_aliases": ["9Round"],
+      "merchant_aliases": [
+        "9Round"
+      ],
       "category": "fitness",
       "discount_value": 390,
       "discount_type": "fixed_price",
       "discount_text": "شهر واحد بسعر 390 ريال",
       "start_date": null,
       "end_date": "2026-03-18",
-      "payment_methods": ["credit_card", "mada", "prepaid"],
+      "payment_methods": [
+        "credit_card",
+        "mada",
+        "prepaid"
+      ],
       "terms_summary": "باقة شهر واحد حصرية لعملاء بنك الرياض.",
       "offer_url": "https://www.riyadbank.com/9round2",
       "is_active": true,
@@ -148,14 +202,19 @@
       "offer_id": "riyad-aura-001",
       "merchant_name_ar": "أورا",
       "merchant_name_en": "Aura",
-      "merchant_aliases": ["Aura", "أورا"],
+      "merchant_aliases": [
+        "Aura",
+        "أورا"
+      ],
       "category": "lifestyle",
       "discount_value": 15,
       "discount_type": "percentage",
       "discount_text": "15%",
       "start_date": "2025-11-20",
       "end_date": "2026-11-20",
-      "payment_methods": ["credit_card"],
+      "payment_methods": [
+        "credit_card"
+      ],
       "terms_summary": "خصم باستخدام بطاقات بنك الرياض الائتمانية.",
       "offer_url": "https://www.riyadbank.com/aura1",
       "is_active": true,
@@ -165,14 +224,21 @@
       "offer_id": "riyad-kids-gardens-preschool-001",
       "merchant_name_ar": "حضانة حدائق الأطفال",
       "merchant_name_en": "Kids Gardens Preschool",
-      "merchant_aliases": ["Kids Gardens Preschool", "حضانة حدائق الأطفال"],
+      "merchant_aliases": [
+        "Kids Gardens Preschool",
+        "حضانة حدائق الأطفال"
+      ],
       "category": "lifestyle",
       "discount_value": 10,
       "discount_type": "percentage",
       "discount_text": "10%",
       "start_date": "2025-11-20",
       "end_date": "2026-11-20",
-      "payment_methods": ["credit_card", "mada", "prepaid"],
+      "payment_methods": [
+        "credit_card",
+        "mada",
+        "prepaid"
+      ],
       "terms_summary": "خصم على خدمات الحضانة باستخدام بطاقات بنك الرياض.",
       "offer_url": "https://www.riyadbank.com/kids-gardens-preschool",
       "is_active": true,
@@ -182,14 +248,22 @@
       "offer_id": "riyad-il-baretto-001",
       "merchant_name_ar": "إل باريتو",
       "merchant_name_en": "IL Baretto",
-      "merchant_aliases": ["IL Baretto", "إل باريتو", "الباريتو"],
+      "merchant_aliases": [
+        "IL Baretto",
+        "إل باريتو",
+        "الباريتو"
+      ],
       "category": "restaurants",
       "discount_value": 20,
       "discount_type": "percentage",
       "discount_text": "20%",
       "start_date": "2025-10-20",
       "end_date": "2026-07-03",
-      "payment_methods": ["credit_card", "mada", "prepaid"],
+      "payment_methods": [
+        "credit_card",
+        "mada",
+        "prepaid"
+      ],
       "terms_summary": "خصم باستخدام بطاقات بنك الرياض.",
       "offer_url": "https://www.riyadbank.com/il-baretto",
       "is_active": true,
@@ -199,14 +273,21 @@
       "offer_id": "riyad-crust-house-001",
       "merchant_name_ar": "كراست هاوس",
       "merchant_name_en": "Crust House",
-      "merchant_aliases": ["Crust House", "كراست هاوس"],
+      "merchant_aliases": [
+        "Crust House",
+        "كراست هاوس"
+      ],
       "category": "restaurants",
       "discount_value": 20,
       "discount_type": "up_to_percentage",
       "discount_text": "حتى 20%",
       "start_date": null,
       "end_date": "2026-07-31",
-      "payment_methods": ["credit_card", "mada", "prepaid"],
+      "payment_methods": [
+        "credit_card",
+        "mada",
+        "prepaid"
+      ],
       "terms_summary": "يجب إبراز البطاقة للموظف، ولا يُجمع مع عروض أخرى.",
       "offer_url": "https://www.riyadbank.com/crust-house",
       "is_active": true,
@@ -216,14 +297,21 @@
       "offer_id": "riyad-assam-ara-001",
       "merchant_name_ar": "آسام آرا",
       "merchant_name_en": "Assam Ara",
-      "merchant_aliases": ["Assam Ara", "آسام آرا"],
+      "merchant_aliases": [
+        "Assam Ara",
+        "آسام آرا"
+      ],
       "category": "restaurants",
       "discount_value": 15,
       "discount_type": "percentage",
       "discount_text": "15%",
       "start_date": null,
       "end_date": "2026-07-31",
-      "payment_methods": ["credit_card", "mada", "prepaid"],
+      "payment_methods": [
+        "credit_card",
+        "mada",
+        "prepaid"
+      ],
       "terms_summary": "خصم باستخدام بطاقات بنك الرياض.",
       "offer_url": "https://www.riyadbank.com/assam-ara",
       "is_active": true,
@@ -233,14 +321,21 @@
       "offer_id": "riyad-life-ways-clinic-001",
       "merchant_name_ar": "عيادات لايف ويز",
       "merchant_name_en": "Life Way's Clinic",
-      "merchant_aliases": ["Life Way's Clinic", "عيادات لايف ويز"],
+      "merchant_aliases": [
+        "Life Way's Clinic",
+        "عيادات لايف ويز"
+      ],
       "category": "health_beauty",
       "discount_value": 30,
       "discount_type": "up_to_percentage",
       "discount_text": "حتى 30%",
       "start_date": null,
       "end_date": "2026-12-31",
-      "payment_methods": ["credit_card", "mada", "prepaid"],
+      "payment_methods": [
+        "credit_card",
+        "mada",
+        "prepaid"
+      ],
       "terms_summary": "خصم حتى 30% باستخدام بطاقات بنك الرياض.",
       "offer_url": "https://www.riyadbank.com/life-way-s-clinic",
       "is_active": true,
@@ -250,14 +345,21 @@
       "offer_id": "riyad-up-core-pilates-001",
       "merchant_name_ar": "آب كور بيلاتس",
       "merchant_name_en": "UP Core Pilates",
-      "merchant_aliases": ["UP Core Pilates", "آب كور بيلاتس"],
+      "merchant_aliases": [
+        "UP Core Pilates",
+        "آب كور بيلاتس"
+      ],
       "category": "fitness",
       "discount_value": 17,
       "discount_type": "percentage",
       "discount_text": "17%",
       "start_date": null,
       "end_date": "2026-08-02",
-      "payment_methods": ["credit_card", "mada", "prepaid"],
+      "payment_methods": [
+        "credit_card",
+        "mada",
+        "prepaid"
+      ],
       "terms_summary": "خصم على الباقات باستخدام بطاقات بنك الرياض.",
       "offer_url": "https://www.riyadbank.com/UP-Core-Pilates",
       "is_active": true,
@@ -267,14 +369,21 @@
       "offer_id": "riyad-muhammad-al-dosari-hospital-001",
       "merchant_name_ar": "مستشفى محمد الدوسري",
       "merchant_name_en": "Muhammad Al-Dosari Hospital",
-      "merchant_aliases": ["Muhammad Al-Dosari Hospital", "مستشفى محمد الدوسري"],
+      "merchant_aliases": [
+        "Muhammad Al-Dosari Hospital",
+        "مستشفى محمد الدوسري"
+      ],
       "category": "health_beauty",
       "discount_value": 20,
       "discount_type": "up_to_percentage",
       "discount_text": "حتى 20%",
       "start_date": null,
       "end_date": "2026-10-01",
-      "payment_methods": ["credit_card", "mada", "prepaid"],
+      "payment_methods": [
+        "credit_card",
+        "mada",
+        "prepaid"
+      ],
       "terms_summary": "حتى 20% على العيادات الخارجية والعمليات.",
       "offer_url": "https://www.riyadbank.com/muhammad-al-dosari-hospital",
       "is_active": true,
@@ -284,14 +393,21 @@
       "offer_id": "riyad-raffles-al-areen-palace-bahrain-001",
       "merchant_name_ar": "رافلز العرين بالاس البحرين",
       "merchant_name_en": "Raffles Al Areen Palace Bahrain",
-      "merchant_aliases": ["Raffles Al Areen Palace Bahrain", "رافلز العرين بالاس البحرين"],
+      "merchant_aliases": [
+        "Raffles Al Areen Palace Bahrain",
+        "رافلز العرين بالاس البحرين"
+      ],
       "category": "hotel",
       "discount_value": 10,
       "discount_type": "percentage",
       "discount_text": "10%",
       "start_date": null,
       "end_date": null,
-      "payment_methods": ["credit_card", "mada", "prepaid"],
+      "payment_methods": [
+        "credit_card",
+        "mada",
+        "prepaid"
+      ],
       "terms_summary": "خصم 10%، لكن يوجد تعارض في تاريخ الانتهاء بين صفحة القائمة وصفحة التفاصيل.",
       "offer_url": "https://www.riyadbank.com/ar/personal-banking/credit-cards/offers",
       "is_active": true,
@@ -301,14 +417,21 @@
       "offer_id": "riyad-fraser-suites-hotel-riyadh-001",
       "merchant_name_ar": "فريزر سويتس الرياض",
       "merchant_name_en": "Fraser Suites Hotel Riyadh",
-      "merchant_aliases": ["Fraser Suites Hotel Riyadh", "فريزر سويتس الرياض"],
+      "merchant_aliases": [
+        "Fraser Suites Hotel Riyadh",
+        "فريزر سويتس الرياض"
+      ],
       "category": "hotel",
       "discount_value": 20,
       "discount_type": "up_to_percentage",
       "discount_text": "حتى 20%",
       "start_date": null,
       "end_date": "2026-08-31",
-      "payment_methods": ["credit_card", "mada", "prepaid"],
+      "payment_methods": [
+        "credit_card",
+        "mada",
+        "prepaid"
+      ],
       "terms_summary": "خصم حتى 20% باستخدام بطاقات بنك الرياض.",
       "offer_url": "https://www.riyadbank.com/fraser-suites-hotel-riyadh",
       "is_active": true,
@@ -318,14 +441,21 @@
       "offer_id": "riyad-abwaab-001",
       "merchant_name_ar": "أبواب",
       "merchant_name_en": "Abwaab",
-      "merchant_aliases": ["Abwaab", "أبواب"],
+      "merchant_aliases": [
+        "Abwaab",
+        "أبواب"
+      ],
       "category": "lifestyle",
       "discount_value": 25,
       "discount_type": "up_to_percentage",
       "discount_text": "حتى 25%",
       "start_date": null,
       "end_date": "2026-07-14",
-      "payment_methods": ["credit_card", "mada", "prepaid"],
+      "payment_methods": [
+        "credit_card",
+        "mada",
+        "prepaid"
+      ],
       "terms_summary": "خصم حتى 25% باستخدام بطاقات بنك الرياض.",
       "offer_url": "https://www.riyadbank.com/abwaab",
       "is_active": true,
