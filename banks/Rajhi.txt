@@ -4,7 +4,7 @@
   "source": "https://www.alrajhibank.com.sa/en/Personal/Discounts",
   "lastChecked": "2026-03-13",
   "fetchedCount": 4,
-  "previousCount": 29,
+  "previousCount": 4,
   "offers": [
     {
       "id": "alrajhi-عبداللطيف-جميل",
