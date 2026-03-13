@@ -598,7 +598,8 @@
 function hasActiveFilters() {
   const query = els.searchInput.value.trim();
   const bank = els.bankFilter.value;
-  return Boolean(query || bank);
+  const hideExpiredChanged = els.hideExpired.checked === false;
+  return Boolean(query || bank || hideExpiredChanged);
 }
 
     function filterOffers() {
