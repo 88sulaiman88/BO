@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-13T20:28:42.453Z",
-  "totalOffers": 177,
+  "lastUpdated": "2026-03-13T21:11:06.365Z",
+  "totalOffers": 181,
   "offers": [
     {
       "id": "bsf-pilates-room",
@@ -16,10 +16,14 @@
       "endDate": "2026-03-20",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "credit",
+        "prepaid",
+        "mada"
+      ],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-03-13T20:28:42.433Z"
+      "updatedAt": "2026-03-13T21:11:06.340Z"
     },
     {
       "id": "bsf-trip-com",
@@ -35,10 +39,12 @@
       "endDate": "2026-03-31",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "mastercard"
+      ],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-03-13T20:28:42.433Z"
+      "updatedAt": "2026-03-13T21:11:06.340Z"
     },
     {
       "id": "alrajhi-عبداللطيف-جميل",
@@ -49,7 +55,7 @@
       "category": "",
       "discountText": "* 2.46% هامش ربح لعملاء محولين الراتب على مصرف الراجحي* 3.28% هامش ربح لعملاء غير محولين الراتب على مصرف الراجحييسري من 18 فبراير حتى تاريخ 31 مارس 2026يشترط ألا يقل راتب المستفيد عن 2,500 ريال.",
       "details": "أفضل عروض رمضان على سيارات (لكزس) 2025-2026 تأجير السيارات بتحويل الراتب -دفعة أولى 0% -رسوم إدارية 0.50% -الدفعة الأخيرة 50% - المدة 60شهر - معدل النسبة السنوي شاملة التأمين يبدأ من 6.46% تأجير السيارات بدون تحويل الراتب -دفعة أولى 0% -رسوم إدارية 0.50% -الدفعة الأخيرة 40% -المدة 60 شهر -معدل النسبة السنوي شاملة التأمين يبدأ من 8.07% كيفية التقديم -تفضل بزيارة أقرب فرع إليك من فروع مصرف الراجحي او زيارة احدى المعارض المعتمدة لدى المصرف او الاتصال على الرقم 8001241222 -التقديم من خلال الموقع الإلكتروني. -التقديم من خلال التطبيق الــ alrajhi bank Applications (IOS - Android) يسري من 18 فبراير حتى تاريخ 31 مارس 2026",
-      "terms": "* 2.46% هامش ربح لعملاء محولين الراتب على مصرف الراجحي,* 3.28% هامش ربح لعملاء غير محولين الراتب على مصرف الراجحي,يسري من 18 فبراير حتى تاريخ 31 مارس 2026,يشترط ألا يقل راتب المستفيد عن 2,500 ريال.,الشروط والأحكام",
+      "terms": "* 2.46% هامش ربح لعملاء محولين الراتب على مصرف الراجحي\n* 3.28% هامش ربح لعملاء غير محولين الراتب على مصرف الراجحي\nيسري من 18 فبراير حتى تاريخ 31 مارس 2026\nيشترط ألا يقل راتب المستفيد عن 2,500 ريال.\nالشروط والأحكام",
       "startDate": "",
       "endDate": "2026-03-31",
       "offerUrl": "https://www.alrajhibank.com.sa/Personal/Offers/CardsOffers/Finance-offers/Abdulatif-jamel-Lexus",
@@ -57,7 +63,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-03-13T20:28:42.435Z"
+      "updatedAt": "2026-03-13T21:11:06.344Z"
     },
     {
       "id": "bsf-park-inn-dubai-motor-city",
@@ -73,10 +79,13 @@
       "endDate": "2026-05-11",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "mada",
+        "credit"
+      ],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-03-13T20:28:42.433Z"
+      "updatedAt": "2026-03-13T21:11:06.341Z"
     },
     {
       "id": "bsf-chotto-matte",
@@ -95,7 +104,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-03-13T20:28:42.433Z"
+      "updatedAt": "2026-03-13T21:11:06.341Z"
     },
     {
       "id": "bsf-symphony-clinic",
@@ -111,10 +120,14 @@
       "endDate": "2026-12-01",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "credit",
+        "prepaid",
+        "mada"
+      ],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-03-13T20:28:42.433Z"
+      "updatedAt": "2026-03-13T21:11:06.341Z"
     },
     {
       "id": "alrajhi-صن-رول",
@@ -125,7 +138,7 @@
       "category": "",
       "discountText": "صن رولاستمتع بخصم 20% لدى صن رولصالح حتى: ٢٤ ديسمبر ٢٠٢٦لزيارة المتجر الإلكتروني",
       "details": "استمتع بخصم 20% لدى صن رول مع بطاقات مصرف الراجحي. يسري العرض من 01 يناير حتى 24 ديسمبر 2026",
-      "terms": "يطبق العرض على جميع بطاقات مصرف الراجحي,احصل على خصم 20% عبر التطبيق والموقع الإلكتروني وفروع صن رول,لا يمكن دمج الخصم مع قسائم الهدايا أو أي عرض ترويجي آخر.,يحق للعميل الاستفادة من العرض أكثر من مرة.,للاستفادة من العرض الرجاء استخدام الرمز الترويجي ARB,للاستفادة من العرض الرجاء إبراز بطاقة مصرف الراجحي,تطبق شروط وأحكام مصرف الراجحي وصن رول,لزيارة المتجر الإلكتروني",
+      "terms": "يطبق العرض على جميع بطاقات مصرف الراجحي\nاحصل على خصم 20% عبر التطبيق والموقع الإلكتروني وفروع صن رول\nلا يمكن دمج الخصم مع قسائم الهدايا أو أي عرض ترويجي آخر.\nيحق للعميل الاستفادة من العرض أكثر من مرة.\nللاستفادة من العرض الرجاء استخدام الرمز الترويجي ARB\nللاستفادة من العرض الرجاء إبراز بطاقة مصرف الراجحي\nتطبق شروط وأحكام مصرف الراجحي وصن رول\nلزيارة المتجر الإلكتروني",
       "startDate": "",
       "endDate": "2026-12-24",
       "offerUrl": "https://www.alrajhibank.com.sa/Personal/Offers/CardsOffers/Furniture-and-Home-Appliances/Sun-Roll",
@@ -133,7 +146,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-03-13T20:28:42.436Z"
+      "updatedAt": "2026-03-13T21:11:06.344Z"
     },
     {
       "id": "bsf-indigo-home",
@@ -149,10 +162,14 @@
       "endDate": "2026-12-31",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "credit",
+        "prepaid",
+        "mada"
+      ],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-03-13T20:28:42.433Z"
+      "updatedAt": "2026-03-13T21:11:06.340Z"
     },
     {
       "id": "bsf-lifeways",
@@ -168,29 +185,14 @@
       "endDate": "2026-12-31",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "credit",
+        "prepaid",
+        "mada"
+      ],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-03-13T20:28:42.433Z"
-    },
-    {
-      "id": "alrajhi-زيوكس",
-      "bank": "مصرف الراجحي",
-      "bankCode": "alrajhi",
-      "title": "زيوكس",
-      "merchant": "زيوكس",
-      "category": "",
-      "discountText": "زيوكساستمتع بخصم 40% لدى زيوكسصالح حتى: ٣١ ديسمبر ٢٠٢٦للمزيد من المعلومات",
-      "details": "استمتع بخصم 40% لدى زيوكس مع بطاقات مصرف الراجحي. يسري العرض من 01 يناير حتى 31 ديسمبر 2026",
-      "terms": "يطبق العرض على جميع بطاقات مصرف الراجحي,احصل على خصم 40% عبر الفروع لدى زيوكس,خصم %40 على الخدمات المختارة من براند زيوكس و روكسن وأرفس، العازل الحراري، أفالم حماية الطالء، النانوسيراميك,لا يمكن دمج الخصم مع قسائم الهدايا أو أي عرض ترويجي آخر.,يحق للعميل الاستفادة من العرض أكثر من مرة.,للاستفادة من العرض الرجاء إبراز بطاقة مصرف الراجحي,تطبق شروط وأحكام مصرف الراجحي وزيوكس,للمزيد من المعلومات",
-      "startDate": "",
-      "endDate": "2026-12-31",
-      "offerUrl": "https://www.alrajhibank.com.sa/Personal/Offers/CardsOffers/Car-Services/Xeoex",
-      "imageUrl": "https://www.alrajhibank.com.sa/default-og-image.jpg",
-      "tags": [],
-      "isExpired": false,
-      "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-03-13T20:28:42.436Z"
+      "updatedAt": "2026-03-13T21:11:06.341Z"
     },
     {
       "id": "alinma",
@@ -209,7 +211,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T20:28:42.434Z"
+      "updatedAt": "2026-03-13T21:11:06.342Z"
     },
     {
       "id": "alinma",
@@ -228,7 +230,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T20:28:42.434Z"
+      "updatedAt": "2026-03-13T21:11:06.342Z"
     },
     {
       "id": "alinma",
@@ -247,7 +249,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T20:28:42.434Z"
+      "updatedAt": "2026-03-13T21:11:06.342Z"
     },
     {
       "id": "alinma",
@@ -266,7 +268,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T20:28:42.434Z"
+      "updatedAt": "2026-03-13T21:11:06.342Z"
     },
     {
       "id": "alinma",
@@ -285,7 +287,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T20:28:42.434Z"
+      "updatedAt": "2026-03-13T21:11:06.342Z"
     },
     {
       "id": "alinma",
@@ -304,7 +306,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T20:28:42.434Z"
+      "updatedAt": "2026-03-13T21:11:06.342Z"
     },
     {
       "id": "alinma",
@@ -323,7 +325,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T20:28:42.434Z"
+      "updatedAt": "2026-03-13T21:11:06.342Z"
     },
     {
       "id": "alinma",
@@ -342,7 +344,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T20:28:42.434Z"
+      "updatedAt": "2026-03-13T21:11:06.342Z"
     },
     {
       "id": "alinma",
@@ -361,7 +363,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T20:28:42.434Z"
+      "updatedAt": "2026-03-13T21:11:06.342Z"
     },
     {
       "id": "alinma",
@@ -380,7 +382,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T20:28:42.434Z"
+      "updatedAt": "2026-03-13T21:11:06.342Z"
     },
     {
       "id": "alinma",
@@ -399,7 +401,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T20:28:42.434Z"
+      "updatedAt": "2026-03-13T21:11:06.342Z"
     },
     {
       "id": "alinma",
@@ -418,7 +420,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T20:28:42.435Z"
+      "updatedAt": "2026-03-13T21:11:06.342Z"
     },
     {
       "id": "alinma",
@@ -437,7 +439,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T20:28:42.435Z"
+      "updatedAt": "2026-03-13T21:11:06.342Z"
     },
     {
       "id": "alinma",
@@ -456,7 +458,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T20:28:42.435Z"
+      "updatedAt": "2026-03-13T21:11:06.342Z"
     },
     {
       "id": "alinma",
@@ -475,7 +477,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T20:28:42.435Z"
+      "updatedAt": "2026-03-13T21:11:06.342Z"
     },
     {
       "id": "alinma",
@@ -494,7 +496,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T20:28:42.435Z"
+      "updatedAt": "2026-03-13T21:11:06.342Z"
     },
     {
       "id": "alinma",
@@ -513,7 +515,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T20:28:42.435Z"
+      "updatedAt": "2026-03-13T21:11:06.343Z"
     },
     {
       "id": "alinma",
@@ -532,7 +534,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T20:28:42.435Z"
+      "updatedAt": "2026-03-13T21:11:06.343Z"
     },
     {
       "id": "alinma",
@@ -551,7 +553,102 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T20:28:42.435Z"
+      "updatedAt": "2026-03-13T21:11:06.343Z"
+    },
+    {
+      "id": "alrajhi-xeoex",
+      "bank": "مصرف الراجحي",
+      "bankCode": "alrajhi",
+      "title": "xeoex",
+      "merchant": "xeoex",
+      "category": "",
+      "discountText": "xeoexGet 40% OFF at xeoexValid to: December 31, 2026For more information",
+      "details": "Get 40% OFF at xeoex with alrajhi bank cards! Valid from 01.Jan till 31.Dec.2026",
+      "terms": "Offer valid on all alrajhi bank cards.\nGet 40% off on store\nGet 40% off apply to selected services from the brands XEOEX, ROXN, and ARVES, including thermal insulation, paint protection films, and nano-ceramic coatings.\nThis offer cannot be combined with any other promo code or gift cards.\nThe customer has the right to take advantage of the offer more than once.\nTo use the offer present alrajhi bank cards\nalrajhi bank cards and xeoex terms and conditions apply.\nFor more information",
+      "startDate": "",
+      "endDate": "December 31, 2026For more informationAbout OfferGet 40% OFF",
+      "offerUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Car-Services/Xeoex",
+      "imageUrl": "https://www.alrajhibank.com.sa/default-og-image.jpg",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "Rajhi.txt",
+      "updatedAt": "2026-03-13T21:11:06.344Z"
+    },
+    {
+      "id": "alrajhi-abdulatif-jamel",
+      "bank": "مصرف الراجحي",
+      "bankCode": "alrajhi",
+      "title": "Abdulatif jamel",
+      "merchant": "Abdulatif jamel",
+      "category": "",
+      "discountText": "Abdulatif jamelBest ramadan offer 50/50 for 2 years on Lexus 2025-2026Valid to: March 31, 2026Terms and Conditions",
+      "details": "Best ramadan offer on Lexus 2025-2026 Salary Transferred Customers to alrajhi bank -Down payment 0% -Admin Fees 0.50% -Balloon Payment till up to 50% -Term 60 Months -Low Annual Percentage Rate including insurance starting from 6.46% Non-Salary Transferred Customers -Down payment 0% -Admin Fees 0.50% -Balloon Payment till up to 40% -Term 60 Months -Low Annual Percentage Rate including insurance starting from 8.07% How to apply -Please visit your nearest alrajhi bank branch, or visit any dealer’s showrooms. Or call 8001241222 -Apply online -alrajhi bank Applications (IOS - Android) Offer Start 18 Feb 2026 until 31 Mar 2026",
+      "terms": "2.46% Profit rate for alrajhi bank customers.\n3.28% Profit rate for non alrajhi bank customers\nOffer Start 18 Feb 2026 until 31 Mar 2026.\nThe applicant’s salary must not be less than SAR 2,500.\nTerms and Conditions",
+      "startDate": "",
+      "endDate": "March 31, 2026Terms and ConditionsAbout OfferBest ramadan of",
+      "offerUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Finance-offers/Abdulatif-jamel-Lexus",
+      "imageUrl": "https://www.alrajhibank.com.sa/default-og-image.jpg",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "Rajhi.txt",
+      "updatedAt": "2026-03-13T21:11:06.344Z"
+    },
+    {
+      "id": "alrajhi-sun-roll",
+      "bank": "مصرف الراجحي",
+      "bankCode": "alrajhi",
+      "title": "Sun Roll",
+      "merchant": "Sun Roll",
+      "category": "",
+      "discountText": "Sun RollGet 20% OFF at Sun RollValid to: December 24, 2026To visit the store",
+      "details": "Get 20% OFF at Sun Roll with alrajhi bank cards! Valid from Jan.01 till Dec.24.2026",
+      "terms": "Offer valid on all alrajhi bank cards.\nGet 20% off Online and Offline\nThis offer cannot be combined with any other promo code or gift cards.\nThe customer has the right to take advantage of the offer more than once.\nTo use the offer please use the promo code ARB\nTo use the offer present alrajhi bank cards\nalrajhi bank cards and Sun Roll terms and conditions apply.\nTo visit the store",
+      "startDate": "",
+      "endDate": "December 24, 2026To visit the storeAbout OfferGet 20% OFF at",
+      "offerUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Furniture-and-Home-Appliances/Sun-Roll",
+      "imageUrl": "https://www.alrajhibank.com.sa/default-og-image.jpg",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "Rajhi.txt",
+      "updatedAt": "2026-03-13T21:11:06.344Z"
+    },
+    {
+      "id": "alrajhi-al-fursan-credit-card",
+      "bank": "مصرف الراجحي",
+      "bankCode": "alrajhi",
+      "title": "Al Fursan credit card",
+      "merchant": "Al Fursan credit card",
+      "category": "أخرى",
+      "discountText": "Al Fursan credit cardLimited Time Offer Apply for Al Fursan credit card and enjoy additional welcome miles & double miles on international spend.Valid to: February 28, 2026",
+      "details": "Limited Time Offer Apply for Al Fursan credit card and enjoy additional welcome miles & double miles on international spend. Welcome Bonus: Earn up to 10,000 additional joining/welcome Miles with all co-branded credit cards Welcome Miles bonus: Infinite: 10,000 extra Miles Platinum: 4,000 extra Miles Valid from 25 January and 28 February 2026",
+      "terms": "The offer applies to newly issued AlFursan Credit Cards during the campaign period, from 25 January 2026 until 28 February 2026.\nWelcome Miles will be earned upon card activation during the campaign period.\nWelcome Miles apply to the primary card only.\nDouble Miles are earned on international spending for both primary and supplementary AlFursan cards issued during the campaign period.\nEach customer is eligible to earn double Miles on international transactions for 60 days from the primary card issuance date. For supplementary cards, the 60-day period is based on the primary card issuance date.\nWelcome Miles will be credited during the first week of March 2026:(AlFursan Infinite Card: 10,000 welcome Miles),(AlFursan Platinum Card: 4,000 welcome Miles)\nDouble Miles will be credited during the first week of May 2026.\nThe customer’s credit card must be active with no overdue payments at the time of crediting both welcome and bonus miles.\nMiles are non-transferable and non-refundable.\nThe customer is responsible for providing the bank with a valid AlFursan membership number.\nalrajhi bank and Alfursan Program terms and conditions apply.",
+      "startDate": "",
+      "endDate": "February 28, 2026About OfferLimited Time Offer Apply for Al",
+      "offerUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Others/Al-Fursan-credit-card",
+      "imageUrl": "https://www.alrajhibank.com.sa/default-og-image.jpg",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "Rajhi.txt",
+      "updatedAt": "2026-03-13T21:11:06.344Z"
+    },
+    {
+      "id": "alrajhi-زيوكس",
+      "bank": "مصرف الراجحي",
+      "bankCode": "alrajhi",
+      "title": "زيوكس",
+      "merchant": "زيوكس",
+      "category": "",
+      "discountText": "زيوكساستمتع بخصم 40% لدى زيوكسصالح حتى: ٣١ ديسمبر ٢٠٢٦للمزيد من المعلومات",
+      "details": "استمتع بخصم 40% لدى زيوكس مع بطاقات مصرف الراجحي. يسري العرض من 01 يناير حتى 31 ديسمبر 2026",
+      "terms": "يطبق العرض على جميع بطاقات مصرف الراجحي\nاحصل على خصم 40% عبر الفروع لدى زيوكس\nخصم %40 على الخدمات المختارة من براند زيوكس و روكسن وأرفس، العازل الحراري، أفالم حماية الطالء، النانوسيراميك\nلا يمكن دمج الخصم مع قسائم الهدايا أو أي عرض ترويجي آخر.\nيحق للعميل الاستفادة من العرض أكثر من مرة.\nللاستفادة من العرض الرجاء إبراز بطاقة مصرف الراجحي\nتطبق شروط وأحكام مصرف الراجحي وزيوكس\nللمزيد من المعلومات",
+      "startDate": "",
+      "endDate": "2026-12-31",
+      "offerUrl": "https://www.alrajhibank.com.sa/Personal/Offers/CardsOffers/Car-Services/Xeoex",
+      "imageUrl": "https://www.alrajhibank.com.sa/default-og-image.jpg",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "Rajhi.txt",
+      "updatedAt": "2026-03-13T21:11:06.344Z"
     },
     {
       "id": "riyadh",
@@ -570,7 +667,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Riyadh Offer.txt",
-      "updatedAt": "2026-03-13T20:28:42.437Z"
+      "updatedAt": "2026-03-13T21:11:06.345Z"
     },
     {
       "id": "riyadh",
@@ -589,7 +686,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Riyadh Offer.txt",
-      "updatedAt": "2026-03-13T20:28:42.437Z"
+      "updatedAt": "2026-03-13T21:11:06.345Z"
     },
     {
       "id": "riyadh",
@@ -608,7 +705,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Riyadh Offer.txt",
-      "updatedAt": "2026-03-13T20:28:42.437Z"
+      "updatedAt": "2026-03-13T21:11:06.345Z"
     },
     {
       "id": "saib-آسيان-آسيان",
@@ -624,10 +721,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "saib-اجيو-اجيو",
@@ -643,10 +742,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات مدى",
+        "بطاقات ائتمانية"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "sabb-أكور-accor",
@@ -662,10 +764,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات الأول الائتمانية"
+      ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T20:28:42.438Z"
+      "updatedAt": "2026-03-13T21:11:06.346Z"
     },
     {
       "id": "saib-إل-بي-إم-إل-بي-إم",
@@ -681,10 +785,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "sabb-الإلكترونية-الحديثة-سوني-الإلكترونية-الحديثة-سوني",
@@ -700,10 +806,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات الأول الائتمانية"
+      ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T20:28:42.438Z"
+      "updatedAt": "2026-03-13T21:11:06.346Z"
     },
     {
       "id": "aljazira-التميمي-للأقمشة-التميمي-للأقمشة",
@@ -719,10 +827,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T20:28:42.431Z"
+      "updatedAt": "2026-03-13T21:11:06.338Z"
     },
     {
       "id": "sabb-الحلاب-1881-hallab-1881",
@@ -738,10 +849,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات الأول الائتمانية",
+        "مدى المصرفية"
+      ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T20:28:42.438Z"
+      "updatedAt": "2026-03-13T21:11:06.346Z"
     },
     {
       "id": "anb-الركن-السويسري-الركن-السويسري",
@@ -757,10 +871,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ائتمانية"
+      ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T20:28:42.432Z"
+      "updatedAt": "2026-03-13T21:11:06.340Z"
     },
     {
       "id": "232",
@@ -779,7 +895,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "sabb-الفوزان-سنتر-alfouzan-center",
@@ -795,10 +911,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات الأول الائتمانية",
+        "مدى المصرفية"
+      ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T20:28:42.438Z"
+      "updatedAt": "2026-03-13T21:11:06.346Z"
     },
     {
       "id": "saib-القصر-الصيني-القصر-الصيني",
@@ -814,10 +933,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "264",
@@ -836,7 +957,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "269",
@@ -855,7 +976,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "223",
@@ -874,7 +995,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.334Z"
     },
     {
       "id": "anb-إي-إم-بوكس-إي-إم-بوكس",
@@ -890,10 +1011,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T20:28:42.432Z"
+      "updatedAt": "2026-03-13T21:11:06.340Z"
     },
     {
       "id": "anb-ايرث-كافيه-ايرث-كافيه",
@@ -909,10 +1033,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ائتمانية"
+      ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T20:28:42.432Z"
+      "updatedAt": "2026-03-13T21:11:06.339Z"
     },
     {
       "id": "sabb-با-لا-دي-7-pala-de7",
@@ -928,10 +1054,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات الأول الائتمانية",
+        "مدى المصرفية"
+      ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T20:28:42.438Z"
+      "updatedAt": "2026-03-13T21:11:06.346Z"
     },
     {
       "id": "sabb-بادل-الرياض-riyadh-padel",
@@ -947,10 +1076,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات الأول الائتمانية",
+        "مدى المصرفية"
+      ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T20:28:42.438Z"
+      "updatedAt": "2026-03-13T21:11:06.346Z"
     },
     {
       "id": "saib-بادل-ان-بادل-ان",
@@ -966,10 +1098,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقة نشطة من البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "sabb-بادل-هب-padel-hub",
@@ -985,10 +1119,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات الأول الائتمانية",
+        "مدى المصرفية"
+      ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T20:28:42.438Z"
+      "updatedAt": "2026-03-13T21:11:06.346Z"
     },
     {
       "id": "anb-بلاي-ويل-بلاي-ويل",
@@ -1004,10 +1141,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T20:28:42.432Z"
+      "updatedAt": "2026-03-13T21:11:06.340Z"
     },
     {
       "id": "sabb-بلش-نيل-بوتيك-plush-nail-boutique",
@@ -1023,10 +1163,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات الأول الائتمانية",
+        "مدى المصرفية"
+      ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T20:28:42.438Z"
+      "updatedAt": "2026-03-13T21:11:06.346Z"
     },
     {
       "id": "aljazira-بنش-هوم-بنش-هوم",
@@ -1042,10 +1185,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T20:28:42.431Z"
+      "updatedAt": "2026-03-13T21:11:06.338Z"
     },
     {
       "id": "260",
@@ -1064,7 +1210,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "saib-بول-بول",
@@ -1080,10 +1226,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "252",
@@ -1102,7 +1250,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "226",
@@ -1121,7 +1269,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "257",
@@ -1140,7 +1288,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "sabb-بيت-الشاورما-shawarma-house",
@@ -1156,10 +1304,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات الأول الائتمانية",
+        "مدى المصرفية"
+      ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T20:28:42.438Z"
+      "updatedAt": "2026-03-13T21:11:06.346Z"
     },
     {
       "id": "265",
@@ -1178,7 +1329,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "saib-بيرد-بيرد",
@@ -1194,10 +1345,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "236",
@@ -1216,7 +1369,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "sabb-ترايبس-tribus",
@@ -1232,10 +1385,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات الأول الائتمانية"
+      ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T20:28:42.438Z"
+      "updatedAt": "2026-03-13T21:11:06.346Z"
     },
     {
       "id": "aljazira-تشيلك-تشيلك",
@@ -1251,10 +1406,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T20:28:42.431Z"
+      "updatedAt": "2026-03-13T21:11:06.338Z"
     },
     {
       "id": "227",
@@ -1273,7 +1431,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "anb-توب-غان-توب-غان",
@@ -1289,10 +1447,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T20:28:42.432Z"
+      "updatedAt": "2026-03-13T21:11:06.340Z"
     },
     {
       "id": "saib-توينا-توينا",
@@ -1308,10 +1469,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "sabb-تيولا-tola",
@@ -1327,10 +1490,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات الأول الائتمانية",
+        "مدى المصرفية"
+      ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T20:28:42.438Z"
+      "updatedAt": "2026-03-13T21:11:06.346Z"
     },
     {
       "id": "sabb-ثنايا-كلينيك-thanaya-clinic",
@@ -1346,10 +1512,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات الأول الائتمانية",
+        "مدى المصرفية"
+      ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T20:28:42.438Z"
+      "updatedAt": "2026-03-13T21:11:06.346Z"
     },
     {
       "id": "saib-جاريز-جاريز",
@@ -1365,10 +1534,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "238",
@@ -1387,7 +1558,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "saib-جست-لوفت-جست-لوفت",
@@ -1403,10 +1574,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "sabb-جيلا-jayla",
@@ -1422,10 +1595,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات الأول الائتمانية"
+      ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T20:28:42.438Z"
+      "updatedAt": "2026-03-13T21:11:06.346Z"
     },
     {
       "id": "sabb-داشن-dashn",
@@ -1441,10 +1616,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات الأول الائتمانية",
+        "مدى المصرفية"
+      ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T20:28:42.438Z"
+      "updatedAt": "2026-03-13T21:11:06.346Z"
     },
     {
       "id": "254",
@@ -1463,7 +1641,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "saib-دبليو-فايف-دبليو-فايف",
@@ -1479,10 +1657,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقة نشطة من البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "263",
@@ -1501,7 +1681,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "262",
@@ -1520,7 +1700,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "sabb-دلال-بوتيك-dalal-boutique",
@@ -1536,10 +1716,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات الأول الائتمانية",
+        "مدى المصرفية"
+      ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T20:28:42.438Z"
+      "updatedAt": "2026-03-13T21:11:06.346Z"
     },
     {
       "id": "saib-دوز-دوز",
@@ -1555,10 +1738,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "saib-ذا-بوتشر-شوب-اند-جريل-ذا-بوتشر-شوب-اند-جريل",
@@ -1574,10 +1759,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "saib-ذا-غلوب-ذا-غلوب",
@@ -1593,10 +1780,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "aljazira-رمز-الأعمال-رمز-الأعمال",
@@ -1612,10 +1801,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T20:28:42.431Z"
+      "updatedAt": "2026-03-13T21:11:06.338Z"
     },
     {
       "id": "saib-روما-وي-روما-وي",
@@ -1631,10 +1823,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "229",
@@ -1653,7 +1847,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "aljazira-ريفي-ريفي",
@@ -1669,10 +1863,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T20:28:42.431Z"
+      "updatedAt": "2026-03-13T21:11:06.338Z"
     },
     {
       "id": "235",
@@ -1691,7 +1888,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "saib-سان-كارلو-تشيكتي-سان-كارلو-تشيكتي",
@@ -1707,10 +1904,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "233",
@@ -1729,7 +1928,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "aljazira-ستايلي-ستايلي",
@@ -1745,10 +1944,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T20:28:42.431Z"
+      "updatedAt": "2026-03-13T21:11:06.338Z"
     },
     {
       "id": "saib-ستيك-هاوس-ستيك-هاوس",
@@ -1764,10 +1966,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "saib-سكونيزا-سكونيزا",
@@ -1783,10 +1987,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "saib-سنشري-برجر-سنشري-برجر",
@@ -1802,10 +2008,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "saib-سوشال-دايننج-سوشال-دايننج",
@@ -1821,10 +2029,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "aljazira-سيفي-سيفي",
@@ -1840,10 +2050,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T20:28:42.431Z"
+      "updatedAt": "2026-03-13T21:11:06.338Z"
     },
     {
       "id": "saib-شلفن-شلتس-شلفن-شلتس",
@@ -1859,10 +2072,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "231",
@@ -1881,7 +2096,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "258",
@@ -1900,7 +2115,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "anb-صالون-أيوليت-صالون-أيوليت",
@@ -1916,10 +2131,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T20:28:42.432Z"
+      "updatedAt": "2026-03-13T21:11:06.340Z"
     },
     {
       "id": "saib-صب-واي-صب-واي",
@@ -1935,10 +2153,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "256",
@@ -1957,7 +2177,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "aljazira-عبدالغني-إرث-المجوهرات-عبدالغني-إرث-المجوهرات",
@@ -1973,10 +2193,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T20:28:42.431Z"
+      "updatedAt": "2026-03-13T21:11:06.338Z"
     },
     {
       "id": "anb-فايانا-فايانا",
@@ -1992,10 +2215,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T20:28:42.432Z"
+      "updatedAt": "2026-03-13T21:11:06.339Z"
     },
     {
       "id": "saib-فلامنجو-روم-فلامنجو-روم",
@@ -2011,10 +2237,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "sabb-فلاور-ادرس-flower-address",
@@ -2030,10 +2258,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات الأول الائتمانية",
+        "مدى المصرفية"
+      ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T20:28:42.438Z"
+      "updatedAt": "2026-03-13T21:11:06.346Z"
     },
     {
       "id": "anb-فلورينا-فلورينا",
@@ -2049,10 +2280,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T20:28:42.432Z"
+      "updatedAt": "2026-03-13T21:11:06.340Z"
     },
     {
       "id": "anb-فندق-ميسان-رحاب-المسك-فندق-ميسان-رحاب-المسك",
@@ -2068,10 +2302,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T20:28:42.432Z"
+      "updatedAt": "2026-03-13T21:11:06.340Z"
     },
     {
       "id": "saib-فوغو-دي-تشاو-فوغو-دي-تشاو",
@@ -2087,10 +2324,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "251",
@@ -2109,7 +2348,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "saib-فيفث-سيزون-فيفث-سيزون",
@@ -2125,10 +2364,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "anb-فيكت-هوم-فيكت-هوم",
@@ -2144,10 +2385,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T20:28:42.432Z"
+      "updatedAt": "2026-03-13T21:11:06.339Z"
     },
     {
       "id": "saib-فينكي-فينكي",
@@ -2163,10 +2407,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "saib-كانتون-كانتون",
@@ -2182,10 +2428,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "anb-كت-اند-كوت-كت-اند-كوت",
@@ -2201,10 +2449,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T20:28:42.432Z"
+      "updatedAt": "2026-03-13T21:11:06.340Z"
     },
     {
       "id": "259",
@@ -2223,7 +2474,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "anb-كراما-يوغا-كراما-يوغا",
@@ -2239,10 +2490,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T20:28:42.432Z"
+      "updatedAt": "2026-03-13T21:11:06.340Z"
     },
     {
       "id": "saib-كرك-غلامور-كرك-غلامور",
@@ -2258,10 +2512,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "247",
@@ -2280,7 +2536,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "saib-كلتشر-كلتشر",
@@ -2296,10 +2552,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "245",
@@ -2318,7 +2576,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "saib-لو-سوليه-لو-سوليه",
@@ -2334,10 +2592,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "253",
@@ -2356,7 +2616,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "saib-ماما-بنز-ماما-بنز",
@@ -2372,10 +2632,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "anb-مانترا-سبا-مانترا-سبا",
@@ -2391,10 +2653,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T20:28:42.432Z"
+      "updatedAt": "2026-03-13T21:11:06.339Z"
     },
     {
       "id": "250",
@@ -2413,7 +2678,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "266",
@@ -2432,7 +2697,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "anb-مزرود-مزرود",
@@ -2448,10 +2713,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T20:28:42.432Z"
+      "updatedAt": "2026-03-13T21:11:06.340Z"
     },
     {
       "id": "anb-مقهى-ومحمصة-سويل-مقهى-ومحمصة-سويل",
@@ -2467,10 +2735,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T20:28:42.432Z"
+      "updatedAt": "2026-03-13T21:11:06.340Z"
     },
     {
       "id": "saib-مقهى-ومحمصة-شرق-مقهى-ومحمصة-شرق",
@@ -2486,10 +2757,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "saib-مكرونة-فورنو-مكرونة-فورنو",
@@ -2505,10 +2778,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "aljazira-مكعب-مكعب",
@@ -2524,10 +2799,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T20:28:42.431Z"
+      "updatedAt": "2026-03-13T21:11:06.338Z"
     },
     {
       "id": "saib-ميز-ميز",
@@ -2543,10 +2821,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "anb-نادي-إلكسير-النسائي-نادي-إلكسير-النسائي",
@@ -2562,10 +2842,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T20:28:42.432Z"
+      "updatedAt": "2026-03-13T21:11:06.340Z"
     },
     {
       "id": "saib-نجمة-نجمة",
@@ -2581,10 +2864,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T20:28:42.439Z"
+      "updatedAt": "2026-03-13T21:11:06.347Z"
     },
     {
       "id": "sabb-نمشي-namshi",
@@ -2600,10 +2885,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات الأول الائتمانية"
+      ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T20:28:42.438Z"
+      "updatedAt": "2026-03-13T21:11:06.346Z"
     },
     {
       "id": "aljazira-نور-غاليري-نور-غاليري",
@@ -2619,10 +2906,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T20:28:42.431Z"
+      "updatedAt": "2026-03-13T21:11:06.338Z"
     },
     {
       "id": "246",
@@ -2641,7 +2931,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "anb-هنقرستيشن-هنقرستيشن",
@@ -2657,10 +2947,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ماستركارد"
+      ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T20:28:42.432Z"
+      "updatedAt": "2026-03-13T21:11:06.339Z"
     },
     {
       "id": "aljazira-هنقرستيشن-رمضان-هنقرستيشن",
@@ -2676,10 +2968,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ماستركارد الائتمانية"
+      ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T20:28:42.429Z"
+      "updatedAt": "2026-03-13T21:11:06.336Z"
     },
     {
       "id": "anb-هوبو-هوبو",
@@ -2695,10 +2989,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T20:28:42.432Z"
+      "updatedAt": "2026-03-13T21:11:06.340Z"
     },
     {
       "id": "241",
@@ -2717,7 +3014,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "267",
@@ -2736,7 +3033,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "244",
@@ -2755,7 +3052,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "sabb-brands-for-less-brands-for-less",
@@ -2771,10 +3068,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات الأول الائتمانية"
+      ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T20:28:42.438Z"
+      "updatedAt": "2026-03-13T21:11:06.346Z"
     },
     {
       "id": "sabb-cartlow-cartlow",
@@ -2790,10 +3089,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات الأول الائتمانية",
+        "مدى المصرفية"
+      ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T20:28:42.438Z"
+      "updatedAt": "2026-03-13T21:11:06.346Z"
     },
     {
       "id": "enbd-el-n-london-el-n-london",
@@ -2809,10 +3111,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ائتمانية",
+        "بطاقات خصم"
+      ],
       "isExpired": false,
       "sourceFile": "ENBD.txt",
-      "updatedAt": "2026-03-13T20:28:42.433Z"
+      "updatedAt": "2026-03-13T21:11:06.341Z"
     },
     {
       "id": "255",
@@ -2831,7 +3136,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "228",
@@ -2850,7 +3155,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "261",
@@ -2869,7 +3174,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "sabb-flyin-flyin",
@@ -2885,10 +3190,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات الأول الائتمانية",
+        "مدى المصرفية"
+      ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T20:28:42.438Z"
+      "updatedAt": "2026-03-13T21:11:06.346Z"
     },
     {
       "id": "270",
@@ -2907,7 +3215,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "248",
@@ -2926,7 +3234,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "225",
@@ -2945,7 +3253,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "239",
@@ -2964,7 +3272,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "enbd-jon-vinnys-jon-vinnys",
@@ -2980,10 +3288,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ائتمانية"
+      ],
       "isExpired": false,
       "sourceFile": "ENBD.txt",
-      "updatedAt": "2026-03-13T20:28:42.433Z"
+      "updatedAt": "2026-03-13T21:11:06.341Z"
     },
     {
       "id": "sabb-jones-the-grocer-jones-the-grocer",
@@ -2999,10 +3309,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات الأول الائتمانية",
+        "مدى المصرفية"
+      ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T20:28:42.438Z"
+      "updatedAt": "2026-03-13T21:11:06.346Z"
     },
     {
       "id": "enbd-lulu-hypermarket-lulu-hypermarket",
@@ -3018,10 +3331,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "البطاقات المؤهلة"
+      ],
       "isExpired": false,
       "sourceFile": "ENBD.txt",
-      "updatedAt": "2026-03-13T20:28:42.433Z"
+      "updatedAt": "2026-03-13T21:11:06.341Z"
     },
     {
       "id": "enbd-lunch-in-a-box-lunch-in-a-box",
@@ -3037,10 +3352,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ائتمانية",
+        "بطاقات خصم"
+      ],
       "isExpired": false,
       "sourceFile": "ENBD.txt",
-      "updatedAt": "2026-03-13T20:28:42.433Z"
+      "updatedAt": "2026-03-13T21:11:06.341Z"
     },
     {
       "id": "242",
@@ -3059,7 +3377,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "243",
@@ -3078,7 +3396,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "237",
@@ -3097,7 +3415,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "sabb-out-of-line-out-of-line",
@@ -3113,10 +3431,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات الأول الائتمانية",
+        "مدى المصرفية"
+      ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T20:28:42.438Z"
+      "updatedAt": "2026-03-13T21:11:06.346Z"
     },
     {
       "id": "sabb-pieces-pieces",
@@ -3132,10 +3453,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات الأول الائتمانية",
+        "مدى المصرفية"
+      ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T20:28:42.438Z"
+      "updatedAt": "2026-03-13T21:11:06.346Z"
     },
     {
       "id": "268",
@@ -3154,7 +3478,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "224",
@@ -3173,7 +3497,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "sabb-the-untitled-project-the-untitled-project",
@@ -3189,10 +3513,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات الأول الائتمانية",
+        "مدى المصرفية"
+      ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T20:28:42.438Z"
+      "updatedAt": "2026-03-13T21:11:06.346Z"
     },
     {
       "id": "aljazira-trendyol-trendyol",
@@ -3208,10 +3535,12 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ماستركارد الائتمانية"
+      ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T20:28:42.431Z"
+      "updatedAt": "2026-03-13T21:11:06.338Z"
     },
     {
       "id": "249",
@@ -3230,7 +3559,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "enbd-truffleers-truffleers",
@@ -3246,10 +3575,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ائتمانية",
+        "بطاقات خصم"
+      ],
       "isExpired": false,
       "sourceFile": "ENBD.txt",
-      "updatedAt": "2026-03-13T20:28:42.433Z"
+      "updatedAt": "2026-03-13T21:11:06.341Z"
     },
     {
       "id": "234",
@@ -3268,7 +3600,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "enbd-voco-riyadh-voco-riyadh",
@@ -3284,10 +3616,13 @@
       "endDate": "",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
       "isExpired": false,
       "sourceFile": "ENBD.txt",
-      "updatedAt": "2026-03-13T20:28:42.433Z"
+      "updatedAt": "2026-03-13T21:11:06.341Z"
     },
     {
       "id": "230",
@@ -3306,7 +3641,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "240",
@@ -3325,7 +3660,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T20:28:42.428Z"
+      "updatedAt": "2026-03-13T21:11:06.335Z"
     },
     {
       "id": "alrajhi-بطاقة-الفرسان-الائتمانية",
@@ -3336,7 +3671,7 @@
       "category": "أخرى",
       "discountText": "",
       "details": "عرض حصري احصل على بطاقة الفرسان الائتمانية واستمتع بأميال ترحيبية إضافية وأميال مضاعفة على الإنفاق الدولي احصل على ما يصل إلى 10,000 ميل ترحيبي إضافي عند إصدار أي من بطاقات الفرسان الائتمانية الأميال الترحيبية: انفينيت : 10,000 ميل إضافي بلاتينيوم : 4,000 ميل إضافي يسري العرض من 25 يناير إلى 28 فبراير 2026",
-      "terms": "العرض على الإصدار الجديد لبطاقات الفرسان الائتمانية المصدرة في فترة الحملة:,من تاريخ 25 يناير 2026 حتى 28 فبراير 2026.,يتم استحقاق الأميال الترحيبية للحملة عند تفعيل البطاقة في فترة الحملة.,تطبق الأميال الترحيبية للحملة على البطاقة الأساسية فقط.,كسب مضاعفة الأميال على الإنفاق الدولي فقط لبطاقات الفرسان الأساسية والإضافية المصدرة في فترة الحملة.,يحق لكل عميل الاستفادة من مضاعفة الأميال على العمليات الدولية لمدة 60 يومًا من تاريخ إصدار البطاقة الأساسية ، و للبطاقة الإضافية تكون لمدة 60 من تاريخ إصدار البطاقة الأساسية .,سوف يتم إضافة الأميال الترحيبية للحملة خلال الأسبوع الأول لشهر مارس2026:(بطاقة الفرسان انفنيت 10,000 ميل ترحيبي)،(بطاقة الفرسان بلاتينيوم 4,000 ميل ترحيبي).,سوف يتم إضافة الأميال المضاعفة خلال الأسبوع الأول من شهر مايو 2026,يجب أن تكون بطاقة العميل الائتمانية نشطة ولا يوجد أي تأخر في السداد عند إضافة الأميال الترحيبية و المضاعفة.,الأميال غير قابلة للتحويل أو الاسترجاع.,يتحمل العميل مسؤولية تزويد المصرف بالرقم لعضوية الفرسان.,تطبق شروط وأحكام مصرف الراجحي و برنامج الفرسان",
+      "terms": "العرض على الإصدار الجديد لبطاقات الفرسان الائتمانية المصدرة في فترة الحملة:\nمن تاريخ 25 يناير 2026 حتى 28 فبراير 2026.\nيتم استحقاق الأميال الترحيبية للحملة عند تفعيل البطاقة في فترة الحملة.\nتطبق الأميال الترحيبية للحملة على البطاقة الأساسية فقط.\nكسب مضاعفة الأميال على الإنفاق الدولي فقط لبطاقات الفرسان الأساسية والإضافية المصدرة في فترة الحملة.\nيحق لكل عميل الاستفادة من مضاعفة الأميال على العمليات الدولية لمدة 60 يومًا من تاريخ إصدار البطاقة الأساسية ، و للبطاقة الإضافية تكون لمدة 60 من تاريخ إصدار البطاقة الأساسية .\nسوف يتم إضافة الأميال الترحيبية للحملة خلال الأسبوع الأول لشهر مارس2026:(بطاقة الفرسان انفنيت 10,000 ميل ترحيبي)،(بطاقة الفرسان بلاتينيوم 4,000 ميل ترحيبي).\nسوف يتم إضافة الأميال المضاعفة خلال الأسبوع الأول من شهر مايو 2026\nيجب أن تكون بطاقة العميل الائتمانية نشطة ولا يوجد أي تأخر في السداد عند إضافة الأميال الترحيبية و المضاعفة.\nالأميال غير قابلة للتحويل أو الاسترجاع.\nيتحمل العميل مسؤولية تزويد المصرف بالرقم لعضوية الفرسان.\nتطبق شروط وأحكام مصرف الراجحي و برنامج الفرسان",
       "startDate": "",
       "endDate": "2026-02-28",
       "offerUrl": "https://www.alrajhibank.com.sa/Personal/Offers/CardsOffers/Others/Al-Fursan-credit-card",
@@ -3344,7 +3679,7 @@
       "tags": [],
       "isExpired": true,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-03-13T20:28:42.436Z"
+      "updatedAt": "2026-03-13T21:11:06.344Z"
     },
     {
       "id": "bsf-sf-line",
@@ -3360,10 +3695,14 @@
       "endDate": "2026-02-28",
       "offerUrl": "",
       "imageUrl": "",
-      "tags": [],
+      "tags": [
+        "credit",
+        "prepaid",
+        "mada"
+      ],
       "isExpired": true,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-03-13T20:28:42.433Z"
+      "updatedAt": "2026-03-13T21:11:06.340Z"
     }
   ]
 }
