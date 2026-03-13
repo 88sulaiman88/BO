@@ -329,7 +329,14 @@ async function main() {
   }
 
   const sorted = sortOffers(allResults);
-  await writeJson(OUTPUT_ALL, sorted);
+
+  const output = {
+    lastUpdated: new Date().toISOString(),
+    totalOffers: sorted.length,
+    offers: sorted
+  };
+
+  await writeJson(OUTPUT_ALL, output);
 
   console.log(`Saved merged file: ${OUTPUT_ALL}`);
   console.log(`Total offers: ${sorted.length}`);
@@ -366,7 +373,6 @@ async function fetchInmaOffers() {
   return readJsonFromTxt(path.join(BANKS_DIR, "Inma Offer.txt"), []);
 }
 
-/* تعطيل الراجحي مؤقتًا لأنه أدخل بيانات كبيرة وغير نظيفة وأثر على الموقع */
 async function fetchRajhiOffers() {
   console.log("Rajhi is temporarily excluded from merge.");
   return [];
