@@ -29,6 +29,7 @@ from typing import Any, Dict, List
 
 GENERATED_AT = datetime.now(ZoneInfo("Asia/Riyadh")).isoformat(timespec="seconds")
 TODAY = GENERATED_AT[:10]
+print("GENERATED_AT =", GENERATED_AT)
 
 def log(msg: str) -> None:
     print(f"[update] {msg}")
