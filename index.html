@@ -266,9 +266,9 @@
 .top-side {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  align-items: flex-start;
   gap: 8px;
-  flex: 0 0 220px;
+  flex-shrink: 0;
   max-width: 220px;
 }
 
@@ -279,8 +279,9 @@
   background: var(--accent-soft);
   border: 1px solid rgba(59,130,246,.14);
   border-radius: 14px;
-  padding: 10px 12px;
-  width: 100%;
+  padding: 10px 14px;
+  display: inline-block;
+  width: fit-content;
   max-width: 220px;
   text-align: center;
   line-height: 1.5;
