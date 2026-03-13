@@ -1,0 +1,12 @@
+{
+  "name": "bank-offers-guide",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "fetch-banks": "node scripts/fetch-banks.js",
+    "update-offers": "node scripts/update-offers.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}
