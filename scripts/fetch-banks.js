@@ -4,6 +4,7 @@ const cheerio = require("cheerio");
 
 const BANKS_DIR = path.join(process.cwd(), "banks");
 const RAJHI_BASE = "https://www.alrajhibank.com.sa";
+const RAJHI_MAX_URLS = 80;
 
 async function writeJsonTxt(filename, data) {
   const filePath = path.join(BANKS_DIR, filename);
@@ -262,6 +263,15 @@ function normalizeRajhiUrl(url) {
     .replace(/\/+$/, "");
 }
 
+function sortRajhiUrls(urls) {
+  return [...urls].sort((a, b) => {
+    const aAr = a.includes("/ar/") ? 0 : 1;
+    const bAr = b.includes("/ar/") ? 0 : 1;
+    if (aAr !== bAr) return aAr - bAr;
+    return a.localeCompare(b);
+  });
+}
+
 function isProbablyBadTitle(title) {
   const t = cleanText(title).toLowerCase();
   if (!t) return true;
@@ -324,46 +334,15 @@ function extractMetaImage($) {
 }
 
 async function getRajhiOfferUrlsFromSitemap() {
-  const candidates = [
-    `${RAJHI_BASE}/robots.txt`,
-    `${RAJHI_BASE}/sitemap.xml`
-  ];
-
-  const found = [];
-
-  for (const url of candidates) {
-    try {
-      const text = await fetchText(url);
-
-      const matches = [
-        ...(text.match(/https:\/\/www\.alrajhibank\.com\.sa[^\s<"]+/gi) || []),
-        ...[...text.matchAll(/<loc>(.*?)<\/loc>/gi)].map((m) => cleanText(m[1]))
-      ];
-
-      for (const raw of matches) {
-        const full = normalizeRajhiUrl(raw);
-        if (!full) continue;
-        if (!full.toLowerCase().includes("/personal/offers/cardsoffers/")) continue;
-        if (!shouldKeepRajhiUrl(full)) continue;
-        found.push(full);
-      }
-    } catch (error) {
-      console.error(`Rajhi sitemap read failed for ${url}: ${error.message}`);
-    }
-  }
-
-  const unique = [...new Set(found)];
-  console.log(`Rajhi sitemap-discovered URLs (filtered): ${unique.length}`);
-  return unique;
+  console.log("Rajhi sitemap disabled to avoid huge crawl.");
+  return [];
 }
 
 async function getRajhiOfferUrlsFromPages() {
   const seedPages = [
-    `${RAJHI_BASE}/ar/Personal/Offers`,
     `${RAJHI_BASE}/ar/Personal/Discounts`,
-    `${RAJHI_BASE}/ar/Personal/Offers/CardsOffers`,
+    `${RAJHI_BASE}/ar/Personal/Offers`,
     `${RAJHI_BASE}/ar/Personal/Offers/CardsOffers/ViewAll`,
-    `${RAJHI_BASE}/en/Personal/Offers`,
     `${RAJHI_BASE}/en/Personal/Discounts`
   ];
 
@@ -377,9 +356,9 @@ async function getRajhiOfferUrlsFromPages() {
       $("a[href], area[href]").each((_, el) => {
         const href = cleanText($(el).attr("href"));
         const full = normalizeRajhiUrl(absoluteUrl(href, pageUrl));
-        if (shouldKeepRajhiUrl(full)) {
-          found.push(full);
-        }
+
+        if (!shouldKeepRajhiUrl(full)) return;
+        found.push(full);
       });
 
       $("[data-href], [data-url], [data-link]").each((_, el) => {
@@ -389,8 +368,20 @@ async function getRajhiOfferUrlsFromPages() {
           cleanText($(el).attr("data-link"));
 
         const full = normalizeRajhiUrl(absoluteUrl(href, pageUrl));
-        if (shouldKeepRajhiUrl(full)) {
-          found.push(full);
+
+        if (!shouldKeepRajhiUrl(full)) return;
+        found.push(full);
+      });
+
+      $("script").each((_, el) => {
+        const scriptText = $(el).html() || "";
+        const matches = scriptText.match(/https:\/\/www\.alrajhibank\.com\.sa\/[^\s"'\\]+/g) || [];
+
+        for (const raw of matches) {
+          const full = normalizeRajhiUrl(raw);
+          if (shouldKeepRajhiUrl(full)) {
+            found.push(full);
+          }
         }
       });
 
@@ -400,7 +391,7 @@ async function getRajhiOfferUrlsFromPages() {
     }
   }
 
-  const unique = [...new Set(found)];
+  const unique = sortRajhiUrls([...new Set(found)]).slice(0, RAJHI_MAX_URLS);
   console.log(`Rajhi page-discovered URLs: ${unique.length}`);
   return unique;
 }
@@ -411,7 +402,10 @@ async function getRajhiOfferUrls() {
     getRajhiOfferUrlsFromPages()
   ]);
 
-  const merged = [...new Set([...fromSitemap, ...fromPages].map(normalizeRajhiUrl))];
+  const merged = sortRajhiUrls(
+    [...new Set([...fromSitemap, ...fromPages].map(normalizeRajhiUrl))]
+  ).slice(0, RAJHI_MAX_URLS);
+
   console.log(`Rajhi total merged URLs: ${merged.length}`);
 
   if (merged.length) {
