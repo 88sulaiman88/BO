@@ -215,12 +215,14 @@ function normalizeOffer(raw, bankName, bankCode) {
     raw.notes
   );
 
-  const terms = firstNonEmpty(
-    raw.terms,
-    raw.termsAndConditions,
-    raw.tnc,
-    raw.conditions
-  );
+  const terms = Array.isArray(raw.terms)
+    ? raw.terms.map((x) => cleanString(x)).filter(Boolean).join("\n")
+    : firstNonEmpty(
+        raw.terms,
+        raw.termsAndConditions,
+        raw.tnc,
+        raw.conditions
+      );
 
   const startDate = normalizeDate(
     firstNonEmpty(raw.startDate, raw.start, raw.validFrom, raw.fromDate)
@@ -246,12 +248,14 @@ function normalizeOffer(raw, bankName, bankCode) {
     raw.banner
   );
 
-  const tags = firstArray(raw.tags, raw.labels)
+  const tags = [...firstArray(raw.tags, raw.labels), ...firstArray(raw.cards)]
     .map((x) => cleanString(x))
     .filter(Boolean);
 
   return {
-    id: firstNonEmpty(raw.id, raw.offerId) || buildId(bankCode, title, merchant, offerUrl),
+    id:
+      firstNonEmpty(raw.id, raw.offerId) ||
+      buildId(bankCode, title, merchant, offerUrl),
     bank: bankName,
     bankCode,
     title,
@@ -293,6 +297,8 @@ async function updateOneBank(source) {
     console.log(`Updating ${source.bank} from ${path.basename(source.file)}...`);
 
     const rawOffers = await source.updater();
+    console.log(`Raw offers for ${source.bank}: ${toArray(rawOffers).length}`);
+
     const normalized = toArray(rawOffers)
       .map((o) => normalizeOffer(o, source.bank, source.code))
       .filter((o) => o.title || o.merchant || o.details || o.offerUrl);
@@ -309,8 +315,12 @@ function sortOffers(offers) {
   return [...offers].sort((a, b) => {
     if (a.isExpired !== b.isExpired) return a.isExpired ? 1 : -1;
 
-    const aDate = a.endDate ? new Date(a.endDate).getTime() : Number.MAX_SAFE_INTEGER;
-    const bDate = b.endDate ? new Date(b.endDate).getTime() : Number.MAX_SAFE_INTEGER;
+    const aDate = a.endDate
+      ? new Date(a.endDate).getTime()
+      : Number.MAX_SAFE_INTEGER;
+    const bDate = b.endDate
+      ? new Date(b.endDate).getTime()
+      : Number.MAX_SAFE_INTEGER;
 
     if (aDate !== bDate) return aDate - bDate;
 
@@ -333,7 +343,7 @@ async function main() {
   const output = {
     lastUpdated: new Date().toISOString(),
     totalOffers: sorted.length,
-    offers: sorted
+    offers: sorted,
   };
 
   await writeJson(OUTPUT_ALL, output);
