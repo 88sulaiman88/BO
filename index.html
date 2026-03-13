@@ -598,8 +598,7 @@
 function hasActiveFilters() {
   const query = els.searchInput.value.trim();
   const bank = els.bankFilter.value;
-  const hideExpired = els.hideExpired.checked;
-  return Boolean(query || bank || hideExpired);
+  return Boolean(query || bank);
 }
 
     function filterOffers() {
@@ -612,14 +611,14 @@ function hasActiveFilters() {
       });
     }
 
-    function getVisibleOffers(filtered) {
-      if (hasActiveSearchOrBankFilter()) return filtered;
-      if (isExpanded) return filtered;
-      return filtered.slice(0, INITIAL_VISIBLE_COUNT);
-    }
+function getVisibleOffers(filtered) {
+  if (hasActiveFilters()) return filtered;
+  if (isExpanded) return filtered;
+  return filtered.slice(0, INITIAL_VISIBLE_COUNT);
+}
 
 function updateShowAllButton(filtered) {
-  const shouldShow = !hasActiveSearchOrBankFilter() && filtered.length > INITIAL_VISIBLE_COUNT;
+  const shouldShow = !hasActiveFilters() && filtered.length > INITIAL_VISIBLE_COUNT;
   els.showAllWrap.hidden = !shouldShow;
   els.showAllBtn.textContent = isExpanded ? 'عرض أقل' : 'عرض الكل';
 }
