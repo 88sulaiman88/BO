@@ -18,12 +18,12 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v6
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          python-version: "3.11"
+          node-version: 20
 
       - name: Show repo files
         run: |
@@ -32,13 +32,19 @@ jobs:
           echo "Repo contents:"
           find . -maxdepth 3 -type f | sort
 
-      - name: Run updater
-        run: python update.py
+      - name: Install dependencies
+        run: npm ci || npm install
+
+      - name: Fetch latest bank offers
+        run: node scripts/fetch-banks.js
+
+      - name: Build merged offers file
+        run: node scripts/update-offers.js
 
       - name: Commit changes if any
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add all-offers.json
-          git diff --staged --quiet || git commit -m "Auto-update offers"
+          git add all-offers.json banks/*
+          git diff --cached --quiet || git commit -m "Auto-update offers"
           git push
