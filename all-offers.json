@@ -1,7 +1,26 @@
 {
-  "lastUpdated": "2026-03-13T22:21:34.925Z",
-  "totalOffers": 191,
+  "lastUpdated": "2026-03-13T23:07:57.554Z",
+  "totalOffers": 217,
   "offers": [
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-hungerstation",
+      "bank": "البنك السعودي الفرنسي",
+      "bankCode": "bsf",
+      "title": "HungerStation",
+      "merchant": "HungerStation",
+      "category": "التسوق",
+      "discountText": "خصم 30%",
+      "details": "احصل على خصم 30% لدى HungerStation عند استخدامك بطاقات ماستركارد الائتمانية من BSF \n \n \n 17 مارس 2026\n \n \n HungerStation\n \n \n \n \n \n \n \n \n\n .hide-1{\n display:none\n }",
+      "terms": "",
+      "startDate": "",
+      "endDate": "2026-03-17",
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/offers/shopping/hungerstation",
+      "imageUrl": "https://bsf.sa/ContentFiles/11193Image.png",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "BSF.txt",
+      "updatedAt": "2026-03-13T23:07:57.524Z"
+    },
     {
       "id": "alrajhi-فندق-المناخة-روتانا-المدينة",
       "bank": "مصرف الراجحي",
@@ -19,7 +38,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-03-13T22:21:34.913Z"
+      "updatedAt": "2026-03-13T23:07:57.528Z"
     },
     {
       "id": "alrajhi-النهدي",
@@ -38,30 +57,26 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-03-13T22:21:34.913Z"
+      "updatedAt": "2026-03-13T23:07:57.528Z"
     },
     {
-      "id": "bsf-pilates-room",
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-live-well-the-pilates-room",
       "bank": "البنك السعودي الفرنسي",
       "bankCode": "bsf",
-      "title": "خصم 15% لدى The Pilates Room",
-      "merchant": "The Pilates Room",
-      "category": "lifestyle",
-      "discountText": "15%",
-      "details": "",
+      "title": "Pilates Room",
+      "merchant": "Pilates Room",
+      "category": "كل العروض",
+      "discountText": "خصم 15%",
+      "details": "احصل على خصم 15% لدى The Pilates Room عند استخدامك \nبطاقات البنك السعودي الفرنسي الائتمانية أو مسبقة الدفع أو مدى \n \n \n 20 مارس 2026\n \n \n Pilates Room\n \n \n \n \n \n \n \n \n\n .hide-1{\n display:none\n }",
       "terms": "",
       "startDate": "",
       "endDate": "2026-03-20",
-      "offerUrl": "",
-      "imageUrl": "",
-      "tags": [
-        "credit",
-        "prepaid",
-        "mada"
-      ],
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/offers/live-well/the-pilates-room",
+      "imageUrl": "https://bsf.sa/ContentFiles/12876Image.jpg",
+      "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-03-13T22:21:34.909Z"
+      "updatedAt": "2026-03-13T23:07:57.524Z"
     },
     {
       "id": "alrajhi-6th-street",
@@ -80,28 +95,64 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-03-13T22:21:34.913Z"
+      "updatedAt": "2026-03-13T23:07:57.528Z"
     },
     {
-      "id": "bsf-trip-com",
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-bin-shihon-furniture",
       "bank": "البنك السعودي الفرنسي",
       "bankCode": "bsf",
-      "title": "خصم يصل إلى 20% على Trip.com",
-      "merchant": "Trip.com",
-      "category": "travel",
-      "discountText": "حتى 20%",
-      "details": "الخصم يصل إلى 20%.",
+      "title": "بن شيهون للأثاث",
+      "merchant": "بن شيهون للأثاث",
+      "category": "التسوق",
+      "discountText": "",
+      "details": "خصم بقيمة 15% لدى بن شيهون للأثاث عند استخدام بطاقة البنك السعودي الفرنسي مدى أو الائتمانية\n \n \n 31 مارس 2026\n \n \n بن شيهون للأثاث\n \n \n \n \n \n \n \n \n\n .hide-1{\n display:none\n }",
       "terms": "",
       "startDate": "",
       "endDate": "2026-03-31",
-      "offerUrl": "",
-      "imageUrl": "",
-      "tags": [
-        "mastercard"
-      ],
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/offers/shopping/bin-shihon-furniture",
+      "imageUrl": "https://bsf.sa/ContentFiles/11658Image.jpg",
+      "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-03-13T22:21:34.909Z"
+      "updatedAt": "2026-03-13T23:07:57.524Z"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-cilek",
+      "bank": "البنك السعودي الفرنسي",
+      "bankCode": "bsf",
+      "title": "تشيلك",
+      "merchant": "تشيلك",
+      "category": "التسوق",
+      "discountText": "",
+      "details": "خصم يصل حتى 10% لدى معرض تشيلك و في الموقع الالكتروني عند استخدام بطاقة البنك السعودي الفرنسي مدى أو الائتمانية\n \n \n 31 مارس 2026\n \n \n تشيلك \n \n \n \n \n \n \n \n \n\n .hide-1{\n display:none\n }",
+      "terms": "",
+      "startDate": "",
+      "endDate": "2026-03-31",
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/offers/shopping/cilek",
+      "imageUrl": "https://bsf.sa/ContentFiles/11660Image.jpg",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "BSF.txt",
+      "updatedAt": "2026-03-13T23:07:57.524Z"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-sobhykaber",
+      "bank": "البنك السعودي الفرنسي",
+      "bankCode": "bsf",
+      "title": "صبحي كابر",
+      "merchant": "صبحي كابر",
+      "category": "المطاعم",
+      "discountText": "خصم 25%",
+      "details": "احصل على خصم 25% لدى مطعم صبحي كابر عند استخدامك بطاقة BSF الائتمانية\n \n \n 31 مارس 2026\n \n \n صبحي كابر\n \n \n \n \n \n \n \n \n\n .hide-1{\n display:none\n }",
+      "terms": "",
+      "startDate": "",
+      "endDate": "2026-03-31",
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/offers/restaurants/sobhykaber",
+      "imageUrl": "https://bsf.sa/ContentFiles/11951Image.png",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "BSF.txt",
+      "updatedAt": "2026-03-13T23:07:57.524Z"
     },
     {
       "id": "alrajhi-عبداللطيف-جميل",
@@ -120,7 +171,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-03-13T22:21:34.913Z"
+      "updatedAt": "2026-03-13T23:07:57.528Z"
     },
     {
       "id": "alrajhi-عبداللطيف-جميل",
@@ -139,48 +190,254 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-03-13T22:21:34.913Z"
+      "updatedAt": "2026-03-13T23:07:57.528Z"
     },
     {
-      "id": "bsf-park-inn-dubai-motor-city",
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-travel-mastercard-tripcom-offer",
       "bank": "البنك السعودي الفرنسي",
       "bankCode": "bsf",
-      "title": "خصم 20% على الغرف في فندق بارك إن باي راديسون دبي موتور سيتي",
-      "merchant": "Park Inn by Radisson Dubai Motor City",
-      "category": "travel",
-      "discountText": "20%",
-      "details": "",
+      "title": "عرض الماستر كارد على Trip.com",
+      "merchant": "عرض الماستر كارد على Trip.com",
+      "category": "كل العروض",
+      "discountText": "خصم 20%",
+      "details": "احجز عطلتك القادمة على Trip.com واستمتع بخصم يصل إلى 20٪ عند الدفع باستخدام بطاقة ماستركارد الخاصة بك. اكتشف عروض مذهلة على الرحلات الجوية والفنادق والمزيد، حصريًا لحاملي بطاقات ماستركارد.\n \n \n 31 مارس 2026\n \n \n عرض الماستر كارد على Trip.com\n \n \n \n \n \n \n \n \n\n .hide-1{\n display:none\n }",
       "terms": "",
       "startDate": "",
-      "endDate": "2026-05-11",
-      "offerUrl": "",
-      "imageUrl": "",
-      "tags": [
-        "mada",
-        "credit"
-      ],
-      "isExpired": false,
-      "sourceFile": "BSF.txt",
-      "updatedAt": "2026-03-13T22:21:34.909Z"
-    },
-    {
-      "id": "bsf-chotto-matte",
-      "bank": "البنك السعودي الفرنسي",
-      "bankCode": "bsf",
-      "title": "خصم 20% على الغداء و15% على العشاء لدى شاتو ماتو",
-      "merchant": "شاتو ماتو",
-      "category": "restaurants",
-      "discountText": "20% غداء / 15% عشاء",
-      "details": "مذكور في الصفحة: 20% على فترة الغداء و15% على فترة العشاء.",
-      "terms": "",
-      "startDate": "",
-      "endDate": "2026-08-25",
-      "offerUrl": "",
-      "imageUrl": "",
+      "endDate": "2026-03-31",
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/offers/travel/mastercard-tripcom-offer",
+      "imageUrl": "https://bsf.sa/ContentFiles/12872Image.png",
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-03-13T22:21:34.909Z"
+      "updatedAt": "2026-03-13T23:07:57.524Z"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-jon-amp-vinnys-restaurant",
+      "bank": "البنك السعودي الفرنسي",
+      "bankCode": "bsf",
+      "title": "مطعم جون آند فينيز",
+      "merchant": "مطعم جون آند فينيز",
+      "category": "المطاعم",
+      "discountText": "خصم 25%",
+      "details": "احصل على خصم 25% لدى مطعم جون آند فينيز عند استخدامك بطاقة BSF الائتمانية\n \n \n 31 مارس 2026\n \n \n مطعم جون آند فينيز \n \n \n \n \n \n \n \n \n\n .hide-1{\n display:none\n }",
+      "terms": "",
+      "startDate": "",
+      "endDate": "2026-03-31",
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/offers/restaurants/jon-amp-vinnys-restaurant",
+      "imageUrl": "https://bsf.sa/ContentFiles/12316Image.png",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "BSF.txt",
+      "updatedAt": "2026-03-13T23:07:57.524Z"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-aok-kitchen",
+      "bank": "البنك السعودي الفرنسي",
+      "bankCode": "bsf",
+      "title": "AOK-Kitchen",
+      "merchant": "AOK-Kitchen",
+      "category": "المطاعم",
+      "discountText": "خصم 25%",
+      "details": "احصل على خصم 25% لدى مطعم أي اوه كيه كيتشن عند استخدامك بطاقة BSF الائتمانية.\n \n \n 31 مارس 2026\n \n \n AOK-Kitchen \n \n \n \n \n \n \n \n \n\n .hide-1{\n display:none\n }",
+      "terms": "",
+      "startDate": "",
+      "endDate": "2026-03-31",
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/offers/restaurants/aok-kitchen",
+      "imageUrl": "https://bsf.sa/ContentFiles/11944Image.jpg",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "BSF.txt",
+      "updatedAt": "2026-03-13T23:07:57.524Z"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-blacktap",
+      "bank": "البنك السعودي الفرنسي",
+      "bankCode": "bsf",
+      "title": "BlackTap",
+      "merchant": "BlackTap",
+      "category": "المطاعم",
+      "discountText": "خصم 25%",
+      "details": "احصل على خصم 25% لدى مطعم بلاك تاب عند استخدامك بطاقة BSF الائتمانية.\n \n \n 31 مارس 2026\n \n \n BlackTap \n \n \n \n \n \n \n \n \n\n .hide-1{\n display:none\n }",
+      "terms": "",
+      "startDate": "",
+      "endDate": "2026-03-31",
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/offers/restaurants/blacktap",
+      "imageUrl": "https://bsf.sa/ContentFiles/11946Image.jpg",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "BSF.txt",
+      "updatedAt": "2026-03-13T23:07:57.524Z"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-ilbaretto",
+      "bank": "البنك السعودي الفرنسي",
+      "bankCode": "bsf",
+      "title": "ILBaretto",
+      "merchant": "ILBaretto",
+      "category": "المطاعم",
+      "discountText": "خصم 25%",
+      "details": "احصل على خصم 25% لدى مطعم الباريتو عند استخدامك بطاقة BSF الائتمانية.\n \n \n 31 مارس 2026\n \n \n ILBaretto\n \n \n \n \n \n \n \n \n\n .hide-1{\n display:none\n }",
+      "terms": "",
+      "startDate": "",
+      "endDate": "2026-03-31",
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/offers/restaurants/ilbaretto",
+      "imageUrl": "https://bsf.sa/ContentFiles/11947Image.png",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "BSF.txt",
+      "updatedAt": "2026-03-13T23:07:57.524Z"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-mrchow",
+      "bank": "البنك السعودي الفرنسي",
+      "bankCode": "bsf",
+      "title": "MrChow",
+      "merchant": "MrChow",
+      "category": "المطاعم",
+      "discountText": "خصم 25%",
+      "details": "احصل على خصم 25% لدى مطعم مستر تشاو عند استخدامك بطاقة BSF الائتمانية.\n \n \n 31 مارس 2026\n \n \n MrChow\n \n \n \n \n \n \n \n \n\n .hide-1{\n display:none\n }",
+      "terms": "",
+      "startDate": "",
+      "endDate": "2026-03-31",
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/offers/restaurants/mrchow",
+      "imageUrl": "https://bsf.sa/ContentFiles/11948Image.jpg",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "BSF.txt",
+      "updatedAt": "2026-03-13T23:07:57.524Z"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-roka",
+      "bank": "البنك السعودي الفرنسي",
+      "bankCode": "bsf",
+      "title": "Roka",
+      "merchant": "Roka",
+      "category": "المطاعم",
+      "discountText": "خصم 25%",
+      "details": "احصل على خصم 25% لدى مطعم روكا الرياض و جدة عند استخدامك بطاقة BSF الائتمانية.\n \n \n 31 مارس 2026\n \n \n Roka\n \n \n \n \n \n \n \n \n\n .hide-1{\n display:none\n }",
+      "terms": "",
+      "startDate": "",
+      "endDate": "2026-03-31",
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/offers/restaurants/roka",
+      "imageUrl": "https://bsf.sa/ContentFiles/11949Image.png",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "BSF.txt",
+      "updatedAt": "2026-03-13T23:07:57.524Z"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-travel-park-inn-by-radisson-dubai-motor-city",
+      "bank": "البنك السعودي الفرنسي",
+      "bankCode": "bsf",
+      "title": "بارك إن باي راديسون دبي موتور سيتي",
+      "merchant": "بارك إن باي راديسون دبي موتور سيتي",
+      "category": "كل العروض",
+      "discountText": "خصم 20%",
+      "details": "استمتع بخصم 20% على الغرف في فندق بارك إن باي راديسون دبي موتور سيتي باستخدام الرمز الترويجي BSF20 عند الدفع ببطاقة مدى من البنك أو بطاقة الائتمان\n \n \n 11 مايو 2026\n \n \n بارك إن باي راديسون دبي موتور سيتي\n \n \n \n \n \n \n \n \n\n .hide-1{\n display:none\n }",
+      "terms": "",
+      "startDate": "",
+      "endDate": "2026-05-11",
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/offers/travel/park-inn-by-radisson-dubai-motor-city",
+      "imageUrl": "https://bsf.sa/ContentFiles/12708Image.jpg",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "BSF.txt",
+      "updatedAt": "2026-03-13T23:07:57.524Z"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-voga-closet",
+      "bank": "البنك السعودي الفرنسي",
+      "bankCode": "bsf",
+      "title": "فوغا كلوست",
+      "merchant": "فوغا كلوست",
+      "category": "التسوق",
+      "discountText": "خصم 10%",
+      "details": "احصل على خصم 10% لدى فوغا كلوست عند استخدام بطاقات البنك السعودي الفرنسي فيزا الائتمانية \n \n \n 30 يونيو 2026\n \n \n فوغا كلوست\n \n \n \n \n \n \n \n \n\n .hide-1{\n display:none\n }",
+      "terms": "",
+      "startDate": "",
+      "endDate": "2026-06-30",
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/offers/shopping/voga-closet",
+      "imageUrl": "https://bsf.sa/ContentFiles/11270Image.jpg",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "BSF.txt",
+      "updatedAt": "2026-03-13T23:07:57.524Z"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-shein",
+      "bank": "البنك السعودي الفرنسي",
+      "bankCode": "bsf",
+      "title": "SHEIN",
+      "merchant": "SHEIN",
+      "category": "التسوق",
+      "discountText": "",
+      "details": "احصل على خصم 20 % لدى SHEIN عند استخدام بطاقات فيزا الائتمانية\n \n \n 30 يونيو 2026\n \n \n SHEIN \n \n \n \n \n \n \n \n \n\n .hide-1{\n display:none\n }",
+      "terms": "",
+      "startDate": "",
+      "endDate": "2026-06-30",
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/offers/shopping/shein",
+      "imageUrl": "https://bsf.sa/ContentFiles/11151Image.jpg",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "BSF.txt",
+      "updatedAt": "2026-03-13T23:07:57.524Z"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-entertainment-vox-cinema",
+      "bank": "البنك السعودي الفرنسي",
+      "bankCode": "bsf",
+      "title": "VOX Cinema",
+      "merchant": "VOX Cinema",
+      "category": "الترفيه",
+      "discountText": "الثانية مجانا",
+      "details": "احجز تذكرتك واحصل على الثانية مجاناً من خلال تطبيق وموقع ڤوكس سـيـنـمـا الالكتروني مع بطاقات البنك السعودي الفرنسي المميزة.\n \n \n 30 يونيو 2026\n \n \n VOX Cinema\n \n \n \n \n \n \n \n \n\n .hide-1{\n display:none\n }",
+      "terms": "",
+      "startDate": "",
+      "endDate": "2026-06-30",
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/offers/entertainment/vox-cinema",
+      "imageUrl": "https://bsf.sa/ContentFiles/12441Image.png",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "BSF.txt",
+      "updatedAt": "2026-03-13T23:07:57.524Z"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-spring-rose",
+      "bank": "البنك السعودي الفرنسي",
+      "bankCode": "bsf",
+      "title": "زهرة الربيع",
+      "merchant": "زهرة الربيع",
+      "category": "التسوق",
+      "discountText": "خصم 20%",
+      "details": "احصل على خصم 20% لدى زهرة الربيع عند استخدام بطاقات البنك السعودي الفرنسي (\"البنك\") الائتمانية أو مدى \n \n \n 01 أغسطس 2026\n \n \n زهرة الربيع\n \n \n \n \n \n \n \n \n\n .hide-1{\n display:none\n }",
+      "terms": "",
+      "startDate": "",
+      "endDate": "2026-08-01",
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/offers/shopping/spring-rose",
+      "imageUrl": "https://bsf.sa/ContentFiles/11091Image.png",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "BSF.txt",
+      "updatedAt": "2026-03-13T23:07:57.524Z"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-chotto-matte",
+      "bank": "البنك السعودي الفرنسي",
+      "bankCode": "bsf",
+      "title": "شاتو ماتو",
+      "merchant": "شاتو ماتو",
+      "category": "كل العروض",
+      "discountText": "خصم 15%",
+      "details": "احصل على خصم 15% على فترة العشاء و 20% على فترة الغداء لدى شاتو ماتو \n \n \n 25 أغسطس 2026\n \n \n شاتو ماتو \n \n \n \n \n \n \n \n \n\n .hide-1{\n display:none\n }",
+      "terms": "",
+      "startDate": "",
+      "endDate": "2026-08-25",
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/offers/restaurants/chotto-matte",
+      "imageUrl": "https://bsf.sa/ContentFiles/12768Image.jpg",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "BSF.txt",
+      "updatedAt": "2026-03-13T23:07:57.524Z"
     },
     {
       "id": "alrajhi-air-france",
@@ -199,30 +456,45 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-03-13T22:21:34.913Z"
+      "updatedAt": "2026-03-13T23:07:57.528Z"
     },
     {
-      "id": "bsf-symphony-clinic",
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-amazon-prime",
       "bank": "البنك السعودي الفرنسي",
       "bankCode": "bsf",
-      "title": "خصم يصل إلى 15% لدى عيادات سيمفوني",
+      "title": "أمازون برايم",
+      "merchant": "أمازون برايم",
+      "category": "التسوق",
+      "discountText": "",
+      "details": "استمتع بفترة تصل إلى ٦ أشهر على أمازون برايم مع بطاقة ماستركارد من BSF.\n \n \n 30 أكتوبر 2026\n \n \n أمازون برايم\n \n \n \n \n \n \n \n \n\n .hide-1{\n display:none\n }",
+      "terms": "",
+      "startDate": "",
+      "endDate": "2026-10-30",
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/offers/shopping/amazon-prime",
+      "imageUrl": "https://bsf.sa/ContentFiles/11599Image.png",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "BSF.txt",
+      "updatedAt": "2026-03-13T23:07:57.524Z"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-live-well-symphony-clinic",
+      "bank": "البنك السعودي الفرنسي",
+      "bankCode": "bsf",
+      "title": "عيادات سيمفوني",
       "merchant": "عيادات سيمفوني",
-      "category": "health",
-      "discountText": "حتى 15%",
-      "details": "",
+      "category": "كل العروض",
+      "discountText": "",
+      "details": "احصل على خصم يصل الى 15% لدى عيادات سيمفوني عند استخدامك بطاقات BSF الائتمانية ومسبقة الدفع ومدى \n \n \n 01 ديسمبر 2026\n \n \n عيادات سيمفوني\n \n \n \n \n \n \n \n \n\n .hide-1{\n display:none\n }",
       "terms": "",
       "startDate": "",
       "endDate": "2026-12-01",
-      "offerUrl": "",
-      "imageUrl": "",
-      "tags": [
-        "credit",
-        "prepaid",
-        "mada"
-      ],
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/offers/live-well/symphony-clinic",
+      "imageUrl": "https://bsf.sa/ContentFiles/12851Image.png",
+      "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-03-13T22:21:34.909Z"
+      "updatedAt": "2026-03-13T23:07:57.524Z"
     },
     {
       "id": "alrajhi-صن-رول",
@@ -241,7 +513,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-03-13T22:21:34.913Z"
+      "updatedAt": "2026-03-13T23:07:57.528Z"
     },
     {
       "id": "alrajhi-صن-رول",
@@ -260,7 +532,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-03-13T22:21:34.913Z"
+      "updatedAt": "2026-03-13T23:07:57.528Z"
     },
     {
       "id": "alrajhi-تطبيق-سويتر",
@@ -279,53 +551,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-03-13T22:21:34.913Z"
-    },
-    {
-      "id": "bsf-indigo-home",
-      "bank": "البنك السعودي الفرنسي",
-      "bankCode": "bsf",
-      "title": "خصم 15% لدى Indigo Home",
-      "merchant": "Indigo Home",
-      "category": "lifestyle",
-      "discountText": "15%",
-      "details": "",
-      "terms": "",
-      "startDate": "",
-      "endDate": "2026-12-31",
-      "offerUrl": "",
-      "imageUrl": "",
-      "tags": [
-        "credit",
-        "prepaid",
-        "mada"
-      ],
-      "isExpired": false,
-      "sourceFile": "BSF.txt",
-      "updatedAt": "2026-03-13T22:21:34.909Z"
-    },
-    {
-      "id": "bsf-lifeways",
-      "bank": "البنك السعودي الفرنسي",
-      "bankCode": "bsf",
-      "title": "خصم يصل إلى 30% لدى مركز لايف وايز",
-      "merchant": "مركز لايف وايز",
-      "category": "health",
-      "discountText": "حتى 30%",
-      "details": "",
-      "terms": "",
-      "startDate": "",
-      "endDate": "2026-12-31",
-      "offerUrl": "",
-      "imageUrl": "",
-      "tags": [
-        "credit",
-        "prepaid",
-        "mada"
-      ],
-      "isExpired": false,
-      "sourceFile": "BSF.txt",
-      "updatedAt": "2026-03-13T22:21:34.909Z"
+      "updatedAt": "2026-03-13T23:07:57.528Z"
     },
     {
       "id": "alrajhi-زيوكس",
@@ -344,7 +570,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-03-13T22:21:34.913Z"
+      "updatedAt": "2026-03-13T23:07:57.528Z"
     },
     {
       "id": "alrajhi-زيوكس",
@@ -363,7 +589,121 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-03-13T22:21:34.913Z"
+      "updatedAt": "2026-03-13T23:07:57.528Z"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-live-well-lifeways-clinics",
+      "bank": "البنك السعودي الفرنسي",
+      "bankCode": "bsf",
+      "title": "مركز لايف وايز",
+      "merchant": "مركز لايف وايز",
+      "category": "كل العروض",
+      "discountText": "",
+      "details": "احصل على خصم يصل الى 30% لدى مركز لايف وايز عند استخدامك بطاقات BSF الائتمانية، مسبقة الدفع و مدى\n \n \n 31 ديسمبر 2026\n \n \n مركز لايف وايز \n \n \n \n \n \n \n \n \n\n .hide-1{\n display:none\n }",
+      "terms": "",
+      "startDate": "",
+      "endDate": "2026-12-31",
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/offers/live-well/lifeways-clinics",
+      "imageUrl": "https://bsf.sa/ContentFiles/12744Image.jpg",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "BSF.txt",
+      "updatedAt": "2026-03-13T23:07:57.524Z"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-farfetch",
+      "bank": "البنك السعودي الفرنسي",
+      "bankCode": "bsf",
+      "title": "Farfetch",
+      "merchant": "Farfetch",
+      "category": "التسوق",
+      "discountText": "",
+      "details": "وفر حتى 500 ريال لدى Farfetch عند استخدامك بطاقات البنك السعودي الفرنسي فيزا الائتمانية\n \n \n 31 ديسمبر 2026\n \n \n Farfetch \n \n \n \n \n \n \n \n \n\n .hide-1{\n display:none\n }",
+      "terms": "",
+      "startDate": "",
+      "endDate": "2026-12-31",
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/offers/shopping/farfetch",
+      "imageUrl": "https://bsf.sa/ContentFiles/11076Image.jpg",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "BSF.txt",
+      "updatedAt": "2026-03-13T23:07:57.524Z"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-travel-ihg",
+      "bank": "البنك السعودي الفرنسي",
+      "bankCode": "bsf",
+      "title": "IHG",
+      "merchant": "IHG",
+      "category": "السفر",
+      "discountText": "خصم 15%",
+      "details": "احصل على خصم 15% لدى فنادق ومنتجعات IHG عند استخدامك بطاقة البنك السعودي الفرنسي الائتمانية ماستركارد\n \n \n 31 ديسمبر 2026\n \n \n IHG\n \n \n \n \n \n \n \n \n\n .hide-1{\n display:none\n }",
+      "terms": "",
+      "startDate": "",
+      "endDate": "2026-12-31",
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/offers/travel/ihg",
+      "imageUrl": "https://bsf.sa/ContentFiles/11108Image.png",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "BSF.txt",
+      "updatedAt": "2026-03-13T23:07:57.524Z"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-live-well-indigo-home",
+      "bank": "البنك السعودي الفرنسي",
+      "bankCode": "bsf",
+      "title": "Indigo Home",
+      "merchant": "Indigo Home",
+      "category": "كل العروض",
+      "discountText": "خصم 15%",
+      "details": "احصل على خصم 15% لدى محلات Indigo Home عند استخدامك بطاقات BSF الائتمانية و مسبقة الدفع و مدى\n \n \n 31 ديسمبر 2026\n \n \n Indigo Home\n \n \n \n \n \n \n \n \n\n .hide-1{\n display:none\n }",
+      "terms": "",
+      "startDate": "",
+      "endDate": "2026-12-31",
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/offers/live-well/indigo-home",
+      "imageUrl": "https://bsf.sa/ContentFiles/12870Image.png",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "BSF.txt",
+      "updatedAt": "2026-03-13T23:07:57.524Z"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-live-well-the-healthy-home",
+      "bank": "البنك السعودي الفرنسي",
+      "bankCode": "bsf",
+      "title": "The healthy home",
+      "merchant": "The healthy home",
+      "category": "أسلوب حياة",
+      "discountText": "خصم 15%",
+      "details": "خصم 15% مقدم من The Healthy Home لجميع حاملي بطاقة البنك السعودي الفرنسي الائتمانية أو مدى\n \n \n 31 ديسمبر 2026\n \n \n The healthy home\n \n \n \n \n \n \n \n \n\n .hide-1{\n display:none\n }",
+      "terms": "",
+      "startDate": "",
+      "endDate": "2026-12-31",
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/offers/live-well/the-healthy-home",
+      "imageUrl": "https://bsf.sa/ContentFiles/10959Image.jpg",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "BSF.txt",
+      "updatedAt": "2026-03-13T23:07:57.524Z"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-travel-rental-cars",
+      "bank": "البنك السعودي الفرنسي",
+      "bankCode": "bsf",
+      "title": "Rental Cars",
+      "merchant": "Rental Cars",
+      "category": "السفر",
+      "discountText": "",
+      "details": "استمتع بخصم 10٪ حصريًا عند حجز رحلتك المفضلة مع Rentalcars.com باستخدام بطاقة البنك السعودي الفرنسي ماستركارد\n\n \n \n 15 يونيو 2027\n \n \n Rental Cars\n \n \n \n \n \n \n \n \n\n .hide-1{\n display:none\n }",
+      "terms": "",
+      "startDate": "",
+      "endDate": "2027-06-15",
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/offers/travel/rental-cars",
+      "imageUrl": "https://bsf.sa/ContentFiles/11109Image.png",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "BSF.txt",
+      "updatedAt": "2026-03-13T23:07:57.524Z"
     },
     {
       "id": "alinma",
@@ -382,7 +722,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T22:21:34.911Z"
+      "updatedAt": "2026-03-13T23:07:57.526Z"
     },
     {
       "id": "alinma",
@@ -401,7 +741,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T22:21:34.911Z"
+      "updatedAt": "2026-03-13T23:07:57.526Z"
     },
     {
       "id": "alinma",
@@ -420,7 +760,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T22:21:34.911Z"
+      "updatedAt": "2026-03-13T23:07:57.526Z"
     },
     {
       "id": "alinma",
@@ -439,7 +779,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T22:21:34.911Z"
+      "updatedAt": "2026-03-13T23:07:57.526Z"
     },
     {
       "id": "alinma",
@@ -458,7 +798,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T22:21:34.911Z"
+      "updatedAt": "2026-03-13T23:07:57.526Z"
     },
     {
       "id": "alinma",
@@ -477,7 +817,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T22:21:34.911Z"
+      "updatedAt": "2026-03-13T23:07:57.526Z"
     },
     {
       "id": "alinma",
@@ -496,7 +836,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T22:21:34.911Z"
+      "updatedAt": "2026-03-13T23:07:57.526Z"
     },
     {
       "id": "alinma",
@@ -515,7 +855,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T22:21:34.911Z"
+      "updatedAt": "2026-03-13T23:07:57.526Z"
     },
     {
       "id": "alinma",
@@ -534,7 +874,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T22:21:34.911Z"
+      "updatedAt": "2026-03-13T23:07:57.526Z"
     },
     {
       "id": "alinma",
@@ -553,7 +893,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T22:21:34.911Z"
+      "updatedAt": "2026-03-13T23:07:57.526Z"
     },
     {
       "id": "alinma",
@@ -572,7 +912,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T22:21:34.911Z"
+      "updatedAt": "2026-03-13T23:07:57.526Z"
     },
     {
       "id": "alinma",
@@ -591,7 +931,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T22:21:34.911Z"
+      "updatedAt": "2026-03-13T23:07:57.526Z"
     },
     {
       "id": "alinma",
@@ -610,7 +950,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T22:21:34.911Z"
+      "updatedAt": "2026-03-13T23:07:57.526Z"
     },
     {
       "id": "alinma",
@@ -629,7 +969,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T22:21:34.911Z"
+      "updatedAt": "2026-03-13T23:07:57.527Z"
     },
     {
       "id": "alinma",
@@ -648,7 +988,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T22:21:34.911Z"
+      "updatedAt": "2026-03-13T23:07:57.527Z"
     },
     {
       "id": "alinma",
@@ -667,7 +1007,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T22:21:34.911Z"
+      "updatedAt": "2026-03-13T23:07:57.527Z"
     },
     {
       "id": "alinma",
@@ -686,7 +1026,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T22:21:34.911Z"
+      "updatedAt": "2026-03-13T23:07:57.527Z"
     },
     {
       "id": "alinma",
@@ -705,7 +1045,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T22:21:34.911Z"
+      "updatedAt": "2026-03-13T23:07:57.527Z"
     },
     {
       "id": "alinma",
@@ -724,7 +1064,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T22:21:34.911Z"
+      "updatedAt": "2026-03-13T23:07:57.527Z"
     },
     {
       "id": "riyadh",
@@ -743,7 +1083,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Riyadh Offer.txt",
-      "updatedAt": "2026-03-13T22:21:34.914Z"
+      "updatedAt": "2026-03-13T23:07:57.529Z"
     },
     {
       "id": "riyadh",
@@ -762,7 +1102,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Riyadh Offer.txt",
-      "updatedAt": "2026-03-13T22:21:34.914Z"
+      "updatedAt": "2026-03-13T23:07:57.529Z"
     },
     {
       "id": "riyadh",
@@ -781,7 +1121,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Riyadh Offer.txt",
-      "updatedAt": "2026-03-13T22:21:34.914Z"
+      "updatedAt": "2026-03-13T23:07:57.529Z"
     },
     {
       "id": "saib-آسيان-آسيان",
@@ -802,7 +1142,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "saib-اجيو-اجيو",
@@ -824,7 +1164,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "sabb-أكور-accor",
@@ -845,7 +1185,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T22:21:34.915Z"
+      "updatedAt": "2026-03-13T23:07:57.530Z"
     },
     {
       "id": "saib-إل-بي-إم-إل-بي-إم",
@@ -866,7 +1206,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "sabb-الإلكترونية-الحديثة-سوني-الإلكترونية-الحديثة-سوني",
@@ -887,7 +1227,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T22:21:34.915Z"
+      "updatedAt": "2026-03-13T23:07:57.530Z"
     },
     {
       "id": "aljazira-التميمي-للأقمشة-التميمي-للأقمشة",
@@ -909,7 +1249,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T22:21:34.907Z"
+      "updatedAt": "2026-03-13T23:07:57.522Z"
     },
     {
       "id": "sabb-الحلاب-1881-hallab-1881",
@@ -931,7 +1271,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T22:21:34.915Z"
+      "updatedAt": "2026-03-13T23:07:57.530Z"
     },
     {
       "id": "anb-الركن-السويسري-الركن-السويسري",
@@ -952,7 +1292,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T22:21:34.909Z"
+      "updatedAt": "2026-03-13T23:07:57.523Z"
     },
     {
       "id": "232",
@@ -971,7 +1311,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "sabb-الفوزان-سنتر-alfouzan-center",
@@ -993,7 +1333,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T22:21:34.915Z"
+      "updatedAt": "2026-03-13T23:07:57.530Z"
     },
     {
       "id": "saib-القصر-الصيني-القصر-الصيني",
@@ -1014,7 +1354,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "264",
@@ -1033,7 +1373,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "269",
@@ -1052,7 +1392,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "223",
@@ -1071,7 +1411,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.903Z"
+      "updatedAt": "2026-03-13T23:07:57.518Z"
     },
     {
       "id": "anb-إي-إم-بوكس-إي-إم-بوكس",
@@ -1093,7 +1433,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T22:21:34.908Z"
+      "updatedAt": "2026-03-13T23:07:57.523Z"
     },
     {
       "id": "anb-ايرث-كافيه-ايرث-كافيه",
@@ -1114,7 +1454,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T22:21:34.908Z"
+      "updatedAt": "2026-03-13T23:07:57.523Z"
     },
     {
       "id": "sabb-با-لا-دي-7-pala-de7",
@@ -1136,7 +1476,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T22:21:34.915Z"
+      "updatedAt": "2026-03-13T23:07:57.530Z"
     },
     {
       "id": "sabb-بادل-الرياض-riyadh-padel",
@@ -1158,7 +1498,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T22:21:34.915Z"
+      "updatedAt": "2026-03-13T23:07:57.530Z"
     },
     {
       "id": "saib-بادل-ان-بادل-ان",
@@ -1179,7 +1519,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "sabb-بادل-هب-padel-hub",
@@ -1201,7 +1541,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T22:21:34.915Z"
+      "updatedAt": "2026-03-13T23:07:57.530Z"
     },
     {
       "id": "anb-بلاي-ويل-بلاي-ويل",
@@ -1223,7 +1563,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T22:21:34.908Z"
+      "updatedAt": "2026-03-13T23:07:57.523Z"
     },
     {
       "id": "sabb-بلش-نيل-بوتيك-plush-nail-boutique",
@@ -1245,7 +1585,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T22:21:34.915Z"
+      "updatedAt": "2026-03-13T23:07:57.530Z"
     },
     {
       "id": "aljazira-بنش-هوم-بنش-هوم",
@@ -1267,7 +1607,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T22:21:34.907Z"
+      "updatedAt": "2026-03-13T23:07:57.522Z"
     },
     {
       "id": "260",
@@ -1286,7 +1626,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "saib-بول-بول",
@@ -1307,7 +1647,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "252",
@@ -1326,7 +1666,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "226",
@@ -1345,7 +1685,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.518Z"
     },
     {
       "id": "257",
@@ -1364,7 +1704,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "sabb-بيت-الشاورما-shawarma-house",
@@ -1386,7 +1726,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T22:21:34.915Z"
+      "updatedAt": "2026-03-13T23:07:57.530Z"
     },
     {
       "id": "265",
@@ -1405,7 +1745,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "saib-بيرد-بيرد",
@@ -1426,7 +1766,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "236",
@@ -1445,7 +1785,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "sabb-ترايبس-tribus",
@@ -1466,7 +1806,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T22:21:34.915Z"
+      "updatedAt": "2026-03-13T23:07:57.530Z"
     },
     {
       "id": "aljazira-تشيلك-تشيلك",
@@ -1488,7 +1828,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T22:21:34.907Z"
+      "updatedAt": "2026-03-13T23:07:57.522Z"
     },
     {
       "id": "227",
@@ -1507,7 +1847,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.518Z"
     },
     {
       "id": "anb-توب-غان-توب-غان",
@@ -1529,7 +1869,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T22:21:34.909Z"
+      "updatedAt": "2026-03-13T23:07:57.523Z"
     },
     {
       "id": "saib-توينا-توينا",
@@ -1550,7 +1890,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "sabb-تيولا-tola",
@@ -1572,7 +1912,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T22:21:34.915Z"
+      "updatedAt": "2026-03-13T23:07:57.530Z"
     },
     {
       "id": "sabb-ثنايا-كلينيك-thanaya-clinic",
@@ -1594,7 +1934,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T22:21:34.915Z"
+      "updatedAt": "2026-03-13T23:07:57.530Z"
     },
     {
       "id": "saib-جاريز-جاريز",
@@ -1615,7 +1955,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "238",
@@ -1634,7 +1974,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "saib-جست-لوفت-جست-لوفت",
@@ -1655,7 +1995,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "sabb-جيلا-jayla",
@@ -1676,7 +2016,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T22:21:34.915Z"
+      "updatedAt": "2026-03-13T23:07:57.530Z"
     },
     {
       "id": "sabb-داشن-dashn",
@@ -1698,7 +2038,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T22:21:34.915Z"
+      "updatedAt": "2026-03-13T23:07:57.530Z"
     },
     {
       "id": "254",
@@ -1717,7 +2057,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "saib-دبليو-فايف-دبليو-فايف",
@@ -1738,7 +2078,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "263",
@@ -1757,7 +2097,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "262",
@@ -1776,7 +2116,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "sabb-دلال-بوتيك-dalal-boutique",
@@ -1798,7 +2138,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T22:21:34.915Z"
+      "updatedAt": "2026-03-13T23:07:57.530Z"
     },
     {
       "id": "saib-دوز-دوز",
@@ -1819,7 +2159,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "saib-ذا-بوتشر-شوب-اند-جريل-ذا-بوتشر-شوب-اند-جريل",
@@ -1840,7 +2180,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "saib-ذا-غلوب-ذا-غلوب",
@@ -1861,7 +2201,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "aljazira-رمز-الأعمال-رمز-الأعمال",
@@ -1883,7 +2223,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T22:21:34.907Z"
+      "updatedAt": "2026-03-13T23:07:57.522Z"
     },
     {
       "id": "saib-روما-وي-روما-وي",
@@ -1904,7 +2244,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "229",
@@ -1923,7 +2263,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "aljazira-ريفي-ريفي",
@@ -1945,7 +2285,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T22:21:34.907Z"
+      "updatedAt": "2026-03-13T23:07:57.522Z"
     },
     {
       "id": "235",
@@ -1964,7 +2304,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "saib-سان-كارلو-تشيكتي-سان-كارلو-تشيكتي",
@@ -1985,7 +2325,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "233",
@@ -2004,7 +2344,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "aljazira-ستايلي-ستايلي",
@@ -2026,7 +2366,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T22:21:34.907Z"
+      "updatedAt": "2026-03-13T23:07:57.522Z"
     },
     {
       "id": "saib-ستيك-هاوس-ستيك-هاوس",
@@ -2047,7 +2387,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "saib-سكونيزا-سكونيزا",
@@ -2068,7 +2408,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "saib-سنشري-برجر-سنشري-برجر",
@@ -2089,7 +2429,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "saib-سوشال-دايننج-سوشال-دايننج",
@@ -2110,7 +2450,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "aljazira-سيفي-سيفي",
@@ -2132,7 +2472,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T22:21:34.907Z"
+      "updatedAt": "2026-03-13T23:07:57.522Z"
     },
     {
       "id": "saib-شلفن-شلتس-شلفن-شلتس",
@@ -2153,7 +2493,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "231",
@@ -2172,7 +2512,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "258",
@@ -2191,7 +2531,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "anb-صالون-أيوليت-صالون-أيوليت",
@@ -2213,7 +2553,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T22:21:34.908Z"
+      "updatedAt": "2026-03-13T23:07:57.523Z"
     },
     {
       "id": "saib-صب-واي-صب-واي",
@@ -2234,7 +2574,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "256",
@@ -2253,7 +2593,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "aljazira-عبدالغني-إرث-المجوهرات-عبدالغني-إرث-المجوهرات",
@@ -2275,7 +2615,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T22:21:34.907Z"
+      "updatedAt": "2026-03-13T23:07:57.522Z"
     },
     {
       "id": "anb-فايانا-فايانا",
@@ -2297,7 +2637,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T22:21:34.908Z"
+      "updatedAt": "2026-03-13T23:07:57.523Z"
     },
     {
       "id": "saib-فلامنجو-روم-فلامنجو-روم",
@@ -2318,7 +2658,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "sabb-فلاور-ادرس-flower-address",
@@ -2340,7 +2680,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T22:21:34.915Z"
+      "updatedAt": "2026-03-13T23:07:57.530Z"
     },
     {
       "id": "anb-فلورينا-فلورينا",
@@ -2362,7 +2702,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T22:21:34.908Z"
+      "updatedAt": "2026-03-13T23:07:57.523Z"
     },
     {
       "id": "anb-فندق-ميسان-رحاب-المسك-فندق-ميسان-رحاب-المسك",
@@ -2384,7 +2724,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T22:21:34.908Z"
+      "updatedAt": "2026-03-13T23:07:57.523Z"
     },
     {
       "id": "saib-فوغو-دي-تشاو-فوغو-دي-تشاو",
@@ -2405,7 +2745,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "251",
@@ -2424,7 +2764,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "saib-فيفث-سيزون-فيفث-سيزون",
@@ -2445,7 +2785,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "anb-فيكت-هوم-فيكت-هوم",
@@ -2467,7 +2807,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T22:21:34.908Z"
+      "updatedAt": "2026-03-13T23:07:57.523Z"
     },
     {
       "id": "saib-فينكي-فينكي",
@@ -2488,7 +2828,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "saib-كانتون-كانتون",
@@ -2509,7 +2849,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "anb-كت-اند-كوت-كت-اند-كوت",
@@ -2531,7 +2871,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T22:21:34.908Z"
+      "updatedAt": "2026-03-13T23:07:57.523Z"
     },
     {
       "id": "259",
@@ -2550,7 +2890,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "anb-كراما-يوغا-كراما-يوغا",
@@ -2572,7 +2912,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T22:21:34.908Z"
+      "updatedAt": "2026-03-13T23:07:57.523Z"
     },
     {
       "id": "saib-كرك-غلامور-كرك-غلامور",
@@ -2593,7 +2933,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "247",
@@ -2612,7 +2952,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "saib-كلتشر-كلتشر",
@@ -2633,7 +2973,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "245",
@@ -2652,7 +2992,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "saib-لو-سوليه-لو-سوليه",
@@ -2673,7 +3013,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "253",
@@ -2692,7 +3032,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "saib-ماما-بنز-ماما-بنز",
@@ -2713,7 +3053,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "anb-مانترا-سبا-مانترا-سبا",
@@ -2735,7 +3075,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T22:21:34.908Z"
+      "updatedAt": "2026-03-13T23:07:57.523Z"
     },
     {
       "id": "250",
@@ -2754,7 +3094,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "266",
@@ -2773,7 +3113,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "anb-مزرود-مزرود",
@@ -2795,7 +3135,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T22:21:34.908Z"
+      "updatedAt": "2026-03-13T23:07:57.523Z"
     },
     {
       "id": "anb-مقهى-ومحمصة-سويل-مقهى-ومحمصة-سويل",
@@ -2817,7 +3157,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T22:21:34.908Z"
+      "updatedAt": "2026-03-13T23:07:57.523Z"
     },
     {
       "id": "saib-مقهى-ومحمصة-شرق-مقهى-ومحمصة-شرق",
@@ -2838,7 +3178,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "saib-مكرونة-فورنو-مكرونة-فورنو",
@@ -2859,7 +3199,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "aljazira-مكعب-مكعب",
@@ -2881,7 +3221,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T22:21:34.907Z"
+      "updatedAt": "2026-03-13T23:07:57.522Z"
     },
     {
       "id": "saib-ميز-ميز",
@@ -2902,7 +3242,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "anb-نادي-إلكسير-النسائي-نادي-إلكسير-النسائي",
@@ -2924,7 +3264,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T22:21:34.908Z"
+      "updatedAt": "2026-03-13T23:07:57.523Z"
     },
     {
       "id": "saib-نجمة-نجمة",
@@ -2945,7 +3285,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T22:21:34.916Z"
+      "updatedAt": "2026-03-13T23:07:57.531Z"
     },
     {
       "id": "sabb-نمشي-namshi",
@@ -2966,7 +3306,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T22:21:34.915Z"
+      "updatedAt": "2026-03-13T23:07:57.530Z"
     },
     {
       "id": "aljazira-نور-غاليري-نور-غاليري",
@@ -2988,7 +3328,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T22:21:34.907Z"
+      "updatedAt": "2026-03-13T23:07:57.522Z"
     },
     {
       "id": "246",
@@ -3007,7 +3347,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "anb-هنقرستيشن-هنقرستيشن",
@@ -3028,7 +3368,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T22:21:34.908Z"
+      "updatedAt": "2026-03-13T23:07:57.523Z"
     },
     {
       "id": "aljazira-هنقرستيشن-رمضان-هنقرستيشن",
@@ -3049,7 +3389,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T22:21:34.905Z"
+      "updatedAt": "2026-03-13T23:07:57.520Z"
     },
     {
       "id": "anb-هوبو-هوبو",
@@ -3071,7 +3411,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T22:21:34.908Z"
+      "updatedAt": "2026-03-13T23:07:57.523Z"
     },
     {
       "id": "241",
@@ -3090,7 +3430,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "267",
@@ -3109,7 +3449,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "244",
@@ -3128,7 +3468,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "sabb-brands-for-less-brands-for-less",
@@ -3149,7 +3489,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T22:21:34.915Z"
+      "updatedAt": "2026-03-13T23:07:57.530Z"
     },
     {
       "id": "sabb-cartlow-cartlow",
@@ -3171,7 +3511,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T22:21:34.915Z"
+      "updatedAt": "2026-03-13T23:07:57.530Z"
     },
     {
       "id": "enbd-el-n-london-el-n-london",
@@ -3193,7 +3533,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ENBD.txt",
-      "updatedAt": "2026-03-13T22:21:34.910Z"
+      "updatedAt": "2026-03-13T23:07:57.525Z"
     },
     {
       "id": "255",
@@ -3212,7 +3552,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "228",
@@ -3231,7 +3571,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "261",
@@ -3250,7 +3590,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "sabb-flyin-flyin",
@@ -3272,7 +3612,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T22:21:34.915Z"
+      "updatedAt": "2026-03-13T23:07:57.530Z"
     },
     {
       "id": "270",
@@ -3291,7 +3631,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "248",
@@ -3310,7 +3650,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "225",
@@ -3329,7 +3669,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.518Z"
     },
     {
       "id": "239",
@@ -3348,7 +3688,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "enbd-jon-vinnys-jon-vinnys",
@@ -3369,7 +3709,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ENBD.txt",
-      "updatedAt": "2026-03-13T22:21:34.910Z"
+      "updatedAt": "2026-03-13T23:07:57.525Z"
     },
     {
       "id": "sabb-jones-the-grocer-jones-the-grocer",
@@ -3391,7 +3731,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T22:21:34.915Z"
+      "updatedAt": "2026-03-13T23:07:57.530Z"
     },
     {
       "id": "enbd-lulu-hypermarket-lulu-hypermarket",
@@ -3412,7 +3752,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ENBD.txt",
-      "updatedAt": "2026-03-13T22:21:34.910Z"
+      "updatedAt": "2026-03-13T23:07:57.525Z"
     },
     {
       "id": "enbd-lunch-in-a-box-lunch-in-a-box",
@@ -3434,7 +3774,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ENBD.txt",
-      "updatedAt": "2026-03-13T22:21:34.910Z"
+      "updatedAt": "2026-03-13T23:07:57.525Z"
     },
     {
       "id": "242",
@@ -3453,7 +3793,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "243",
@@ -3472,7 +3812,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "237",
@@ -3491,7 +3831,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "sabb-out-of-line-out-of-line",
@@ -3513,7 +3853,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T22:21:34.915Z"
+      "updatedAt": "2026-03-13T23:07:57.530Z"
     },
     {
       "id": "sabb-pieces-pieces",
@@ -3535,7 +3875,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T22:21:34.915Z"
+      "updatedAt": "2026-03-13T23:07:57.530Z"
     },
     {
       "id": "268",
@@ -3554,7 +3894,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "224",
@@ -3573,7 +3913,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.518Z"
     },
     {
       "id": "sabb-the-untitled-project-the-untitled-project",
@@ -3595,7 +3935,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T22:21:34.915Z"
+      "updatedAt": "2026-03-13T23:07:57.530Z"
     },
     {
       "id": "aljazira-trendyol-trendyol",
@@ -3616,7 +3956,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T22:21:34.907Z"
+      "updatedAt": "2026-03-13T23:07:57.521Z"
     },
     {
       "id": "249",
@@ -3635,7 +3975,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "enbd-truffleers-truffleers",
@@ -3657,7 +3997,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ENBD.txt",
-      "updatedAt": "2026-03-13T22:21:34.910Z"
+      "updatedAt": "2026-03-13T23:07:57.525Z"
     },
     {
       "id": "234",
@@ -3676,7 +4016,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "enbd-voco-riyadh-voco-riyadh",
@@ -3698,7 +4038,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ENBD.txt",
-      "updatedAt": "2026-03-13T22:21:34.910Z"
+      "updatedAt": "2026-03-13T23:07:57.525Z"
     },
     {
       "id": "230",
@@ -3717,7 +4057,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
     },
     {
       "id": "240",
@@ -3736,7 +4076,140 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T22:21:34.904Z"
+      "updatedAt": "2026-03-13T23:07:57.519Z"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-credit",
+      "bank": "البنك السعودي الفرنسي",
+      "bankCode": "bsf",
+      "title": "البطاقات الائتمان",
+      "merchant": "البطاقات",
+      "category": "كل العروض",
+      "discountText": "",
+      "details": "البطاقات \n \n\n \n \n قارن بين البطاقات\n \n \n نموذج طلب بطاقة ائتمانية\n \n \n عروض برنامج قسّطها\n \n \n عروض و خصومات\n \n \n البطاقات الملغية و المتاحة فقط للعملاء الحاليين\n \n \n العروض قصيرة المدة\n \n \n حاسبة العمليات الدولية\n \n \n حاسبة مكافآت بطاقات الائتمان",
+      "terms": "",
+      "startDate": "",
+      "endDate": "1397-06-17",
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/credit",
+      "imageUrl": "https://bsf.sa/ContentFiles/",
+      "tags": [],
+      "isExpired": true,
+      "sourceFile": "BSF.txt",
+      "updatedAt": "2026-03-13T23:07:57.524Z"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-discontinued-cards",
+      "bank": "البنك السعودي الفرنسي",
+      "bankCode": "bsf",
+      "title": "البطاقات الملغية و المتاحة فقط للعملاء الحاليين",
+      "merchant": "البطاقات الملغية و المتاحة فقط للعملاء الحاليين",
+      "category": "كل العروض",
+      "discountText": "",
+      "details": "البطاقات الملغية و المتاحة فقط للعملاء الحاليين",
+      "terms": "",
+      "startDate": "",
+      "endDate": "1397-06-17",
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/discontinued-cards",
+      "imageUrl": "https://bsf.sa/ContentFiles/",
+      "tags": [],
+      "isExpired": true,
+      "sourceFile": "BSF.txt",
+      "updatedAt": "2026-03-13T23:07:57.524Z"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-business-corporate-credit-cards",
+      "bank": "البنك السعودي الفرنسي",
+      "bankCode": "bsf",
+      "title": "بطاقات الشركات",
+      "merchant": "بطاقات الشركات",
+      "category": "كل العروض",
+      "discountText": "",
+      "details": "بطاقات الشركات",
+      "terms": "",
+      "startDate": "",
+      "endDate": "1397-06-17",
+      "offerUrl": "https://bsf.sa/arabic/business/corporate-credit-cards",
+      "imageUrl": "https://bsf.sa/ContentFiles/11959Image.gif",
+      "tags": [],
+      "isExpired": true,
+      "sourceFile": "BSF.txt",
+      "updatedAt": "2026-03-13T23:07:57.524Z"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-rewards-calculator",
+      "bank": "البنك السعودي الفرنسي",
+      "bankCode": "bsf",
+      "title": "حاسبة مكافآت بطاقات الائتمان",
+      "merchant": "حاسبة مكافآت بطاقات الائتمان",
+      "category": "كل العروض",
+      "discountText": "",
+      "details": "حاسبة مكافآت بطاقات الائتمان",
+      "terms": "",
+      "startDate": "",
+      "endDate": "1397-06-17",
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/rewards-calculator",
+      "imageUrl": "https://bsf.sa/ContentFiles/",
+      "tags": [],
+      "isExpired": true,
+      "sourceFile": "BSF.txt",
+      "updatedAt": "2026-03-13T23:07:57.524Z"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-business-cash-management-solutions",
+      "bank": "البنك السعودي الفرنسي",
+      "bankCode": "bsf",
+      "title": "حلول إدارة النقد والسيولة",
+      "merchant": "حلول إدارة النقد والسيولة",
+      "category": "كل العروض",
+      "discountText": "",
+      "details": "حلول إدارة النقد والسيولة\n \n\n \n \n BSF Global\n \n \n خدمة الرواتب\n \n \n حساب الضمان\n \n \n نظام التحصيل\n \n \n نقاط البيع\n \n \n (B2B) نظام الربط المباشر\n \n \n إدارة أرباح الأسهم\n \n \n الدفع الالكتروني (e-Pay)\n \n \n سويفت MACUG\n \n \n خدمة بطاقات الرواتب مسبقة الدفع\n \n \n Verse\n \n \n نظام نقاط البيع المُبسّط \n \n \n بطاقة الإيداع النقدي",
+      "terms": "",
+      "startDate": "",
+      "endDate": "1397-06-17",
+      "offerUrl": "https://bsf.sa/arabic/business/cash-management-solutions",
+      "imageUrl": "https://bsf.sa/ContentFiles/",
+      "tags": [],
+      "isExpired": true,
+      "sourceFile": "BSF.txt",
+      "updatedAt": "2026-03-13T23:07:57.524Z"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-business-cash-management-solutions-payroll-prepaid-card-service",
+      "bank": "البنك السعودي الفرنسي",
+      "bankCode": "bsf",
+      "title": "خدمة بطاقات الرواتب مسبقة الدفع",
+      "merchant": "خدمة بطاقات الرواتب مسبقة الدفع",
+      "category": "كل العروض",
+      "discountText": "",
+      "details": "خدمة بطاقات الرواتب مسبقة الدفع",
+      "terms": "",
+      "startDate": "",
+      "endDate": "1397-06-17",
+      "offerUrl": "https://bsf.sa/arabic/business/cash-management-solutions/payroll-prepaid-card-service",
+      "imageUrl": "https://bsf.sa/ContentFiles/10670Image.jpg",
+      "tags": [],
+      "isExpired": true,
+      "sourceFile": "BSF.txt",
+      "updatedAt": "2026-03-13T23:07:57.524Z"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-compare-cards",
+      "bank": "البنك السعودي الفرنسي",
+      "bankCode": "bsf",
+      "title": "قارن بين البطاقات",
+      "merchant": "قارن بين البطاقات",
+      "category": "كل العروض",
+      "discountText": "",
+      "details": "قارن بين البطاقات",
+      "terms": "",
+      "startDate": "",
+      "endDate": "1397-06-17",
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/compare-cards",
+      "imageUrl": "https://bsf.sa/ContentFiles/",
+      "tags": [],
+      "isExpired": true,
+      "sourceFile": "BSF.txt",
+      "updatedAt": "2026-03-13T23:07:57.524Z"
     },
     {
       "id": "alrajhi-مسابقة-الصيف-مع-سوار",
@@ -3755,7 +4228,7 @@
       "tags": [],
       "isExpired": true,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-03-13T22:21:34.913Z"
+      "updatedAt": "2026-03-13T23:07:57.528Z"
     },
     {
       "id": "alrajhi-كون-زون",
@@ -3774,7 +4247,7 @@
       "tags": [],
       "isExpired": true,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-03-13T22:21:34.913Z"
+      "updatedAt": "2026-03-13T23:07:57.528Z"
     },
     {
       "id": "alrajhi-6th-street",
@@ -3793,7 +4266,7 @@
       "tags": [],
       "isExpired": true,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-03-13T22:21:34.913Z"
+      "updatedAt": "2026-03-13T23:07:57.528Z"
     },
     {
       "id": "alrajhi-هوم-سنتر",
@@ -3812,7 +4285,7 @@
       "tags": [],
       "isExpired": true,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-03-13T22:21:34.913Z"
+      "updatedAt": "2026-03-13T23:07:57.528Z"
     },
     {
       "id": "alrajhi-بطاقة-الفرسان-الائتمانية",
@@ -3831,7 +4304,7 @@
       "tags": [],
       "isExpired": true,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-03-13T22:21:34.913Z"
+      "updatedAt": "2026-03-13T23:07:57.528Z"
     },
     {
       "id": "alrajhi-بطاقة-الفرسان-الائتمانية",
@@ -3850,30 +4323,26 @@
       "tags": [],
       "isExpired": true,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-03-13T22:21:34.913Z"
+      "updatedAt": "2026-03-13T23:07:57.528Z"
     },
     {
-      "id": "bsf-sf-line",
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-sf-line",
       "bank": "البنك السعودي الفرنسي",
       "bankCode": "bsf",
-      "title": "خصم 20% لدى محلات SF Line",
+      "title": "SF Line",
       "merchant": "SF Line",
-      "category": "shopping",
-      "discountText": "20%",
-      "details": "العرض ظاهر في صفحة كل العروض، لكنه منتهي حسب التاريخ المعروض.",
+      "category": "كل العروض",
+      "discountText": "خصم 20%",
+      "details": "احصل على خصم 20% لدى محلات SF Line عند استخدامك بطاقات BSF الائتمانية ,مسبقة الدفع و مدى \n \n \n 28 فبراير 2026\n \n \n SF Line \n \n \n \n \n \n \n \n \n\n .hide-1{\n display:none\n }",
       "terms": "",
       "startDate": "",
       "endDate": "2026-02-28",
-      "offerUrl": "",
-      "imageUrl": "",
-      "tags": [
-        "credit",
-        "prepaid",
-        "mada"
-      ],
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/offers/shopping/sf-line",
+      "imageUrl": "https://bsf.sa/ContentFiles/12882Image.jpg",
+      "tags": [],
       "isExpired": true,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-03-13T22:21:34.909Z"
+      "updatedAt": "2026-03-13T23:07:57.524Z"
     },
     {
       "id": "alrajhi-هوم-بوكس",
@@ -3892,7 +4361,7 @@
       "tags": [],
       "isExpired": true,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-03-13T22:21:34.913Z"
+      "updatedAt": "2026-03-13T23:07:57.528Z"
     }
   ]
 }
