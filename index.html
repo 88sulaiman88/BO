@@ -271,18 +271,22 @@
       flex-shrink: 0;
     }
 
-    .discount {
-      font-size: 18px;
-      font-weight: 800;
-      color: var(--accent);
-      background: var(--accent-soft);
-      border: 1px solid rgba(59,130,246,.14);
-      border-radius: 14px;
-      padding: 10px 12px;
-      min-width: 92px;
-      text-align: center;
-      line-height: 1.3;
-    }
+.discount {
+  font-size: 17px;
+  font-weight: 800;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border: 1px solid rgba(59,130,246,.14);
+  border-radius: 14px;
+  padding: 10px 12px;
+  min-width: 92px;
+  max-width: 140px;
+  text-align: center;
+  line-height: 1.5;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
 
     .expired-badge {
       color: var(--danger);
@@ -352,11 +356,14 @@
       background: #fff7f7;
     }
 
-    @media (max-width: 640px) {
-      .page {
-        width: min(100% - 14px, 1120px);
-        margin-top: 12px;
-      }
+@media (max-width: 640px) {
+  .discount {
+    min-width: 84px;
+    max-width: 120px;
+    font-size: 15px;
+    padding: 9px 10px;
+  }
+}
 
       .hero {
         padding: 18px;
