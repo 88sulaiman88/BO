@@ -1,7 +1,45 @@
 {
-  "lastUpdated": "2026-03-13T21:11:06.365Z",
-  "totalOffers": 181,
+  "lastUpdated": "2026-03-13T21:19:17.134Z",
+  "totalOffers": 191,
   "offers": [
+    {
+      "id": "alrajhi-فندق-المناخة-روتانا-المدينة",
+      "bank": "مصرف الراجحي",
+      "bankCode": "alrajhi",
+      "title": "فندق المناخة روتانا المدينة",
+      "merchant": "فندق المناخة روتانا المدينة",
+      "category": "",
+      "discountText": "فندق المناخة روتانا المدينةاستمتع بخصم 15٪ على الإفطار والسحور في فندق المناخة روتانا المدينة صالح حتى: ١٩ مارس ٢٠٢٦",
+      "details": "استمتع بخصم 15٪ على الإفطار والسحور في فندق المناخة روتانا المدينة حصريًا لحاملي بطاقات مصرف الراجحي يسري العرض من 1 إلى 30 رمضان 2026",
+      "terms": "يسري العرض حصريًا على حاملي بطاقات مصرف الراجحي.\nيحصل العملاء على خصم 15٪ على وجبتي الإفطار والسحور فقط في فندق روتانا المناخة – المدينة المنورة.\nيطبق الخصم عند نقطة البيع عند إبراز بطاقة مصرف الراجحي.\nلا يمكن الجمع بين هذا العرض وأي عروض ترويجية أو قسائم هدايا أخرى.\nيحق للعميل الاستفادة من العرض أكثر من مرة خلال فترة العرض.\nتطبق شروط وأحكام مصرف الراجحي وفندق روتانا المناخة – المدينة المنورة.\nللمزيد من المعلومات: res.almanakha@rotana.com",
+      "startDate": "",
+      "endDate": "2026-03-19",
+      "offerUrl": "https://www.alrajhibank.com.sa/Personal/Offers/CardsOffers/Ramadan/Al-Manakha-Rotana-Al-Madinah",
+      "imageUrl": "https://www.alrajhibank.com.sa/default-og-image.jpg",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "Rajhi.txt",
+      "updatedAt": "2026-03-13T21:19:17.123Z"
+    },
+    {
+      "id": "alrajhi-النهدي",
+      "bank": "مصرف الراجحي",
+      "bankCode": "alrajhi",
+      "title": "النهدي",
+      "merchant": "النهدي",
+      "category": "",
+      "discountText": "النهدياستمتع بخصم 25% لدى النهديصالح حتى: ٢٠ مارس ٢٠٢٦",
+      "details": "استمتع بخصم 25% لدى النهدي مع بطاقات مصرف الراجحي الائتمانية ومسبقة الدفع! يسري العرض من 13 إلى 20 مارس 2026",
+      "terms": "هذا العرض مقدم وحصري لجميع العملاء حاملي البطاقات الائتمانية ومسبقة الدفع.\nخصم 25% بدون حد اقصى\nالحد الأدنى للاستفادة من العرض هو 200 ريال\nالعرض متاح في النهدي اونلاين فقط داخل المملكة العربية السعودية.\nيجب على العميل دفع اجمالي قيمة الفاتورة باحدى بطاقات المصرف في النهدي اونلاين\nلن يتم تطبيق العرض علي طلبات التوصيل للمنزل في حالة الدفع عند الاستلام.\nالعرض لاينطبق على حليب واكل الاطفال والادوية الوصفية\nالعرض لاينطبق عند الشراء عن طريق المحافظ الرقمية مثل أبل باي و مدى باي.\nيحق لشركة النهدي إلغاء الطلب في حالة حدوث خرق لأي من شروط وأحكام هذا العرض الترويجي أو أي محفظة إلكترونية.\nلا يمكن دمج الخصم مع قسائم الهدايا.\nيحق للعميل الاستفادة من العرض أكثر من مرة.\nتطبق شروط وأحكام مصرف الراجحي و النهدي.",
+      "startDate": "",
+      "endDate": "2026-03-20",
+      "offerUrl": "https://www.alrajhibank.com.sa/Personal/Offers/CardsOffers/Health-and-Wellness/Alnahdi",
+      "imageUrl": "https://www.alrajhibank.com.sa/default-og-image.jpg",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "Rajhi.txt",
+      "updatedAt": "2026-03-13T21:19:17.123Z"
+    },
     {
       "id": "bsf-pilates-room",
       "bank": "البنك السعودي الفرنسي",
@@ -23,7 +61,26 @@
       ],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-03-13T21:11:06.340Z"
+      "updatedAt": "2026-03-13T21:19:17.119Z"
+    },
+    {
+      "id": "alrajhi-6th-street",
+      "bank": "مصرف الراجحي",
+      "bankCode": "alrajhi",
+      "title": "6th Street",
+      "merchant": "6th Street",
+      "category": "",
+      "discountText": "6th Streetاستمتع بخصم 25% لدى 6th Streetصالح حتى: ٣١ مارس ٢٠٢٦",
+      "details": "استمتع بخصم 25% لدى 6th Street مع بطاقات مصرف الراجحي. يسري العرض من 9 فبراير – 31 مارس 2026",
+      "terms": "يطبق العرض على جميع بطاقات مصرف الراجحي\nاحصل على خصم 25% عبر التطبيق والموقع الإلكتروني 6th Street\nلا يمكن دمج الخصم مع قسائم الهدايا أو أي عرض ترويجي آخر.\nلا يشمل العرض الدفع بواسطة أبل- باي أو مدى باي أو سامسونج باي أو أي محفظة إلكترونية.\nالخصم لا يشمل المنتجات المخفضة\nالحد الأدنى للشراء 400 ريال.\nالحد الأقصى للخصم 100 ريال.\nيسري العرض مرة واحدة لكل عميل\nتطبق شروط وأحكام مصرف الراجحي و 6th Street",
+      "startDate": "",
+      "endDate": "2026-03-31",
+      "offerUrl": "https://www.alrajhibank.com.sa/Personal/Offers/CardsOffers/Fashion-and-Cosmetics/6th-Street",
+      "imageUrl": "https://www.alrajhibank.com.sa/default-og-image.jpg",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "Rajhi.txt",
+      "updatedAt": "2026-03-13T21:19:17.123Z"
     },
     {
       "id": "bsf-trip-com",
@@ -44,7 +101,26 @@
       ],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-03-13T21:11:06.340Z"
+      "updatedAt": "2026-03-13T21:19:17.119Z"
+    },
+    {
+      "id": "alrajhi-عبداللطيف-جميل",
+      "bank": "مصرف الراجحي",
+      "bankCode": "alrajhi",
+      "title": "عبداللطيف جميل",
+      "merchant": "عبداللطيف جميل",
+      "category": "",
+      "discountText": "* 2.46% هامش ربح لعملاء محولين الراتب على مصرف الراجحي* 3.28% هامش ربح لعملاء غير محولين الراتب على مصرف الراجحييسري من 18 فبراير حتى تاريخ 31 مارس 2026يشترط ألا يقل راتب المستفيد عن 2,500 ريال.",
+      "details": "أفضل عروض رمضان على سيارات (لكزس) 2025-2026 تأجير السيارات بتحويل الراتب -دفعة أولى 0% -رسوم إدارية 0.50% -الدفعة الأخيرة 50% - المدة 60شهر - معدل النسبة السنوي شاملة التأمين يبدأ من 6.46% تأجير السيارات بدون تحويل الراتب -دفعة أولى 0% -رسوم إدارية 0.50% -الدفعة الأخيرة 40% -المدة 60 شهر -معدل النسبة السنوي شاملة التأمين يبدأ من 8.07% كيفية التقديم -تفضل بزيارة أقرب فرع إليك من فروع مصرف الراجحي او زيارة احدى المعارض المعتمدة لدى المصرف او الاتصال على الرقم 8001241222 -التقديم من خلال الموقع الإلكتروني. -التقديم من خلال التطبيق الــ alrajhi bank Applications (IOS - Android) يسري من 18 فبراير حتى تاريخ 31 مارس 2026",
+      "terms": "* 2.46% هامش ربح لعملاء محولين الراتب على مصرف الراجحي\n* 3.28% هامش ربح لعملاء غير محولين الراتب على مصرف الراجحي\nيسري من 18 فبراير حتى تاريخ 31 مارس 2026\nيشترط ألا يقل راتب المستفيد عن 2,500 ريال.\nالشروط والأحكام",
+      "startDate": "",
+      "endDate": "2026-03-31",
+      "offerUrl": "https://www.alrajhibank.com.sa/ar/Personal/Offers/CardsOffers/Finance-offers/Abdulatif-jamel-Lexus",
+      "imageUrl": "https://www.alrajhibank.com.sa/default-og-image.jpg",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "Rajhi.txt",
+      "updatedAt": "2026-03-13T21:19:17.123Z"
     },
     {
       "id": "alrajhi-عبداللطيف-جميل",
@@ -63,7 +139,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-03-13T21:11:06.344Z"
+      "updatedAt": "2026-03-13T21:19:17.123Z"
     },
     {
       "id": "bsf-park-inn-dubai-motor-city",
@@ -85,7 +161,7 @@
       ],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-03-13T21:11:06.341Z"
+      "updatedAt": "2026-03-13T21:19:17.119Z"
     },
     {
       "id": "bsf-chotto-matte",
@@ -104,7 +180,26 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-03-13T21:11:06.341Z"
+      "updatedAt": "2026-03-13T21:19:17.119Z"
+    },
+    {
+      "id": "alrajhi-air-france",
+      "bank": "مصرف الراجحي",
+      "bankCode": "alrajhi",
+      "title": "Air France",
+      "merchant": "Air France",
+      "category": "السفر والترفيه",
+      "discountText": "Air Franceاستمتع بخصم 12% لدى Air France مع بطاقات مصرف الراجحي.صالح حتى: ٣٠ سبتمبر ٢٠٢٦للحجزوزات",
+      "details": "استمتع بخصم 12% لدى Air France مع بطاقات مصرف الراجحي. العرض يسري من تاريخ 7سبتمبر 2025 الى 30 سبتمبر 2026",
+      "terms": "يطبق العرض على جميع بطاقات مصرف الراجحي.\nاحصل على خصم 12% عبر الموقع الإلكتروني لـAir France، يطبق الخصم على السعر الأساسي للتذكرة قبل تطبيق الضرائب و رسوم الخدمات و الرسوم الأخرى.\nالخصم صالح حتى تاريخ 30 سبتمبر 2026 و بما يخص تاريخ السفر فهو صالح حتى تاريخ 31 يناير 2027 (أخر يوم عودة).\nالمطارات المغادرة من المملكة هي مطار الملك خالد بالرياض\nالخصم يطبق على الدرجة الاقتصادية و درجة البريميوم و درجة رجال الأعمال.\nالعرض يشمل حجز الرحلات الذهاب و العودة أو الوجهة الواحدة، و لا يشمل رحلات متعددة الوجهات و وجهة عودة مختلفه عن وجهة الذهاب.\nالعرض يشمل الحجز عن طريق الموقع الألكتروني لـAir France و الرحلات المشغلة عن طريق الخطوط الحليفة مثل: KLM, HOP!, Delta Airlines, KLM CityHopper و Virgin Atlantic.\nهذا العرض لا يمكن دمجه مع عروض أخرى أو كوبونات أخرى.\nلا يشمل العرض الدفع بواسطة أبل- باي أو مدى باي أو سامسونج باي أو أي محفظة إلكترونية.\nالحد الأدنى للشراء 900 ريال و هو السعر الأساسي للتذكرة قبل تطبيق الضرائب و الرسوم الأخرى، و لا يوجد حد أعلى للتخفيض.\nلا يشمل العرض شراء خيارات المساعدة الإضافية.\nيسري العرض مرة واحدة لكل عميل.\nللاستفادة من العرض الرجاء استخدام الرمز الترويجي ARBFLYAFKL\nتطبق شروط وأحكام مصرف الراجحي و ِ Air France\nللحجزوزات",
+      "startDate": "",
+      "endDate": "2026-09-30",
+      "offerUrl": "https://www.alrajhibank.com.sa/Personal/Offers/CardsOffers/Travel-and-Entertainment/Air-France",
+      "imageUrl": "https://www.alrajhibank.com.sa/default-og-image.jpg",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "Rajhi.txt",
+      "updatedAt": "2026-03-13T21:19:17.123Z"
     },
     {
       "id": "bsf-symphony-clinic",
@@ -127,7 +222,26 @@
       ],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-03-13T21:11:06.341Z"
+      "updatedAt": "2026-03-13T21:19:17.119Z"
+    },
+    {
+      "id": "alrajhi-صن-رول",
+      "bank": "مصرف الراجحي",
+      "bankCode": "alrajhi",
+      "title": "صن رول",
+      "merchant": "صن رول",
+      "category": "",
+      "discountText": "صن رولاستمتع بخصم 20% لدى صن رولصالح حتى: ٢٤ ديسمبر ٢٠٢٦لزيارة المتجر الإلكتروني",
+      "details": "استمتع بخصم 20% لدى صن رول مع بطاقات مصرف الراجحي. يسري العرض من 01 يناير حتى 24 ديسمبر 2026",
+      "terms": "يطبق العرض على جميع بطاقات مصرف الراجحي\nاحصل على خصم 20% عبر التطبيق والموقع الإلكتروني وفروع صن رول\nلا يمكن دمج الخصم مع قسائم الهدايا أو أي عرض ترويجي آخر.\nيحق للعميل الاستفادة من العرض أكثر من مرة.\nللاستفادة من العرض الرجاء استخدام الرمز الترويجي ARB\nللاستفادة من العرض الرجاء إبراز بطاقة مصرف الراجحي\nتطبق شروط وأحكام مصرف الراجحي وصن رول\nلزيارة المتجر الإلكتروني",
+      "startDate": "",
+      "endDate": "2026-12-24",
+      "offerUrl": "https://www.alrajhibank.com.sa/ar/Personal/Offers/CardsOffers/Furniture-and-Home-Appliances/Sun-Roll",
+      "imageUrl": "https://www.alrajhibank.com.sa/default-og-image.jpg",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "Rajhi.txt",
+      "updatedAt": "2026-03-13T21:19:17.123Z"
     },
     {
       "id": "alrajhi-صن-رول",
@@ -146,7 +260,26 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-03-13T21:11:06.344Z"
+      "updatedAt": "2026-03-13T21:19:17.123Z"
+    },
+    {
+      "id": "alrajhi-تطبيق-سويتر",
+      "bank": "مصرف الراجحي",
+      "bankCode": "alrajhi",
+      "title": "تطبيق سويتر",
+      "merchant": "تطبيق سويتر",
+      "category": "مكافأة",
+      "discountText": "",
+      "details": "الآن مكافاة تعطيك 6 نقاط لكل 1 ريال لدى تطبيق سويتر باستخدام رقم الجوال الخاص بك والمسجل لدى برنامج مكافأة!",
+      "terms": "قم بزيارة تطبيق سويتر.\nستحصل على 6 نقطة مقابل كل 1 ريال يتم صرفه في تطبيق سويتر.\nستحصل على نقاط مكافأة باستخدام رقم جوالك في تطبيق سويتر.\nلا بد ان يكون رقم الجوال مسجل لدى برنامج مكافأة.\nلا بد ان تكون عضو مكافأة للحصول النقاط.\nالغسلة الفردية: تُضاف النقاط إلى حساب العميل بعد انتهاء الفني (البايكر) من عملية الغسيل.\nالباقة: تُضاف النقاط بعد انتهاء الفني (البايكر) من آخر غسلة ضمن الباقة، أو عند انتهاء صلاحية الباقة.\nتطبيق شروط وأحكام مكافأة وتطبيق سويتر",
+      "startDate": "",
+      "endDate": "2026-12-31",
+      "offerUrl": "https://www.alrajhibank.com.sa/Personal/Offers/CardsOffers/Mokafaa/Sweater-6",
+      "imageUrl": "https://www.alrajhibank.com.sa/default-og-image.jpg",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "Rajhi.txt",
+      "updatedAt": "2026-03-13T21:19:17.123Z"
     },
     {
       "id": "bsf-indigo-home",
@@ -169,7 +302,7 @@
       ],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-03-13T21:11:06.340Z"
+      "updatedAt": "2026-03-13T21:19:17.119Z"
     },
     {
       "id": "bsf-lifeways",
@@ -192,444 +325,26 @@
       ],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-03-13T21:11:06.341Z"
+      "updatedAt": "2026-03-13T21:19:17.119Z"
     },
     {
-      "id": "alinma",
-      "bank": "مصرف الإنماء",
-      "bankCode": "alinma",
-      "title": "",
-      "merchant": "",
-      "category": "cafe",
-      "discountText": "",
-      "details": "البطاقات المؤهلة: الائتمانية سيجنتشر وإنفنيت.",
-      "terms": "",
-      "startDate": "",
-      "endDate": "",
-      "offerUrl": "",
-      "imageUrl": "",
-      "tags": [],
-      "isExpired": false,
-      "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T21:11:06.342Z"
-    },
-    {
-      "id": "alinma",
-      "bank": "مصرف الإنماء",
-      "bankCode": "alinma",
-      "title": "",
-      "merchant": "",
-      "category": "restaurants",
-      "discountText": "",
-      "details": "البطاقات المؤهلة: الائتمانية سيجنتشر وإنفنيت. لا يسري في المناسبات والأعياد واليوم الوطني ويومي 31/12 و01/01.",
-      "terms": "",
-      "startDate": "",
-      "endDate": "",
-      "offerUrl": "",
-      "imageUrl": "",
-      "tags": [],
-      "isExpired": false,
-      "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T21:11:06.342Z"
-    },
-    {
-      "id": "alinma",
-      "bank": "مصرف الإنماء",
-      "bankCode": "alinma",
-      "title": "",
-      "merchant": "",
-      "category": "restaurants",
-      "discountText": "",
-      "details": "البطاقات المؤهلة: الائتمانية سيجنتشر وإنفنيت.",
-      "terms": "",
-      "startDate": "",
-      "endDate": "",
-      "offerUrl": "",
-      "imageUrl": "",
-      "tags": [],
-      "isExpired": false,
-      "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T21:11:06.342Z"
-    },
-    {
-      "id": "alinma",
-      "bank": "مصرف الإنماء",
-      "bankCode": "alinma",
-      "title": "",
-      "merchant": "",
-      "category": "restaurants",
-      "discountText": "",
-      "details": "البطاقات المؤهلة: الائتمانية سيجنتشر وإنفنيت.",
-      "terms": "",
-      "startDate": "",
-      "endDate": "",
-      "offerUrl": "",
-      "imageUrl": "",
-      "tags": [],
-      "isExpired": false,
-      "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T21:11:06.342Z"
-    },
-    {
-      "id": "alinma",
-      "bank": "مصرف الإنماء",
-      "bankCode": "alinma",
-      "title": "",
-      "merchant": "",
-      "category": "restaurants",
-      "discountText": "",
-      "details": "البطاقات المؤهلة: الائتمانية سيجنتشر وإنفنيت.",
-      "terms": "",
-      "startDate": "",
-      "endDate": "",
-      "offerUrl": "",
-      "imageUrl": "",
-      "tags": [],
-      "isExpired": false,
-      "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T21:11:06.342Z"
-    },
-    {
-      "id": "alinma",
-      "bank": "مصرف الإنماء",
-      "bankCode": "alinma",
-      "title": "",
-      "merchant": "",
-      "category": "restaurants",
-      "discountText": "",
-      "details": "البطاقات المؤهلة: الائتمانية سيجنتشر وإنفنيت.",
-      "terms": "",
-      "startDate": "",
-      "endDate": "",
-      "offerUrl": "",
-      "imageUrl": "",
-      "tags": [],
-      "isExpired": false,
-      "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T21:11:06.342Z"
-    },
-    {
-      "id": "alinma",
-      "bank": "مصرف الإنماء",
-      "bankCode": "alinma",
-      "title": "",
-      "merchant": "",
-      "category": "education",
-      "discountText": "",
-      "details": "لا يشمل مبيعات الجملة والشركات.",
-      "terms": "",
-      "startDate": "",
-      "endDate": "",
-      "offerUrl": "",
-      "imageUrl": "",
-      "tags": [],
-      "isExpired": false,
-      "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T21:11:06.342Z"
-    },
-    {
-      "id": "alinma",
-      "bank": "مصرف الإنماء",
-      "bankCode": "alinma",
-      "title": "",
-      "merchant": "",
-      "category": "restaurants",
-      "discountText": "",
-      "details": "البطاقات المؤهلة: الائتمانية سيجنتشر وإنفنيت.",
-      "terms": "",
-      "startDate": "",
-      "endDate": "",
-      "offerUrl": "",
-      "imageUrl": "",
-      "tags": [],
-      "isExpired": false,
-      "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T21:11:06.342Z"
-    },
-    {
-      "id": "alinma",
-      "bank": "مصرف الإنماء",
-      "bankCode": "alinma",
-      "title": "",
-      "merchant": "",
-      "category": "restaurants",
-      "discountText": "",
-      "details": "البطاقات المؤهلة: الائتمانية سيجنتشر وإنفنيت. لا يسري في المناسبات والأعياد واليوم الوطني ويومي 31/12 و01/01.",
-      "terms": "",
-      "startDate": "",
-      "endDate": "",
-      "offerUrl": "",
-      "imageUrl": "",
-      "tags": [],
-      "isExpired": false,
-      "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T21:11:06.342Z"
-    },
-    {
-      "id": "alinma",
-      "bank": "مصرف الإنماء",
-      "bankCode": "alinma",
-      "title": "",
-      "merchant": "",
-      "category": "restaurants",
-      "discountText": "",
-      "details": "البطاقات المؤهلة: الائتمانية سيجنتشر وإنفنيت.",
-      "terms": "",
-      "startDate": "",
-      "endDate": "",
-      "offerUrl": "",
-      "imageUrl": "",
-      "tags": [],
-      "isExpired": false,
-      "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T21:11:06.342Z"
-    },
-    {
-      "id": "alinma",
-      "bank": "مصرف الإنماء",
-      "bankCode": "alinma",
-      "title": "",
-      "merchant": "",
-      "category": "fashion_beauty",
-      "discountText": "",
-      "details": "نسبة الخصم نفسها لم تظهر بوضوح في النص المستخرج.",
-      "terms": "",
-      "startDate": "",
-      "endDate": "",
-      "offerUrl": "",
-      "imageUrl": "",
-      "tags": [],
-      "isExpired": false,
-      "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T21:11:06.342Z"
-    },
-    {
-      "id": "alinma",
-      "bank": "مصرف الإنماء",
-      "bankCode": "alinma",
-      "title": "",
-      "merchant": "",
-      "category": "restaurants",
-      "discountText": "",
-      "details": "البطاقات المؤهلة: الائتمانية سيجنتشر وإنفنيت.",
-      "terms": "",
-      "startDate": "",
-      "endDate": "",
-      "offerUrl": "",
-      "imageUrl": "",
-      "tags": [],
-      "isExpired": false,
-      "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T21:11:06.342Z"
-    },
-    {
-      "id": "alinma",
-      "bank": "مصرف الإنماء",
-      "bankCode": "alinma",
-      "title": "",
-      "merchant": "",
-      "category": "international_offers",
-      "discountText": "",
-      "details": "البطاقات المؤهلة: بطاقات الإنماء فيزا الائتمانية (الفرسان، الشراء، المسافر).",
-      "terms": "",
-      "startDate": "",
-      "endDate": "",
-      "offerUrl": "",
-      "imageUrl": "",
-      "tags": [],
-      "isExpired": false,
-      "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T21:11:06.342Z"
-    },
-    {
-      "id": "alinma",
-      "bank": "مصرف الإنماء",
-      "bankCode": "alinma",
-      "title": "",
-      "merchant": "",
-      "category": "international_offers",
-      "discountText": "",
-      "details": "البطاقات المؤهلة: بطاقات الإنماء فيزا الائتمانية (الفرسان، الشراء، المسافر).",
-      "terms": "",
-      "startDate": "",
-      "endDate": "",
-      "offerUrl": "",
-      "imageUrl": "",
-      "tags": [],
-      "isExpired": false,
-      "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T21:11:06.342Z"
-    },
-    {
-      "id": "alinma",
-      "bank": "مصرف الإنماء",
-      "bankCode": "alinma",
-      "title": "",
-      "merchant": "",
-      "category": "international_offers",
-      "discountText": "",
-      "details": "البطاقات المؤهلة: بطاقات الإنماء فيزا الائتمانية (الفرسان، الشراء، المسافر).",
-      "terms": "",
-      "startDate": "",
-      "endDate": "",
-      "offerUrl": "",
-      "imageUrl": "",
-      "tags": [],
-      "isExpired": false,
-      "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T21:11:06.342Z"
-    },
-    {
-      "id": "alinma",
-      "bank": "مصرف الإنماء",
-      "bankCode": "alinma",
-      "title": "",
-      "merchant": "",
-      "category": "hotel",
-      "discountText": "",
-      "details": "عرض موسمي قصير.",
-      "terms": "",
-      "startDate": "",
-      "endDate": "",
-      "offerUrl": "",
-      "imageUrl": "",
-      "tags": [],
-      "isExpired": false,
-      "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T21:11:06.342Z"
-    },
-    {
-      "id": "alinma",
-      "bank": "مصرف الإنماء",
-      "bankCode": "alinma",
-      "title": "",
-      "merchant": "",
-      "category": "automotive",
-      "discountText": "",
-      "details": "لا يسري عند الدفع بـ Apple Pay أو mada Pay.",
-      "terms": "",
-      "startDate": "",
-      "endDate": "",
-      "offerUrl": "",
-      "imageUrl": "",
-      "tags": [],
-      "isExpired": false,
-      "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T21:11:06.343Z"
-    },
-    {
-      "id": "alinma",
-      "bank": "مصرف الإنماء",
-      "bankCode": "alinma",
-      "title": "",
-      "merchant": "",
-      "category": "automotive_finance",
-      "discountText": "",
-      "details": "ليس عرض خصم متجر، بل عرض تمويلي.",
-      "terms": "",
-      "startDate": "",
-      "endDate": "",
-      "offerUrl": "",
-      "imageUrl": "",
-      "tags": [],
-      "isExpired": false,
-      "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T21:11:06.343Z"
-    },
-    {
-      "id": "alinma",
-      "bank": "مصرف الإنماء",
-      "bankCode": "alinma",
-      "title": "",
-      "merchant": "",
-      "category": "automotive_finance",
-      "discountText": "",
-      "details": "ليس عرض خصم متجر، بل عرض تمويلي.",
-      "terms": "",
-      "startDate": "",
-      "endDate": "",
-      "offerUrl": "",
-      "imageUrl": "",
-      "tags": [],
-      "isExpired": false,
-      "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-03-13T21:11:06.343Z"
-    },
-    {
-      "id": "alrajhi-xeoex",
+      "id": "alrajhi-زيوكس",
       "bank": "مصرف الراجحي",
       "bankCode": "alrajhi",
-      "title": "xeoex",
-      "merchant": "xeoex",
+      "title": "زيوكس",
+      "merchant": "زيوكس",
       "category": "",
-      "discountText": "xeoexGet 40% OFF at xeoexValid to: December 31, 2026For more information",
-      "details": "Get 40% OFF at xeoex with alrajhi bank cards! Valid from 01.Jan till 31.Dec.2026",
-      "terms": "Offer valid on all alrajhi bank cards.\nGet 40% off on store\nGet 40% off apply to selected services from the brands XEOEX, ROXN, and ARVES, including thermal insulation, paint protection films, and nano-ceramic coatings.\nThis offer cannot be combined with any other promo code or gift cards.\nThe customer has the right to take advantage of the offer more than once.\nTo use the offer present alrajhi bank cards\nalrajhi bank cards and xeoex terms and conditions apply.\nFor more information",
+      "discountText": "زيوكساستمتع بخصم 40% لدى زيوكسصالح حتى: ٣١ ديسمبر ٢٠٢٦للمزيد من المعلومات",
+      "details": "استمتع بخصم 40% لدى زيوكس مع بطاقات مصرف الراجحي. يسري العرض من 01 يناير حتى 31 ديسمبر 2026",
+      "terms": "يطبق العرض على جميع بطاقات مصرف الراجحي\nاحصل على خصم 40% عبر الفروع لدى زيوكس\nخصم %40 على الخدمات المختارة من براند زيوكس و روكسن وأرفس، العازل الحراري، أفالم حماية الطالء، النانوسيراميك\nلا يمكن دمج الخصم مع قسائم الهدايا أو أي عرض ترويجي آخر.\nيحق للعميل الاستفادة من العرض أكثر من مرة.\nللاستفادة من العرض الرجاء إبراز بطاقة مصرف الراجحي\nتطبق شروط وأحكام مصرف الراجحي وزيوكس\nللمزيد من المعلومات",
       "startDate": "",
-      "endDate": "December 31, 2026For more informationAbout OfferGet 40% OFF",
-      "offerUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Car-Services/Xeoex",
+      "endDate": "2026-12-31",
+      "offerUrl": "https://www.alrajhibank.com.sa/ar/Personal/Offers/CardsOffers/Car-Services/Xeoex",
       "imageUrl": "https://www.alrajhibank.com.sa/default-og-image.jpg",
       "tags": [],
       "isExpired": false,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-03-13T21:11:06.344Z"
-    },
-    {
-      "id": "alrajhi-abdulatif-jamel",
-      "bank": "مصرف الراجحي",
-      "bankCode": "alrajhi",
-      "title": "Abdulatif jamel",
-      "merchant": "Abdulatif jamel",
-      "category": "",
-      "discountText": "Abdulatif jamelBest ramadan offer 50/50 for 2 years on Lexus 2025-2026Valid to: March 31, 2026Terms and Conditions",
-      "details": "Best ramadan offer on Lexus 2025-2026 Salary Transferred Customers to alrajhi bank -Down payment 0% -Admin Fees 0.50% -Balloon Payment till up to 50% -Term 60 Months -Low Annual Percentage Rate including insurance starting from 6.46% Non-Salary Transferred Customers -Down payment 0% -Admin Fees 0.50% -Balloon Payment till up to 40% -Term 60 Months -Low Annual Percentage Rate including insurance starting from 8.07% How to apply -Please visit your nearest alrajhi bank branch, or visit any dealer’s showrooms. Or call 8001241222 -Apply online -alrajhi bank Applications (IOS - Android) Offer Start 18 Feb 2026 until 31 Mar 2026",
-      "terms": "2.46% Profit rate for alrajhi bank customers.\n3.28% Profit rate for non alrajhi bank customers\nOffer Start 18 Feb 2026 until 31 Mar 2026.\nThe applicant’s salary must not be less than SAR 2,500.\nTerms and Conditions",
-      "startDate": "",
-      "endDate": "March 31, 2026Terms and ConditionsAbout OfferBest ramadan of",
-      "offerUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Finance-offers/Abdulatif-jamel-Lexus",
-      "imageUrl": "https://www.alrajhibank.com.sa/default-og-image.jpg",
-      "tags": [],
-      "isExpired": false,
-      "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-03-13T21:11:06.344Z"
-    },
-    {
-      "id": "alrajhi-sun-roll",
-      "bank": "مصرف الراجحي",
-      "bankCode": "alrajhi",
-      "title": "Sun Roll",
-      "merchant": "Sun Roll",
-      "category": "",
-      "discountText": "Sun RollGet 20% OFF at Sun RollValid to: December 24, 2026To visit the store",
-      "details": "Get 20% OFF at Sun Roll with alrajhi bank cards! Valid from Jan.01 till Dec.24.2026",
-      "terms": "Offer valid on all alrajhi bank cards.\nGet 20% off Online and Offline\nThis offer cannot be combined with any other promo code or gift cards.\nThe customer has the right to take advantage of the offer more than once.\nTo use the offer please use the promo code ARB\nTo use the offer present alrajhi bank cards\nalrajhi bank cards and Sun Roll terms and conditions apply.\nTo visit the store",
-      "startDate": "",
-      "endDate": "December 24, 2026To visit the storeAbout OfferGet 20% OFF at",
-      "offerUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Furniture-and-Home-Appliances/Sun-Roll",
-      "imageUrl": "https://www.alrajhibank.com.sa/default-og-image.jpg",
-      "tags": [],
-      "isExpired": false,
-      "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-03-13T21:11:06.344Z"
-    },
-    {
-      "id": "alrajhi-al-fursan-credit-card",
-      "bank": "مصرف الراجحي",
-      "bankCode": "alrajhi",
-      "title": "Al Fursan credit card",
-      "merchant": "Al Fursan credit card",
-      "category": "أخرى",
-      "discountText": "Al Fursan credit cardLimited Time Offer Apply for Al Fursan credit card and enjoy additional welcome miles & double miles on international spend.Valid to: February 28, 2026",
-      "details": "Limited Time Offer Apply for Al Fursan credit card and enjoy additional welcome miles & double miles on international spend. Welcome Bonus: Earn up to 10,000 additional joining/welcome Miles with all co-branded credit cards Welcome Miles bonus: Infinite: 10,000 extra Miles Platinum: 4,000 extra Miles Valid from 25 January and 28 February 2026",
-      "terms": "The offer applies to newly issued AlFursan Credit Cards during the campaign period, from 25 January 2026 until 28 February 2026.\nWelcome Miles will be earned upon card activation during the campaign period.\nWelcome Miles apply to the primary card only.\nDouble Miles are earned on international spending for both primary and supplementary AlFursan cards issued during the campaign period.\nEach customer is eligible to earn double Miles on international transactions for 60 days from the primary card issuance date. For supplementary cards, the 60-day period is based on the primary card issuance date.\nWelcome Miles will be credited during the first week of March 2026:(AlFursan Infinite Card: 10,000 welcome Miles),(AlFursan Platinum Card: 4,000 welcome Miles)\nDouble Miles will be credited during the first week of May 2026.\nThe customer’s credit card must be active with no overdue payments at the time of crediting both welcome and bonus miles.\nMiles are non-transferable and non-refundable.\nThe customer is responsible for providing the bank with a valid AlFursan membership number.\nalrajhi bank and Alfursan Program terms and conditions apply.",
-      "startDate": "",
-      "endDate": "February 28, 2026About OfferLimited Time Offer Apply for Al",
-      "offerUrl": "https://www.alrajhibank.com.sa/en/Personal/Offers/CardsOffers/Others/Al-Fursan-credit-card",
-      "imageUrl": "https://www.alrajhibank.com.sa/default-og-image.jpg",
-      "tags": [],
-      "isExpired": false,
-      "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-03-13T21:11:06.344Z"
+      "updatedAt": "2026-03-13T21:19:17.123Z"
     },
     {
       "id": "alrajhi-زيوكس",
@@ -648,7 +363,368 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-03-13T21:11:06.344Z"
+      "updatedAt": "2026-03-13T21:19:17.123Z"
+    },
+    {
+      "id": "alinma",
+      "bank": "مصرف الإنماء",
+      "bankCode": "alinma",
+      "title": "",
+      "merchant": "",
+      "category": "cafe",
+      "discountText": "",
+      "details": "البطاقات المؤهلة: الائتمانية سيجنتشر وإنفنيت.",
+      "terms": "",
+      "startDate": "",
+      "endDate": "",
+      "offerUrl": "",
+      "imageUrl": "",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "Inma Offer.txt",
+      "updatedAt": "2026-03-13T21:19:17.121Z"
+    },
+    {
+      "id": "alinma",
+      "bank": "مصرف الإنماء",
+      "bankCode": "alinma",
+      "title": "",
+      "merchant": "",
+      "category": "restaurants",
+      "discountText": "",
+      "details": "البطاقات المؤهلة: الائتمانية سيجنتشر وإنفنيت. لا يسري في المناسبات والأعياد واليوم الوطني ويومي 31/12 و01/01.",
+      "terms": "",
+      "startDate": "",
+      "endDate": "",
+      "offerUrl": "",
+      "imageUrl": "",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "Inma Offer.txt",
+      "updatedAt": "2026-03-13T21:19:17.121Z"
+    },
+    {
+      "id": "alinma",
+      "bank": "مصرف الإنماء",
+      "bankCode": "alinma",
+      "title": "",
+      "merchant": "",
+      "category": "restaurants",
+      "discountText": "",
+      "details": "البطاقات المؤهلة: الائتمانية سيجنتشر وإنفنيت.",
+      "terms": "",
+      "startDate": "",
+      "endDate": "",
+      "offerUrl": "",
+      "imageUrl": "",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "Inma Offer.txt",
+      "updatedAt": "2026-03-13T21:19:17.121Z"
+    },
+    {
+      "id": "alinma",
+      "bank": "مصرف الإنماء",
+      "bankCode": "alinma",
+      "title": "",
+      "merchant": "",
+      "category": "restaurants",
+      "discountText": "",
+      "details": "البطاقات المؤهلة: الائتمانية سيجنتشر وإنفنيت.",
+      "terms": "",
+      "startDate": "",
+      "endDate": "",
+      "offerUrl": "",
+      "imageUrl": "",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "Inma Offer.txt",
+      "updatedAt": "2026-03-13T21:19:17.121Z"
+    },
+    {
+      "id": "alinma",
+      "bank": "مصرف الإنماء",
+      "bankCode": "alinma",
+      "title": "",
+      "merchant": "",
+      "category": "restaurants",
+      "discountText": "",
+      "details": "البطاقات المؤهلة: الائتمانية سيجنتشر وإنفنيت.",
+      "terms": "",
+      "startDate": "",
+      "endDate": "",
+      "offerUrl": "",
+      "imageUrl": "",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "Inma Offer.txt",
+      "updatedAt": "2026-03-13T21:19:17.121Z"
+    },
+    {
+      "id": "alinma",
+      "bank": "مصرف الإنماء",
+      "bankCode": "alinma",
+      "title": "",
+      "merchant": "",
+      "category": "restaurants",
+      "discountText": "",
+      "details": "البطاقات المؤهلة: الائتمانية سيجنتشر وإنفنيت.",
+      "terms": "",
+      "startDate": "",
+      "endDate": "",
+      "offerUrl": "",
+      "imageUrl": "",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "Inma Offer.txt",
+      "updatedAt": "2026-03-13T21:19:17.121Z"
+    },
+    {
+      "id": "alinma",
+      "bank": "مصرف الإنماء",
+      "bankCode": "alinma",
+      "title": "",
+      "merchant": "",
+      "category": "education",
+      "discountText": "",
+      "details": "لا يشمل مبيعات الجملة والشركات.",
+      "terms": "",
+      "startDate": "",
+      "endDate": "",
+      "offerUrl": "",
+      "imageUrl": "",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "Inma Offer.txt",
+      "updatedAt": "2026-03-13T21:19:17.121Z"
+    },
+    {
+      "id": "alinma",
+      "bank": "مصرف الإنماء",
+      "bankCode": "alinma",
+      "title": "",
+      "merchant": "",
+      "category": "restaurants",
+      "discountText": "",
+      "details": "البطاقات المؤهلة: الائتمانية سيجنتشر وإنفنيت.",
+      "terms": "",
+      "startDate": "",
+      "endDate": "",
+      "offerUrl": "",
+      "imageUrl": "",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "Inma Offer.txt",
+      "updatedAt": "2026-03-13T21:19:17.121Z"
+    },
+    {
+      "id": "alinma",
+      "bank": "مصرف الإنماء",
+      "bankCode": "alinma",
+      "title": "",
+      "merchant": "",
+      "category": "restaurants",
+      "discountText": "",
+      "details": "البطاقات المؤهلة: الائتمانية سيجنتشر وإنفنيت. لا يسري في المناسبات والأعياد واليوم الوطني ويومي 31/12 و01/01.",
+      "terms": "",
+      "startDate": "",
+      "endDate": "",
+      "offerUrl": "",
+      "imageUrl": "",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "Inma Offer.txt",
+      "updatedAt": "2026-03-13T21:19:17.121Z"
+    },
+    {
+      "id": "alinma",
+      "bank": "مصرف الإنماء",
+      "bankCode": "alinma",
+      "title": "",
+      "merchant": "",
+      "category": "restaurants",
+      "discountText": "",
+      "details": "البطاقات المؤهلة: الائتمانية سيجنتشر وإنفنيت.",
+      "terms": "",
+      "startDate": "",
+      "endDate": "",
+      "offerUrl": "",
+      "imageUrl": "",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "Inma Offer.txt",
+      "updatedAt": "2026-03-13T21:19:17.121Z"
+    },
+    {
+      "id": "alinma",
+      "bank": "مصرف الإنماء",
+      "bankCode": "alinma",
+      "title": "",
+      "merchant": "",
+      "category": "fashion_beauty",
+      "discountText": "",
+      "details": "نسبة الخصم نفسها لم تظهر بوضوح في النص المستخرج.",
+      "terms": "",
+      "startDate": "",
+      "endDate": "",
+      "offerUrl": "",
+      "imageUrl": "",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "Inma Offer.txt",
+      "updatedAt": "2026-03-13T21:19:17.121Z"
+    },
+    {
+      "id": "alinma",
+      "bank": "مصرف الإنماء",
+      "bankCode": "alinma",
+      "title": "",
+      "merchant": "",
+      "category": "restaurants",
+      "discountText": "",
+      "details": "البطاقات المؤهلة: الائتمانية سيجنتشر وإنفنيت.",
+      "terms": "",
+      "startDate": "",
+      "endDate": "",
+      "offerUrl": "",
+      "imageUrl": "",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "Inma Offer.txt",
+      "updatedAt": "2026-03-13T21:19:17.121Z"
+    },
+    {
+      "id": "alinma",
+      "bank": "مصرف الإنماء",
+      "bankCode": "alinma",
+      "title": "",
+      "merchant": "",
+      "category": "international_offers",
+      "discountText": "",
+      "details": "البطاقات المؤهلة: بطاقات الإنماء فيزا الائتمانية (الفرسان، الشراء، المسافر).",
+      "terms": "",
+      "startDate": "",
+      "endDate": "",
+      "offerUrl": "",
+      "imageUrl": "",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "Inma Offer.txt",
+      "updatedAt": "2026-03-13T21:19:17.121Z"
+    },
+    {
+      "id": "alinma",
+      "bank": "مصرف الإنماء",
+      "bankCode": "alinma",
+      "title": "",
+      "merchant": "",
+      "category": "international_offers",
+      "discountText": "",
+      "details": "البطاقات المؤهلة: بطاقات الإنماء فيزا الائتمانية (الفرسان، الشراء، المسافر).",
+      "terms": "",
+      "startDate": "",
+      "endDate": "",
+      "offerUrl": "",
+      "imageUrl": "",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "Inma Offer.txt",
+      "updatedAt": "2026-03-13T21:19:17.121Z"
+    },
+    {
+      "id": "alinma",
+      "bank": "مصرف الإنماء",
+      "bankCode": "alinma",
+      "title": "",
+      "merchant": "",
+      "category": "international_offers",
+      "discountText": "",
+      "details": "البطاقات المؤهلة: بطاقات الإنماء فيزا الائتمانية (الفرسان، الشراء، المسافر).",
+      "terms": "",
+      "startDate": "",
+      "endDate": "",
+      "offerUrl": "",
+      "imageUrl": "",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "Inma Offer.txt",
+      "updatedAt": "2026-03-13T21:19:17.121Z"
+    },
+    {
+      "id": "alinma",
+      "bank": "مصرف الإنماء",
+      "bankCode": "alinma",
+      "title": "",
+      "merchant": "",
+      "category": "hotel",
+      "discountText": "",
+      "details": "عرض موسمي قصير.",
+      "terms": "",
+      "startDate": "",
+      "endDate": "",
+      "offerUrl": "",
+      "imageUrl": "",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "Inma Offer.txt",
+      "updatedAt": "2026-03-13T21:19:17.121Z"
+    },
+    {
+      "id": "alinma",
+      "bank": "مصرف الإنماء",
+      "bankCode": "alinma",
+      "title": "",
+      "merchant": "",
+      "category": "automotive",
+      "discountText": "",
+      "details": "لا يسري عند الدفع بـ Apple Pay أو mada Pay.",
+      "terms": "",
+      "startDate": "",
+      "endDate": "",
+      "offerUrl": "",
+      "imageUrl": "",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "Inma Offer.txt",
+      "updatedAt": "2026-03-13T21:19:17.121Z"
+    },
+    {
+      "id": "alinma",
+      "bank": "مصرف الإنماء",
+      "bankCode": "alinma",
+      "title": "",
+      "merchant": "",
+      "category": "automotive_finance",
+      "discountText": "",
+      "details": "ليس عرض خصم متجر، بل عرض تمويلي.",
+      "terms": "",
+      "startDate": "",
+      "endDate": "",
+      "offerUrl": "",
+      "imageUrl": "",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "Inma Offer.txt",
+      "updatedAt": "2026-03-13T21:19:17.121Z"
+    },
+    {
+      "id": "alinma",
+      "bank": "مصرف الإنماء",
+      "bankCode": "alinma",
+      "title": "",
+      "merchant": "",
+      "category": "automotive_finance",
+      "discountText": "",
+      "details": "ليس عرض خصم متجر، بل عرض تمويلي.",
+      "terms": "",
+      "startDate": "",
+      "endDate": "",
+      "offerUrl": "",
+      "imageUrl": "",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "Inma Offer.txt",
+      "updatedAt": "2026-03-13T21:19:17.121Z"
     },
     {
       "id": "riyadh",
@@ -667,7 +743,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Riyadh Offer.txt",
-      "updatedAt": "2026-03-13T21:11:06.345Z"
+      "updatedAt": "2026-03-13T21:19:17.124Z"
     },
     {
       "id": "riyadh",
@@ -686,7 +762,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Riyadh Offer.txt",
-      "updatedAt": "2026-03-13T21:11:06.345Z"
+      "updatedAt": "2026-03-13T21:19:17.124Z"
     },
     {
       "id": "riyadh",
@@ -705,7 +781,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Riyadh Offer.txt",
-      "updatedAt": "2026-03-13T21:11:06.345Z"
+      "updatedAt": "2026-03-13T21:19:17.124Z"
     },
     {
       "id": "saib-آسيان-آسيان",
@@ -726,7 +802,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "saib-اجيو-اجيو",
@@ -748,7 +824,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "sabb-أكور-accor",
@@ -769,7 +845,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T21:11:06.346Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "saib-إل-بي-إم-إل-بي-إم",
@@ -790,7 +866,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "sabb-الإلكترونية-الحديثة-سوني-الإلكترونية-الحديثة-سوني",
@@ -811,7 +887,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T21:11:06.346Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "aljazira-التميمي-للأقمشة-التميمي-للأقمشة",
@@ -833,7 +909,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T21:11:06.338Z"
+      "updatedAt": "2026-03-13T21:19:17.117Z"
     },
     {
       "id": "sabb-الحلاب-1881-hallab-1881",
@@ -855,7 +931,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T21:11:06.346Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "anb-الركن-السويسري-الركن-السويسري",
@@ -876,7 +952,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T21:11:06.340Z"
+      "updatedAt": "2026-03-13T21:19:17.118Z"
     },
     {
       "id": "232",
@@ -895,7 +971,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "sabb-الفوزان-سنتر-alfouzan-center",
@@ -917,7 +993,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T21:11:06.346Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "saib-القصر-الصيني-القصر-الصيني",
@@ -938,7 +1014,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "264",
@@ -957,7 +1033,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "269",
@@ -976,7 +1052,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "223",
@@ -995,7 +1071,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.334Z"
+      "updatedAt": "2026-03-13T21:19:17.113Z"
     },
     {
       "id": "anb-إي-إم-بوكس-إي-إم-بوكس",
@@ -1017,7 +1093,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T21:11:06.340Z"
+      "updatedAt": "2026-03-13T21:19:17.118Z"
     },
     {
       "id": "anb-ايرث-كافيه-ايرث-كافيه",
@@ -1038,7 +1114,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T21:11:06.339Z"
+      "updatedAt": "2026-03-13T21:19:17.118Z"
     },
     {
       "id": "sabb-با-لا-دي-7-pala-de7",
@@ -1060,7 +1136,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T21:11:06.346Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "sabb-بادل-الرياض-riyadh-padel",
@@ -1082,7 +1158,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T21:11:06.346Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "saib-بادل-ان-بادل-ان",
@@ -1103,7 +1179,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "sabb-بادل-هب-padel-hub",
@@ -1125,7 +1201,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T21:11:06.346Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "anb-بلاي-ويل-بلاي-ويل",
@@ -1147,7 +1223,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T21:11:06.340Z"
+      "updatedAt": "2026-03-13T21:19:17.118Z"
     },
     {
       "id": "sabb-بلش-نيل-بوتيك-plush-nail-boutique",
@@ -1169,7 +1245,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T21:11:06.346Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "aljazira-بنش-هوم-بنش-هوم",
@@ -1191,7 +1267,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T21:11:06.338Z"
+      "updatedAt": "2026-03-13T21:19:17.117Z"
     },
     {
       "id": "260",
@@ -1210,7 +1286,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "saib-بول-بول",
@@ -1231,7 +1307,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "252",
@@ -1250,7 +1326,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "226",
@@ -1269,7 +1345,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "257",
@@ -1288,7 +1364,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "sabb-بيت-الشاورما-shawarma-house",
@@ -1310,7 +1386,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T21:11:06.346Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "265",
@@ -1329,7 +1405,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "saib-بيرد-بيرد",
@@ -1350,7 +1426,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "236",
@@ -1369,7 +1445,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "sabb-ترايبس-tribus",
@@ -1390,7 +1466,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T21:11:06.346Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "aljazira-تشيلك-تشيلك",
@@ -1412,7 +1488,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T21:11:06.338Z"
+      "updatedAt": "2026-03-13T21:19:17.117Z"
     },
     {
       "id": "227",
@@ -1431,7 +1507,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "anb-توب-غان-توب-غان",
@@ -1453,7 +1529,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T21:11:06.340Z"
+      "updatedAt": "2026-03-13T21:19:17.118Z"
     },
     {
       "id": "saib-توينا-توينا",
@@ -1474,7 +1550,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "sabb-تيولا-tola",
@@ -1496,7 +1572,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T21:11:06.346Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "sabb-ثنايا-كلينيك-thanaya-clinic",
@@ -1518,7 +1594,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T21:11:06.346Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "saib-جاريز-جاريز",
@@ -1539,7 +1615,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "238",
@@ -1558,7 +1634,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "saib-جست-لوفت-جست-لوفت",
@@ -1579,7 +1655,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "sabb-جيلا-jayla",
@@ -1600,7 +1676,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T21:11:06.346Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "sabb-داشن-dashn",
@@ -1622,7 +1698,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T21:11:06.346Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "254",
@@ -1641,7 +1717,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "saib-دبليو-فايف-دبليو-فايف",
@@ -1662,7 +1738,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "263",
@@ -1681,7 +1757,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "262",
@@ -1700,7 +1776,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "sabb-دلال-بوتيك-dalal-boutique",
@@ -1722,7 +1798,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T21:11:06.346Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "saib-دوز-دوز",
@@ -1743,7 +1819,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "saib-ذا-بوتشر-شوب-اند-جريل-ذا-بوتشر-شوب-اند-جريل",
@@ -1764,7 +1840,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "saib-ذا-غلوب-ذا-غلوب",
@@ -1785,7 +1861,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "aljazira-رمز-الأعمال-رمز-الأعمال",
@@ -1807,7 +1883,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T21:11:06.338Z"
+      "updatedAt": "2026-03-13T21:19:17.117Z"
     },
     {
       "id": "saib-روما-وي-روما-وي",
@@ -1828,7 +1904,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "229",
@@ -1847,7 +1923,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "aljazira-ريفي-ريفي",
@@ -1869,7 +1945,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T21:11:06.338Z"
+      "updatedAt": "2026-03-13T21:19:17.117Z"
     },
     {
       "id": "235",
@@ -1888,7 +1964,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "saib-سان-كارلو-تشيكتي-سان-كارلو-تشيكتي",
@@ -1909,7 +1985,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "233",
@@ -1928,7 +2004,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "aljazira-ستايلي-ستايلي",
@@ -1950,7 +2026,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T21:11:06.338Z"
+      "updatedAt": "2026-03-13T21:19:17.117Z"
     },
     {
       "id": "saib-ستيك-هاوس-ستيك-هاوس",
@@ -1971,7 +2047,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "saib-سكونيزا-سكونيزا",
@@ -1992,7 +2068,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "saib-سنشري-برجر-سنشري-برجر",
@@ -2013,7 +2089,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "saib-سوشال-دايننج-سوشال-دايننج",
@@ -2034,7 +2110,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "aljazira-سيفي-سيفي",
@@ -2056,7 +2132,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T21:11:06.338Z"
+      "updatedAt": "2026-03-13T21:19:17.117Z"
     },
     {
       "id": "saib-شلفن-شلتس-شلفن-شلتس",
@@ -2077,7 +2153,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "231",
@@ -2096,7 +2172,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "258",
@@ -2115,7 +2191,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "anb-صالون-أيوليت-صالون-أيوليت",
@@ -2137,7 +2213,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T21:11:06.340Z"
+      "updatedAt": "2026-03-13T21:19:17.118Z"
     },
     {
       "id": "saib-صب-واي-صب-واي",
@@ -2158,7 +2234,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "256",
@@ -2177,7 +2253,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "aljazira-عبدالغني-إرث-المجوهرات-عبدالغني-إرث-المجوهرات",
@@ -2199,7 +2275,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T21:11:06.338Z"
+      "updatedAt": "2026-03-13T21:19:17.117Z"
     },
     {
       "id": "anb-فايانا-فايانا",
@@ -2221,7 +2297,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T21:11:06.339Z"
+      "updatedAt": "2026-03-13T21:19:17.118Z"
     },
     {
       "id": "saib-فلامنجو-روم-فلامنجو-روم",
@@ -2242,7 +2318,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "sabb-فلاور-ادرس-flower-address",
@@ -2264,7 +2340,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T21:11:06.346Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "anb-فلورينا-فلورينا",
@@ -2286,7 +2362,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T21:11:06.340Z"
+      "updatedAt": "2026-03-13T21:19:17.118Z"
     },
     {
       "id": "anb-فندق-ميسان-رحاب-المسك-فندق-ميسان-رحاب-المسك",
@@ -2308,7 +2384,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T21:11:06.340Z"
+      "updatedAt": "2026-03-13T21:19:17.118Z"
     },
     {
       "id": "saib-فوغو-دي-تشاو-فوغو-دي-تشاو",
@@ -2329,7 +2405,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "251",
@@ -2348,7 +2424,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "saib-فيفث-سيزون-فيفث-سيزون",
@@ -2369,7 +2445,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "anb-فيكت-هوم-فيكت-هوم",
@@ -2391,7 +2467,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T21:11:06.339Z"
+      "updatedAt": "2026-03-13T21:19:17.118Z"
     },
     {
       "id": "saib-فينكي-فينكي",
@@ -2412,7 +2488,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "saib-كانتون-كانتون",
@@ -2433,7 +2509,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "anb-كت-اند-كوت-كت-اند-كوت",
@@ -2455,7 +2531,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T21:11:06.340Z"
+      "updatedAt": "2026-03-13T21:19:17.118Z"
     },
     {
       "id": "259",
@@ -2474,7 +2550,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "anb-كراما-يوغا-كراما-يوغا",
@@ -2496,7 +2572,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T21:11:06.340Z"
+      "updatedAt": "2026-03-13T21:19:17.118Z"
     },
     {
       "id": "saib-كرك-غلامور-كرك-غلامور",
@@ -2517,7 +2593,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "247",
@@ -2536,7 +2612,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "saib-كلتشر-كلتشر",
@@ -2557,7 +2633,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "245",
@@ -2576,7 +2652,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "saib-لو-سوليه-لو-سوليه",
@@ -2597,7 +2673,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "253",
@@ -2616,7 +2692,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "saib-ماما-بنز-ماما-بنز",
@@ -2637,7 +2713,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "anb-مانترا-سبا-مانترا-سبا",
@@ -2659,7 +2735,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T21:11:06.339Z"
+      "updatedAt": "2026-03-13T21:19:17.118Z"
     },
     {
       "id": "250",
@@ -2678,7 +2754,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "266",
@@ -2697,7 +2773,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "anb-مزرود-مزرود",
@@ -2719,7 +2795,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T21:11:06.340Z"
+      "updatedAt": "2026-03-13T21:19:17.118Z"
     },
     {
       "id": "anb-مقهى-ومحمصة-سويل-مقهى-ومحمصة-سويل",
@@ -2741,7 +2817,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T21:11:06.340Z"
+      "updatedAt": "2026-03-13T21:19:17.118Z"
     },
     {
       "id": "saib-مقهى-ومحمصة-شرق-مقهى-ومحمصة-شرق",
@@ -2762,7 +2838,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "saib-مكرونة-فورنو-مكرونة-فورنو",
@@ -2783,7 +2859,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "aljazira-مكعب-مكعب",
@@ -2805,7 +2881,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T21:11:06.338Z"
+      "updatedAt": "2026-03-13T21:19:17.117Z"
     },
     {
       "id": "saib-ميز-ميز",
@@ -2826,7 +2902,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "anb-نادي-إلكسير-النسائي-نادي-إلكسير-النسائي",
@@ -2848,7 +2924,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T21:11:06.340Z"
+      "updatedAt": "2026-03-13T21:19:17.118Z"
     },
     {
       "id": "saib-نجمة-نجمة",
@@ -2869,7 +2945,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-03-13T21:11:06.347Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "sabb-نمشي-namshi",
@@ -2890,7 +2966,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T21:11:06.346Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "aljazira-نور-غاليري-نور-غاليري",
@@ -2912,7 +2988,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T21:11:06.338Z"
+      "updatedAt": "2026-03-13T21:19:17.117Z"
     },
     {
       "id": "246",
@@ -2931,7 +3007,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "anb-هنقرستيشن-هنقرستيشن",
@@ -2952,7 +3028,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T21:11:06.339Z"
+      "updatedAt": "2026-03-13T21:19:17.118Z"
     },
     {
       "id": "aljazira-هنقرستيشن-رمضان-هنقرستيشن",
@@ -2973,7 +3049,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T21:11:06.336Z"
+      "updatedAt": "2026-03-13T21:19:17.115Z"
     },
     {
       "id": "anb-هوبو-هوبو",
@@ -2995,7 +3071,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-03-13T21:11:06.340Z"
+      "updatedAt": "2026-03-13T21:19:17.118Z"
     },
     {
       "id": "241",
@@ -3014,7 +3090,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "267",
@@ -3033,7 +3109,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "244",
@@ -3052,7 +3128,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "sabb-brands-for-less-brands-for-less",
@@ -3073,7 +3149,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T21:11:06.346Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "sabb-cartlow-cartlow",
@@ -3095,7 +3171,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T21:11:06.346Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "enbd-el-n-london-el-n-london",
@@ -3117,7 +3193,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ENBD.txt",
-      "updatedAt": "2026-03-13T21:11:06.341Z"
+      "updatedAt": "2026-03-13T21:19:17.120Z"
     },
     {
       "id": "255",
@@ -3136,7 +3212,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "228",
@@ -3155,7 +3231,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "261",
@@ -3174,7 +3250,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "sabb-flyin-flyin",
@@ -3196,7 +3272,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T21:11:06.346Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "270",
@@ -3215,7 +3291,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "248",
@@ -3234,7 +3310,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "225",
@@ -3253,7 +3329,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "239",
@@ -3272,7 +3348,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "enbd-jon-vinnys-jon-vinnys",
@@ -3293,7 +3369,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ENBD.txt",
-      "updatedAt": "2026-03-13T21:11:06.341Z"
+      "updatedAt": "2026-03-13T21:19:17.120Z"
     },
     {
       "id": "sabb-jones-the-grocer-jones-the-grocer",
@@ -3315,7 +3391,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T21:11:06.346Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "enbd-lulu-hypermarket-lulu-hypermarket",
@@ -3336,7 +3412,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ENBD.txt",
-      "updatedAt": "2026-03-13T21:11:06.341Z"
+      "updatedAt": "2026-03-13T21:19:17.120Z"
     },
     {
       "id": "enbd-lunch-in-a-box-lunch-in-a-box",
@@ -3358,7 +3434,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ENBD.txt",
-      "updatedAt": "2026-03-13T21:11:06.341Z"
+      "updatedAt": "2026-03-13T21:19:17.120Z"
     },
     {
       "id": "242",
@@ -3377,7 +3453,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "243",
@@ -3396,7 +3472,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "237",
@@ -3415,7 +3491,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "sabb-out-of-line-out-of-line",
@@ -3437,7 +3513,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T21:11:06.346Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "sabb-pieces-pieces",
@@ -3459,7 +3535,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T21:11:06.346Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "268",
@@ -3478,7 +3554,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "224",
@@ -3497,7 +3573,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "sabb-the-untitled-project-the-untitled-project",
@@ -3519,7 +3595,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-03-13T21:11:06.346Z"
+      "updatedAt": "2026-03-13T21:19:17.125Z"
     },
     {
       "id": "aljazira-trendyol-trendyol",
@@ -3540,7 +3616,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-03-13T21:11:06.338Z"
+      "updatedAt": "2026-03-13T21:19:17.117Z"
     },
     {
       "id": "249",
@@ -3559,7 +3635,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "enbd-truffleers-truffleers",
@@ -3581,7 +3657,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ENBD.txt",
-      "updatedAt": "2026-03-13T21:11:06.341Z"
+      "updatedAt": "2026-03-13T21:19:17.120Z"
     },
     {
       "id": "234",
@@ -3600,7 +3676,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "enbd-voco-riyadh-voco-riyadh",
@@ -3622,7 +3698,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ENBD.txt",
-      "updatedAt": "2026-03-13T21:11:06.341Z"
+      "updatedAt": "2026-03-13T21:19:17.120Z"
     },
     {
       "id": "230",
@@ -3641,7 +3717,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
     },
     {
       "id": "240",
@@ -3660,7 +3736,102 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-03-13T21:11:06.335Z"
+      "updatedAt": "2026-03-13T21:19:17.114Z"
+    },
+    {
+      "id": "alrajhi-مسابقة-الصيف-مع-سوار",
+      "bank": "مصرف الراجحي",
+      "bankCode": "alrajhi",
+      "title": "مسابقة الصيف مع سوار",
+      "merchant": "مسابقة الصيف مع سوار",
+      "category": "",
+      "discountText": "سيتاح للعملاء اختيار الدورة المقدمة عن بعد او من شركاء المصرف بناء على المقاعد المتوفرة فقط لحاملين منتج سوار.",
+      "details": "استثمر صيف أطفالك مع مسابقة الصيف مع سوار",
+      "terms": "سيتم السحب على عدد 55 فائز في الحملة للفوز بحصص تدريبية مقدمة من (نادي كاراتيه هاوس الرياضي في الرياض، أكاديمية الروبوت مركز الذكاء الاصطناعي ,و فايف ون توك)\nاختيار الفائزين يكون بشكل اسبوعي لمن قام بإصدار واستلام سوار من تاريخ بدء الحملة\nيتولى شركائنا في الحملة (نادي كاراتيه هاوس الرياضي، أكاديمية الروبوت مركز الذكاء الاصطناعي ,و فايف ون توك ) تقديم الدورات المجانية للعملاء الفائزين\nسيتم الإعلان عن الفائزين في حسابات المصرف على منصات التواصل الاجتماعي و إشعار الفائزين بتفاصيل الدورة المختارة من قبل شركاء المصرف (نادي كاراتيه هاوس الرياضي، أكاديمية الروبوت مركز الذكاء الاصطناعي ,و فايف ون توك)\nسيحصل 30 فائز على 30 حصة تدريبية لكل منهم، مدة كل حصة (25 دقيقة). بالإضافة إلى خصومات إضافية 45٪ مقدمة لجميع المشتركين من حاملين منتج سوار من فايف ون توك (51 talk)\nسيحصل 5 فائزين على دورة تدريبية مجانية بالكامل في البرمجة والذكاء الاصطناعي والروبوتات لمدة 16 ساعة\nسيحصل 20 فائز على اشتراك شهري مجاني يشمل 12 حصة لكل فائز مدتها ساعة واحدة مقدمة من نادي كاراتيه هاوس الرياضي\nجلسة تدريبية مجانية لمدة ساعة واحدة ضمن مواضيع مختلفة من أكاديمية الروبوت مركز الذكاء الاصطناعي\nسيتاح للعملاء اختيار الدورة المقدمة عن بعد او من شركاء المصرف بناء على المقاعد المتوفرة فقط لحاملين منتج سوار.\nتطبق شروط وأحكام منتج سوار.",
+      "startDate": "",
+      "endDate": "2025-08-23",
+      "offerUrl": "https://www.alrajhibank.com.sa/Personal/Offers/CardsOffers/Swar/SWAR-summer-competitions",
+      "imageUrl": "https://www.alrajhibank.com.sa/default-og-image.jpg",
+      "tags": [],
+      "isExpired": true,
+      "sourceFile": "Rajhi.txt",
+      "updatedAt": "2026-03-13T21:19:17.123Z"
+    },
+    {
+      "id": "alrajhi-كون-زون",
+      "bank": "مصرف الراجحي",
+      "bankCode": "alrajhi",
+      "title": "كون زون",
+      "merchant": "كون زون",
+      "category": "",
+      "discountText": "لا يمكن دمج الخصم مع قسائم الهدايا أو أي عرض ترويجي آخر.",
+      "details": "اشتري كرة آيس كريم مقابل ريال واحد فقط لدى كون زون مع بطاقات مصرف الراجحي.",
+      "terms": "يطبق العرض على جميع بطاقات مصرف الراجحي\nاشتري كرة آيس كريم مقابل ريال واحد فقط لدى فروع كون زون\nلا يمكن دمج الخصم مع قسائم الهدايا أو أي عرض ترويجي آخر.\nيسري العرض مرة واحدة لكل عميل\nللاستفادة من العرض الرجاء إبراز بطاقة مصرف الراجحي\nتطبق شروط وأحكام مصرف الراجحي و كون زون",
+      "startDate": "",
+      "endDate": "2025-09-04",
+      "offerUrl": "https://www.alrajhibank.com.sa/Personal/Offers/CardsOffers/Food-and-Beverage/Cone-Zone",
+      "imageUrl": "https://www.alrajhibank.com.sa/default-og-image.jpg",
+      "tags": [],
+      "isExpired": true,
+      "sourceFile": "Rajhi.txt",
+      "updatedAt": "2026-03-13T21:19:17.123Z"
+    },
+    {
+      "id": "alrajhi-6th-street",
+      "bank": "مصرف الراجحي",
+      "bankCode": "alrajhi",
+      "title": "6th Street",
+      "merchant": "6th Street",
+      "category": "التجارة الإلكترونية",
+      "discountText": "6th Streetاستمتع بخصم 21% لدى 6th Streetصالح حتى: ١ فبراير ٢٠٢٦",
+      "details": "استمتع بخصم 21% لدى 6th Street مع بطاقات مصرف الراجحي. يسري العرض من 25 يناير – 1 فبراير 2026",
+      "terms": "يطبق العرض على جميع بطاقات مصرف الراجحي\nاحصل على خصم 21% عبر التطبيق والموقع الإلكتروني 6th Street\nلا يمكن دمج الخصم مع قسائم الهدايا.\nلا يشمل العرض الدفع بواسطة أبل- باي أو مدى باي أو سامسونج باي أو أي محفظة إلكترونية.\nالخصم لا يشمل المنتجات المخفضة\nالحد الأدنى للشراء 400 ريال.\nالحد الأقصى للخصم 100 ريال.\nيسري العرض مرة واحدة لكل عميل\nتطبق شروط وأحكام مصرف الراجحي و 6th Street",
+      "startDate": "",
+      "endDate": "2026-02-01",
+      "offerUrl": "https://www.alrajhibank.com.sa/Personal/Offers/CardsOffers/E-com/6th-Street",
+      "imageUrl": "https://www.alrajhibank.com.sa/default-og-image.jpg",
+      "tags": [],
+      "isExpired": true,
+      "sourceFile": "Rajhi.txt",
+      "updatedAt": "2026-03-13T21:19:17.123Z"
+    },
+    {
+      "id": "alrajhi-هوم-سنتر",
+      "bank": "مصرف الراجحي",
+      "bankCode": "alrajhi",
+      "title": "هوم سنتر",
+      "merchant": "هوم سنتر",
+      "category": "",
+      "discountText": "هوم سنتراستمتع بخصم إضافي 10% لدى هوم سنترصالح حتى: ١٧ فبراير ٢٠٢٦",
+      "details": "استمتع بخصم إضافي 10% لدى هوم سنتر مع بطاقات مصرف الراجحي. يسري العرض من 5 فبراير حتى 17 فبراير 2026",
+      "terms": "يطبق العرض على البطاقات الائتمانية ومسبقة الدفع.\nاحصل على خصم إضافي 10% عبر التطبيق والموقع الإلكتروني وفروع هوم سنتر\nالعرض لا يسري على المنتجات المعلمة بـ أفضل الاسعار أو أساسي أو السوق الإلكتروني\nلا يمكن دمج الخصم مع قسائم الهدايا.\nلا يشمل العرض الدفع بواسطة أبل- باي أو مدى باي أو سامسونج باي أو أي محفظة إلكترونية.\nالحد الأدنى للشراء 800 ريال.\nللاستفادة من العرض الرجاء إبراز بطاقة مصرف الراجحي\nيسري العرض مرة واحدة لكل عميل\nتطبق شروط وأحكام مصرف الراجحي و هوم سنتر",
+      "startDate": "",
+      "endDate": "2026-02-17",
+      "offerUrl": "https://www.alrajhibank.com.sa/Personal/Offers/CardsOffers/Furniture-and-Home-Appliances/Home-Centre",
+      "imageUrl": "https://www.alrajhibank.com.sa/default-og-image.jpg",
+      "tags": [],
+      "isExpired": true,
+      "sourceFile": "Rajhi.txt",
+      "updatedAt": "2026-03-13T21:19:17.123Z"
+    },
+    {
+      "id": "alrajhi-بطاقة-الفرسان-الائتمانية",
+      "bank": "مصرف الراجحي",
+      "bankCode": "alrajhi",
+      "title": "بطاقة الفرسان الائتمانية",
+      "merchant": "بطاقة الفرسان الائتمانية",
+      "category": "أخرى",
+      "discountText": "",
+      "details": "عرض حصري احصل على بطاقة الفرسان الائتمانية واستمتع بأميال ترحيبية إضافية وأميال مضاعفة على الإنفاق الدولي احصل على ما يصل إلى 10,000 ميل ترحيبي إضافي عند إصدار أي من بطاقات الفرسان الائتمانية الأميال الترحيبية: انفينيت : 10,000 ميل إضافي بلاتينيوم : 4,000 ميل إضافي يسري العرض من 25 يناير إلى 28 فبراير 2026",
+      "terms": "العرض على الإصدار الجديد لبطاقات الفرسان الائتمانية المصدرة في فترة الحملة:\nمن تاريخ 25 يناير 2026 حتى 28 فبراير 2026.\nيتم استحقاق الأميال الترحيبية للحملة عند تفعيل البطاقة في فترة الحملة.\nتطبق الأميال الترحيبية للحملة على البطاقة الأساسية فقط.\nكسب مضاعفة الأميال على الإنفاق الدولي فقط لبطاقات الفرسان الأساسية والإضافية المصدرة في فترة الحملة.\nيحق لكل عميل الاستفادة من مضاعفة الأميال على العمليات الدولية لمدة 60 يومًا من تاريخ إصدار البطاقة الأساسية ، و للبطاقة الإضافية تكون لمدة 60 من تاريخ إصدار البطاقة الأساسية .\nسوف يتم إضافة الأميال الترحيبية للحملة خلال الأسبوع الأول لشهر مارس2026:(بطاقة الفرسان انفنيت 10,000 ميل ترحيبي)،(بطاقة الفرسان بلاتينيوم 4,000 ميل ترحيبي).\nسوف يتم إضافة الأميال المضاعفة خلال الأسبوع الأول من شهر مايو 2026\nيجب أن تكون بطاقة العميل الائتمانية نشطة ولا يوجد أي تأخر في السداد عند إضافة الأميال الترحيبية و المضاعفة.\nالأميال غير قابلة للتحويل أو الاسترجاع.\nيتحمل العميل مسؤولية تزويد المصرف بالرقم لعضوية الفرسان.\nتطبق شروط وأحكام مصرف الراجحي و برنامج الفرسان",
+      "startDate": "",
+      "endDate": "2026-02-28",
+      "offerUrl": "https://www.alrajhibank.com.sa/ar/Personal/Offers/CardsOffers/Others/Al-Fursan-credit-card",
+      "imageUrl": "https://www.alrajhibank.com.sa/default-og-image.jpg",
+      "tags": [],
+      "isExpired": true,
+      "sourceFile": "Rajhi.txt",
+      "updatedAt": "2026-03-13T21:19:17.123Z"
     },
     {
       "id": "alrajhi-بطاقة-الفرسان-الائتمانية",
@@ -3679,7 +3850,7 @@
       "tags": [],
       "isExpired": true,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-03-13T21:11:06.344Z"
+      "updatedAt": "2026-03-13T21:19:17.123Z"
     },
     {
       "id": "bsf-sf-line",
@@ -3702,7 +3873,26 @@
       ],
       "isExpired": true,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-03-13T21:11:06.340Z"
+      "updatedAt": "2026-03-13T21:19:17.119Z"
+    },
+    {
+      "id": "alrajhi-هوم-بوكس",
+      "bank": "مصرف الراجحي",
+      "bankCode": "alrajhi",
+      "title": "هوم بوكس",
+      "merchant": "هوم بوكس",
+      "category": "",
+      "discountText": "هوم بوكس احصل على %10 رصيد إضافي لقسائم هوم بوكسصالح حتى: ٥ مارس ٢٠٢٦",
+      "details": "احصل على %10 رصيد إضافي لقسائم هوم بوكس يسري العرض من 19 فبراير وحتى 5 مارس 2026",
+      "terms": "يسري العرض على عملاء مصرف الراجحي عند شراء قسائم هوم بوكس من المتجر الإلكتروني داخل التطبيق.\nيحصل العميل على رصيد إضافي بنسبة 10% من قيمة القسيمة المشتراة.\nمدة العرض من 19 فبراير الى 5 مارس.\nيُضاف الرصيد الإضافي تلقائيًا بعد إتمام عملية الشراء بنجاح.\nلا يمكن استبدال الرصيد الإضافي نقدًا أو تحويله.\nتطبق الشروط والأحكام العامة لمصرف الراجحي.",
+      "startDate": "",
+      "endDate": "2026-03-05",
+      "offerUrl": "https://www.alrajhibank.com.sa/Personal/Offers/CardsOffers/Founding-Day-Offer/HomeBox",
+      "imageUrl": "https://www.alrajhibank.com.sa/default-og-image.jpg",
+      "tags": [],
+      "isExpired": true,
+      "sourceFile": "Rajhi.txt",
+      "updatedAt": "2026-03-13T21:19:17.123Z"
     }
   ]
 }
