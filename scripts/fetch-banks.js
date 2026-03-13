@@ -6,6 +6,7 @@ const BANKS_DIR = path.join(process.cwd(), "banks");
 const RAJHI_BASE = "https://www.alrajhibank.com.sa";
 const RAJHI_MAX_CATEGORY_PAGES = 20;
 const RAJHI_MAX_OFFERS = 500;
+const BSF_BASE = "https://bsf.sa";
 
 async function writeJsonTxt(filename, data) {
   const filePath = path.join(BANKS_DIR, filename);
@@ -259,10 +260,10 @@ function isRajhiOfferItem(item) {
   const fields = item?.fields || {};
   return Boolean(
     cleanText(fields.OfferTitle?.value) ||
-    cleanText(fields.AboutOffer?.value) ||
-    cleanText(fields.HowToRedeemOffer?.value) ||
-    cleanText(fields.ExpiryDate?.value) ||
-    cleanText(fields.SubTitle?.value)
+      cleanText(fields.AboutOffer?.value) ||
+      cleanText(fields.HowToRedeemOffer?.value) ||
+      cleanText(fields.ExpiryDate?.value) ||
+      cleanText(fields.SubTitle?.value)
   );
 }
 
@@ -304,8 +305,7 @@ function mapRajhiOfferItem(item) {
   const details = cleanHtmlText(fields.AboutOffer?.value);
   const terms = splitTerms(fields.HowToRedeemOffer?.value);
 
-  const storeWebsite =
-    extractXmlLinkHref(fields.StoreWebsite?.value) || "";
+  const storeWebsite = extractXmlLinkHref(fields.StoreWebsite?.value) || "";
 
   const link = absoluteUrl(item?.url, RAJHI_BASE);
 
@@ -407,7 +407,9 @@ async function collectRajhiOffersFromJson(buildId) {
           return offers.slice(0, RAJHI_MAX_OFFERS);
         }
       } catch (error) {
-        console.error(`Rajhi category fetch failed (${category.title} page ${page}): ${error.message}`);
+        console.error(
+          `Rajhi category fetch failed (${category.title} page ${page}): ${error.message}`
+        );
         break;
       }
     }
@@ -451,6 +453,282 @@ async function updateRajhi() {
   }
 }
 
+/* ===== BSF ===== */
+
+function normalizeBsfUrl(url) {
+  return String(url || "")
+    .replace(/[#?].*$/, "")
+    .replace(/\/+$/, "");
+}
+
+function inferBsfCategoryFromPath(pageUrl) {
+  const u = String(pageUrl || "").toLowerCase();
+  if (u.endsWith("/travel")) return "السفر";
+  if (u.endsWith("/live-well")) return "أسلوب حياة";
+  if (u.endsWith("/shopping")) return "التسوق";
+  if (u.endsWith("/restaurants")) return "المطاعم";
+  if (u.endsWith("/entertainment")) return "الترفيه";
+  return "كل العروض";
+}
+
+function extractBsfOfferBlocks($) {
+  const candidates = [];
+  const selectors = [
+    "article",
+    ".views-row",
+    ".card",
+    ".offer",
+    ".promotion",
+    ".item",
+    ".col",
+    "li",
+  ];
+
+  for (const selector of selectors) {
+    $(selector).each((_, el) => {
+      const node = $(el);
+      const text = cleanText(node.text());
+      const hrefs = node
+        .find("a[href]")
+        .map((__, a) => cleanText($(a).attr("href")))
+        .get()
+        .filter(Boolean);
+
+      if (!text || !hrefs.length) return;
+      if (!/خصم|استمتع|احصل|وفر|مجانا|مجاناً|عرض|بطاقات|%/i.test(text)) return;
+
+      candidates.push(el);
+    });
+
+    if (candidates.length) break;
+  }
+
+  return candidates;
+}
+
+function parseBsfExpiry(text) {
+  const raw = cleanText(text);
+  if (!raw) return "";
+
+  const matches = [
+    ...raw.matchAll(/(\d{1,2}\s+[^\s]+\s+\d{4})/gi),
+    ...raw.matchAll(/(\d{1,4}[\/\-]\d{1,2}[\/\-]\d{1,4})/gi),
+  ];
+
+  for (const match of matches) {
+    const parsed = parseArabicDate(match[1]);
+    if (parsed) return parsed;
+  }
+
+  return "";
+}
+
+function parseBsfDiscount(text) {
+  const raw = cleanText(text);
+  if (!raw) return "";
+
+  const patterns = [
+    /خصم\s*يصل\s*إلى\s*\d+%/i,
+    /خصم\s*\d+%/i,
+    /\d+%\s*خصم/i,
+    /اشتر\s*واحدة\s*واحصل\s*على\s*الأخرى/i,
+    /الثانية\s*مجانا|الثانية\s*مجاناً/i,
+    /استرداد\s*نقدي/i,
+  ];
+
+  for (const pattern of patterns) {
+    const match = raw.match(pattern);
+    if (match?.[0]) return cleanText(match[0]);
+  }
+
+  return "";
+}
+
+function parseBsfTitle(node, $) {
+  const preferred = [
+    node.find("h1,h2,h3,h4,h5").first().text(),
+    node.find("strong").first().text(),
+    node.find("img").first().attr("alt"),
+    node.find("a").first().text(),
+  ];
+
+  for (const value of preferred) {
+    const text = cleanText(value);
+    if (text) return text;
+  }
+
+  return "";
+}
+
+async function scrapeBsfOfferDetail(url, fallback = {}) {
+  try {
+    const html = await fetchText(url);
+    const $ = cheerio.load(html);
+
+    const title =
+      cleanText($("h1").first().text()) ||
+      cleanText($("meta[property='og:title']").attr("content")) ||
+      fallback.title ||
+      "";
+
+    const bodyText = cleanText($("main").text() || $("body").text());
+    const details =
+      cleanHtmlText($("main").text()) ||
+      cleanHtmlText($("article").text()) ||
+      fallback.notes ||
+      "";
+
+    const imageUrl = absoluteUrl(
+      $("meta[property='og:image']").attr("content") ||
+        $("img").first().attr("src") ||
+        fallback.imageUrl ||
+        "",
+      BSF_BASE
+    );
+
+    const expiryDate = fallback.expiryDate || parseBsfExpiry(bodyText);
+    const discount = fallback.discount || parseBsfDiscount(bodyText);
+
+    return {
+      ...fallback,
+      title: title || fallback.title || "عرض البنك السعودي الفرنسي",
+      merchant: fallback.merchant || title || fallback.title || "",
+      notes: details || fallback.notes || "",
+      expiryDate,
+      discount,
+      imageUrl,
+      link: url,
+    };
+  } catch (error) {
+    console.error(`BSF detail fetch failed for ${url}: ${error.message}`);
+    return {
+      ...fallback,
+      link: url,
+    };
+  }
+}
+
+async function scrapeBsfListingPage(pageUrl) {
+  const html = await fetchText(pageUrl);
+  const $ = cheerio.load(html);
+  const category = inferBsfCategoryFromPath(pageUrl);
+  const blocks = extractBsfOfferBlocks($);
+  const offers = [];
+  const seen = new Set();
+
+  for (const el of blocks) {
+    const node = $(el);
+    const fullText = cleanText(node.text());
+    const href =
+      node.find("a[href]").first().attr("href") ||
+      node.find("a[href]").last().attr("href") ||
+      "";
+
+    const fullUrl = normalizeBsfUrl(absoluteUrl(href, BSF_BASE));
+    if (!fullUrl.startsWith(BSF_BASE)) continue;
+
+    const title = parseBsfTitle(node, $);
+    const merchant = title || cleanText(node.find("img").first().attr("alt")) || "";
+    const expiryDate = parseBsfExpiry(fullText);
+    const discount = parseBsfDiscount(fullText);
+    const imageUrl = absoluteUrl(
+      node.find("img").first().attr("src") || "",
+      BSF_BASE
+    );
+
+    const key = `${fullUrl}||${title}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+
+    offers.push({
+      id: `bsf-${cleanText(fullUrl || title || merchant)}`
+        .toLowerCase()
+        .replace(/[^\p{L}\p{N}]+/gu, "-")
+        .replace(/^-+|-+$/g, ""),
+      merchant,
+      title: title || merchant || "عرض البنك السعودي الفرنسي",
+      category,
+      discount,
+      cards: [],
+      cardText: "",
+      promoCode: null,
+      expiryDate,
+      status: "active",
+      notes: fullText,
+      terms: [],
+      link: fullUrl,
+      imageUrl,
+      source: "bsf-offers-pages-scraper",
+    });
+  }
+
+  return offers;
+}
+
+async function updateBSF() {
+  const previous = await readExistingJsonTxt("BSF.txt", {});
+  const previousOffers = Array.isArray(previous?.offers)
+    ? previous.offers
+    : Array.isArray(previous)
+      ? previous
+      : [];
+
+  const pages = [
+    `${BSF_BASE}/arabic/personal/cards/offers/all-offers`,
+    `${BSF_BASE}/arabic/personal/cards/offers/travel`,
+    `${BSF_BASE}/arabic/personal/cards/offers/live-well`,
+    `${BSF_BASE}/arabic/personal/cards/offers/shopping`,
+    `${BSF_BASE}/arabic/personal/cards/offers/restaurants`,
+    `${BSF_BASE}/arabic/personal/cards/offers/entertainment`,
+  ];
+
+  try {
+    const allOffers = [];
+    const seen = new Set();
+
+    for (const pageUrl of pages) {
+      try {
+        const pageOffers = await scrapeBsfListingPage(pageUrl);
+        console.log(`BSF page scanned: ${pageUrl} -> ${pageOffers.length} offers`);
+
+        for (const rawItem of pageOffers) {
+          const key = `${rawItem.link}||${rawItem.title}`;
+          if (seen.has(key)) continue;
+          seen.add(key);
+
+          const enriched = await scrapeBsfOfferDetail(rawItem.link, rawItem);
+          allOffers.push(enriched);
+        }
+      } catch (error) {
+        console.error(`BSF page scan failed for ${pageUrl}: ${error.message}`);
+      }
+    }
+
+    console.log(`BSF offers collected before save: ${allOffers.length}`);
+
+    if (!allOffers.length) {
+      console.warn("BSF scraper returned 0 offers. Keeping previous file.");
+      await writeJsonTxt("BSF.txt", previous);
+      return;
+    }
+
+    const wrapped = {
+      bank: "البنك السعودي الفرنسي",
+      bankCode: "bsf",
+      source: pages,
+      lastChecked: todayIsoDate(),
+      fetchedCount: allOffers.length,
+      previousCount: previousOffers.length,
+      offers: allOffers,
+    };
+
+    await writeJsonTxt("BSF.txt", wrapped);
+  } catch (error) {
+    console.error(`BSF update failed بالكامل: ${error.message}`);
+    await writeJsonTxt("BSF.txt", previous);
+  }
+}
+
 /* ===== Placeholder updaters لبقية البنوك ===== */
 
 async function preserveExistingFile(filename) {
@@ -468,10 +746,6 @@ async function updateAlJazira() {
 
 async function updateANB() {
   await preserveExistingFile("ANB.txt");
-}
-
-async function updateBSF() {
-  await preserveExistingFile("BSF.txt");
 }
 
 async function updateENBD() {
