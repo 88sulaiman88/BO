@@ -19,6 +19,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -41,10 +43,15 @@ jobs:
       - name: Build merged offers file
         run: node scripts/update-offers.js
 
-      - name: Commit changes if any
+      - name: Commit and push changes if any
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add all-offers.json banks/*
-          git diff --cached --quiet || git commit -m "Auto-update offers"
-          git push
+          git diff --cached --quiet && exit 0
+
+          git commit -m "Auto-update offers"
+
+          git pull --rebase origin main
+          git push origin main
