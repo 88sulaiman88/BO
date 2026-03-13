@@ -4,7 +4,7 @@ const cheerio = require("cheerio");
 
 const BANKS_DIR = path.join(process.cwd(), "banks");
 const RAJHI_BASE = "https://www.alrajhibank.com.sa";
-const RAJHI_MAX_URLS = 80;
+const RAJHI_MAX_URLS = 250;
 
 async function writeJsonTxt(filename, data) {
   const filePath = path.join(BANKS_DIR, filename);
@@ -263,6 +263,12 @@ function normalizeRajhiUrl(url) {
     .replace(/\/+$/, "");
 }
 
+function canonicalRajhiUrl(url) {
+  return normalizeRajhiUrl(
+    String(url || "").replace("/en/Personal/Offers/CardsOffers/", "/ar/Personal/Offers/CardsOffers/")
+  );
+}
+
 function sortRajhiUrls(urls) {
   return [...urls].sort((a, b) => {
     const aAr = a.includes("/ar/") ? 0 : 1;
@@ -338,60 +344,85 @@ async function getRajhiOfferUrlsFromSitemap() {
   return [];
 }
 
-async function getRajhiOfferUrlsFromPages() {
-  const seedPages = [
-    `${RAJHI_BASE}/ar/Personal/Discounts`,
-    `${RAJHI_BASE}/ar/Personal/Offers`,
-    `${RAJHI_BASE}/ar/Personal/Offers/CardsOffers/ViewAll`,
-    `${RAJHI_BASE}/en/Personal/Discounts`
-  ];
-
+function collectRajhiOfferUrlsFromHtml(html, pageUrl) {
+  const $ = cheerio.load(html);
   const found = [];
 
-  for (const pageUrl of seedPages) {
+  $("a[href], area[href]").each((_, el) => {
+    const href = cleanText($(el).attr("href"));
+    const full = normalizeRajhiUrl(absoluteUrl(href, pageUrl));
+    if (shouldKeepRajhiUrl(full)) found.push(full);
+  });
+
+  $("[data-href], [data-url], [data-link]").each((_, el) => {
+    const href =
+      cleanText($(el).attr("data-href")) ||
+      cleanText($(el).attr("data-url")) ||
+      cleanText($(el).attr("data-link"));
+
+    const full = normalizeRajhiUrl(absoluteUrl(href, pageUrl));
+    if (shouldKeepRajhiUrl(full)) found.push(full);
+  });
+
+  $("script").each((_, el) => {
+    const scriptText = $(el).html() || "";
+
+    const absoluteMatches =
+      scriptText.match(/https:\/\/www\.alrajhibank\.com\.sa\/[^\s"'\\]+/g) || [];
+
+    for (const raw of absoluteMatches) {
+      const full = normalizeRajhiUrl(raw);
+      if (shouldKeepRajhiUrl(full)) found.push(full);
+    }
+
+    const relativeMatches =
+      scriptText.match(/\/(?:ar|en)?\/?Personal\/Offers\/CardsOffers\/[^\s"'\\,]+/g) || [];
+
+    for (const raw of relativeMatches) {
+      const full = normalizeRajhiUrl(absoluteUrl(raw, RAJHI_BASE));
+      if (shouldKeepRajhiUrl(full)) found.push(full);
+    }
+  });
+
+  return found;
+}
+
+async function getRajhiOfferUrlsFromPages() {
+  const seedPages = [
+    `${RAJHI_BASE}/ar/Personal/Offers`,
+    `${RAJHI_BASE}/en/Personal/Offers`,
+    `${RAJHI_BASE}/ar/Personal/Offers/CardsOffers/ViewAll`,
+    `${RAJHI_BASE}/ar/Personal/Discounts`,
+    `${RAJHI_BASE}/en/Personal/Discounts`,
+    `${RAJHI_BASE}/Personal/Discounts`,
+    `${RAJHI_BASE}/Personal/Discounts?page=1`,
+    `${RAJHI_BASE}/Personal/Discounts?page=2`,
+    `${RAJHI_BASE}/Personal/Discounts?sort=Default&page=1`,
+    `${RAJHI_BASE}/Personal/Discounts?sort=Default&page=2`,
+    `${RAJHI_BASE}/ar/Personal/Discounts?page=1`,
+    `${RAJHI_BASE}/ar/Personal/Discounts?page=2`,
+    `${RAJHI_BASE}/en/Personal/Discounts?page=1`,
+    `${RAJHI_BASE}/en/Personal/Discounts?page=2`
+  ];
+
+  const pagesToScan = [...new Set(seedPages)];
+  const found = [];
+
+  for (const pageUrl of pagesToScan) {
     try {
       const html = await fetchText(pageUrl);
-      const $ = cheerio.load(html);
-
-      $("a[href], area[href]").each((_, el) => {
-        const href = cleanText($(el).attr("href"));
-        const full = normalizeRajhiUrl(absoluteUrl(href, pageUrl));
-
-        if (!shouldKeepRajhiUrl(full)) return;
-        found.push(full);
-      });
-
-      $("[data-href], [data-url], [data-link]").each((_, el) => {
-        const href =
-          cleanText($(el).attr("data-href")) ||
-          cleanText($(el).attr("data-url")) ||
-          cleanText($(el).attr("data-link"));
-
-        const full = normalizeRajhiUrl(absoluteUrl(href, pageUrl));
-
-        if (!shouldKeepRajhiUrl(full)) return;
-        found.push(full);
-      });
-
-      $("script").each((_, el) => {
-        const scriptText = $(el).html() || "";
-        const matches = scriptText.match(/https:\/\/www\.alrajhibank\.com\.sa\/[^\s"'\\]+/g) || [];
-
-        for (const raw of matches) {
-          const full = normalizeRajhiUrl(raw);
-          if (shouldKeepRajhiUrl(full)) {
-            found.push(full);
-          }
-        }
-      });
-
-      console.log(`Rajhi page scanned: ${pageUrl}`);
+      const pageFound = collectRajhiOfferUrlsFromHtml(html, pageUrl);
+      found.push(...pageFound);
+      console.log(`Rajhi page scanned: ${pageUrl} -> ${pageFound.length} raw matches`);
     } catch (error) {
       console.error(`Rajhi page scan failed for ${pageUrl}: ${error.message}`);
     }
   }
 
-  const unique = sortRajhiUrls([...new Set(found)]).slice(0, RAJHI_MAX_URLS);
+  const unique = sortRajhiUrls(
+    [...new Set(found.map(canonicalRajhiUrl))]
+  );
+
   console.log(`Rajhi page-discovered URLs: ${unique.length}`);
   return unique;
 }
@@ -403,13 +434,13 @@ async function getRajhiOfferUrls() {
   ]);
 
   const merged = sortRajhiUrls(
-    [...new Set([...fromSitemap, ...fromPages].map(normalizeRajhiUrl))]
-  ).slice(0, RAJHI_MAX_URLS);
+    [...new Set([...fromSitemap, ...fromPages].map(canonicalRajhiUrl))]
+  );
 
   console.log(`Rajhi total merged URLs: ${merged.length}`);
 
   if (merged.length) {
-    console.log("Rajhi sample URLs:", merged.slice(0, 5));
+    console.log("Rajhi sample URLs:", merged.slice(0, 10));
   }
 
   return merged;
@@ -485,7 +516,8 @@ async function updateRajhi() {
   const previousOffers = normalizePreviousRajhiOffers(previous);
 
   try {
-    const urls = await getRajhiOfferUrls();
+    const urls = (await getRajhiOfferUrls()).slice(0, RAJHI_MAX_URLS);
+
     if (!urls.length) {
       console.warn("Rajhi scraper found 0 URLs. Keeping previous file.");
       await writeJsonTxt("Rajhi.txt", previous);
