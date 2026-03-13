@@ -11,7 +11,7 @@
   ],
   "lastChecked": "2026-03-13",
   "fetchedCount": 34,
-  "previousCount": 8,
+  "previousCount": 34,
   "offers": [
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-credit",
