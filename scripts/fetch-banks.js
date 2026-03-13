@@ -237,7 +237,7 @@ function shouldKeepRajhiUrl(url) {
   if (!u.includes("/personal/offers/cardsoffers/")) return false;
   if (/\/(ar|en)\/personal\/offers\/cardsoffers\/?$/.test(u)) return false;
 
-  const blocked = [
+  const blockedExact = [
     "/personal/offers/cardsoffers/e-com",
     "/personal/offers/cardsoffers/others",
     "/personal/offers/cardsoffers/mokafaa",
@@ -245,23 +245,21 @@ function shouldKeepRajhiUrl(url) {
     "/personal/offers/cardsoffers/viewall"
   ];
 
-  if (blocked.some((x) => u === x || u.endsWith(x))) return false;
+  if (blockedExact.some((x) => u.endsWith(x))) return false;
 
   const match = u.match(/\/personal\/offers\/cardsoffers\/(.+)$/);
   if (!match || !match[1]) return false;
 
-  const rest = match[1].replace(/^en\//, "").replace(/^ar\//, "");
+  const rest = match[1].replace(/^ar\//, "").replace(/^en\//, "");
   const segments = rest.split("/").filter(Boolean);
 
-  if (segments.length < 2) return false;
-
-  return true;
+  return segments.length >= 2;
 }
 
 function normalizeRajhiUrl(url) {
   return String(url || "")
-    .replace("https://www.alrajhibank.com.sa/en/", "https://www.alrajhibank.com.sa/")
-    .replace("https://www.alrajhibank.com.sa/ar/", "https://www.alrajhibank.com.sa/");
+    .replace(/[#?].*$/, "")
+    .replace(/\/+$/, "");
 }
 
 function isProbablyBadTitle(title) {
@@ -326,15 +324,46 @@ function extractMetaImage($) {
 }
 
 async function getRajhiOfferUrlsFromSitemap() {
-  console.log("Rajhi sitemap is temporarily disabled.");
-  return [];
+  const candidates = [
+    `${RAJHI_BASE}/robots.txt`,
+    `${RAJHI_BASE}/sitemap.xml`
+  ];
+
+  const found = [];
+
+  for (const url of candidates) {
+    try {
+      const text = await fetchText(url);
+
+      const matches = [
+        ...(text.match(/https:\/\/www\.alrajhibank\.com\.sa[^\s<"]+/gi) || []),
+        ...[...text.matchAll(/<loc>(.*?)<\/loc>/gi)].map((m) => cleanText(m[1]))
+      ];
+
+      for (const raw of matches) {
+        const full = normalizeRajhiUrl(raw);
+        if (!full) continue;
+        if (!full.toLowerCase().includes("/personal/offers/cardsoffers/")) continue;
+        if (!shouldKeepRajhiUrl(full)) continue;
+        found.push(full);
+      }
+    } catch (error) {
+      console.error(`Rajhi sitemap read failed for ${url}: ${error.message}`);
+    }
+  }
+
+  const unique = [...new Set(found)];
+  console.log(`Rajhi sitemap-discovered URLs (filtered): ${unique.length}`);
+  return unique;
 }
 
 async function getRajhiOfferUrlsFromPages() {
   const seedPages = [
     `${RAJHI_BASE}/ar/Personal/Offers`,
-    `${RAJHI_BASE}/en/Personal/Offers`,
     `${RAJHI_BASE}/ar/Personal/Discounts`,
+    `${RAJHI_BASE}/ar/Personal/Offers/CardsOffers`,
+    `${RAJHI_BASE}/ar/Personal/Offers/CardsOffers/ViewAll`,
+    `${RAJHI_BASE}/en/Personal/Offers`,
     `${RAJHI_BASE}/en/Personal/Discounts`
   ];
 
@@ -345,9 +374,21 @@ async function getRajhiOfferUrlsFromPages() {
       const html = await fetchText(pageUrl);
       const $ = cheerio.load(html);
 
-      $("a[href]").each((_, el) => {
+      $("a[href], area[href]").each((_, el) => {
         const href = cleanText($(el).attr("href"));
-        const full = absoluteUrl(href, RAJHI_BASE);
+        const full = normalizeRajhiUrl(absoluteUrl(href, pageUrl));
+        if (shouldKeepRajhiUrl(full)) {
+          found.push(full);
+        }
+      });
+
+      $("[data-href], [data-url], [data-link]").each((_, el) => {
+        const href =
+          cleanText($(el).attr("data-href")) ||
+          cleanText($(el).attr("data-url")) ||
+          cleanText($(el).attr("data-link"));
+
+        const full = normalizeRajhiUrl(absoluteUrl(href, pageUrl));
         if (shouldKeepRajhiUrl(full)) {
           found.push(full);
         }
@@ -359,7 +400,7 @@ async function getRajhiOfferUrlsFromPages() {
     }
   }
 
-  const unique = [...new Set(found.map(normalizeRajhiUrl))];
+  const unique = [...new Set(found)];
   console.log(`Rajhi page-discovered URLs: ${unique.length}`);
   return unique;
 }
@@ -486,7 +527,7 @@ async function updateRajhi() {
     const wrapped = {
       bank: "مصرف الراجحي",
       bankCode: "alrajhi",
-      source: `${RAJHI_BASE}/en/Personal/Discounts`,
+      source: `${RAJHI_BASE}/ar/Personal/Discounts`,
       lastChecked: todayIsoDate(),
       fetchedCount: offers.length,
       previousCount: previousOffers.length,
