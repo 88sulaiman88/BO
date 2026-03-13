@@ -1,0 +1,643 @@
+{
+  "bank": {
+    "bank_id": "saib",
+    "bank_name_ar": "البنك السعودي للاستثمار",
+    "bank_name_en": "The Saudi Investment Bank",
+    "bank_slug": "saib"
+  },
+  "source_page": "https://www.saib.com.sa/ar/aseel_program",
+  "last_checked_at": "2026-03-11",
+  "offers": [
+    {
+      "title": "دبليو فايف",
+      "merchant": "دبليو فايف",
+      "category": "مطاعم",
+      "discount": "10% خصم",
+      "details": "خصم 10% لدى دبليو فايف بعد إضافة بطاقة البنك السعودي للاستثمار في التطبيق واختيار الدفع عبر بطاقة مدى أو البطاقة الائتمانية.",
+      "cards": [
+        "بطاقة نشطة من البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": true,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/w5"
+    },
+    {
+      "title": "بادل ان",
+      "merchant": "بادل ان",
+      "category": "أسلوب حياة",
+      "discount": "15% خصم",
+      "details": "خصم 15% لدى بادل ان. الفترة الصباحية من 7:00 صباحًا إلى 11:30 صباحًا بسعر 272 ريال بدل 320 ريال، والفترة المسائية من 1:00 ظهرًا إلى 2:30 صباحًا بسعر 323 ريال بدل 380 ريال.",
+      "cards": [
+        "بطاقة نشطة من البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/padel"
+    },
+    {
+      "title": "اجيو",
+      "merchant": "اجيو",
+      "category": "مطاعم",
+      "discount": "20% خصم",
+      "details": "خصم 20% لدى اجيو عند الدفع ببطاقات مدى أو البطاقات الائتمانية. يسري من الأحد إلى الخميس على جميع الطلبات من قائمة A La Carte (تناول الطعام فقط).",
+      "cards": [
+        "بطاقات مدى",
+        "بطاقات ائتمانية"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/agio"
+    },
+    {
+      "title": "سنشري برجر",
+      "merchant": "سنشري برجر",
+      "category": "مطاعم",
+      "discount": "15% خصم",
+      "details": "خصم 15% لدى سنشري برجر عند الدفع ببطاقات البنك السعودي للاستثمار.",
+      "cards": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/centuryburger"
+    },
+    {
+      "title": "بيرد",
+      "merchant": "بيرد",
+      "category": "مطاعم",
+      "discount": "15% خصم",
+      "details": "خصم 15% لدى بيرد عند الدفع ببطاقات البنك السعودي للاستثمار.",
+      "cards": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/bird"
+    },
+    {
+      "title": "دوز",
+      "merchant": "دوز",
+      "category": "مطاعم",
+      "discount": "15% خصم",
+      "details": "خصم 15% لدى دوز عند الدفع ببطاقات البنك السعودي للاستثمار.",
+      "cards": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/dose"
+    },
+    {
+      "title": "لو سوليه",
+      "merchant": "لو سوليه",
+      "category": "مطاعم",
+      "discount": "15% خصم",
+      "details": "خصم 15% لدى لو سوليه عند الدفع ببطاقات البنك السعودي للاستثمار.",
+      "cards": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/lesoleil"
+    },
+    {
+      "title": "شلفن شلتس",
+      "merchant": "شلفن شلتس",
+      "category": "مطاعم",
+      "discount": "20% خصم",
+      "details": "خصم 20% لدى شلفن شلتس على قائمة الطعام عند الدفع ببطاقات البنك السعودي للاستثمار.",
+      "cards": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/schlotzskys"
+    },
+    {
+      "title": "كانتون",
+      "merchant": "كانتون",
+      "category": "مطاعم",
+      "discount": "15% خصم",
+      "details": "خصم 15% لدى كانتون عند الدفع ببطاقات البنك السعودي للاستثمار.",
+      "cards": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/canton"
+    },
+    {
+      "title": "ماما بنز",
+      "merchant": "ماما بنز",
+      "category": "مطاعم",
+      "discount": "15% خصم",
+      "details": "خصم 15% لدى ماما بنز عند الدفع ببطاقات البنك السعودي للاستثمار.",
+      "cards": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/mamabunz"
+    },
+    {
+      "title": "جست لوفت",
+      "merchant": "جست لوفت",
+      "category": "مطاعم",
+      "discount": "15% خصم",
+      "details": "خصم 15% لدى جست لوفت عند الدفع ببطاقات البنك السعودي للاستثمار.",
+      "cards": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/justloft"
+    },
+    {
+      "title": "ذا بوتشر شوب اند جريل",
+      "merchant": "ذا بوتشر شوب اند جريل",
+      "category": "مطاعم",
+      "discount": "15% خصم",
+      "details": "خصم 15% لدى ذا بوتشر شوب اند جريل عند الدفع ببطاقات البنك السعودي للاستثمار.",
+      "cards": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/butchershop"
+    },
+    {
+      "title": "مقهى ومحمصة شرق",
+      "merchant": "مقهى ومحمصة شرق",
+      "category": "مطاعم",
+      "discount": "15% خصم",
+      "details": "خصم 15% لدى مقهى ومحمصة شرق عند الدفع ببطاقات البنك السعودي للاستثمار.",
+      "cards": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/sharg"
+    },
+    {
+      "title": "ستيك هاوس",
+      "merchant": "ستيك هاوس",
+      "category": "مطاعم",
+      "discount": "15% خصم",
+      "details": "خصم 15% لدى ستيك هاوس عند الدفع ببطاقات البنك السعودي للاستثمار.",
+      "cards": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/steakhouse"
+    },
+    {
+      "title": "فيفث سيزون",
+      "merchant": "فيفث سيزون",
+      "category": "مطاعم",
+      "discount": "15% خصم",
+      "details": "خصم 15% لدى فيفث سيزون عند الدفع ببطاقات البنك السعودي للاستثمار.",
+      "cards": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/fifthseason"
+    },
+    {
+      "title": "صب واي",
+      "merchant": "صب واي",
+      "category": "مطاعم",
+      "discount": "15% خصم",
+      "details": "خصم 15% لدى صب واي عند الدفع ببطاقات البنك السعودي للاستثمار.",
+      "cards": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/subway"
+    },
+    {
+      "title": "جاريز",
+      "merchant": "جاريز",
+      "category": "مطاعم",
+      "discount": "15% خصم",
+      "details": "خصم 15% لدى جاريز عند الدفع ببطاقات البنك السعودي للاستثمار.",
+      "cards": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/garrys"
+    },
+    {
+      "title": "روما وي",
+      "merchant": "روما وي",
+      "category": "مطاعم",
+      "discount": "15% خصم",
+      "details": "خصم 15% لدى روما وي عند الدفع ببطاقات البنك السعودي للاستثمار.",
+      "cards": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/roma-way"
+    },
+    {
+      "title": "توينا",
+      "merchant": "توينا",
+      "category": "مطاعم",
+      "discount": "15% خصم",
+      "details": "خصم 15% لدى توينا عند الدفع ببطاقات البنك السعودي للاستثمار.",
+      "cards": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/twina"
+    },
+    {
+      "title": "آسيان",
+      "merchant": "آسيان",
+      "category": "مطاعم",
+      "discount": "15% خصم",
+      "details": "خصم 15% لدى آسيان عند الدفع ببطاقات البنك السعودي للاستثمار.",
+      "cards": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/asiaan"
+    },
+    {
+      "title": "كلتشر",
+      "merchant": "كلتشر",
+      "category": "مطاعم",
+      "discount": "15% خصم",
+      "details": "خصم 15% لدى كلتشر عند الدفع ببطاقات البنك السعودي للاستثمار.",
+      "cards": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/culture"
+    },
+    {
+      "title": "فلامنجو روم",
+      "merchant": "فلامنجو روم",
+      "category": "مطاعم",
+      "discount": "15% خصم",
+      "details": "خصم 15% لدى فلامنجو روم عند الدفع ببطاقات البنك السعودي للاستثمار.",
+      "cards": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/flamingoroom"
+    },
+    {
+      "title": "سوشال دايننج",
+      "merchant": "سوشال دايننج",
+      "category": "مطاعم",
+      "discount": "15% خصم",
+      "details": "خصم 15% لدى سوشال دايننج عند الدفع ببطاقات البنك السعودي للاستثمار.",
+      "cards": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/socialdining"
+    },
+    {
+      "title": "سان كارلو تشيكتي",
+      "merchant": "سان كارلو تشيكتي",
+      "category": "مطاعم",
+      "discount": "15% خصم",
+      "details": "خصم 15% لدى سان كارلو تشيكتي عند الدفع ببطاقات البنك السعودي للاستثمار.",
+      "cards": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/sancarlo"
+    },
+    {
+      "title": "كرك غلامور",
+      "merchant": "كرك غلامور",
+      "category": "مطاعم",
+      "discount": "15% خصم",
+      "details": "خصم 15% لدى كرك غلامور عند الدفع ببطاقات البنك السعودي للاستثمار.",
+      "cards": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/karakglamour"
+    },
+    {
+      "title": "إل بي إم",
+      "merchant": "إل بي إم",
+      "category": "مطاعم",
+      "discount": "15% خصم",
+      "details": "خصم 15% لدى إل بي إم عند الدفع ببطاقات البنك السعودي للاستثمار.",
+      "cards": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/lpm"
+    },
+    {
+      "title": "فوغو دي تشاو",
+      "merchant": "فوغو دي تشاو",
+      "category": "مطاعم",
+      "discount": "15% خصم",
+      "details": "خصم 15% لدى فوغو دي تشاو عند الدفع ببطاقات البنك السعودي للاستثمار.",
+      "cards": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/fogodechao"
+    },
+    {
+      "title": "ذا غلوب",
+      "merchant": "ذا غلوب",
+      "category": "مطاعم",
+      "discount": "15% خصم",
+      "details": "خصم 15% لدى ذا غلوب عند الدفع ببطاقات البنك السعودي للاستثمار.",
+      "cards": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/theglobe"
+    },
+    {
+      "title": "القصر الصيني",
+      "merchant": "القصر الصيني",
+      "category": "مطاعم",
+      "discount": "15% خصم",
+      "details": "خصم 15% لدى القصر الصيني عند الدفع ببطاقات البنك السعودي للاستثمار.",
+      "cards": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/chinapalace"
+    },
+    {
+      "title": "نجمة",
+      "merchant": "نجمة",
+      "category": "مطاعم",
+      "discount": "15% خصم",
+      "details": "خصم 15% لدى نجمة عند الدفع ببطاقات البنك السعودي للاستثمار.",
+      "cards": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/najma"
+    },
+    {
+      "title": "ميز",
+      "merchant": "ميز",
+      "category": "مطاعم",
+      "discount": "15% خصم",
+      "details": "خصم 15% لدى ميز عند الدفع ببطاقات البنك السعودي للاستثمار.",
+      "cards": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/maze"
+    },
+    {
+      "title": "مكرونة فورنو",
+      "merchant": "مكرونة فورنو",
+      "category": "مطاعم",
+      "discount": "20% خصم",
+      "details": "خصم 20% لدى مكرونة فورنو عند الدفع ببطاقات البنك السعودي للاستثمار.",
+      "cards": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/forno"
+    },
+    {
+      "title": "سكونيزا",
+      "merchant": "سكونيزا",
+      "category": "مطاعم",
+      "discount": "20% خصم",
+      "details": "خصم 20% لدى سكونيزا عند الدفع ببطاقات البنك السعودي للاستثمار.",
+      "cards": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/sconezza"
+    },
+    {
+      "title": "بول",
+      "merchant": "بول",
+      "category": "مطاعم",
+      "discount": "20% خصم",
+      "details": "خصم 20% لدى بول عند الدفع ببطاقات البنك السعودي للاستثمار.",
+      "cards": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/paul"
+    },
+    {
+      "title": "فينكي",
+      "merchant": "فينكي",
+      "category": "مطاعم",
+      "discount": "20% خصم",
+      "details": "خصم 20% لدى فينكي عند الدفع ببطاقات البنك السعودي للاستثمار.",
+      "cards": [
+        "بطاقات البنك السعودي للاستثمار"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.saib.com.sa/ar/venchi"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "bank": "بنك الإمارات دبي الوطني",
+  "bank_id": "emirates_nbd",
+  "offers": [
+    {
+      "title": "Voco Riyadh",
+      "merchant": "Voco Riyadh",
+      "category": "مطاعم",
+      "discount": "20% خصم في Horizon Restaurant و10% خصم في Ramadan Tent",
+      "details": "20% خصم على إجمالي الفاتورة في Horizon Restaurant، و10% خصم على إجمالي الفاتورة في Ramadan Tent عند الدفع ببطاقات بنك الإمارات دبي الوطني.",
+      "cards": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
+      "code": "",
+      "valid_from": "2026-02-18",
+      "valid_until": "2026-03-19",
+      "country": "السعودية",
+      "city": "الرياض",
+      "online": false,
+      "expired": false,
+      "source": "https://www.emiratesnbd.com.sa/en/deals/dining/voco-riyadh-offer"
+    },
+    {
+      "title": "EL & N London",
+      "merchant": "EL & N London",
+      "category": "مطاعم",
+      "discount": "15% خصم",
+      "details": "خصم 15% بدون حد أقصى عند الدفع ببطاقات بنك الإمارات دبي الوطني الائتمانية أو الخصم.",
+      "cards": [
+        "بطاقات ائتمانية",
+        "بطاقات خصم"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-05-30",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.emiratesnbd.com.sa/en/deals/dining/el-and-n-london"
+    },
+    {
+      "title": "Lunch in a box",
+      "merchant": "Lunch in a box",
+      "category": "مطاعم",
+      "discount": "10% خصم",
+      "details": "خصم 10% على الفاتورة عند الدفع ببطاقات البنك الائتمانية أو الخصم. العرض متاح داخل المملكة العربية السعودية.",
+      "cards": [
+        "بطاقات ائتمانية",
+        "بطاقات خصم"
+      ],
+      "code": "",
+      "valid_from": "2026-01-01",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "الرياض",
+      "online": false,
+      "expired": false,
+      "source": "https://www.emiratesnbd.com.sa/en/deals/dining/lunch-in-a-box"
+    },
+    {
+      "title": "Truffleers",
+      "merchant": "Truffleers",
+      "category": "مطاعم",
+      "discount": "حتى 20% خصم",
+      "details": "خصم يصل إلى 20% عند استخدام بطاقات بنك الإمارات دبي الوطني الائتمانية أو الخصم.",
+      "cards": [
+        "بطاقات ائتمانية",
+        "بطاقات خصم"
+      ],
+      "code": "ENBD",
+      "valid_from": "",
+      "valid_until": "2026-08-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.emiratesnbd.com.sa/en/deals/dining/truffleers"
+    },
+    {
+      "title": "JON & Vinnys",
+      "merchant": "JON & Vinnys",
+      "category": "مطاعم",
+      "discount": "20% خصم",
+      "details": "خصم 20% على قائمة الطعام A La Carte عند الدفع ببطاقات بنك الإمارات دبي الوطني الائتمانية. العرض في فرع السليمانية فقط ومن الأحد إلى الثلاثاء من 8:00 صباحًا إلى 6:00 مساءً.",
+      "cards": [
+        "بطاقات ائتمانية"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-12-31",
+      "country": "السعودية",
+      "city": "الرياض",
+      "online": false,
+      "expired": false,
+      "source": "https://www.emiratesnbd.com.sa/en/deals/dining/jon-and-vinnys"
+    },
+    {
+      "title": "Lulu Hypermarket",
+      "merchant": "Lulu Hypermarket",
+      "category": "تقسيط",
+      "discount": "تقسيط 0%",
+      "details": "خطة تقسيط بدون فوائد 0% لدى Lulu Hypermarket.",
+      "cards": [
+        "البطاقات المؤهلة"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "2026-05-15",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://www.emiratesnbd.com.sa/en/deals/0-installment-plan/lulu-hypermarket"
+    }
+  ]
+}

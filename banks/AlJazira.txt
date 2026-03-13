@@ -1,0 +1,232 @@
+{
+  "bank": "بنك الجزيرة",
+  "bank_id": "bank_aljazira",
+  "offers": [
+    {
+      "title": "هنقرستيشن - رمضان",
+      "merchant": "هنقرستيشن",
+      "category": "مطاعم",
+      "discount": "30% خصم",
+      "details": "احصل على خصم 30% على طلبات هنقرستيشن عند الدفع باستخدام بطاقة بنك الجزيرة ماستركارد الائتمانية خلال شهر رمضان.",
+      "cards": [
+        "بطاقات ماستركارد الائتمانية"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "",
+      "country": "السعودية",
+      "city": "",
+      "online": true,
+      "expired": false,
+      "source": "https://www.aljazirabank.com.sa/ar-sa/personal/promotional-offers"
+    },
+    {
+      "title": "Trendyol",
+      "merchant": "Trendyol",
+      "category": "تسوق",
+      "discount": "20% خصم",
+      "details": "استمتع بخصم 20% على أزياءك المفضلة من Trendyol عند الدفع باستخدام بطاقات بنك الجزيرة ماستركارد الائتمانية وإدخال رمز الخصم MASTERCARD.",
+      "cards": [
+        "بطاقات ماستركارد الائتمانية"
+      ],
+      "code": "MASTERCARD",
+      "valid_from": "",
+      "valid_until": "",
+      "country": "",
+      "city": "",
+      "online": true,
+      "expired": false,
+      "source": "https://www.aljazirabank.com.sa/Trendyol"
+    },
+    {
+      "title": "التميمي للأقمشة",
+      "merchant": "التميمي للأقمشة",
+      "category": "تسوق",
+      "discount": "20% خصم",
+      "details": "خصم 20% لدى التميمي للأقمشة عند استخدام بطاقة بنك الجزيرة الائتمانية أو مدى. الرمز الترويجي BAJ24 صالح على الموقع الإلكتروني فقط، والعرض يسري في الفروع والموقع الإلكتروني على المنتجات غير المخفضة أو الترويجية فقط.",
+      "cards": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
+      "code": "BAJ24",
+      "valid_from": "2024-06-01",
+      "valid_until": "2025-05-07",
+      "country": "السعودية",
+      "city": "",
+      "online": true,
+      "expired": true,
+      "source": "https://www.aljazirabank.com.sa/ar-sa/personal/Cards/Offers/Partners-Offers"
+    },
+    {
+      "title": "ريفي",
+      "merchant": "ريفي",
+      "category": "تسوق",
+      "discount": "حتى 20% خصم + 7% إضافية",
+      "details": "خصم 20% على المنتجات غير المخفضة والعروض الترويجية مع الرمز BAJ24 لمرة واحدة لكل عميل، وخصم إضافي 7% على جميع المنتجات مع الرمز BAJ7. العرض على الموقع الإلكتروني فقط.",
+      "cards": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
+      "code": "BAJ24 / BAJ7",
+      "valid_from": "2024-06-01",
+      "valid_until": "2025-05-20",
+      "country": "السعودية",
+      "city": "",
+      "online": true,
+      "expired": true,
+      "source": "https://www.aljazirabank.com.sa/ar-sa/personal/Cards/Offers/Partners-Offers"
+    },
+    {
+      "title": "سيفي",
+      "merchant": "سيفي",
+      "category": "تسوق",
+      "discount": "10% خصم حتى 30 ريال",
+      "details": "خصم 10% حتى 30 ريال عند الشراء بمبلغ 99 ريال وأكثر باستخدام بطاقات بنك الجزيرة الائتمانية أو مدى، على المتجر الإلكتروني فقط، وبالرمز BAJ24.",
+      "cards": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
+      "code": "BAJ24",
+      "valid_from": "",
+      "valid_until": "",
+      "country": "السعودية",
+      "city": "",
+      "online": true,
+      "expired": false,
+      "source": "https://www.aljazirabank.com.sa/ar-sa/personal/Cards/Offers/Partners-Offers"
+    },
+    {
+      "title": "ستايلي",
+      "merchant": "ستايلي",
+      "category": "تسوق",
+      "discount": "حتى 20% خصم",
+      "details": "10% خصم على المنتجات المخفضة و20% خصم على المنتجات غير المخفضة عند استخدام بطاقة بنك الجزيرة الائتمانية أو مدى مع الرمز BAJ24 على الموقع الإلكتروني أو التطبيق.",
+      "cards": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
+      "code": "BAJ24",
+      "valid_from": "",
+      "valid_until": "",
+      "country": "السعودية",
+      "city": "",
+      "online": true,
+      "expired": false,
+      "source": "https://www.aljazirabank.com.sa/ar-sa/personal/Cards/Offers/Partners-Offers"
+    },
+    {
+      "title": "مكعب",
+      "merchant": "مكعب",
+      "category": "تسوق",
+      "discount": "10% خصم",
+      "details": "خصم 10% لدى مكعب عند استخدام بطاقة بنك الجزيرة الائتمانية أو مدى مع الرمز الترويجي BAJ24 على الموقع الإلكتروني أو التطبيق.",
+      "cards": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
+      "code": "BAJ24",
+      "valid_from": "",
+      "valid_until": "",
+      "country": "السعودية",
+      "city": "",
+      "online": true,
+      "expired": false,
+      "source": "https://www.aljazirabank.com.sa/ar-sa/personal/Cards/Offers/Partners-Offers"
+    },
+    {
+      "title": "نور غاليري",
+      "merchant": "نور غاليري",
+      "category": "تسوق",
+      "discount": "10% خصم",
+      "details": "خصم 10% على جميع المنتجات لدى نور غاليري عند استخدام بطاقة بنك الجزيرة الائتمانية أو مدى. رمز العرض للموقع الإلكتروني فقط هو Jazira.",
+      "cards": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
+      "code": "Jazira",
+      "valid_from": "2024-01-25",
+      "valid_until": "2024-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": true,
+      "expired": true,
+      "source": "https://www.aljazirabank.com.sa/ar-sa/personal/Cards/Offers/Partners-Offers"
+    },
+    {
+      "title": "تشيلك",
+      "merchant": "تشيلك",
+      "category": "تسوق",
+      "discount": "10% خصم",
+      "details": "خصم 10% لدى تشيلك عند استخدام بطاقة بنك الجزيرة الائتمانية أو مدى على جميع المنتجات ما عدا المنتجات المخفضة. الرمز الخاص بالموقع الإلكتروني هو Jazira.",
+      "cards": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
+      "code": "Jazira",
+      "valid_from": "2024-01-25",
+      "valid_until": "2024-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": true,
+      "expired": true,
+      "source": "https://www.aljazirabank.com.sa/ar-sa/personal/Cards/Offers/Partners-Offers"
+    },
+    {
+      "title": "رمز الأعمال",
+      "merchant": "رمز الأعمال",
+      "category": "تسوق",
+      "discount": "10% خصم",
+      "details": "خصم 10% لدى رمز الأعمال عند استخدام بطاقة بنك الجزيرة الائتمانية أو مدى.",
+      "cards": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
+      "code": "",
+      "valid_from": "2024-01-25",
+      "valid_until": "2024-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": true,
+      "source": "https://www.aljazirabank.com.sa/ar-sa/personal/Cards/Offers/Partners-Offers"
+    },
+    {
+      "title": "بنش هوم",
+      "merchant": "بنش هوم",
+      "category": "منزل وأثاث",
+      "discount": "10% خصم",
+      "details": "خصم 10% لدى بنش هوم عند استخدام بطاقة بنك الجزيرة الائتمانية أو مدى. الخصم على جميع المنتجات ما عدا المنتجات المخفضة.",
+      "cards": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
+      "code": "",
+      "valid_from": "2024-01-25",
+      "valid_until": "2024-12-31",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": true,
+      "source": "https://www.aljazirabank.com.sa/ar-sa/personal/Cards/Offers/Partners-Offers"
+    },
+    {
+      "title": "عبدالغني إرث المجوهرات",
+      "merchant": "عبدالغني إرث المجوهرات",
+      "category": "مجوهرات",
+      "discount": "30% خصم",
+      "details": "خصم 30% على جميع المنتجات لدى عبدالغني إرث المجوهرات عند استخدام بطاقة بنك الجزيرة الائتمانية أو مدى.",
+      "cards": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
+      "code": "",
+      "valid_from": "2023-03-21",
+      "valid_until": "2025-03-10",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": true,
+      "source": "https://www.aljazirabank.com.sa/ar-sa/personal/Cards/Offers/Partners-Offers"
+    }
+  ]
+}

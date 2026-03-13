@@ -1,0 +1,345 @@
+{
+  "bank": "البنك العربي الوطني",
+  "bank_id": "anb",
+  "offers": [
+    {
+      "title": "هنقرستيشن",
+      "merchant": "هنقرستيشن",
+      "category": "تطبيقات",
+      "discount": "30% خصم",
+      "details": "خصم 30% مع هنقرستيشن عند استخدام بطاقات anb ماستركارد.",
+      "cards": [
+        "بطاقات ماستركارد"
+      ],
+      "code": "",
+      "valid_from": "",
+      "valid_until": "",
+      "country": "السعودية",
+      "city": "",
+      "online": true,
+      "expired": false,
+      "source": "https://anb.com.sa/ar/web/anb/cc-offers"
+    },
+    {
+      "title": "مانترا سبا",
+      "merchant": "مانترا سبا",
+      "category": "الصحة",
+      "discount": "20% خصم",
+      "details": "خصم 20% على سبا النساء عند حد أدنى 300 ريال، و20% على سبا الرجال عند حد أدنى 240 ريال. العرض في الفرع فقط ولا يشمل الخدمات المنزلية.",
+      "cards": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
+      "code": "",
+      "valid_from": "2025-08-01",
+      "valid_until": "2026-06-01",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://anb.com.sa/ar/web/anb/cc-offers"
+    },
+    {
+      "title": "فايانا",
+      "merchant": "فايانا",
+      "category": "تسوق",
+      "discount": "15% خصم",
+      "details": "خصم 15% على الموقع الإلكتروني باستخدام جميع بطاقات anb الائتمانية وبطاقات مدى مع رمز الخصم ANB15.",
+      "cards": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
+      "code": "ANB15",
+      "valid_from": "2025-08-01",
+      "valid_until": "2026-06-01",
+      "country": "السعودية",
+      "city": "",
+      "online": true,
+      "expired": false,
+      "source": "https://anb.com.sa/ar/web/anb/cc-offers"
+    },
+    {
+      "title": "ايرث كافيه",
+      "merchant": "ايرث كافيه",
+      "category": "مطاعم",
+      "discount": "15% خصم",
+      "details": "خصم 15% في فروع الرياض وجدة والخبر، من الأحد إلى الخميس من 7 صباحًا إلى 6 مساءً، على قائمة الطعام الرئيسية فقط وللطلبات الداخلية.",
+      "cards": [
+        "بطاقات ائتمانية"
+      ],
+      "code": "",
+      "valid_from": "2025-07-15",
+      "valid_until": "2026-06-22",
+      "country": "السعودية",
+      "city": "الرياض / جدة / الخبر",
+      "online": false,
+      "expired": false,
+      "source": "https://anb.com.sa/ar/web/anb/cc-offers"
+    },
+    {
+      "title": "فيكت هوم",
+      "merchant": "فيكت هوم",
+      "category": "تسوق",
+      "discount": "25% خصم",
+      "details": "خصم 25% على الموقع الإلكتروني عند الدفع ببطاقات anb الائتمانية أو مدى مع رمز الخصم ANB10.",
+      "cards": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
+      "code": "ANB10",
+      "valid_from": "2025-08-01",
+      "valid_until": "2026-06-01",
+      "country": "السعودية",
+      "city": "",
+      "online": true,
+      "expired": false,
+      "source": "https://anb.com.sa/ar/web/anb/cc-offers"
+    },
+    {
+      "title": "مقهى ومحمصة سويل",
+      "merchant": "مقهى ومحمصة سويل",
+      "category": "مطاعم",
+      "discount": "15% خصم",
+      "details": "الخصم صالح على منتجات القهوة عبر الموقع باستخدام الرمز ANB10، كما ينطبق على جميع مشروبات القهوة في المعرض عند الدفع ببطاقة البنك.",
+      "cards": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
+      "code": "ANB10",
+      "valid_from": "2025-05-18",
+      "valid_until": "2026-05-30",
+      "country": "السعودية",
+      "city": "",
+      "online": true,
+      "expired": false,
+      "source": "https://anb.com.sa/ar/web/anb/cc-offers"
+    },
+    {
+      "title": "كراما يوغا",
+      "merchant": "كراما يوغا",
+      "category": "الصحة",
+      "discount": "10% خصم",
+      "details": "خصم 10% في المعرض عند الدفع ببطاقات البنك العربي الوطني.",
+      "cards": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
+      "code": "",
+      "valid_from": "2025-08-01",
+      "valid_until": "2026-05-14",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://anb.com.sa/ar/web/anb/cc-offers"
+    },
+    {
+      "title": "صالون أيوليت",
+      "merchant": "صالون أيوليت",
+      "category": "الصحة",
+      "discount": "20% خصم",
+      "details": "خصم 20% لا يشمل المنتجات أو الباقات أو الخدمات المخفضة. العرض متاح في المعرض.",
+      "cards": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
+      "code": "",
+      "valid_from": "2025-07-04",
+      "valid_until": "2026-07-04",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://anb.com.sa/ar/web/anb/cc-offers"
+    },
+    {
+      "title": "هوبو",
+      "merchant": "هوبو",
+      "category": "تسوق",
+      "discount": "10% خصم",
+      "details": "خصم 10% على الموقع الإلكتروني باستخدام بطاقة البنك العربي الوطني مع رمز الخصم ANB10.",
+      "cards": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
+      "code": "ANB10",
+      "valid_from": "2025-08-01",
+      "valid_until": "2026-05-28",
+      "country": "السعودية",
+      "city": "",
+      "online": true,
+      "expired": false,
+      "source": "https://anb.com.sa/ar/web/anb/cc-offers"
+    },
+    {
+      "title": "مزرود",
+      "merchant": "مزرود",
+      "category": "تسوق",
+      "discount": "10% خصم",
+      "details": "خصم 10% على الموقع الإلكتروني عند إضافة الرمز الترويجي ANB10 أثناء الدفع ببطاقات anb مدى أو الائتمان.",
+      "cards": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
+      "code": "ANB10",
+      "valid_from": "2025-05-13",
+      "valid_until": "2026-05-13",
+      "country": "السعودية",
+      "city": "",
+      "online": true,
+      "expired": false,
+      "source": "https://anb.com.sa/ar/web/anb/cc-offers"
+    },
+    {
+      "title": "إي إم بوكس",
+      "merchant": "إي إم بوكس",
+      "category": "الصحة",
+      "discount": "10% خصم",
+      "details": "خصم 10% في الفرع فقط. العرض قابل للاستخدام مرة واحدة فقط لكل عملية شراء.",
+      "cards": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
+      "code": "",
+      "valid_from": "2025-08-10",
+      "valid_until": "2026-05-04",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://anb.com.sa/ar/web/anb/cc-offers"
+    },
+    {
+      "title": "نادي إلكسير النسائي",
+      "merchant": "نادي إلكسير النسائي",
+      "category": "الصحة",
+      "discount": "30% خصم",
+      "details": "خصم 30% في الفرع فقط عند الدفع ببطاقات البنك العربي الوطني.",
+      "cards": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
+      "code": "",
+      "valid_from": "2025-08-01",
+      "valid_until": "2026-05-11",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://anb.com.sa/ar/web/anb/cc-offers"
+    },
+    {
+      "title": "بلاي ويل",
+      "merchant": "بلاي ويل",
+      "category": "أخرى",
+      "discount": "15% خصم",
+      "details": "خصم 15% على الألعاب الحركية في المعرض. العرض لا ينطبق على المخيمات الصيفية أو الورش، وصالح طوال الأسبوع عدا الإثنين والثلاثاء.",
+      "cards": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
+      "code": "",
+      "valid_from": "2025-08-01",
+      "valid_until": "2026-06-01",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://anb.com.sa/ar/web/anb/cc-offers"
+    },
+    {
+      "title": "فندق ميسان رحاب المسك",
+      "merchant": "فندق ميسان رحاب المسك",
+      "category": "السفر والسياحة",
+      "discount": "15% خصم على الغرف والمأكولات و50% على تأجير القاعات",
+      "details": "خصم 15% على الغرف والمأكولات والمشروبات، و50% على تأجير القاعات. يشترط الحجز المسبق عبر الهاتف أو الواتساب أو الموقع.",
+      "cards": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
+      "code": "",
+      "valid_from": "2025-07-27",
+      "valid_until": "2026-07-27",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://anb.com.sa/ar/web/anb/cc-offers"
+    },
+    {
+      "title": "فلورينا",
+      "merchant": "فلورينا",
+      "category": "تسوق",
+      "discount": "10% خصم",
+      "details": "خصم 10% عند الدفع ببطاقات البنك العربي الوطني مع استخدام رمز الخصم ANB10. العرض غير ساري خلال مواسم التخفيضات.",
+      "cards": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
+      "code": "ANB10",
+      "valid_from": "2025-06-23",
+      "valid_until": "2026-06-23",
+      "country": "السعودية",
+      "city": "",
+      "online": true,
+      "expired": false,
+      "source": "https://anb.com.sa/ar/web/anb/cc-offers"
+    },
+    {
+      "title": "كت اند كوت",
+      "merchant": "كت اند كوت",
+      "category": "الصحة",
+      "discount": "20% خصم",
+      "details": "خصم 20% يشمل جميع الخدمات باستثناء خدمات تركيب الأظافر الصناعية. العرض متاح في الفرع.",
+      "cards": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
+      "code": "",
+      "valid_from": "2025-08-01",
+      "valid_until": "2026-07-13",
+      "country": "السعودية",
+      "city": "",
+      "online": false,
+      "expired": false,
+      "source": "https://anb.com.sa/ar/web/anb/cc-offers"
+    },
+    {
+      "title": "الركن السويسري",
+      "merchant": "الركن السويسري",
+      "category": "تسوق",
+      "discount": "10% خصم إضافي",
+      "details": "خصم إضافي 10% بدون حد أقصى. في الفرع بإبراز البطاقة، وعبر الإنترنت باستخدام كود SANB10.",
+      "cards": [
+        "بطاقات ائتمانية"
+      ],
+      "code": "SANB10",
+      "valid_from": "",
+      "valid_until": "2026-01-12",
+      "country": "السعودية",
+      "city": "",
+      "online": true,
+      "expired": true,
+      "source": "https://anb.com.sa/ar/web/anb/cc-offers"
+    },
+    {
+      "title": "توب غان",
+      "merchant": "توب غان",
+      "category": "تطبيقات",
+      "discount": "15% خصم",
+      "details": "خصم 15% على الموقع والتطبيق باستخدام رمز الخصم ANB. لا يوجد حد أدنى للإنفاق والرمز متعدد الاستخدام.",
+      "cards": [
+        "بطاقات ائتمانية",
+        "بطاقات مدى"
+      ],
+      "code": "ANB",
+      "valid_from": "2025-01-30",
+      "valid_until": "2025-11-01",
+      "country": "السعودية",
+      "city": "",
+      "online": true,
+      "expired": true,
+      "source": "https://anb.com.sa/ar/web/anb/cc-offers"
+    }
+  ]
+}

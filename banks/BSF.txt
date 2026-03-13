@@ -1,0 +1,137 @@
+{
+  "bank": "البنك السعودي الفرنسي",
+  "bankCode": "bsf",
+  "source": "https://bsf.sa/arabic/personal/cards/offers/all-offers",
+  "lastChecked": "2026-03-11",
+  "offers": [
+    {
+      "id": "bsf-sf-line",
+      "merchant": "SF Line",
+      "title": "خصم 20% لدى محلات SF Line",
+      "category": "shopping",
+      "discount": "20%",
+      "cards": [
+        "credit",
+        "prepaid",
+        "mada"
+      ],
+      "cardText": "بطاقات BSF الائتمانية ومسبقة الدفع ومدى",
+      "promoCode": null,
+      "expiryDate": "2026-02-28",
+      "status": "expired",
+      "notes": "العرض ظاهر في صفحة كل العروض، لكنه منتهي حسب التاريخ المعروض."
+    },
+    {
+      "id": "bsf-pilates-room",
+      "merchant": "The Pilates Room",
+      "title": "خصم 15% لدى The Pilates Room",
+      "category": "lifestyle",
+      "discount": "15%",
+      "cards": [
+        "credit",
+        "prepaid",
+        "mada"
+      ],
+      "cardText": "بطاقات البنك السعودي الفرنسي الائتمانية أو مسبقة الدفع أو مدى",
+      "promoCode": null,
+      "expiryDate": "2026-03-20",
+      "status": "active",
+      "notes": null
+    },
+    {
+      "id": "bsf-trip-com",
+      "merchant": "Trip.com",
+      "title": "خصم يصل إلى 20% على Trip.com",
+      "category": "travel",
+      "discount": "حتى 20%",
+      "cards": [
+        "mastercard"
+      ],
+      "cardText": "بطاقات ماستركارد من BSF",
+      "promoCode": null,
+      "expiryDate": "2026-03-31",
+      "status": "active",
+      "notes": "الخصم يصل إلى 20%."
+    },
+    {
+      "id": "bsf-indigo-home",
+      "merchant": "Indigo Home",
+      "title": "خصم 15% لدى Indigo Home",
+      "category": "lifestyle",
+      "discount": "15%",
+      "cards": [
+        "credit",
+        "prepaid",
+        "mada"
+      ],
+      "cardText": "بطاقات BSF الائتمانية ومسبقة الدفع ومدى",
+      "promoCode": null,
+      "expiryDate": "2026-12-31",
+      "status": "active",
+      "notes": null
+    },
+    {
+      "id": "bsf-symphony-clinic",
+      "merchant": "عيادات سيمفوني",
+      "title": "خصم يصل إلى 15% لدى عيادات سيمفوني",
+      "category": "health",
+      "discount": "حتى 15%",
+      "cards": [
+        "credit",
+        "prepaid",
+        "mada"
+      ],
+      "cardText": "بطاقات BSF الائتمانية ومسبقة الدفع ومدى",
+      "promoCode": null,
+      "expiryDate": "2026-12-01",
+      "status": "active",
+      "notes": null
+    },
+    {
+      "id": "bsf-chotto-matte",
+      "merchant": "شاتو ماتو",
+      "title": "خصم 20% على الغداء و15% على العشاء لدى شاتو ماتو",
+      "category": "restaurants",
+      "discount": "20% غداء / 15% عشاء",
+      "cards": [],
+      "cardText": null,
+      "promoCode": null,
+      "expiryDate": "2026-08-25",
+      "status": "active",
+      "notes": "مذكور في الصفحة: 20% على فترة الغداء و15% على فترة العشاء."
+    },
+    {
+      "id": "bsf-lifeways",
+      "merchant": "مركز لايف وايز",
+      "title": "خصم يصل إلى 30% لدى مركز لايف وايز",
+      "category": "health",
+      "discount": "حتى 30%",
+      "cards": [
+        "credit",
+        "prepaid",
+        "mada"
+      ],
+      "cardText": "بطاقات BSF الائتمانية ومسبقة الدفع ومدى",
+      "promoCode": null,
+      "expiryDate": "2026-12-31",
+      "status": "active",
+      "notes": null
+    },
+    {
+      "id": "bsf-park-inn-dubai-motor-city",
+      "merchant": "Park Inn by Radisson Dubai Motor City",
+      "title": "خصم 20% على الغرف في فندق بارك إن باي راديسون دبي موتور سيتي",
+      "category": "travel",
+      "discount": "20%",
+      "cards": [
+        "mada",
+        "credit"
+      ],
+      "cardText": "بطاقة مدى من البنك أو بطاقة الائتمان",
+      "promoCode": "BSF20",
+      "expiryDate": "2026-05-11",
+      "status": "active",
+      "notes": null
+    }
+  ]
+}

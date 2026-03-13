@@ -1,0 +1,394 @@
+{
+  "bank": "البنك الأهلي السعودي",
+  "bank_code": "SNB",
+  "source_url": "https://www.alahli.com/ar/pages/personal-banking/credit-cards/credit-card-promotions",
+  "extracted_at": "2026-03-11",
+  "offers_count": 48,
+  "notes": "تم الاستخراج من صفحة العروض الرئيسية وروابط صفحات العروض المباشرة الظاهرة في الموقع.",
+  "offers": [
+    {
+      "id": 223,
+      "category": "صحة",
+      "title": "أوشن سبا",
+      "validity": "يسري العرض من 11 فبراير 2026 حتى 1 فبراير 2027م",
+      "description": "استمتع بخصم 20% من أوشن سبا داخل الفروع عند استخدام بطاقة لك أو بطاقات SNB الائتمانية ومدى من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/ocean-spa"
+    },
+    {
+      "id": 224,
+      "category": "التسوق",
+      "title": "SHEIN",
+      "validity": "يسري العرض من 15 ينايرحتى 30 يونيو 2026م",
+      "description": "استمتع بخصم 20% من شي إن عند استخدام بطاقات SNB من Visa استخدم الرمز الترويجي: VISA26",
+      "url": "https://www.alahli.com/ar/offers/shein-visa"
+    },
+    {
+      "id": 225,
+      "category": "التسوق",
+      "title": "iHerb",
+      "validity": "يسري العرض من 15 يناير إلى 30 يونيو 2026م",
+      "description": "استمتع بخصم يصل إلى 25% على مشترياتك من iHerb عند استخدام بطاقات SNB من Visa للعملاء الجدد خصم 25% و للعملاء الحاليين خصم 10%",
+      "url": "https://www.alahli.com/ar/offers/iherb"
+    },
+    {
+      "id": 226,
+      "category": "مطاعم",
+      "title": "بي اف تشانقز",
+      "validity": "يسري من 16 فبراير 2026م حتى 19 مارس 2026م من الإثنين حتى الخميس",
+      "description": "استمتع بخصم 20% لدى \"بي اف تشانقز\" عند استخدام بطاقات SNB الائتمانية وبطاقة لك من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/pf-changs"
+    },
+    {
+      "id": 227,
+      "category": "مطاعم",
+      "title": "تكساس رودهاوس",
+      "validity": "يسري من 16 فبراير حتى 19 مارس 2026م - كل ثلاثاء",
+      "description": "استمتع بخصم 20% من \"تكساس رودهاوس\" عند استخدام بطاقات SNB الائتمانية وبطاقة لك من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/texas-roadhouse"
+    },
+    {
+      "id": 228,
+      "category": "التسوق",
+      "title": "Farfetch",
+      "validity": "يسري العرض من 15 يناير 2025 إلى 31 مارس 2026",
+      "description": "استمتع بخصم يصل إلى 500 ريال لدى FARFETCH عند استخدام بطاقات SNB من Visa",
+      "url": "https://www.alahli.com/ar/offers/farfetch"
+    },
+    {
+      "id": 229,
+      "category": "مطاعم",
+      "title": "ريزينج كينز",
+      "validity": "يسري من 16 فبراير حتى 19 مارس 2026م",
+      "description": "استمتع بخصم 20% من \"ريزينج كينز\" عند استخدام بطاقات SNB الائتمانية أو بطاقة لك من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/raising-canes"
+    },
+    {
+      "id": 230,
+      "category": "التسوق",
+      "title": "Vogacloset",
+      "validity": "يسري العرض من 15 يناير إلى 30 يونيو 2026",
+      "description": "استمتع بخصم10% من Vogacloset عند استخدام بطاقات SNB من Visa",
+      "url": "https://www.alahli.com/ar/offers/vogaclosest"
+    },
+    {
+      "id": 231,
+      "category": "مطاعم",
+      "title": "شيك شاك",
+      "validity": "يسري من 16 فبراير حتى 19 مارس 2026م",
+      "description": "استمتع بخصم 20% لدى \"شيك شاك\" عند استخدام بطاقات SNB الائتمانية وبطاقة لك من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/shake-shack"
+    },
+    {
+      "id": 232,
+      "category": "التسوق",
+      "title": "الشمس والرمال للرياضة",
+      "validity": "يسري العرض حتى 31 ديسمبر 2026م",
+      "description": "استمتع بخصم يصل إلى %20 من الشمس والرمال للرياضة عند استخدام بطاقات SNB من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/sun-and-sand-sports-2"
+    },
+    {
+      "id": 233,
+      "category": "التسوق",
+      "title": "ستاربكس",
+      "validity": "يسري من 16 فبراير حتى 19 مارس 2026م",
+      "description": "استمتع بخصم 20% من \"ستاربكس\" عند استخدام بطاقات SNB الائتمانية وبطاقة لك من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/starbucks"
+    },
+    {
+      "id": 234,
+      "category": "صحة",
+      "title": "V Shape",
+      "validity": "يسري من 8 يناير حتى 8 أبريل 2026م",
+      "description": "استمتع بخصم يصل الى 30% من V Shape عند استخدام بطاقات SNB من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/v-shape"
+    },
+    {
+      "id": 235,
+      "category": "صحة",
+      "title": "زد ميلز",
+      "validity": "يسري العرض من 8 يناير إلى 8 أبريل 2026",
+      "description": "استمتع بخصم 20% من زد ميلز عند استخدام بطاقات SNB الائتمانية ومدى من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/zed-meals"
+    },
+    {
+      "id": 236,
+      "category": "صحة",
+      "title": "بيور جيم",
+      "validity": "يسري من 8 يناير حتى 8 أبريل 2026م",
+      "description": "استمتع بخصم 30% من بيور جيم عند استخدام بطاقات SNB من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/pure-gym"
+    },
+    {
+      "id": 237,
+      "category": "التسوق",
+      "title": "Nazih",
+      "validity": "يسري العرض من 8 يناير حتى 8 أبريل 2026م",
+      "description": "استمتع بخصم 10% من Nazih عند استخدام بطاقات SNB الائتمانية ومدى من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/nazih"
+    },
+    {
+      "id": 238,
+      "category": "مطاعم/التسوق",
+      "title": "جاهز",
+      "validity": "يسري العرض من 26 فبراير 2026 حتى 19 مارس 2026",
+      "description": "استمتع بـ كاش باك على قهوتك من \"جاهز\" عند استخدام بطاقات SNB الائتمانية أو بطاقة لك من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/jahez"
+    },
+    {
+      "id": 239,
+      "category": "عروض الفنادق",
+      "title": "IHG",
+      "validity": "يسري من 15 يناير حتى 31 ديسمبر 2026م",
+      "description": "استمتع بخصم 15٪ من فنادق ومنتجعات IHG عند الحجز باستخدام بطاقات SNB من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/ihg"
+    },
+    {
+      "id": 240,
+      "category": "مطاعم",
+      "title": "Wafi Gourmet",
+      "validity": "يسري العرض من 1 يناير 2026 إلى 1 يناير 2027",
+      "description": "استمتع بخصم 15% في مطعم \"Wafi Gourmet\" عند استخدام بطاقات SNB الائتمانية أو مدى من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/wafi-gourmet"
+    },
+    {
+      "id": 241,
+      "category": "مطاعم",
+      "title": "Akira Back - دبي",
+      "validity": "يسري العرض من 1 يناير 2026 إلى 1 يناير 2027",
+      "description": "استمتع بخصم 15% في مطعم \"Akira Back\" عند استخدام بطاقات SNB الائتمانية أو مدى من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/akira-back-dubai"
+    },
+    {
+      "id": 242,
+      "category": "مطاعم",
+      "title": "Mohalla",
+      "validity": "يسري العرض من 1 يناير 2026 إلى 1 يناير 2027",
+      "description": "استمتع بخصم 15% في مطعم \"Mohalla\" عند استخدام بطاقات SNB الائتمانية أو مدى من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/mohalla"
+    },
+    {
+      "id": 243,
+      "category": "مطاعم",
+      "title": "Namu",
+      "validity": "يسري العرض من 1 يناير 2026 إلى 1 يناير 2027",
+      "description": "استمتع بخصم 15% في مطعم \"Namu\" عند استخدام بطاقات SNB الائتمانية أو مدى من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/namu"
+    },
+    {
+      "id": 244,
+      "category": "التسوق",
+      "title": "Amazon Prime Offer",
+      "validity": "يسري من 14 يناير 2026م حتى 14 يناير 2027م",
+      "description": "استمتع باشتراك أمازون برايم مقدمًا من ماستركارد يصل حتى 6 أشهر بالإضافة الى خصم 15% (حتى 50 ريال) مرة واحدة كل 30 يوما (حتى 4 أشهر متتالية) باستخدام بطاقات مدى أو البطاقات الائتمانية من البنك الأهلي السعودي من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/amazon-prime-offer"
+    },
+    {
+      "id": 245,
+      "category": "مطاعم/عروض المطارات",
+      "title": "كوستا في مطارات دبي",
+      "validity": "يسري العرض من 22 يناير حتى 31 ديسمبر 2026م",
+      "description": "استمتع ب 4 مأكولات/مشروبات مجانية من اختيارك في كوستا فرع مطارات دبي عند استخدام بطاقة SNB من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/costa-dubai-airports"
+    },
+    {
+      "id": 246,
+      "category": "مطاعم/التسوق",
+      "title": "هنقرستيشن",
+      "validity": "يسري العرض من 10 فبراير حتى 28 ابريل 2026",
+      "description": "استمتع بخصم 30% كل ثلاثاء من \"هنقرستيشن\" بحد خصم أقصى 30 ريال سعودي باستخدام بطاقات SNB الائتمانية من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/hungerstation-new"
+    },
+    {
+      "id": 247,
+      "category": "عروض المطارات",
+      "title": "كريم",
+      "validity": "يسري العرض من 15 يناير حتى 31 ديسمبر 2026",
+      "description": "استمتع برحلتين مجانية من وإلى المطار من تطبيق كريم عند استخدام بطاقة SNB وورلد من ماستركارد، بالإضافة إلى ست رحلات مجانية من وإلى المطار عند استخدام بطاقة SNB وورلد إليت من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/careem"
+    },
+    {
+      "id": 248,
+      "category": "عروض المطارات",
+      "title": "Heathrow Express",
+      "validity": "يسري العرض من 15 يناير حتى 31 ديسمبر 2026",
+      "description": "استمتع بخصم 12٪ على رحلاتك عبر Heathrow Express عند الحجز باستخدام بطاقات SNB من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/heathrow-express"
+    },
+    {
+      "id": 249,
+      "category": "عروض الفنادق/عروض الطيران",
+      "title": "Trip.com",
+      "validity": "يسري العرض حتى 14 أبريل 2026م",
+      "description": "استمتع بخصم حتى 10% من \"Trip.com\" عند استخدامك بطاقات البنك الأهلي السعودي من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/trip"
+    },
+    {
+      "id": 250,
+      "category": "التسوق",
+      "title": "مجوهرات الفارسي",
+      "validity": "يسري من 16 أبريل 2025 حتى 16 أبريل 2026م",
+      "description": "استمتع بخصم 20% من \"مجوهرات الفارسي\" باستخدام بطاقات البنك الأهلي السعودي من مدى او البطاقات الائتمانية",
+      "url": "https://www.alahli.com/ar/offers/al-farsi-jewelry"
+    },
+    {
+      "id": 251,
+      "category": "عروض الفنادق",
+      "title": "فيرمونت تغازوت باي (المغرب)",
+      "validity": "يسري من 01 مايو 2025م حتى 17 ابريل 2026م",
+      "description": "استمتع بخصم حتى 20% من فندق \"فيرمونت تغازوت باي (المغرب)\" باستخدام بطاقات البنك الأهلي السعودي الائتمانية من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/fairmont-taghazout-bay-morocco"
+    },
+    {
+      "id": 252,
+      "category": "ترفيه",
+      "title": "بووست",
+      "validity": "يسري العرض حتى 19 أبريل 2026",
+      "description": "استمتع بخصم %10 من بووست عند استخدام بطاقات البنك الأهلي السعودي الائتمانية ومدى من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/boost"
+    },
+    {
+      "id": 253,
+      "category": "التسوق",
+      "title": "لوفت",
+      "validity": "يسري العرض حتى 22 ابريل 2026م",
+      "description": "استمتع بخصم 40% لدى معارض \"لوفت\" للديكور والمفروشات الأنيقة باستخدام بطاقات البنك الأهلي السعودي",
+      "url": "https://www.alahli.com/ar/offers/loft"
+    },
+    {
+      "id": 254,
+      "category": "ترفيه",
+      "title": "دبدوب",
+      "validity": "يسري من 25 مايو 2025 حتى 5 مايو 2026م",
+      "description": "استمتع باسترداد نقدي بنسبة 40% من دبدوب باستخدام بطاقات البنك الأهلي السعودي الائتمانية أو مدى من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/dabdoob-offer"
+    },
+    {
+      "id": 255,
+      "category": "مطاعم",
+      "title": "EL&N London",
+      "validity": "يسري العرض من 26 أكتوبر 2025 إلى 21 أكتوبر 2026",
+      "description": "استمتع بخصم 15% من EL&N London عند استخدام بطاقات SNB من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/eln-london"
+    },
+    {
+      "id": 256,
+      "category": "خدمات",
+      "title": "ظلال الكريستال",
+      "validity": "يسري من 1 مايو حتى 31 مايو 2026م",
+      "description": "استمتع بخصم بنسبة 50% من ظلال الكريستال عند استخدام بطاقات البنك الأهلي السعودي الائتمانية أو مدى من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/crystal-shade-stores"
+    },
+    {
+      "id": 257,
+      "category": "مطاعم",
+      "title": "بيت الشاورما",
+      "validity": "يسري العرض من 15 أكتوبر حتى 2 ديسمبر 2026م",
+      "description": "استمتع بخصم 10% في \"بيت الشاورما\" عند استخدام بطاقات SNB من ماستركارد باستخدام الرمز الترويجي: SNB10",
+      "url": "https://www.alahli.com/ar/offers/shawarma-house"
+    },
+    {
+      "id": 258,
+      "category": "ترفيه",
+      "title": "صالات لجندز",
+      "validity": "يسري من 14 يوليو 2025 حتى 6 يونيو 2026",
+      "description": "استمتع بخصم 10% على ساعات اللعب في \"صالات لجندز\" باستخدام بطاقات البنك الأهلي السعودي الائتمانية أو مدى من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/legends-gaming"
+    },
+    {
+      "id": 259,
+      "category": "صحة",
+      "title": "كراما يوغا",
+      "validity": "يسري من 23 يونيو 2025 حتى 15 يونيو 2026م",
+      "description": "استمتع بخصم بنسبة 10% من (كراما يوغا) باستخدام بطاقات البنك الأهلي السعودي (الائتمانية ومدى) من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/karama-yoga"
+    },
+    {
+      "id": 260,
+      "category": "دولي",
+      "title": "بوكونشينو مايفير، بوكونشينو سوهو، وأوستيريا ديل مارِه - لندن",
+      "validity": "يسري من 25 يونيو 2025 حتى 18 يونيو 2026م",
+      "description": "استمتع بخصم 10% لدى بوكونشينو مايفير، بوكونشينو سوهو، وأوستيريا ديل مارِه عند استخدام بطاقات البنك الأهلي السعودي الائتمانية أو مدى من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/bocconcino-mayfair-soho-osteria-del-mare-london"
+    },
+    {
+      "id": 261,
+      "category": "التسوق",
+      "title": "Ferns N Petals",
+      "validity": "يسري العرض من 7 يوليو 2025 حتى 30 يونيو 2026",
+      "description": "استمتع بخصم 15% Ferns N Petals عند استخدام بطاقات SNB الائتمانية أو مدى من ماستركارد باستخدام الرمز الترويجي: SNB15",
+      "url": "https://www.alahli.com/ar/offers/ferns-n-petals"
+    },
+    {
+      "id": 262,
+      "category": "التسوق",
+      "title": "دلال بوتيك",
+      "validity": "يسري العرض حتى 20 يوليو 2026",
+      "description": "استمتع بخصم 30% في \"دلال بوتيك\" عند استخدام رمز الخصم SNB30 أو عند الدفع بواسطة بطاقات ائتمان أو مدى (ماستركارد) من SNB",
+      "url": "https://www.alahli.com/ar/offers/dalal-boutique"
+    },
+    {
+      "id": 263,
+      "category": "خدمات",
+      "title": "درايف7",
+      "validity": "يسري من 15 سبتمبر 2025 حتى 4 سبتمبر 2026م",
+      "description": "استمتع بخصم %20 من درايف7 وأكثر من 30% عند استخدام بطاقات SNB من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/drive7"
+    },
+    {
+      "id": 264,
+      "category": "عروض الفنادق",
+      "title": "المسافر",
+      "validity": "يسري من 25 سبتمبر 2025م حتى 23 سبتمبر 2026م",
+      "description": "اكتشف العالم مع برنامج إليت من SNB واستمتع بتجارب حجز فاخرة مصممة خصيصًا لك من قبل مستشاري السفر في \"المسافر\"",
+      "url": "https://www.alahli.com/ar/offers/almosafer-2"
+    },
+    {
+      "id": 265,
+      "category": "التسوق",
+      "title": "بيتونيا",
+      "validity": "يسري العرض حتى 6 مايو 2027",
+      "description": "استمتع بخصم 15% في بيتونيا عند الدفع باستخدام بطاقات SNB من ماستركارد، على مشتريات بقيمة 5,000 ريال أو أكثر. كود الخصم: SNB15",
+      "url": "https://www.alahli.com/ar/offers/baytonia"
+    },
+    {
+      "id": 266,
+      "category": "التسوق",
+      "title": "مجوهرات مصلي",
+      "validity": "يسري العرض من 1 ديسمبر 2025 حتى 1 ديسمبر 2026م",
+      "description": "استمتع بخصم 5% لدى مجوهرات مصلي عند استخدام بطاقات SNB من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/musalli-jewelry"
+    },
+    {
+      "id": 267,
+      "category": "التسوق",
+      "title": "Amani Boutique",
+      "validity": "يسري العرض حتى 31 ديسمبر 2026",
+      "description": "استمتع بخصم 10٪ لدى \"Amani Boutique\" للأزياء التركية عند استخدام بطاقات SNB",
+      "url": "https://www.alahli.com/ar/offers/amani-boutique"
+    },
+    {
+      "id": 268,
+      "category": "تأجير السيارات",
+      "title": "Rentalcars.com",
+      "validity": "يسري من 1 مايو حتى 15 يونيو 2027م",
+      "description": "استمتع بخصم 10% من \"Rentalcars.com\" باستخدام بطاقات البنك الأهلي السعودي الفرسان من Visa",
+      "url": "https://www.alahli.com/ar/offers/rentalcars"
+    },
+    {
+      "id": 269,
+      "category": "مطاعم",
+      "title": "المليوري",
+      "validity": "يسري العرض حتى 31 ديسمبر 2027م",
+      "description": "استمتع بخصم 10% مع برد الشتاء من\"المليوري\" باستخدام بطاقات البنك الأهلي السعودي",
+      "url": "https://www.alahli.com/ar/offers/il-migliore"
+    },
+    {
+      "id": 270,
+      "category": "التسوق",
+      "title": "GLAM MODA",
+      "validity": "يسري العرض من 1 يناير إلى 31 ديسمبر 2026",
+      "description": "استمتع بخصم 15% من GLAM MODA عند استخدام بطاقاتSNB الائتمانية ومدى من ماستركارد",
+      "url": "https://www.alahli.com/ar/offers/glam-moda"
+    }
+  ]
+}
