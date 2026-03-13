@@ -366,8 +366,10 @@ async function fetchInmaOffers() {
   return readJsonFromTxt(path.join(BANKS_DIR, "Inma Offer.txt"), []);
 }
 
+/* تعطيل الراجحي مؤقتًا لأنه أدخل بيانات كبيرة وغير نظيفة وأثر على الموقع */
 async function fetchRajhiOffers() {
-  return readJsonFromTxt(path.join(BANKS_DIR, "Rajhi.txt"), []);
+  console.log("Rajhi is temporarily excluded from merge.");
+  return [];
 }
 
 async function fetchRiyadhOffers() {
