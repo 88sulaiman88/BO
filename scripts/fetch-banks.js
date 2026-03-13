@@ -6,7 +6,10 @@ const BANKS_DIR = path.join(process.cwd(), "banks");
 const RAJHI_BASE = "https://www.alrajhibank.com.sa";
 const RAJHI_MAX_CATEGORY_PAGES = 20;
 const RAJHI_MAX_OFFERS = 500;
+
 const BSF_BASE = "https://bsf.sa";
+const BSF_LISTING_ENDPOINT = `${BSF_BASE}/Toolkit/GetListingPaging`;
+const BSF_MAX_PAGES = 20;
 
 async function writeJsonTxt(filename, data) {
   const filePath = path.join(BANKS_DIR, filename);
@@ -61,6 +64,30 @@ async function fetchJson(url) {
   }
 
   return res.json();
+}
+
+async function postForm(url, formData, referer = `${BSF_BASE}/arabic/personal/cards/offers/all-offers`) {
+  const body = new URLSearchParams(formData).toString();
+
+  const res = await fetch(url, {
+    method: "POST",
+    headers: {
+      "user-agent": "Mozilla/5.0",
+      "accept-language": "ar,en;q=0.9",
+      accept: "text/html,application/json,text/plain,*/*",
+      "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+      "x-requested-with": "XMLHttpRequest",
+      origin: BSF_BASE,
+      referer,
+    },
+    body,
+  });
+
+  if (!res.ok) {
+    throw new Error(`HTTP ${res.status} for ${url}`);
+  }
+
+  return res.text();
 }
 
 function absoluteUrl(url, base = RAJHI_BASE) {
@@ -560,6 +587,103 @@ function parseBsfTitle(node, $) {
   return "";
 }
 
+function extractBsfVerificationToken($) {
+  return (
+    cleanText($('input[name="__RequestVerificationToken"]').attr("value")) ||
+    cleanText($('input[name="__RequestVerificationToken"]').first().val()) ||
+    ""
+  );
+}
+
+function extractBsfPageId($) {
+  const text = $.html() || "";
+
+  const patterns = [
+    /pageId["']?\s*[:=]\s*["']?(\d+)/i,
+    /pageid["']?\s*[:=]\s*["']?(\d+)/i,
+    /name=["']pageId["'][^>]*value=["']?(\d+)/i,
+    /\bpageId=(\d+)/i,
+  ];
+
+  for (const pattern of patterns) {
+    const match = text.match(pattern);
+    if (match?.[1]) return cleanText(match[1]);
+  }
+
+  return "10881";
+}
+
+function extractBsfPortletId($) {
+  const text = $.html() || "";
+
+  const patterns = [
+    /pagePortletID["']?\s*[:=]\s*["']?(\d+)/i,
+    /pageportletid["']?\s*[:=]\s*["']?(\d+)/i,
+    /name=["']pagePortletID["'][^>]*value=["']?(\d+)/i,
+    /\bpagePortletID=(\d+)/i,
+  ];
+
+  for (const pattern of patterns) {
+    const match = text.match(pattern);
+    if (match?.[1]) return cleanText(match[1]);
+  }
+
+  return "999123456";
+}
+
+function parseBsfOffersFromHtml(html, pageUrl, category) {
+  const $ = cheerio.load(html);
+  const blocks = extractBsfOfferBlocks($);
+  const offers = [];
+  const seen = new Set();
+
+  for (const el of blocks) {
+    const node = $(el);
+    const fullText = cleanText(node.text());
+
+    const href =
+      node.find("a[href]").first().attr("href") ||
+      node.find("a[href]").last().attr("href") ||
+      "";
+
+    const fullUrl = normalizeBsfUrl(absoluteUrl(href, BSF_BASE));
+    if (!fullUrl.startsWith(BSF_BASE)) continue;
+
+    const title = parseBsfTitle(node, $);
+    const merchant = title || cleanText(node.find("img").first().attr("alt")) || "";
+    const expiryDate = parseBsfExpiry(fullText);
+    const discount = parseBsfDiscount(fullText);
+    const imageUrl = absoluteUrl(node.find("img").first().attr("src") || "", BSF_BASE);
+
+    const key = `${fullUrl}||${title}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+
+    offers.push({
+      id: `bsf-${cleanText(fullUrl || title || merchant)}`
+        .toLowerCase()
+        .replace(/[^\p{L}\p{N}]+/gu, "-")
+        .replace(/^-+|-+$/g, ""),
+      merchant,
+      title: title || merchant || "عرض البنك السعودي الفرنسي",
+      category,
+      discount,
+      cards: [],
+      cardText: "",
+      promoCode: null,
+      expiryDate,
+      status: "active",
+      notes: fullText,
+      terms: [],
+      link: fullUrl,
+      imageUrl,
+      source: "bsf-offers-pages-scraper",
+    });
+  }
+
+  return offers;
+}
+
 async function scrapeBsfOfferDetail(url, fallback = {}) {
   try {
     const html = await fetchText(url);
@@ -612,57 +736,68 @@ async function scrapeBsfListingPage(pageUrl) {
   const html = await fetchText(pageUrl);
   const $ = cheerio.load(html);
   const category = inferBsfCategoryFromPath(pageUrl);
-  const blocks = extractBsfOfferBlocks($);
-  const offers = [];
-  const seen = new Set();
 
-  for (const el of blocks) {
-    const node = $(el);
-    const fullText = cleanText(node.text());
-    const href =
-      node.find("a[href]").first().attr("href") ||
-      node.find("a[href]").last().attr("href") ||
-      "";
+  const firstPageOffers = parseBsfOffersFromHtml(html, pageUrl, category);
 
-    const fullUrl = normalizeBsfUrl(absoluteUrl(href, BSF_BASE));
-    if (!fullUrl.startsWith(BSF_BASE)) continue;
+  const token = extractBsfVerificationToken($);
+  const pageId = extractBsfPageId($);
+  const pagePortletID = extractBsfPortletId($);
 
-    const title = parseBsfTitle(node, $);
-    const merchant = title || cleanText(node.find("img").first().attr("alt")) || "";
-    const expiryDate = parseBsfExpiry(fullText);
-    const discount = parseBsfDiscount(fullText);
-    const imageUrl = absoluteUrl(
-      node.find("img").first().attr("src") || "",
-      BSF_BASE
-    );
+  console.log(
+    `BSF paging config for ${pageUrl}: token=${token ? "yes" : "no"}, pageId=${pageId}, pagePortletID=${pagePortletID}`
+  );
 
-    const key = `${fullUrl}||${title}`;
-    if (seen.has(key)) continue;
-    seen.add(key);
+  const allOffers = [...firstPageOffers];
+  const seen = new Set(firstPageOffers.map((x) => `${x.link}||${x.title}`));
 
-    offers.push({
-      id: `bsf-${cleanText(fullUrl || title || merchant)}`
-        .toLowerCase()
-        .replace(/[^\p{L}\p{N}]+/gu, "-")
-        .replace(/^-+|-+$/g, ""),
-      merchant,
-      title: title || merchant || "عرض البنك السعودي الفرنسي",
-      category,
-      discount,
-      cards: [],
-      cardText: "",
-      promoCode: null,
-      expiryDate,
-      status: "active",
-      notes: fullText,
-      terms: [],
-      link: fullUrl,
-      imageUrl,
-      source: "bsf-offers-pages-scraper",
-    });
+  if (!token || !pageId || !pagePortletID) {
+    return allOffers;
   }
 
-  return offers;
+  let stalePages = 0;
+
+  for (let page = 2; page <= BSF_MAX_PAGES; page++) {
+    try {
+      const htmlChunk = await postForm(BSF_LISTING_ENDPOINT, {
+        pageId,
+        pagePortletID,
+        page: String(page),
+        condition: " and MenuShowInMenu<>0 ",
+        lang: "3",
+        __RequestVerificationToken: token,
+      }, pageUrl);
+
+      const nextOffers = parseBsfOffersFromHtml(htmlChunk, pageUrl, category);
+      let added = 0;
+
+      for (const item of nextOffers) {
+        const key = `${item.link}||${item.title}`;
+        if (seen.has(key)) continue;
+        seen.add(key);
+        allOffers.push(item);
+        added += 1;
+      }
+
+      console.log(
+        `BSF load more for ${pageUrl} page ${page}: raw=${nextOffers.length}, added=${added}`
+      );
+
+      if (!nextOffers.length || added === 0) {
+        stalePages += 1;
+      } else {
+        stalePages = 0;
+      }
+
+      if (stalePages >= 2) {
+        break;
+      }
+    } catch (error) {
+      console.error(`BSF load more failed for ${pageUrl} page ${page}: ${error.message}`);
+      break;
+    }
+  }
+
+  return allOffers;
 }
 
 async function updateBSF() {
