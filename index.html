@@ -194,8 +194,10 @@
       gap: 16px;
     }
 
-.show-all-wrap {
-
+    .show-all-wrap {
+      justify-content: center;
+      margin-top: 22px;
+    }
 
     .show-all-btn {
       border: 1px solid rgba(59,130,246,.18);
@@ -260,36 +262,36 @@
       line-height: 1.5;
     }
 
-.top-side {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 8px;
-  flex-shrink: 0;
-  max-width: 220px;
-}
+    .top-side {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+      flex-shrink: 0;
+      max-width: 220px;
+    }
 
-.discount {
-  font-size: 17px;
-  font-weight: 800;
-  color: var(--accent);
-  background: var(--accent-soft);
-  border: 1px solid rgba(59,130,246,.14);
-  border-radius: 14px;
-  padding: 10px 14px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: auto;
-  min-width: 0;
-  max-width: 220px;
-  text-align: center;
-  line-height: 1.5;
-  white-space: normal;
-  word-break: break-word;
-  overflow-wrap: anywhere;
-  align-self: flex-start;
-}
+    .discount {
+      font-size: 17px;
+      font-weight: 800;
+      color: var(--accent);
+      background: var(--accent-soft);
+      border: 1px solid rgba(59,130,246,.14);
+      border-radius: 14px;
+      padding: 10px 14px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: auto;
+      min-width: 0;
+      max-width: 220px;
+      text-align: center;
+      line-height: 1.5;
+      white-space: normal;
+      word-break: break-word;
+      overflow-wrap: anywhere;
+      align-self: flex-start;
+    }
 
     .expired-badge {
       color: var(--danger);
@@ -396,12 +398,12 @@
         font-size: 20px;
       }
 
-.discount {
-  max-width: 160px;
-  font-size: 15px;
-  padding: 9px 12px;
-  min-width: 0;
-}
+      .discount {
+        max-width: 160px;
+        font-size: 15px;
+        padding: 9px 12px;
+        min-width: 0;
+      }
 
       .details {
         min-height: auto;
@@ -449,7 +451,7 @@
 
       <div id="cards" class="cards"></div>
 
-      <div id="showAllWrap" class="show-all-wrap" hidden>
+      <div id="showAllWrap" class="show-all-wrap" style="display: none;">
         <button id="showAllBtn" class="show-all-btn" type="button">عرض الكل</button>
       </div>
     </section>
@@ -485,7 +487,7 @@
         .replace(/ى/g, 'ي')
         .replace(/ؤ/g, 'و')
         .replace(/ئ/g, 'ي')
-        .replace(/[ـ\\-_/.,،]+/g, ' ')
+        .replace(/[ـ\-_/.,،]+/g, ' ')
         .replace(/\s+/g, ' ')
         .trim();
     }
@@ -592,12 +594,13 @@
       };
     }
 
-function hasActiveFilters() {
-  const query = els.searchInput.value.trim();
-  const bank = els.bankFilter.value;
-  const hideExpiredChanged = els.hideExpired.checked === false;
-  return Boolean(query || bank || hideExpiredChanged);
-}
+    function isDefaultView() {
+      return (
+        els.searchInput.value.trim() === '' &&
+        els.bankFilter.value === '' &&
+        els.hideExpired.checked === true
+      );
+    }
 
     function filterOffers() {
       const { query, bank, hideExpired } = getFilterState();
@@ -609,17 +612,17 @@ function hasActiveFilters() {
       });
     }
 
-function getVisibleOffers(filtered) {
-  if (hasActiveFilters()) return filtered;
-  if (isExpanded) return filtered;
-  return filtered.slice(0, INITIAL_VISIBLE_COUNT);
-}
+    function getVisibleOffers(filtered) {
+      if (!isDefaultView()) return filtered;
+      if (isExpanded) return filtered;
+      return filtered.slice(0, INITIAL_VISIBLE_COUNT);
+    }
 
-function updateShowAllButton(filtered) {
-  const shouldShow = !hasActiveFilters() && filtered.length > INITIAL_VISIBLE_COUNT;
-  els.showAllWrap.hidden = !shouldShow;
-  els.showAllBtn.textContent = isExpanded ? 'عرض أقل' : 'عرض الكل';
-}
+    function updateShowAllButton(filtered) {
+      const shouldShow = isDefaultView() && filtered.length > INITIAL_VISIBLE_COUNT;
+      els.showAllWrap.style.display = shouldShow ? 'flex' : 'none';
+      els.showAllBtn.textContent = isExpanded ? 'عرض أقل' : 'عرض الكل';
+    }
 
     function renderOffers() {
       const filtered = filterOffers();
@@ -775,10 +778,10 @@ function updateShowAllButton(filtered) {
       renderOffers();
     });
 
-els.showAllBtn.addEventListener('click', () => {
-  isExpanded = !isExpanded;
-  renderOffers();
-});
+    els.showAllBtn.addEventListener('click', () => {
+      isExpanded = !isExpanded;
+      renderOffers();
+    });
 
     loadData();
   </script>
