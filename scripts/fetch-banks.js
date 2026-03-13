@@ -8,7 +8,7 @@ const RAJHI_BASE = "https://www.alrajhibank.com.sa";
 async function writeJsonTxt(filename, data) {
   const filePath = path.join(BANKS_DIR, filename);
   await fs.writeFile(filePath, JSON.stringify(data, null, 2), "utf8");
-  console.log(`Saved ${filename} (${Array.isArray(data) ? data.length : 0} items)`);
+  console.log(`Saved ${filename} (${Array.isArray(data) ? data.length : (data?.offers?.length || 0)} items)`);
 }
 
 async function readExistingJsonTxt(filename, fallback = []) {
@@ -69,6 +69,10 @@ function normalizeWhitespaceLines(text) {
     .map((line) => cleanText(line))
     .filter(Boolean)
     .join("\n");
+}
+
+function todayIsoDate() {
+  return new Date().toISOString().slice(0, 10);
 }
 
 function parseArabicDate(text) {
@@ -232,6 +236,7 @@ function shouldKeepRajhiUrl(url) {
 
   if (!u.includes("/personal/offers/cardsoffers/")) return false;
   if (/\/(ar|en)\/personal\/offers\/cardsoffers\/?$/.test(u)) return false;
+  if (u.includes("/personal/offers/cardsoffers/viewall")) return false;
 
   return true;
 }
@@ -294,15 +299,70 @@ function extractMetaImage($) {
 }
 
 async function getRajhiOfferUrlsFromSitemap() {
-  const xml = await fetchText(`${RAJHI_BASE}/sitemap.xml`);
+  try {
+    const xml = await fetchText(`${RAJHI_BASE}/sitemap.xml`);
+    const matches = [...xml.matchAll(/<loc>(.*?)<\/loc>/gi)].map((m) => cleanText(m[1]));
 
-  const matches = [...xml.matchAll(/<loc>(.*?)<\/loc>/gi)].map((m) => cleanText(m[1]));
+    const urls = matches
+      .map((u) => absoluteUrl(u, RAJHI_BASE))
+      .filter(shouldKeepRajhiUrl);
 
-  const urls = matches
-    .map((u) => absoluteUrl(u, RAJHI_BASE))
-    .filter(shouldKeepRajhiUrl);
+    console.log(`Rajhi sitemap candidate URLs: ${urls.length}`);
+    return [...new Set(urls)];
+  } catch (error) {
+    console.error(`Rajhi sitemap fetch failed: ${error.message}`);
+    return [];
+  }
+}
 
-  return [...new Set(urls)];
+async function getRajhiOfferUrlsFromPages() {
+  const seedPages = [
+    `${RAJHI_BASE}/ar/Personal/Offers`,
+    `${RAJHI_BASE}/en/Personal/Offers`,
+    `${RAJHI_BASE}/ar/Personal/Discounts`,
+    `${RAJHI_BASE}/en/Personal/Discounts`
+  ];
+
+  const found = [];
+
+  for (const pageUrl of seedPages) {
+    try {
+      const html = await fetchText(pageUrl);
+      const $ = cheerio.load(html);
+
+      $("a[href]").each((_, el) => {
+        const href = cleanText($(el).attr("href"));
+        const full = absoluteUrl(href, RAJHI_BASE);
+        if (shouldKeepRajhiUrl(full)) {
+          found.push(full);
+        }
+      });
+
+      console.log(`Rajhi page scanned: ${pageUrl}`);
+    } catch (error) {
+      console.error(`Rajhi page scan failed for ${pageUrl}: ${error.message}`);
+    }
+  }
+
+  const unique = [...new Set(found)];
+  console.log(`Rajhi page-discovered URLs: ${unique.length}`);
+  return unique;
+}
+
+async function getRajhiOfferUrls() {
+  const [fromSitemap, fromPages] = await Promise.all([
+    getRajhiOfferUrlsFromSitemap(),
+    getRajhiOfferUrlsFromPages()
+  ]);
+
+  const merged = [...new Set([...fromSitemap, ...fromPages])];
+  console.log(`Rajhi total merged URLs: ${merged.length}`);
+
+  if (merged.length) {
+    console.log("Rajhi sample URLs:", merged.slice(0, 5));
+  }
+
+  return merged;
 }
 
 async function scrapeRajhiOffer(url) {
@@ -339,33 +399,48 @@ async function scrapeRajhiOffer(url) {
 
   const details = extractDetails($);
   const termsList = extractTerms($);
-
   const imageUrl = absoluteUrl(extractMetaImage($), RAJHI_BASE);
   const merchant = inferMerchantFromTitleOrUrl(title, url);
 
   return {
-    bank: "مصرف الراجحي",
-    bankCode: "alrajhi",
-    title,
+    id: `alrajhi-${merchant}`
+      .toLowerCase()
+      .replace(/[^\p{L}\p{N}]+/gu, "-")
+      .replace(/^-+|-+$/g, ""),
     merchant,
+    title,
     category: inferCategoryFromRajhiUrl(url),
-    discountText,
-    details,
-    terms: termsList.join("\n"),
-    startDate: "",
-    endDate,
-    offerUrl: url,
+    discount: discountText,
+    cards: [],
+    cardText: "",
+    promoCode: null,
+    expiryDate: endDate,
+    status: "active",
+    notes: details,
+    terms: termsList,
+    link: url,
     imageUrl,
-    tags: ["rajhi", "cards-offers"]
+    source: "alrajhi-cards-offers-scraper"
   };
 }
 
+function normalizePreviousRajhiOffers(previous) {
+  if (Array.isArray(previous)) return previous;
+  if (Array.isArray(previous?.offers)) return previous.offers;
+  return [];
+}
+
 async function updateRajhi() {
-  const previous = await readExistingJsonTxt("Rajhi.txt", []);
+  const previous = await readExistingJsonTxt("Rajhi.txt", {});
+  const previousOffers = normalizePreviousRajhiOffers(previous);
 
   try {
-    const urls = await getRajhiOfferUrlsFromSitemap();
-    console.log(`Rajhi sitemap URLs found: ${urls.length}`);
+    const urls = await getRajhiOfferUrls();
+    if (!urls.length) {
+      console.warn("Rajhi scraper found 0 URLs. Keeping previous file.");
+      await writeJsonTxt("Rajhi.txt", previous);
+      return;
+    }
 
     const offers = [];
     const seen = new Set();
@@ -374,24 +449,36 @@ async function updateRajhi() {
       try {
         const item = await scrapeRajhiOffer(url);
 
-        if (!item.offerUrl || seen.has(item.offerUrl)) continue;
+        if (!item.link || seen.has(item.link)) continue;
         if (isProbablyBadTitle(item.title)) continue;
-        if (!(item.title || item.details || item.offerUrl)) continue;
+        if (!(item.title || item.notes || item.link)) continue;
 
-        seen.add(item.offerUrl);
+        seen.add(item.link);
         offers.push(item);
       } catch (error) {
         console.error(`Rajhi scrape failed for ${url}: ${error.message}`);
       }
     }
 
+    console.log(`Rajhi offers collected before save: ${offers.length}`);
+
     if (!offers.length) {
-      console.warn("Rajhi scraper returned 0 offers. Keeping previous file.");
+      console.warn("Rajhi scraper returned 0 offers after scraping. Keeping previous file.");
       await writeJsonTxt("Rajhi.txt", previous);
       return;
     }
 
-    await writeJsonTxt("Rajhi.txt", offers);
+    const wrapped = {
+      bank: "مصرف الراجحي",
+      bankCode: "alrajhi",
+      source: `${RAJHI_BASE}/en/Personal/Discounts`,
+      lastChecked: todayIsoDate(),
+      fetchedCount: offers.length,
+      previousCount: previousOffers.length,
+      offers
+    };
+
+    await writeJsonTxt("Rajhi.txt", wrapped);
   } catch (error) {
     console.error(`Rajhi update failed بالكامل: ${error.message}`);
     await writeJsonTxt("Rajhi.txt", previous);
