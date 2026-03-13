@@ -595,10 +595,12 @@
       };
     }
 
-    function hasActiveSearchOrBankFilter() {
-      const { query, bank } = getFilterState();
-      return Boolean(query || bank);
-    }
+function hasActiveFilters() {
+  const query = els.searchInput.value.trim();
+  const bank = els.bankFilter.value;
+  const hideExpired = els.hideExpired.checked;
+  return Boolean(query || bank || hideExpired);
+}
 
     function filterOffers() {
       const { query, bank, hideExpired } = getFilterState();
