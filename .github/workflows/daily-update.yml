@@ -2,7 +2,7 @@ name: Daily Offers Update
 
 on:
   schedule:
-    - cron: "17 1 * * *"   # يوميًا 4:17 صباحًا بتوقيت السعودية
+    - cron: "17 1 * * *"   # يوميًا 4:17 صباحًا بتوقيت السعودية (UTC+3)
   workflow_dispatch:
 
 permissions:
@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Setup Node.js
@@ -22,17 +22,17 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci || npm install
 
-      - name: Run update script
+      - name: Run daily updater
         run: node scripts/update-offers.js
 
       - name: Commit changes if any
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .
-          git diff --cached --quiet || git commit -m "Daily offers update"
+          git add data/*.json
+          git diff --cached --quiet || git commit -m "chore: daily offers update"
 
       - name: Push changes
         run: git push
