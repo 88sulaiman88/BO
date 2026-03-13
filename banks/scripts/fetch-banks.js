@@ -3,6 +3,7 @@ const path = require("path");
 const cheerio = require("cheerio");
 
 const BANKS_DIR = path.join(process.cwd(), "banks");
+const RAJHI_BASE = "https://www.alrajhibank.com.sa";
 
 async function writeJsonTxt(filename, data) {
   const filePath = path.join(BANKS_DIR, filename);
@@ -25,7 +26,9 @@ async function fetchText(url) {
     headers: {
       "user-agent": "Mozilla/5.0",
       "accept-language": "ar,en;q=0.9",
-      "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+      "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "cache-control": "no-cache",
+      pragma: "no-cache"
     }
   });
 
@@ -36,23 +39,36 @@ async function fetchText(url) {
   return res.text();
 }
 
-function absoluteUrl(url, base = "https://www.alrajhibank.com.sa") {
+function absoluteUrl(url, base = RAJHI_BASE) {
   if (!url) return "";
   if (url.startsWith("http://") || url.startsWith("https://")) return url;
   if (url.startsWith("//")) return `https:${url}`;
-  return new URL(url, base).toString();
+  try {
+    return new URL(url, base).toString();
+  } catch {
+    return "";
+  }
 }
 
 function cleanText(value) {
   return String(value || "")
     .replace(/\u00a0/g, " ")
     .replace(/\u200f|\u200e/g, "")
+    .replace(/\t+/g, " ")
     .replace(/\s+/g, " ")
     .trim();
 }
 
 function uniqueStrings(values) {
   return [...new Set(values.map(cleanText).filter(Boolean))];
+}
+
+function normalizeWhitespaceLines(text) {
+  return String(text || "")
+    .split("\n")
+    .map((line) => cleanText(line))
+    .filter(Boolean)
+    .join("\n");
 }
 
 function parseArabicDate(text) {
@@ -91,14 +107,31 @@ function parseArabicDate(text) {
     "december": 12
   };
 
-  const m = easternToWestern.match(/(\d{1,2})\s+([^\s]+)\s+(\d{4})/i);
-  if (m) {
-    const day = Number(m[1]);
-    const monthName = m[2].toLowerCase();
-    const year = Number(m[3]);
+  const monthTextMatch = easternToWestern.match(/(\d{1,2})\s+([^\s]+)\s+(\d{4})/i);
+  if (monthTextMatch) {
+    const day = Number(monthTextMatch[1]);
+    const monthName = monthTextMatch[2].toLowerCase();
+    const year = Number(monthTextMatch[3]);
     const month = months[monthName];
     if (month) {
       return new Date(Date.UTC(year, month - 1, day)).toISOString().slice(0, 10);
+    }
+  }
+
+  const slashMatch = easternToWestern.match(/(\d{1,4})[\/\-](\d{1,2})[\/\-](\d{1,4})/);
+  if (slashMatch) {
+    const a = Number(slashMatch[1]);
+    const b = Number(slashMatch[2]);
+    const c = Number(slashMatch[3]);
+
+    if (String(a).length === 4) {
+      const d = new Date(Date.UTC(a, b - 1, c));
+      if (!Number.isNaN(d.getTime())) return d.toISOString().slice(0, 10);
+    }
+
+    if (String(c).length === 4) {
+      const d = new Date(Date.UTC(c, b - 1, a));
+      if (!Number.isNaN(d.getTime())) return d.toISOString().slice(0, 10);
     }
   }
 
@@ -113,7 +146,7 @@ function parseArabicDate(text) {
 function extractTerms($) {
   const terms = [];
 
-  $("h2, h3, h4, h5").each((_, el) => {
+  $("h2, h3, h4, h5, strong").each((_, el) => {
     const heading = cleanText($(el).text());
 
     if (/الشروط|الأحكام|terms/i.test(heading)) {
@@ -121,7 +154,7 @@ function extractTerms($) {
 
       while (next.length) {
         const tag = (next[0]?.tagName || "").toLowerCase();
-        if (["h1", "h2", "h3", "h4", "h5"].includes(tag)) break;
+        if (["h1", "h2", "h3", "h4", "h5", "strong"].includes(tag)) break;
 
         if (tag === "ul" || tag === "ol") {
           next.find("li").each((__, li) => {
@@ -144,7 +177,7 @@ function extractTerms($) {
 function extractDetails($) {
   const details = [];
 
-  $("h2, h3, h4, h5").each((_, el) => {
+  $("h2, h3, h4, h5, strong").each((_, el) => {
     const heading = cleanText($(el).text());
 
     if (/تفاصيل العرض|about offer|offer details/i.test(heading)) {
@@ -152,7 +185,7 @@ function extractDetails($) {
 
       while (next.length) {
         const tag = (next[0]?.tagName || "").toLowerCase();
-        if (["h1", "h2", "h3", "h4", "h5"].includes(tag)) break;
+        if (["h1", "h2", "h3", "h4", "h5", "strong"].includes(tag)) break;
 
         if (tag === "ul" || tag === "ol") {
           next.find("li").each((__, li) => {
@@ -169,7 +202,7 @@ function extractDetails($) {
     }
   });
 
-  return uniqueStrings(details).join("\n");
+  return normalizeWhitespaceLines(uniqueStrings(details).join("\n"));
 }
 
 function inferCategoryFromRajhiUrl(url) {
@@ -194,15 +227,80 @@ function inferMerchantFromTitleOrUrl(title, url) {
   return firstChunk || last;
 }
 
-async function getRajhiOfferUrlsFromSitemap() {
-  const xml = await fetchText("https://www.alrajhibank.com.sa/sitemap.xml");
+function shouldKeepRajhiUrl(url) {
+  const u = String(url || "").toLowerCase();
 
-  const matches = [...xml.matchAll(/<loc>(.*?)<\/loc>/gi)].map((m) => m[1]);
+  if (!u.includes("/personal/offers/cardsoffers/")) return false;
+  if (/\/(ar|en)\/personal\/offers\/cardsoffers\/?$/.test(u)) return false;
+
+  return true;
+}
+
+function isProbablyBadTitle(title) {
+  const t = cleanText(title).toLowerCase();
+  if (!t) return true;
+
+  const badTitles = [
+    "al rajhi bank",
+    "مصرف الراجحي",
+    "offers",
+    "العروض",
+    "cards offers",
+    "عروض البطاقات"
+  ];
+
+  return badTitles.includes(t);
+}
+
+function tryExtractEndDateFromText(text) {
+  const cleaned = cleanText(text);
+  if (!cleaned) return "";
+
+  const labels = [
+    "صالح حتى",
+    "ينتهي في",
+    "تاريخ الانتهاء",
+    "valid to",
+    "expiry date",
+    "expires on"
+  ];
+
+  for (const label of labels) {
+    const escaped = label.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const regex = new RegExp(`${escaped}\\s*:?\\s*(.{1,60})`, "i");
+    const match = cleaned.match(regex);
+
+    if (match?.[1]) {
+      const candidate = cleanText(match[1]);
+      const parsed = parseArabicDate(candidate);
+      if (parsed) return parsed;
+      if (/\d/.test(candidate)) return candidate;
+    }
+  }
+
+  const parsedDirect = parseArabicDate(cleaned);
+  if (parsedDirect) return parsedDirect;
+
+  return "";
+}
+
+function extractMetaImage($) {
+  return (
+    $("meta[property='og:image']").attr("content") ||
+    $("meta[name='twitter:image']").attr("content") ||
+    $("img").first().attr("src") ||
+    ""
+  );
+}
+
+async function getRajhiOfferUrlsFromSitemap() {
+  const xml = await fetchText(`${RAJHI_BASE}/sitemap.xml`);
+
+  const matches = [...xml.matchAll(/<loc>(.*?)<\/loc>/gi)].map((m) => cleanText(m[1]));
 
   const urls = matches
-    .map((u) => absoluteUrl(u, "https://www.alrajhibank.com.sa"))
-    .filter((u) => /\/(ar|en)\/Personal\/Offers\/CardsOffers\//i.test(u))
-    .filter((u) => !/\/(ar|en)\/Personal\/Offers\/CardsOffers\/?$/i.test(u));
+    .map((u) => absoluteUrl(u, RAJHI_BASE))
+    .filter(shouldKeepRajhiUrl);
 
   return [...new Set(urls)];
 }
@@ -223,18 +321,16 @@ async function scrapeRajhiOffer(url) {
     const txt = cleanText($(el).text());
     if (!txt) return;
 
-    if (!endDate && /صالح حتى|valid to/i.test(txt)) {
-      const normalized = txt
-        .replace(/.*?(صالح حتى:?)/i, "")
-        .replace(/.*?(valid to:?)/i, "")
-        .trim();
-
-      endDate = parseArabicDate(normalized) || normalized;
+    if (!endDate) {
+      const extractedDate = tryExtractEndDateFromText(txt);
+      if (extractedDate) {
+        endDate = extractedDate;
+      }
     }
 
     if (
       !discountText &&
-      (txt.includes("%") || /خصم|استرداد|كاش باك|cashback|off/i.test(txt)) &&
+      (txt.includes("%") || /خصم|استرداد|كاش باك|cashback|off|وفر/i.test(txt)) &&
       txt.length <= 220
     ) {
       discountText = txt;
@@ -244,13 +340,7 @@ async function scrapeRajhiOffer(url) {
   const details = extractDetails($);
   const termsList = extractTerms($);
 
-  const imageUrl = absoluteUrl(
-    $("meta[property='og:image']").attr("content") ||
-      $("img").first().attr("src") ||
-      "",
-    "https://www.alrajhibank.com.sa"
-  );
-
+  const imageUrl = absoluteUrl(extractMetaImage($), RAJHI_BASE);
   const merchant = inferMerchantFromTitleOrUrl(title, url);
 
   return {
@@ -271,29 +361,41 @@ async function scrapeRajhiOffer(url) {
 }
 
 async function updateRajhi() {
-  const urls = await getRajhiOfferUrlsFromSitemap();
-  console.log(`Rajhi sitemap URLs found: ${urls.length}`);
+  const previous = await readExistingJsonTxt("Rajhi.txt", []);
 
-  const offers = [];
+  try {
+    const urls = await getRajhiOfferUrlsFromSitemap();
+    console.log(`Rajhi sitemap URLs found: ${urls.length}`);
 
-  for (const url of urls) {
-    try {
-      const item = await scrapeRajhiOffer(url);
+    const offers = [];
+    const seen = new Set();
 
-      if (item.title || item.details || item.offerUrl) {
+    for (const url of urls) {
+      try {
+        const item = await scrapeRajhiOffer(url);
+
+        if (!item.offerUrl || seen.has(item.offerUrl)) continue;
+        if (isProbablyBadTitle(item.title)) continue;
+        if (!(item.title || item.details || item.offerUrl)) continue;
+
+        seen.add(item.offerUrl);
         offers.push(item);
+      } catch (error) {
+        console.error(`Rajhi scrape failed for ${url}: ${error.message}`);
       }
-    } catch (error) {
-      console.error(`Rajhi scrape failed for ${url}: ${error.message}`);
     }
+
+    if (!offers.length) {
+      console.warn("Rajhi scraper returned 0 offers. Keeping previous file.");
+      await writeJsonTxt("Rajhi.txt", previous);
+      return;
+    }
+
+    await writeJsonTxt("Rajhi.txt", offers);
+  } catch (error) {
+    console.error(`Rajhi update failed بالكامل: ${error.message}`);
+    await writeJsonTxt("Rajhi.txt", previous);
   }
-
-  const filtered = offers.filter((o) => {
-    const u = String(o.offerUrl || "").toLowerCase();
-    return u.includes("/personal/offers/cardsoffers/");
-  });
-
-  await writeJsonTxt("Rajhi.txt", filtered);
 }
 
 /* ===== Placeholder updaters لبقية البنوك ===== */
