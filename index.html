@@ -188,22 +188,29 @@
       flex-wrap: wrap;
     }
 
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+    }
+
+    .show-all-wrap {
+      display: flex;
+      justify-content: center;
+      margin-top: 22px;
+    }
+
     .show-all-btn {
       border: 1px solid rgba(59,130,246,.18);
       background: #fff;
       color: var(--accent);
       border-radius: 999px;
-      padding: 10px 16px;
+      padding: 10px 18px;
       font: inherit;
       font-weight: 700;
       cursor: pointer;
       box-shadow: 0 6px 18px rgba(59,130,246,.08);
-    }
-
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 16px;
+      min-width: 130px;
     }
 
     .card {
@@ -430,10 +437,13 @@
     <section class="results">
       <div class="summary">
         <div id="summaryLine">جارٍ تحميل العروض...</div>
-        <button id="showAllBtn" class="show-all-btn" type="button" hidden>عرض الكل</button>
       </div>
 
       <div id="cards" class="cards"></div>
+
+      <div id="showAllWrap" class="show-all-wrap" hidden>
+        <button id="showAllBtn" class="show-all-btn" type="button">عرض الكل</button>
+      </div>
     </section>
   </main>
 
@@ -450,6 +460,7 @@
       hideExpired: document.getElementById('hideExpired'),
       resetBtn: document.getElementById('resetBtn'),
       showAllBtn: document.getElementById('showAllBtn'),
+      showAllWrap: document.getElementById('showAllWrap'),
       cards: document.getElementById('cards'),
       summaryLine: document.getElementById('summaryLine'),
       statOffers: document.getElementById('statOffers'),
@@ -589,20 +600,14 @@
     }
 
     function getVisibleOffers(filtered) {
-      if (hasActiveSearchOrBankFilter()) {
-        return filtered;
-      }
-
-      if (isExpanded) {
-        return filtered;
-      }
-
+      if (hasActiveSearchOrBankFilter()) return filtered;
+      if (isExpanded) return filtered;
       return filtered.slice(0, INITIAL_VISIBLE_COUNT);
     }
 
     function updateShowAllButton(filtered) {
       const shouldShow = !hasActiveSearchOrBankFilter() && filtered.length > INITIAL_VISIBLE_COUNT && !isExpanded;
-      els.showAllBtn.hidden = !shouldShow;
+      els.showAllWrap.hidden = !shouldShow;
     }
 
     function renderOffers() {
