@@ -21,7 +21,9 @@
       --shadow: 0 10px 30px rgba(16, 24, 40, 0.08);
       --radius: 20px;
     }
+
     * { box-sizing: border-box; }
+
     body {
       margin: 0;
       font-family: "Tajawal", system-ui, sans-serif;
@@ -31,10 +33,12 @@
         linear-gradient(180deg, #fbfcff 0%, #f4f6fb 100%);
       min-height: 100vh;
     }
+
     .page {
       width: min(1120px, calc(100% - 24px));
       margin: 28px auto 40px;
     }
+
     .hero {
       background: rgba(255,255,255,.75);
       backdrop-filter: blur(10px);
@@ -44,22 +48,26 @@
       padding: 28px;
       text-align: center;
     }
+
     h1 {
       margin: 0;
       font-size: clamp(28px, 5vw, 44px);
       font-weight: 800;
       letter-spacing: -.02em;
     }
+
     .subtitle {
       margin: 10px auto 0;
       color: var(--muted);
       font-size: 15px;
     }
+
     .search-wrap {
       margin: 22px auto 0;
       max-width: 820px;
       position: relative;
     }
+
     .search {
       width: 100%;
       height: 60px;
@@ -72,10 +80,12 @@
       box-shadow: inset 0 1px 2px rgba(16,24,40,.04);
       outline: none;
     }
+
     .search:focus {
       border-color: rgba(59,130,246,.45);
       box-shadow: 0 0 0 4px rgba(59,130,246,.12);
     }
+
     .controls {
       margin-top: 18px;
       display: flex;
@@ -85,6 +95,7 @@
       flex-wrap: wrap;
       color: var(--muted);
     }
+
     .checkbox {
       display: inline-flex;
       align-items: center;
@@ -95,7 +106,11 @@
       padding: 10px 14px;
       color: var(--text);
     }
-    .checkbox input { accent-color: var(--accent); }
+
+    .checkbox input {
+      accent-color: var(--accent);
+    }
+
     .reset-btn,
     .bank-filter {
       border: 1px solid var(--line);
@@ -105,14 +120,34 @@
       padding: 10px 16px;
       font: inherit;
       cursor: pointer;
+      height: 44px;
     }
+
+    .bank-select-wrap {
+      position: relative;
+      display: inline-block;
+    }
+
+    .bank-select-wrap::after {
+      content: "⌄";
+      position: absolute;
+      left: 16px;
+      top: 50%;
+      transform: translateY(-52%);
+      color: var(--muted);
+      font-size: 16px;
+      pointer-events: none;
+    }
+
     .bank-filter {
-      min-width: 180px;
+      min-width: 190px;
       appearance: none;
       -webkit-appearance: none;
       -moz-appearance: none;
       text-align: center;
+      padding-left: 38px;
     }
+
     .meta-bar {
       margin-top: 22px;
       display: flex;
@@ -120,6 +155,7 @@
       gap: 10px;
       flex-wrap: wrap;
     }
+
     .pill {
       display: inline-flex;
       align-items: center;
@@ -131,10 +167,15 @@
       color: var(--muted);
       font-size: 14px;
     }
-    .pill strong { color: var(--text); }
+
+    .pill strong {
+      color: var(--text);
+    }
+
     .results {
       margin-top: 24px;
     }
+
     .summary {
       display: flex;
       justify-content: space-between;
@@ -144,13 +185,29 @@
       color: var(--muted);
       font-size: 15px;
       padding: 0 4px;
+      flex-wrap: wrap;
     }
+
+    .show-all-btn {
+      border: 1px solid rgba(59,130,246,.18);
+      background: #fff;
+      color: var(--accent);
+      border-radius: 999px;
+      padding: 10px 16px;
+      font: inherit;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: 0 6px 18px rgba(59,130,246,.08);
+    }
+
     .cards {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 16px;
     }
+
     .card {
+      position: relative;
       background: rgba(255,255,255,.92);
       border: 1px solid var(--line);
       box-shadow: var(--shadow);
@@ -158,28 +215,68 @@
       padding: 18px;
       display: flex;
       flex-direction: column;
-      gap: 12px;
+      gap: 14px;
       transition: transform .15s ease, box-shadow .15s ease;
+      min-height: 260px;
     }
+
     .card:hover {
       transform: translateY(-2px);
       box-shadow: 0 16px 32px rgba(16,24,40,.11);
     }
+
     .card.expired {
       border-color: rgba(239,68,68,.25);
       background: linear-gradient(180deg, #fff, var(--danger-soft));
     }
+
     .top {
       display: flex;
       justify-content: space-between;
       gap: 12px;
       align-items: flex-start;
     }
+
+    .top-main {
+      flex: 1;
+      min-width: 0;
+    }
+
     .bank {
       color: var(--accent);
       font-weight: 700;
       font-size: 14px;
+      margin-bottom: 6px;
     }
+
+    .title {
+      margin: 0;
+      font-size: 22px;
+      font-weight: 800;
+      line-height: 1.5;
+    }
+
+    .top-side {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+      flex-shrink: 0;
+    }
+
+    .discount {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--accent);
+      background: var(--accent-soft);
+      border: 1px solid rgba(59,130,246,.14);
+      border-radius: 14px;
+      padding: 10px 12px;
+      min-width: 92px;
+      text-align: center;
+      line-height: 1.3;
+    }
+
     .expired-badge {
       color: var(--danger);
       background: var(--danger-soft);
@@ -190,35 +287,20 @@
       font-weight: 700;
       white-space: nowrap;
     }
-    .title {
-      margin: 0;
-      font-size: 22px;
-      font-weight: 800;
-      line-height: 1.5;
-    }
-    .discount {
-      font-size: 16px;
-      font-weight: 800;
-    }
-    .chips {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-    .chip {
-      background: #f8fafc;
-      border: 1px solid var(--line);
-      border-radius: 999px;
-      padding: 7px 10px;
-      font-size: 12px;
-      color: var(--muted);
-    }
+
     .details {
       color: var(--muted);
-      line-height: 1.8;
-      font-size: 14px;
+      line-height: 1.9;
+      font-size: 15px;
       margin: 0;
+      text-align: center;
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 72px;
     }
+
     .footer {
       display: flex;
       justify-content: space-between;
@@ -227,6 +309,15 @@
       margin-top: auto;
       flex-wrap: wrap;
     }
+
+    .meta-note {
+      color: var(--muted);
+      font-size: 13px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
     .link {
       color: var(--accent);
       text-decoration: none;
@@ -235,7 +326,9 @@
       padding: 10px 12px;
       font-weight: 700;
     }
-    .empty, .error {
+
+    .empty,
+    .error {
       background: rgba(255,255,255,.92);
       border: 1px dashed var(--line);
       box-shadow: var(--shadow);
@@ -243,19 +336,61 @@
       padding: 34px 18px;
       text-align: center;
       color: var(--muted);
+      grid-column: 1 / -1;
     }
+
     .error {
       border-color: rgba(239,68,68,.25);
       color: #991b1b;
       background: #fff7f7;
     }
+
     @media (max-width: 640px) {
-      .page { width: min(100% - 14px, 1120px); margin-top: 12px; }
-      .hero { padding: 18px; border-radius: 22px; }
-      .search { height: 54px; font-size: 17px; }
-      .summary { flex-direction: column; align-items: flex-start; }
-      .cards { grid-template-columns: 1fr; }
-      .bank-filter { min-width: 150px; }
+      .page {
+        width: min(100% - 14px, 1120px);
+        margin-top: 12px;
+      }
+
+      .hero {
+        padding: 18px;
+        border-radius: 22px;
+      }
+
+      .search {
+        height: 54px;
+        font-size: 17px;
+      }
+
+      .summary {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+      }
+
+      .bank-filter {
+        min-width: 160px;
+      }
+
+      .top {
+        align-items: flex-start;
+      }
+
+      .title {
+        font-size: 20px;
+      }
+
+      .discount {
+        min-width: 84px;
+        font-size: 16px;
+        padding: 9px 10px;
+      }
+
+      .details {
+        min-height: auto;
+      }
     }
   </style>
 </head>
@@ -264,16 +399,26 @@
     <section class="hero">
       <h1>دليل عروض البطاقات البنكية</h1>
       <p class="subtitle">ابحث باسم المتجر أو العلامة أو العرض</p>
+
       <div class="search-wrap">
         <input id="searchInput" class="search" type="text" placeholder="مثال: بول، شاورمر، هنقرستيشن، فوغو" autocomplete="off" />
       </div>
+
       <div class="controls">
-        <select id="bankFilter" class="bank-filter">
-          <option value="">كل البنوك</option>
-        </select>
-        <label class="checkbox"><input type="checkbox" id="hideExpired" checked> إخفاء العروض المنتهية</label>
-        <button id="resetBtn" class="reset-btn" type="button">إعادة</button>
+        <div class="bank-select-wrap">
+          <select id="bankFilter" class="bank-filter">
+            <option value="">كل البنوك</option>
+          </select>
+        </div>
+
+        <label class="checkbox">
+          <input type="checkbox" id="hideExpired" checked>
+          إخفاء العروض المنتهية
+        </label>
+
+        <button id="resetBtn" class="reset-btn" type="button">إعادة ضبط</button>
       </div>
+
       <div class="meta-bar">
         <div class="pill">العروض: <strong id="statOffers">0</strong></div>
         <div class="pill">البنوك: <strong id="statBanks">0</strong></div>
@@ -285,7 +430,9 @@
     <section class="results">
       <div class="summary">
         <div id="summaryLine">جارٍ تحميل العروض...</div>
+        <button id="showAllBtn" class="show-all-btn" type="button" hidden>عرض الكل</button>
       </div>
+
       <div id="cards" class="cards"></div>
     </section>
   </main>
@@ -293,12 +440,16 @@
   <script>
     let allOffers = [];
     let dataMeta = { generated_at: '' };
+    let isExpanded = false;
+
+    const INITIAL_VISIBLE_COUNT = 6;
 
     const els = {
       searchInput: document.getElementById('searchInput'),
       bankFilter: document.getElementById('bankFilter'),
       hideExpired: document.getElementById('hideExpired'),
       resetBtn: document.getElementById('resetBtn'),
+      showAllBtn: document.getElementById('showAllBtn'),
       cards: document.getElementById('cards'),
       summaryLine: document.getElementById('summaryLine'),
       statOffers: document.getElementById('statOffers'),
@@ -315,7 +466,7 @@
         .replace(/ى/g, 'ي')
         .replace(/ؤ/g, 'و')
         .replace(/ئ/g, 'ي')
-        .replace(/[ـ\-_/.,،]+/g, ' ')
+        .replace(/[ـ\\-_/.,،]+/g, ' ')
         .replace(/\s+/g, ' ')
         .trim();
     }
@@ -323,11 +474,15 @@
     function levenshtein(a, b) {
       a = normalizeArabic(a);
       b = normalizeArabic(b);
+
       if (!a) return b.length;
       if (!b) return a.length;
+
       const matrix = Array.from({ length: a.length + 1 }, () => Array(b.length + 1).fill(0));
+
       for (let i = 0; i <= a.length; i++) matrix[i][0] = i;
       for (let j = 0; j <= b.length; j++) matrix[0][j] = j;
+
       for (let i = 1; i <= a.length; i++) {
         for (let j = 1; j <= b.length; j++) {
           const cost = a[i - 1] === b[j - 1] ? 0 : 1;
@@ -338,12 +493,14 @@
           );
         }
       }
+
       return matrix[a.length][b.length];
     }
 
     function tokenMatchScore(query, haystack) {
       const q = normalizeArabic(query);
       const h = normalizeArabic(haystack);
+
       if (!q) return 1;
       if (h.includes(q)) return 3;
 
@@ -356,31 +513,38 @@
           score += 2;
           continue;
         }
+
         let best = Infinity;
         for (const ht of hTokens) {
           const d = levenshtein(qt, ht);
           if (d < best) best = d;
           if (best === 0) break;
         }
+
         const allowed = qt.length <= 4 ? 1 : 2;
         if (best <= allowed) score += 1;
       }
+
       return score;
     }
 
     function isMatch(offer, query) {
       if (!query.trim()) return true;
+
       const primary = [offer.title, offer.merchant, offer.details, offer.discount].join(' ');
-      const secondary = [offer.bank, offer.category, ...(offer.cards || [])].join(' ');
+      const secondary = [offer.bank, ...(offer.cards || [])].join(' ');
+
       return tokenMatchScore(query, primary) >= 1 || tokenMatchScore(query, secondary) >= 2;
     }
 
     function formatDate(dateStr) {
       if (!dateStr) return '—';
+
       const d = new Date(dateStr);
       if (Number.isNaN(d.getTime())) return dateStr;
 
       return new Intl.DateTimeFormat('ar-SA', {
+        timeZone: 'Asia/Riyadh',
         year: 'numeric',
         month: 'long',
         day: 'numeric',
@@ -401,10 +565,21 @@
       });
     }
 
+    function getFilterState() {
+      return {
+        query: els.searchInput.value.trim(),
+        bank: els.bankFilter.value,
+        hideExpired: els.hideExpired.checked,
+      };
+    }
+
+    function hasActiveSearchOrBankFilter() {
+      const { query, bank } = getFilterState();
+      return Boolean(query || bank);
+    }
+
     function filterOffers() {
-      const query = els.searchInput.value.trim();
-      const hideExpired = els.hideExpired.checked;
-      const bank = els.bankFilter.value;
+      const { query, bank, hideExpired } = getFilterState();
 
       return allOffers.filter(offer => {
         if (hideExpired && offer.expired) return false;
@@ -413,20 +588,35 @@
       });
     }
 
-    function createChip(text) {
-      const span = document.createElement('span');
-      span.className = 'chip';
-      span.textContent = text;
-      return span;
+    function getVisibleOffers(filtered) {
+      if (hasActiveSearchOrBankFilter()) {
+        return filtered;
+      }
+
+      if (isExpanded) {
+        return filtered;
+      }
+
+      return filtered.slice(0, INITIAL_VISIBLE_COUNT);
+    }
+
+    function updateShowAllButton(filtered) {
+      const shouldShow = !hasActiveSearchOrBankFilter() && filtered.length > INITIAL_VISIBLE_COUNT && !isExpanded;
+      els.showAllBtn.hidden = !shouldShow;
     }
 
     function renderOffers() {
       const filtered = filterOffers();
+      const visibleOffers = getVisibleOffers(filtered);
+
       els.cards.innerHTML = '';
       els.statShown.textContent = String(filtered.length);
+
       els.summaryLine.textContent = filtered.length
         ? `تم العثور على ${filtered.length} عرض`
         : 'لا توجد نتائج مطابقة';
+
+      updateShowAllButton(filtered);
 
       if (!filtered.length) {
         const empty = document.createElement('div');
@@ -436,39 +626,42 @@
         return;
       }
 
-      filtered.forEach(offer => {
+      visibleOffers.forEach(offer => {
         const card = document.createElement('article');
         card.className = `card ${offer.expired ? 'expired' : ''}`;
 
         const top = document.createElement('div');
         top.className = 'top';
 
-        const topLeft = document.createElement('div');
+        const topMain = document.createElement('div');
+        topMain.className = 'top-main';
+
         const bank = document.createElement('div');
         bank.className = 'bank';
         bank.textContent = offer.bank || '—';
+
         const title = document.createElement('h3');
         title.className = 'title';
         title.textContent = offer.title || offer.merchant || 'عرض';
-        topLeft.append(bank, title);
-        top.appendChild(topLeft);
+
+        topMain.append(bank, title);
+
+        const topSide = document.createElement('div');
+        topSide.className = 'top-side';
+
+        const discount = document.createElement('div');
+        discount.className = 'discount';
+        discount.textContent = offer.discount || 'عرض متاح';
+        topSide.appendChild(discount);
 
         if (offer.expired) {
           const expired = document.createElement('span');
           expired.className = 'expired-badge';
           expired.textContent = 'منتهي';
-          top.appendChild(expired);
+          topSide.appendChild(expired);
         }
 
-        const discount = document.createElement('div');
-        discount.className = 'discount';
-        discount.textContent = offer.discount || 'عرض متاح';
-
-        const chips = document.createElement('div');
-        chips.className = 'chips';
-        if (offer.merchant && offer.merchant !== offer.title) chips.appendChild(createChip(offer.merchant));
-        if (offer.category) chips.appendChild(createChip(offer.category));
-        if (offer.valid_until) chips.appendChild(createChip(`ينتهي: ${offer.valid_until}`));
+        top.append(topMain, topSide);
 
         const details = document.createElement('p');
         details.className = 'details';
@@ -477,11 +670,29 @@
         const footer = document.createElement('div');
         footer.className = 'footer';
 
+        const metaNote = document.createElement('div');
+        metaNote.className = 'meta-note';
+
+        if (offer.merchant && offer.merchant !== offer.title) {
+          const merchant = document.createElement('span');
+          merchant.textContent = offer.merchant;
+          metaNote.appendChild(merchant);
+        }
+
+        if (offer.valid_until) {
+          const validUntil = document.createElement('span');
+          validUntil.textContent = `ينتهي: ${offer.valid_until}`;
+          metaNote.appendChild(validUntil);
+        }
+
         if (offer.code) {
-          const small = document.createElement('div');
-          small.className = 'chip';
-          small.textContent = `الكود: ${offer.code}`;
-          footer.appendChild(small);
+          const code = document.createElement('span');
+          code.textContent = `الكود: ${offer.code}`;
+          metaNote.appendChild(code);
+        }
+
+        if (metaNote.childNodes.length) {
+          footer.appendChild(metaNote);
         }
 
         if (offer.source) {
@@ -494,9 +705,7 @@
           footer.appendChild(link);
         }
 
-        card.append(top, discount);
-        if (chips.childNodes.length) card.appendChild(chips);
-        card.append(details, footer);
+        card.append(top, details, footer);
         els.cards.appendChild(card);
       });
     }
@@ -508,20 +717,17 @@
     }
 
     async function loadData() {
-      const cardsEl = document.getElementById('cards');
-      const summaryEl = document.getElementById('summaryLine');
-
       try {
-        summaryEl.textContent = 'جاري طلب البيانات...';
+        els.summaryLine.textContent = 'جاري طلب البيانات...';
 
         const res = await fetch('./all-offers.json', { cache: 'no-store' });
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
-        summaryEl.textContent = 'جاري قراءة البيانات...';
+        els.summaryLine.textContent = 'جاري قراءة البيانات...';
 
         const data = await res.json();
 
-        summaryEl.textContent = 'جاري تجهيز النتائج...';
+        els.summaryLine.textContent = 'جاري تجهيز النتائج...';
 
         dataMeta = data || {};
         allOffers = Array.isArray(data?.offers) ? data.offers : [];
@@ -531,18 +737,30 @@
         renderOffers();
       } catch (err) {
         console.error(err);
-        cardsEl.innerHTML = `<div class="error">حدث خطأ: ${err?.message || 'غير معروف'}</div>`;
-        summaryEl.textContent = err?.message || 'تعذر تحميل البيانات';
+        els.cards.innerHTML = `<div class="error">حدث خطأ: ${err?.message || 'غير معروف'}</div>`;
+        els.summaryLine.textContent = err?.message || 'تعذر تحميل البيانات';
       }
     }
 
-    els.searchInput.addEventListener('input', renderOffers);
-    els.bankFilter.addEventListener('change', renderOffers);
-    els.hideExpired.addEventListener('change', renderOffers);
+    function onFiltersChanged() {
+      isExpanded = false;
+      renderOffers();
+    }
+
+    els.searchInput.addEventListener('input', onFiltersChanged);
+    els.bankFilter.addEventListener('change', onFiltersChanged);
+    els.hideExpired.addEventListener('change', onFiltersChanged);
+
     els.resetBtn.addEventListener('click', () => {
       els.searchInput.value = '';
       els.bankFilter.value = '';
       els.hideExpired.checked = true;
+      isExpanded = false;
+      renderOffers();
+    });
+
+    els.showAllBtn.addEventListener('click', () => {
+      isExpanded = true;
       renderOffers();
     });
 
