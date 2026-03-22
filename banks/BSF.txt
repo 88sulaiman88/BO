@@ -9,7 +9,7 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-03-21",
+  "lastChecked": "2026-03-22",
   "fetchedCount": 31,
   "previousCount": 31,
   "offers": [
@@ -418,7 +418,7 @@
       "notes": "احصل على خصم 25% لدى مطعم أي اوه كيه كيتشن عند استخدامك بطاقة BSF الائتمانية.",
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/restaurants/aok-kitchen",
-      "imageUrl": "https://bsf.sa/ContentFiles/11944Image.jpg",
+      "imageUrl": "https://bsf.sa/ContentFiles/11944Image.jpg?",
       "source": "bsf-offers-pages-scraper"
     },
     {
