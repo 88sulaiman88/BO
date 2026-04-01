@@ -9,9 +9,9 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-03-31",
+  "lastChecked": "2026-04-01",
   "fetchedCount": 25,
-  "previousCount": 31,
+  "previousCount": 25,
   "offers": [
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-live-well-the-healthy-home",
@@ -299,7 +299,7 @@
       "notes": "احصل على خصم 15% على فترة العشاء و 20% على فترة الغداء لدى شاتو ماتو",
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/restaurants/chotto-matte",
-      "imageUrl": "https://bsf.sa/ContentFiles/12768Image.jpg?",
+      "imageUrl": "https://bsf.sa/ContentFiles/12768Image.jpg",
       "source": "bsf-offers-pages-scraper"
     },
     {
