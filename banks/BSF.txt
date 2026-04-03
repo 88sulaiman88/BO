@@ -9,9 +9,9 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-04-02",
+  "lastChecked": "2026-04-03",
   "fetchedCount": 31,
-  "previousCount": 25,
+  "previousCount": 31,
   "offers": [
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-sf-line",
