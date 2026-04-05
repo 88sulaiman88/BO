@@ -9,7 +9,7 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-04-04",
+  "lastChecked": "2026-04-05",
   "fetchedCount": 31,
   "previousCount": 31,
   "offers": [
