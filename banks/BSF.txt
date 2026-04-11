@@ -9,9 +9,9 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-04-10",
+  "lastChecked": "2026-04-11",
   "fetchedCount": 30,
-  "previousCount": 31,
+  "previousCount": 30,
   "offers": [
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-travel-ihg",
