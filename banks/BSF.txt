@@ -9,8 +9,8 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-04-19",
-  "fetchedCount": 41,
+  "lastChecked": "2026-04-20",
+  "fetchedCount": 40,
   "previousCount": 41,
   "offers": [
     {
@@ -402,23 +402,6 @@
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/live-well/indigo-home",
       "imageUrl": "https://bsf.sa/ContentFiles/12870Image.png",
-      "source": "bsf-offers-pages-scraper"
-    },
-    {
-      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-live-well-the-pilates-room",
-      "merchant": "Pilates Room",
-      "title": "Pilates Room",
-      "category": "أسلوب حياة",
-      "discount": "خصم 15%",
-      "cards": [],
-      "cardText": "",
-      "promoCode": null,
-      "expiryDate": "2026-03-20",
-      "status": "active",
-      "notes": "احصل على خصم 15% لدى The Pilates Room عند استخدامك \nبطاقات البنك السعودي الفرنسي الائتمانية أو مسبقة الدفع أو مدى",
-      "terms": [],
-      "link": "https://bsf.sa/arabic/personal/cards/offers/live-well/the-pilates-room",
-      "imageUrl": "https://bsf.sa/ContentFiles/12876Image.jpg",
       "source": "bsf-offers-pages-scraper"
     },
     {
