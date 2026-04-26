@@ -9,9 +9,9 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-04-25",
+  "lastChecked": "2026-04-26",
   "fetchedCount": 40,
-  "previousCount": 24,
+  "previousCount": 40,
   "offers": [
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-the-beauty-secrets",
