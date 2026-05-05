@@ -9,7 +9,7 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-05-04",
+  "lastChecked": "2026-05-05",
   "fetchedCount": 40,
   "previousCount": 40,
   "offers": [
@@ -150,9 +150,9 @@
       "source": "bsf-offers-pages-scraper"
     },
     {
-      "id": "bsf-https-bsf-sa-arabic-contactus-fransicare",
+      "id": "bsf-https-bsf-sa-arabic-contactus-bsf-care",
       "merchant": "للشكاوى",
-      "title": "الصفحة غير موجودة",
+      "title": "BSF Care",
       "category": "كل العروض",
       "discount": "",
       "cards": [],
@@ -162,7 +162,7 @@
       "status": "active",
       "notes": "للشكاوى",
       "terms": [],
-      "link": "https://bsf.sa/arabic/contactus/fransicare",
+      "link": "https://bsf.sa/arabic/contactus/bsf-care",
       "imageUrl": "https://bsf.sa/ContentFiles/",
       "source": "bsf-offers-pages-scraper"
     },
