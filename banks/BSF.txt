@@ -9,10 +9,27 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-05-12",
+  "lastChecked": "2026-05-13",
   "fetchedCount": 40,
   "previousCount": 40,
   "offers": [
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-san-carlo-cicchetti",
+      "merchant": "San Carlo Cicchetti",
+      "title": "San Carlo Cicchetti",
+      "category": "كل العروض",
+      "discount": "خصم 20%",
+      "cards": [],
+      "cardText": "",
+      "promoCode": null,
+      "expiryDate": "2027-03-31",
+      "status": "active",
+      "notes": "احصل على خصم 20% على إجمالي الفاتورة في San Carlo Cicchetti عند الدفع باستخدام بطاقات BSF الائتمانية",
+      "terms": [],
+      "link": "https://bsf.sa/arabic/personal/cards/offers/restaurants/san-carlo-cicchetti",
+      "imageUrl": "https://bsf.sa/ContentFiles/12957Image.png",
+      "source": "bsf-offers-pages-scraper"
+    },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-the-beauty-secrets",
       "merchant": "The Beauty Secrets",
@@ -130,23 +147,6 @@
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/restaurants/veloce-cafe",
       "imageUrl": "https://bsf.sa/ContentFiles/12939Image.png",
-      "source": "bsf-offers-pages-scraper"
-    },
-    {
-      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-urth-caffe",
-      "merchant": "URTH CAFFE",
-      "title": "URTH CAFFE",
-      "category": "كل العروض",
-      "discount": "خصم 15%",
-      "cards": [],
-      "cardText": "",
-      "promoCode": null,
-      "expiryDate": "2027-03-31",
-      "status": "active",
-      "notes": "احصل على خصم 15% في مطعم URTH CAFFE\nعند استخدام بطاقات BSF الائتمانية",
-      "terms": [],
-      "link": "https://bsf.sa/arabic/personal/cards/offers/restaurants/urth-caffe",
-      "imageUrl": "https://bsf.sa/ContentFiles/12938Image.png",
       "source": "bsf-offers-pages-scraper"
     },
     {
