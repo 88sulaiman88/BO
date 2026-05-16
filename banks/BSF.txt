@@ -9,7 +9,7 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-05-15",
+  "lastChecked": "2026-05-16",
   "fetchedCount": 40,
   "previousCount": 40,
   "offers": [
@@ -469,7 +469,7 @@
       "notes": "احصل على خصم 30% لدى HungerStation عند استخدامك بطاقات ماستركارد الائتمانية من BSF",
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/hungerstation",
-      "imageUrl": "https://bsf.sa/ContentFiles/11193Image.png",
+      "imageUrl": "https://bsf.sa/ContentFiles/11193Image.png?",
       "source": "bsf-offers-pages-scraper"
     },
     {
