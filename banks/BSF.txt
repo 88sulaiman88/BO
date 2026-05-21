@@ -9,7 +9,7 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-05-20",
+  "lastChecked": "2026-05-21",
   "fetchedCount": 40,
   "previousCount": 40,
   "offers": [
@@ -350,7 +350,7 @@
       "notes": "خصم 15% مقدم من The Healthy Home لجميع حاملي بطاقة البنك السعودي الفرنسي الائتمانية أو مدى",
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/live-well/the-healthy-home",
-      "imageUrl": "https://bsf.sa/ContentFiles/10959Image.jpg",
+      "imageUrl": "https://bsf.sa/ContentFiles/10959Image.jpg?",
       "source": "bsf-offers-pages-scraper"
     },
     {
@@ -592,23 +592,6 @@
       "source": "bsf-offers-pages-scraper"
     },
     {
-      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-mrchow",
-      "merchant": "MrChow",
-      "title": "MrChow",
-      "category": "المطاعم",
-      "discount": "خصم 25%",
-      "cards": [],
-      "cardText": "",
-      "promoCode": null,
-      "expiryDate": "2026-10-01",
-      "status": "active",
-      "notes": "احصل على خصم 25% لدى مطعم مستر تشاو عند استخدامك بطاقة BSF الائتمانية.",
-      "terms": [],
-      "link": "https://bsf.sa/arabic/personal/cards/offers/restaurants/mrchow",
-      "imageUrl": "https://bsf.sa/ContentFiles/11948Image.jpg",
-      "source": "bsf-offers-pages-scraper"
-    },
-    {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-roka",
       "merchant": "Roka",
       "title": "Roka",
@@ -674,6 +657,23 @@
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/restaurants/chotto-matte",
       "imageUrl": "https://bsf.sa/ContentFiles/12768Image.jpg",
+      "source": "bsf-offers-pages-scraper"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-tim-hortons",
+      "merchant": "Tim Hortons",
+      "title": "Tim Hortons",
+      "category": "المطاعم",
+      "discount": "خصم 20%",
+      "cards": [],
+      "cardText": "",
+      "promoCode": null,
+      "expiryDate": "2026-12-30",
+      "status": "active",
+      "notes": "احصل على خصم 20% في مطعم Tim Hortons\nعند استخدام بطاقات BSF الائتمانية",
+      "terms": [],
+      "link": "https://bsf.sa/arabic/personal/cards/offers/restaurants/tim-hortons",
+      "imageUrl": "https://bsf.sa/ContentFiles/12901Image.png",
       "source": "bsf-offers-pages-scraper"
     },
     {
