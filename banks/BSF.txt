@@ -9,7 +9,7 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-06-10",
+  "lastChecked": "2026-06-11",
   "fetchedCount": 41,
   "previousCount": 41,
   "offers": [
@@ -65,23 +65,6 @@
       "source": "bsf-offers-pages-scraper"
     },
     {
-      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-dania-shakir",
-      "merchant": "دانيا شنكار",
-      "title": "دانيا شنكار",
-      "category": "كل العروض",
-      "discount": "خصم 15%",
-      "cards": [],
-      "cardText": "",
-      "promoCode": null,
-      "expiryDate": "2026-11-09",
-      "status": "active",
-      "notes": "احصل على خصم 15% على منتجات دانيا شنكار باستخدام بطاقات البنك السعودي الفرنسي الائتمانية أو مدى",
-      "terms": [],
-      "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/dania-shakir",
-      "imageUrl": "https://bsf.sa/ContentFiles/12993Image.jpg",
-      "source": "bsf-offers-pages-scraper"
-    },
-    {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-live-well-eleven-wishes",
       "merchant": "ايليفن ويشز",
       "title": "ايليفن ويشز",
@@ -90,7 +73,7 @@
       "cards": [],
       "cardText": "",
       "promoCode": null,
-      "expiryDate": "2026-11-09",
+      "expiryDate": "2027-02-01",
       "status": "active",
       "notes": "احصل على خصم 20% لدى صالون ايليفن ويشز عند استخدام بطاقات BSF الائتمانية",
       "terms": [],
@@ -147,6 +130,23 @@
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/dazl-jewelry",
       "imageUrl": "https://bsf.sa/ContentFiles/12989Image.jpg",
+      "source": "bsf-offers-pages-scraper"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-fayendra",
+      "merchant": "مجوهرات فياندرا",
+      "title": "مجوهرات فياندرا",
+      "category": "كل العروض",
+      "discount": "خصم 20%",
+      "cards": [],
+      "cardText": "",
+      "promoCode": null,
+      "expiryDate": "2026-08-18",
+      "status": "active",
+      "notes": "احصل على خصم 20% لدى مجوهرات فياندرا عند الدفع ببطاقات البنك السعودي الفرنسي الائتمانية ومدى",
+      "terms": [],
+      "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/fayendra",
+      "imageUrl": "https://bsf.sa/ContentFiles/12988Image.png",
       "source": "bsf-offers-pages-scraper"
     },
     {
