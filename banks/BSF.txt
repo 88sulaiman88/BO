@@ -9,7 +9,7 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-06-17",
+  "lastChecked": "2026-06-18",
   "fetchedCount": 41,
   "previousCount": 41,
   "offers": [
@@ -473,23 +473,6 @@
       "source": "bsf-offers-pages-scraper"
     },
     {
-      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-hungerstation",
-      "merchant": "HungerStation",
-      "title": "HungerStation",
-      "category": "التسوق",
-      "discount": "خصم 30%",
-      "cards": [],
-      "cardText": "",
-      "promoCode": null,
-      "expiryDate": "2026-03-17",
-      "status": "active",
-      "notes": "احصل على خصم 30% لدى HungerStation عند استخدامك بطاقات ماستركارد الائتمانية من BSF",
-      "terms": [],
-      "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/hungerstation",
-      "imageUrl": "https://bsf.sa/ContentFiles/11193Image.png",
-      "source": "bsf-offers-pages-scraper"
-    },
-    {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-voga-closet",
       "merchant": "فوغا كلوست",
       "title": "فوغا كلوست",
@@ -555,6 +538,23 @@
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/cilek",
       "imageUrl": "https://bsf.sa/ContentFiles/11660Image.jpg",
+      "source": "bsf-offers-pages-scraper"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-noor-gallery",
+      "merchant": "نور غاليري",
+      "title": "نور غاليري",
+      "category": "التسوق",
+      "discount": "خصم 7%",
+      "cards": [],
+      "cardText": "",
+      "promoCode": null,
+      "expiryDate": "2026-03-31",
+      "status": "active",
+      "notes": "خصم يصل حتى 45% لدى معرض نور غاليري عند استخدام بطاقة البنك السعودي الفرنسي مدى أو الائتمانية",
+      "terms": [],
+      "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/noor-gallery",
+      "imageUrl": "https://bsf.sa/ContentFiles/11661Image.jpg",
       "source": "bsf-offers-pages-scraper"
     },
     {
