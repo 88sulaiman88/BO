@@ -9,10 +9,27 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-06-23",
+  "lastChecked": "2026-06-24",
   "fetchedCount": 44,
   "previousCount": 44,
   "offers": [
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-travel-makemytrip",
+      "merchant": "MakeMyTrip",
+      "title": "MakeMyTrip",
+      "category": "كل العروض",
+      "discount": "استرداد نقدي",
+      "cards": [],
+      "cardText": "",
+      "promoCode": null,
+      "expiryDate": "2026-06-30",
+      "status": "active",
+      "notes": "وفّر حتى 6000 مع MakeMyTrip باستخدام الرمز الترويجي :BSFMMT",
+      "terms": [],
+      "link": "https://bsf.sa/arabic/personal/cards/offers/travel/makemytrip",
+      "imageUrl": "https://bsf.sa/ContentFiles/13040Image.jpg",
+      "source": "bsf-offers-pages-scraper"
+    },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-golden-scent",
       "merchant": "جولدن سنت",
@@ -130,23 +147,6 @@
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/live-well/-pure-gym-offer",
       "imageUrl": "https://bsf.sa/ContentFiles/13028Image.jpg",
-      "source": "bsf-offers-pages-scraper"
-    },
-    {
-      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-live-well-valeo-health",
-      "merchant": "فاليو للصحة",
-      "title": "فاليو للصحة",
-      "category": "كل العروض",
-      "discount": "خصم 20%",
-      "cards": [],
-      "cardText": "",
-      "promoCode": null,
-      "expiryDate": "2026-12-31",
-      "status": "active",
-      "notes": "احصل على خصم 20% لدى Valeo Healthعند الدفع باستخدام بطاقات البنك السعودي الفرنسي BSF ماستركارد الائتمانية",
-      "terms": [],
-      "link": "https://bsf.sa/arabic/personal/cards/offers/live-well/-valeo-health",
-      "imageUrl": "https://bsf.sa/ContentFiles/13027Image.jpg",
       "source": "bsf-offers-pages-scraper"
     },
     {
