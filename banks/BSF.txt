@@ -9,10 +9,27 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-06-24",
+  "lastChecked": "2026-06-25",
   "fetchedCount": 44,
   "previousCount": 44,
   "offers": [
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-amazon-offer",
+      "merchant": "عرض امازون",
+      "title": "عرض امازون",
+      "category": "كل العروض",
+      "discount": "",
+      "cards": [],
+      "cardText": "",
+      "promoCode": null,
+      "expiryDate": "2026-07-15",
+      "status": "active",
+      "notes": "قسيمة بقيمه 300 ريال من أمازون \nعند انفاق 3000ريال دولياً \nباستخدام بطاقات الماستر كارد",
+      "terms": [],
+      "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/amazon-offer",
+      "imageUrl": "https://bsf.sa/ContentFiles/13042Image.jpg",
+      "source": "bsf-offers-pages-scraper"
+    },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-travel-makemytrip",
       "merchant": "MakeMyTrip",
@@ -130,23 +147,6 @@
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/restaurants/-san-pablo",
       "imageUrl": "https://bsf.sa/ContentFiles/13029Image.jpg",
-      "source": "bsf-offers-pages-scraper"
-    },
-    {
-      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-live-well-pure-gym-offer",
-      "merchant": "عرض بيور جيم",
-      "title": "عرض بيور جيم",
-      "category": "كل العروض",
-      "discount": "خصم30%",
-      "cards": [],
-      "cardText": "",
-      "promoCode": null,
-      "expiryDate": "2026-12-31",
-      "status": "active",
-      "notes": "احصل على خصم30% Mentes Studio عند الدفع باستخدام بطاقات البنك السعودي الفرنسي BSF ماستركارد الائتمانية",
-      "terms": [],
-      "link": "https://bsf.sa/arabic/personal/cards/offers/live-well/-pure-gym-offer",
-      "imageUrl": "https://bsf.sa/ContentFiles/13028Image.jpg",
       "source": "bsf-offers-pages-scraper"
     },
     {
