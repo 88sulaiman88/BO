@@ -9,7 +9,7 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-06-29",
+  "lastChecked": "2026-06-30",
   "fetchedCount": 44,
   "previousCount": 44,
   "offers": [
@@ -430,12 +430,12 @@
       "cards": [],
       "cardText": "",
       "promoCode": null,
-      "expiryDate": "2026-07-02",
+      "expiryDate": "",
       "status": "active",
       "notes": "احصل على خصم 20% لدى جو سبا عند استخدام بطاقات BSF الائتمانية ومدى",
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/live-well/jo-spa",
-      "imageUrl": "https://bsf.sa/ContentFiles/12991Image.jpg",
+      "imageUrl": "https://bsf.sa/ContentFiles/12991Image.jpg?",
       "source": "bsf-offers-pages-scraper"
     },
     {
