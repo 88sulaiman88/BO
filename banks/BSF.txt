@@ -9,10 +9,27 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-06-30",
+  "lastChecked": "2026-07-01",
   "fetchedCount": 44,
   "previousCount": 44,
   "offers": [
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-travel-almatar",
+      "merchant": "Almatar",
+      "title": "Almatar",
+      "category": "كل العروض",
+      "discount": "استرداد نقدي",
+      "cards": [],
+      "cardText": "",
+      "promoCode": null,
+      "expiryDate": "2026-07-05",
+      "status": "active",
+      "notes": "وفّر حتى 10,000 ريال مع المطار باستخدام الرمز الترويجي: BSF",
+      "terms": [],
+      "link": "https://bsf.sa/arabic/personal/cards/offers/travel/almatar",
+      "imageUrl": "https://bsf.sa/ContentFiles/13058Image.jpg",
+      "source": "bsf-offers-pages-scraper"
+    },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-amazon-offer",
       "merchant": "عرض امازون",
@@ -130,23 +147,6 @@
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/restaurants/-alsaqeefa",
       "imageUrl": "https://bsf.sa/ContentFiles/13030Image.jpg",
-      "source": "bsf-offers-pages-scraper"
-    },
-    {
-      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-san-pablo",
-      "merchant": "سان بابلو",
-      "title": "سان بابلو",
-      "category": "كل العروض",
-      "discount": "خصم 20%",
-      "cards": [],
-      "cardText": "",
-      "promoCode": null,
-      "expiryDate": "2026-12-31",
-      "status": "active",
-      "notes": "احصل على خصم10 % مطاعم سان بابلو عند الدفع باستخدام بطاقات البنك السعودي الفرنسي BSF ماستركارد الائتمانية",
-      "terms": [],
-      "link": "https://bsf.sa/arabic/personal/cards/offers/restaurants/-san-pablo",
-      "imageUrl": "https://bsf.sa/ContentFiles/13029Image.jpg",
       "source": "bsf-offers-pages-scraper"
     },
     {
@@ -430,12 +430,12 @@
       "cards": [],
       "cardText": "",
       "promoCode": null,
-      "expiryDate": "",
+      "expiryDate": "2026-07-02",
       "status": "active",
       "notes": "احصل على خصم 20% لدى جو سبا عند استخدام بطاقات BSF الائتمانية ومدى",
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/live-well/jo-spa",
-      "imageUrl": "https://bsf.sa/ContentFiles/12991Image.jpg?",
+      "imageUrl": "https://bsf.sa/ContentFiles/12991Image.jpg",
       "source": "bsf-offers-pages-scraper"
     },
     {
