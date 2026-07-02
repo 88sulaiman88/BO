@@ -9,7 +9,7 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-07-01",
+  "lastChecked": "2026-07-02",
   "fetchedCount": 44,
   "previousCount": 44,
   "offers": [
@@ -299,7 +299,7 @@
       "notes": "خصم 15% مع بطاقات BSF الائتمانية عند الدفع في مطعم Lugano",
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/travel/lugano",
-      "imageUrl": "https://bsf.sa/ContentFiles/12926Image.png",
+      "imageUrl": "https://bsf.sa/ContentFiles/12926Image.png?",
       "source": "bsf-offers-pages-scraper"
     },
     {
@@ -503,7 +503,7 @@
       "notes": "احصل على خصم 20% لدى زهرة الربيع عند استخدام بطاقات البنك السعودي الفرنسي (\"البنك\") الائتمانية أو مدى",
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/spring-rose",
-      "imageUrl": "https://bsf.sa/ContentFiles/11091Image.png",
+      "imageUrl": "https://bsf.sa/ContentFiles/11091Image.png?",
       "source": "bsf-offers-pages-scraper"
     },
     {
