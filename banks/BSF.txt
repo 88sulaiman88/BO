@@ -9,7 +9,7 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-07-02",
+  "lastChecked": "2026-07-03",
   "fetchedCount": 44,
   "previousCount": 44,
   "offers": [
@@ -239,13 +239,13 @@
       "merchant": "عرض الماستر كارد على Trip.com",
       "title": "عرض الماستر كارد على Trip.com",
       "category": "السفر",
-      "discount": "خصم 20%",
+      "discount": "20% خصم",
       "cards": [],
       "cardText": "",
       "promoCode": null,
-      "expiryDate": "2026-03-31",
+      "expiryDate": "2026-07-15",
       "status": "active",
-      "notes": "احجز عطلتك القادمة على Trip.com واستمتع بخصم يصل إلى 20٪ عند الدفع باستخدام بطاقة ماستركارد الخاصة بك. اكتشف عروض مذهلة على الرحلات الجوية والفنادق والمزيد، حصريًا لحاملي بطاقات ماستركارد.",
+      "notes": "احصل على 20% خصم إضافي لدى Mytrip عند الدفع باستخدام بطاقات البنك السعودي الفرنسي BSF ماستركارد الائتمانية",
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/travel/mastercard-tripcom-offer",
       "imageUrl": "https://bsf.sa/ContentFiles/12872Image.png",
@@ -299,7 +299,7 @@
       "notes": "خصم 15% مع بطاقات BSF الائتمانية عند الدفع في مطعم Lugano",
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/travel/lugano",
-      "imageUrl": "https://bsf.sa/ContentFiles/12926Image.png?",
+      "imageUrl": "https://bsf.sa/ContentFiles/12926Image.png",
       "source": "bsf-offers-pages-scraper"
     },
     {
@@ -503,7 +503,7 @@
       "notes": "احصل على خصم 20% لدى زهرة الربيع عند استخدام بطاقات البنك السعودي الفرنسي (\"البنك\") الائتمانية أو مدى",
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/spring-rose",
-      "imageUrl": "https://bsf.sa/ContentFiles/11091Image.png?",
+      "imageUrl": "https://bsf.sa/ContentFiles/11091Image.png",
       "source": "bsf-offers-pages-scraper"
     },
     {
