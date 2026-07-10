@@ -9,10 +9,27 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-07-09",
+  "lastChecked": "2026-07-10",
   "fetchedCount": 44,
   "previousCount": 44,
   "offers": [
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-travel-drivado",
+      "merchant": "Drivado",
+      "title": "Drivado",
+      "category": "كل العروض",
+      "discount": "خصم 30%",
+      "cards": [],
+      "cardText": "",
+      "promoCode": null,
+      "expiryDate": "2026-09-30",
+      "status": "active",
+      "notes": "خصم 30% على رحلتك مع Drivado\nاحصل على خصم ثابت 30% على تنقلات المطار والرحلات من نقطة إلى أخرى وخدمة السائق بالساعة ببطاقتك الائتمانية من BSF",
+      "terms": [],
+      "link": "https://bsf.sa/arabic/personal/cards/offers/travel/drivado",
+      "imageUrl": "https://bsf.sa/ContentFiles/13062Image.jpg",
+      "source": "bsf-offers-pages-scraper"
+    },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-travel-almatar",
       "merchant": "Almatar",
@@ -39,7 +56,7 @@
       "cards": [],
       "cardText": "",
       "promoCode": null,
-      "expiryDate": "2026-07-31",
+      "expiryDate": "2026-08-31",
       "status": "active",
       "notes": "قسيمة بقيمه 300 ريال من أمازون \nعند انفاق 3000ريال دولياً \nباستخدام بطاقات الماستر كارد",
       "terms": [],
@@ -130,23 +147,6 @@
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/live-well/-mentes-studio-offer",
       "imageUrl": "https://bsf.sa/ContentFiles/13031Image.jpg",
-      "source": "bsf-offers-pages-scraper"
-    },
-    {
-      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-alsaqeefa",
-      "merchant": "السقيفة",
-      "title": "السقيفة",
-      "category": "كل العروض",
-      "discount": "خصم 10%",
-      "cards": [],
-      "cardText": "",
-      "promoCode": null,
-      "expiryDate": "2026-12-31",
-      "status": "active",
-      "notes": "احصل على خصم10 % مطاعم السقيفة عند الدفع باستخدام بطاقات البنك السعودي الفرنسي BSF ماستركارد الائتمانية",
-      "terms": [],
-      "link": "https://bsf.sa/arabic/personal/cards/offers/restaurants/-alsaqeefa",
-      "imageUrl": "https://bsf.sa/ContentFiles/13030Image.jpg",
       "source": "bsf-offers-pages-scraper"
     },
     {
