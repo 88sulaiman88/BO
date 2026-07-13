@@ -9,7 +9,7 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-07-12",
+  "lastChecked": "2026-07-13",
   "fetchedCount": 44,
   "previousCount": 44,
   "offers": [
@@ -554,7 +554,7 @@
       "notes": "استمتع بفترة تصل إلى ٦ أشهر على أمازون برايم مع بطاقة ماستركارد من BSF.",
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/amazon-prime",
-      "imageUrl": "https://bsf.sa/ContentFiles/11599Image.png",
+      "imageUrl": "https://bsf.sa/ContentFiles/11599Image.png?",
       "source": "bsf-offers-pages-scraper"
     },
     {
@@ -753,7 +753,7 @@
       "cards": [],
       "cardText": "",
       "promoCode": null,
-      "expiryDate": "2026-06-30",
+      "expiryDate": "2026-09-30",
       "status": "active",
       "notes": "احجز تذكرتك واحصل على الثانية مجاناً من خلال تطبيق وموقع ڤوكس سـيـنـمـا الالكتروني مع بطاقات البنك السعودي الفرنسي المميزة.",
       "terms": [],
