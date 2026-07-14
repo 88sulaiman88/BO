@@ -9,7 +9,7 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-07-13",
+  "lastChecked": "2026-07-14",
   "fetchedCount": 44,
   "previousCount": 44,
   "offers": [
@@ -554,7 +554,7 @@
       "notes": "استمتع بفترة تصل إلى ٦ أشهر على أمازون برايم مع بطاقة ماستركارد من BSF.",
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/amazon-prime",
-      "imageUrl": "https://bsf.sa/ContentFiles/11599Image.png?",
+      "imageUrl": "https://bsf.sa/ContentFiles/11599Image.png",
       "source": "bsf-offers-pages-scraper"
     },
     {
