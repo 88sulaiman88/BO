@@ -9,10 +9,27 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-07-21",
+  "lastChecked": "2026-07-22",
   "fetchedCount": 44,
   "previousCount": 44,
   "offers": [
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-travel-emirates-holidays",
+      "merchant": "Emirates Holidays",
+      "title": "Emirates Holidays",
+      "category": "كل العروض",
+      "discount": "خصم 5%",
+      "cards": [],
+      "cardText": "",
+      "promoCode": null,
+      "expiryDate": "2026-09-30",
+      "status": "active",
+      "notes": "خصم 5% من Emirates Holidays",
+      "terms": [],
+      "link": "https://bsf.sa/arabic/personal/cards/offers/travel/emirates-holidays",
+      "imageUrl": "https://bsf.sa/ContentFiles/13070Image.jpg",
+      "source": "bsf-offers-pages-scraper"
+    },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-travel-drivado",
       "merchant": "Drivado",
@@ -130,23 +147,6 @@
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/al-sannat-for-luggage",
       "imageUrl": "https://bsf.sa/ContentFiles/13034Image.jpg",
-      "source": "bsf-offers-pages-scraper"
-    },
-    {
-      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-live-well-mentes-studio-offer",
-      "merchant": "Mentes Studio Offer",
-      "title": "Mentes Studio Offer",
-      "category": "كل العروض",
-      "discount": "خصم 10%",
-      "cards": [],
-      "cardText": "",
-      "promoCode": null,
-      "expiryDate": "2026-12-31",
-      "status": "active",
-      "notes": "احصل على خصم10 % Mentes Studio عند الدفع باستخدام بطاقات البنك السعودي الفرنسي BSF ماستركارد الائتمانية",
-      "terms": [],
-      "link": "https://bsf.sa/arabic/personal/cards/offers/live-well/-mentes-studio-offer",
-      "imageUrl": "https://bsf.sa/ContentFiles/13031Image.jpg",
       "source": "bsf-offers-pages-scraper"
     },
     {
