@@ -9,7 +9,7 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-08-04",
+  "lastChecked": "2026-08-05",
   "fetchedCount": 44,
   "previousCount": 44,
   "offers": [
@@ -90,7 +90,7 @@
       "cards": [],
       "cardText": "",
       "promoCode": null,
-      "expiryDate": "2026-07-22",
+      "expiryDate": "2026-08-31",
       "status": "active",
       "notes": "احصل على خصم 22% لدى نادي اندورفينز الرياضي عند الدفع ببطاقات البنك السعودي الفرنسي الائتمانية ومدى",
       "terms": [],
