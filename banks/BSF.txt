@@ -9,7 +9,7 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-09-02",
+  "lastChecked": "2026-09-03",
   "fetchedCount": 42,
   "previousCount": 42,
   "offers": [
@@ -133,20 +133,20 @@
       "source": "bsf-offers-pages-scraper"
     },
     {
-      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-amazon-offer",
-      "merchant": "عرض امازون",
-      "title": "عرض امازون",
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-golden-scent",
+      "merchant": "جولدن سنت",
+      "title": "جولدن سنت",
       "category": "كل العروض",
-      "discount": "",
+      "discount": "10% خصم",
       "cards": [],
       "cardText": "",
       "promoCode": null,
-      "expiryDate": "2026-08-31",
+      "expiryDate": "2026-12-31",
       "status": "active",
-      "notes": "قسيمة بقيمه 300 ريال من أمازون \nعند انفاق 3000ريال دولياً \nباستخدام بطاقات الماستر كارد",
+      "notes": "احصل على 10% خصم إضافي لدى جولدن سنت عند الدفع باستخدام بطاقات البنك السعودي الفرنسي BSF ماستركارد الائتمانية",
       "terms": [],
-      "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/amazon-offer",
-      "imageUrl": "https://bsf.sa/ContentFiles/13042Image.jpg",
+      "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/-golden-scent",
+      "imageUrl": "https://bsf.sa/ContentFiles/13038Image.png",
       "source": "bsf-offers-pages-scraper"
     },
     {
@@ -677,23 +677,6 @@
       "source": "bsf-offers-pages-scraper"
     },
     {
-      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-chotto-matte",
-      "merchant": "شاتو ماتو",
-      "title": "شاتو ماتو",
-      "category": "المطاعم",
-      "discount": "خصم 15%",
-      "cards": [],
-      "cardText": "",
-      "promoCode": null,
-      "expiryDate": "2026-08-25",
-      "status": "active",
-      "notes": "احصل على خصم 15% على فترة العشاء و 20% على فترة الغداء لدى شاتو ماتو",
-      "terms": [],
-      "link": "https://bsf.sa/arabic/personal/cards/offers/restaurants/chotto-matte",
-      "imageUrl": "https://bsf.sa/ContentFiles/12768Image.jpg",
-      "source": "bsf-offers-pages-scraper"
-    },
-    {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-tim-hortons",
       "merchant": "Tim Hortons",
       "title": "Tim Hortons",
@@ -708,6 +691,23 @@
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/restaurants/tim-hortons",
       "imageUrl": "https://bsf.sa/ContentFiles/12901Image.png",
+      "source": "bsf-offers-pages-scraper"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-zeila",
+      "merchant": "Zeila",
+      "title": "Zeila",
+      "category": "المطاعم",
+      "discount": "خصم 20%",
+      "cards": [],
+      "cardText": "",
+      "promoCode": null,
+      "expiryDate": "2027-01-31",
+      "status": "active",
+      "notes": "احصل على خصم 20% باستخدام بطاقات BSF الائتمانية في مطعم زيلا",
+      "terms": [],
+      "link": "https://bsf.sa/arabic/personal/cards/offers/restaurants/zeila",
+      "imageUrl": "https://bsf.sa/ContentFiles/12902Image.jpg",
       "source": "bsf-offers-pages-scraper"
     },
     {
