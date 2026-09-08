@@ -9,10 +9,27 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-09-07",
+  "lastChecked": "2026-09-08",
   "fetchedCount": 42,
   "previousCount": 42,
   "offers": [
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-extra",
+      "merchant": "eXtra",
+      "title": "eXtra",
+      "category": "كل العروض",
+      "discount": "استرداد نقدي",
+      "cards": [],
+      "cardText": "",
+      "promoCode": null,
+      "expiryDate": "2026-09-10",
+      "status": "active",
+      "notes": "احصل على خصم فوري 15% على المنتجات المؤهلة ضمن فئة العودة للمدارس لدى اكسترا",
+      "terms": [],
+      "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/extra",
+      "imageUrl": "https://bsf.sa/ContentFiles/13107Image.jpg",
+      "source": "bsf-offers-pages-scraper"
+    },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-aleesayi-kids",
       "merchant": "العيسائي للأطفال",
@@ -130,23 +147,6 @@
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/travel/drivado",
       "imageUrl": "https://bsf.sa/ContentFiles/13062Image.jpg",
-      "source": "bsf-offers-pages-scraper"
-    },
-    {
-      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-golden-scent",
-      "merchant": "جولدن سنت",
-      "title": "جولدن سنت",
-      "category": "كل العروض",
-      "discount": "10% خصم",
-      "cards": [],
-      "cardText": "",
-      "promoCode": null,
-      "expiryDate": "2026-12-31",
-      "status": "active",
-      "notes": "احصل على 10% خصم إضافي لدى جولدن سنت عند الدفع باستخدام بطاقات البنك السعودي الفرنسي BSF ماستركارد الائتمانية",
-      "terms": [],
-      "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/-golden-scent",
-      "imageUrl": "https://bsf.sa/ContentFiles/13038Image.png",
       "source": "bsf-offers-pages-scraper"
     },
     {
