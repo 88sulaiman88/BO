@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-08T08:05:51.128Z",
-  "totalOffers": 225,
+  "lastUpdated": "2026-09-09T08:09:51.217Z",
+  "totalOffers": 227,
   "offers": [
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-extra",
@@ -19,7 +19,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.201Z"
     },
     {
       "id": "alrajhi-air-france",
@@ -38,7 +38,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-09-08T08:05:51.119Z"
+      "updatedAt": "2026-09-09T08:09:51.206Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-travel-drivado",
@@ -46,7 +46,7 @@
       "bankCode": "bsf",
       "title": "Drivado",
       "merchant": "Drivado",
-      "category": "كل العروض",
+      "category": "السفر",
       "discountText": "خصم 30%",
       "details": "خصم 30% على رحلتك مع Drivado\nاحصل على خصم ثابت 30% على تنقلات المطار والرحلات من نقطة إلى أخرى وخدمة السائق بالساعة ببطاقتك الائتمانية من BSF",
       "terms": "",
@@ -57,7 +57,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-travel-emirates-holidays",
@@ -65,7 +65,7 @@
       "bankCode": "bsf",
       "title": "Emirates Holidays",
       "merchant": "Emirates Holidays",
-      "category": "كل العروض",
+      "category": "السفر",
       "discountText": "خصم 5%",
       "details": "خصم 5% من Emirates Holidays",
       "terms": "",
@@ -76,7 +76,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-entertainment-vox-cinema",
@@ -95,7 +95,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-sobhykaber",
@@ -114,7 +114,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-jon-amp-vinnys-restaurant",
@@ -133,7 +133,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-aok-kitchen",
@@ -152,7 +152,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-blacktap",
@@ -171,7 +171,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-ilbaretto",
@@ -190,7 +190,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-roka",
@@ -209,7 +209,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-live-well-doomidoo",
@@ -228,7 +228,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-amazon-prime",
@@ -247,7 +247,26 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-live-well-enhance-fitness",
+      "bank": "البنك السعودي الفرنسي",
+      "bankCode": "bsf",
+      "title": "إنهانس فيتنس",
+      "merchant": "إنهانس فيتنس",
+      "category": "كل العروض",
+      "discountText": "خصم 15%",
+      "details": "استمتع بخصم 15% إنهانس فيتنس عند الدفع ببطاقات البنك السعودي الفرنسي المؤهلة BSF الائتمانية ومدى",
+      "terms": "",
+      "startDate": "",
+      "endDate": "2026-11-09",
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/offers/live-well/enhance-fitness",
+      "imageUrl": "https://bsf.sa/ContentFiles/13084Image.jpg",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "BSF.txt",
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-aleesayi-kids",
@@ -266,7 +285,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-live-well-symphony-clinic",
@@ -285,7 +304,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-travel-tilal-alriyadh-hotel",
@@ -304,7 +323,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-live-well-lina-beauty-center",
@@ -323,7 +342,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-sun-and-sands",
@@ -342,7 +361,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "alrajhi-صن-رول",
@@ -361,7 +380,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-09-08T08:05:51.119Z"
+      "updatedAt": "2026-09-09T08:09:51.205Z"
     },
     {
       "id": "alrajhi-صن-رول",
@@ -380,7 +399,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-09-08T08:05:51.119Z"
+      "updatedAt": "2026-09-09T08:09:51.205Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-tim-hortons",
@@ -399,7 +418,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "alrajhi-تطبيق-سويتر",
@@ -418,7 +437,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-09-08T08:05:51.119Z"
+      "updatedAt": "2026-09-09T08:09:51.206Z"
     },
     {
       "id": "alrajhi-زيوكس",
@@ -437,7 +456,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-09-08T08:05:51.119Z"
+      "updatedAt": "2026-09-09T08:09:51.205Z"
     },
     {
       "id": "alrajhi-زيوكس",
@@ -456,7 +475,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-09-08T08:05:51.119Z"
+      "updatedAt": "2026-09-09T08:09:51.205Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-little-flora",
@@ -475,7 +494,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-live-well-lifeways-clinics",
@@ -494,7 +513,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-travel-shangri-la-hotels-and-resorts-jeddah",
@@ -513,7 +532,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-live-well-one-shot",
@@ -532,7 +551,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-farfetch",
@@ -551,7 +570,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-travel-ihg",
@@ -570,7 +589,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-live-well-indigo-home",
@@ -589,7 +608,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-live-well-the-healthy-home",
@@ -608,26 +627,26 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
-      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-alkofeia",
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-travel-smart-holidays",
       "bank": "البنك السعودي الفرنسي",
       "bankCode": "bsf",
-      "title": "الكوفية",
-      "merchant": "الكوفية",
+      "title": "سمارت هوليدايز",
+      "merchant": "سمارت هوليدايز",
       "category": "كل العروض",
-      "discountText": "خصم 15%",
-      "details": "استمتع 15% لدى مطاعم الكوفية عند الدفع ببطاقات البنك السعودي الفرنسي المؤهلة BSF الائتمانية ومدى",
+      "discountText": "خصم 12%",
+      "details": "استمتع بخصم 12% سمارت هوليدايز عند الدفع ببطاقات البنك السعودي الفرنسي المؤهلة BSF الائتمانية ومدى",
       "terms": "",
       "startDate": "",
-      "endDate": "2027-01-31",
-      "offerUrl": "https://bsf.sa/arabic/personal/cards/offers/restaurants/alkofeia",
-      "imageUrl": "https://bsf.sa/ContentFiles/13075Image.png",
+      "endDate": "2027-01-20",
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/offers/travel/smart-holidays",
+      "imageUrl": "https://bsf.sa/ContentFiles/13097Image.jpg",
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-dettaglio-auto",
@@ -646,7 +665,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-travel-radisson-hotel-amp-residence-riyadh-olaya",
@@ -665,7 +684,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-travel-rbg-grill-restaurant",
@@ -684,7 +703,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-zeila",
@@ -703,7 +722,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-live-well-eleven-wishes",
@@ -722,7 +741,45 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-live-well-sisley-paris",
+      "bank": "البنك السعودي الفرنسي",
+      "bankCode": "bsf",
+      "title": "سيسلي باريس",
+      "merchant": "Sisley Paris",
+      "category": "كل العروض",
+      "discountText": "خصم 25%",
+      "details": "استمتع بخصم 25% سيسلي باريس عند الدفع ببطاقات البنك السعودي الفرنسي المؤهلة BSF الائتمانية ومدى",
+      "terms": "",
+      "startDate": "",
+      "endDate": "2027-02-01",
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/offers/live-well/sisley-paris",
+      "imageUrl": "https://bsf.sa/ContentFiles/13095Image.jpg",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "BSF.txt",
+      "updatedAt": "2026-09-09T08:09:51.202Z"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-namu",
+      "bank": "البنك السعودي الفرنسي",
+      "bankCode": "bsf",
+      "title": "Namu",
+      "merchant": "Namu",
+      "category": "كل العروض",
+      "discountText": "خصم 15%",
+      "details": "استمتع بخصم 15% نامو عند الدفع ببطاقات البنك السعودي الفرنسي المؤهلة BSF الائتمانية ومدى",
+      "terms": "",
+      "startDate": "",
+      "endDate": "2027-02-01",
+      "offerUrl": "https://bsf.sa/arabic/personal/cards/offers/restaurants/namu",
+      "imageUrl": "https://bsf.sa/ContentFiles/13094Image.jpg",
+      "tags": [],
+      "isExpired": false,
+      "sourceFile": "BSF.txt",
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-bbeirut",
@@ -741,7 +798,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-travel-lugano",
@@ -760,7 +817,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-mazaj",
@@ -779,7 +836,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-olive-garden",
@@ -798,26 +855,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
-    },
-    {
-      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-paul",
-      "bank": "البنك السعودي الفرنسي",
-      "bankCode": "bsf",
-      "title": "Paul",
-      "merchant": "Paul",
-      "category": "كل العروض",
-      "discountText": "خصم 15%",
-      "details": "استمتع بخصم %15 لدى مطعم بول عند الدفع ببطاقات البنك السعودي الفرنسي المؤهلة BSF الائتمانية ومدى",
-      "terms": "",
-      "startDate": "",
-      "endDate": "2027-03-01",
-      "offerUrl": "https://bsf.sa/arabic/personal/cards/offers/restaurants/paul",
-      "imageUrl": "https://bsf.sa/ContentFiles/13076Image.png",
-      "tags": [],
-      "isExpired": false,
-      "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "alinma",
@@ -836,7 +874,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-09-08T08:05:51.118Z"
+      "updatedAt": "2026-09-09T08:09:51.204Z"
     },
     {
       "id": "alinma",
@@ -855,7 +893,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-09-08T08:05:51.118Z"
+      "updatedAt": "2026-09-09T08:09:51.204Z"
     },
     {
       "id": "alinma",
@@ -874,7 +912,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-09-08T08:05:51.118Z"
+      "updatedAt": "2026-09-09T08:09:51.204Z"
     },
     {
       "id": "alinma",
@@ -893,7 +931,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-09-08T08:05:51.118Z"
+      "updatedAt": "2026-09-09T08:09:51.204Z"
     },
     {
       "id": "alinma",
@@ -912,7 +950,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-09-08T08:05:51.118Z"
+      "updatedAt": "2026-09-09T08:09:51.204Z"
     },
     {
       "id": "alinma",
@@ -931,7 +969,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-09-08T08:05:51.118Z"
+      "updatedAt": "2026-09-09T08:09:51.204Z"
     },
     {
       "id": "alinma",
@@ -950,7 +988,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-09-08T08:05:51.118Z"
+      "updatedAt": "2026-09-09T08:09:51.204Z"
     },
     {
       "id": "alinma",
@@ -969,7 +1007,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-09-08T08:05:51.118Z"
+      "updatedAt": "2026-09-09T08:09:51.204Z"
     },
     {
       "id": "alinma",
@@ -988,7 +1026,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-09-08T08:05:51.118Z"
+      "updatedAt": "2026-09-09T08:09:51.204Z"
     },
     {
       "id": "alinma",
@@ -1007,7 +1045,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-09-08T08:05:51.118Z"
+      "updatedAt": "2026-09-09T08:09:51.204Z"
     },
     {
       "id": "alinma",
@@ -1026,7 +1064,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-09-08T08:05:51.118Z"
+      "updatedAt": "2026-09-09T08:09:51.204Z"
     },
     {
       "id": "alinma",
@@ -1045,7 +1083,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-09-08T08:05:51.118Z"
+      "updatedAt": "2026-09-09T08:09:51.204Z"
     },
     {
       "id": "alinma",
@@ -1064,7 +1102,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-09-08T08:05:51.118Z"
+      "updatedAt": "2026-09-09T08:09:51.204Z"
     },
     {
       "id": "alinma",
@@ -1083,7 +1121,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-09-08T08:05:51.118Z"
+      "updatedAt": "2026-09-09T08:09:51.204Z"
     },
     {
       "id": "alinma",
@@ -1102,7 +1140,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-09-08T08:05:51.118Z"
+      "updatedAt": "2026-09-09T08:09:51.204Z"
     },
     {
       "id": "alinma",
@@ -1121,7 +1159,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-09-08T08:05:51.118Z"
+      "updatedAt": "2026-09-09T08:09:51.204Z"
     },
     {
       "id": "alinma",
@@ -1140,7 +1178,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-09-08T08:05:51.118Z"
+      "updatedAt": "2026-09-09T08:09:51.204Z"
     },
     {
       "id": "alinma",
@@ -1159,7 +1197,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-09-08T08:05:51.118Z"
+      "updatedAt": "2026-09-09T08:09:51.204Z"
     },
     {
       "id": "alinma",
@@ -1178,7 +1216,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Inma Offer.txt",
-      "updatedAt": "2026-09-08T08:05:51.118Z"
+      "updatedAt": "2026-09-09T08:09:51.204Z"
     },
     {
       "id": "riyadh",
@@ -1197,7 +1235,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Riyadh Offer.txt",
-      "updatedAt": "2026-09-08T08:05:51.120Z"
+      "updatedAt": "2026-09-09T08:09:51.206Z"
     },
     {
       "id": "riyadh",
@@ -1216,7 +1254,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Riyadh Offer.txt",
-      "updatedAt": "2026-09-08T08:05:51.120Z"
+      "updatedAt": "2026-09-09T08:09:51.206Z"
     },
     {
       "id": "riyadh",
@@ -1235,7 +1273,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Riyadh Offer.txt",
-      "updatedAt": "2026-09-08T08:05:51.120Z"
+      "updatedAt": "2026-09-09T08:09:51.206Z"
     },
     {
       "id": "saib-آسيان-آسيان",
@@ -1256,7 +1294,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "saib-اجيو-اجيو",
@@ -1278,7 +1316,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "sabb-أكور-accor",
@@ -1299,7 +1337,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-09-08T08:05:51.120Z"
+      "updatedAt": "2026-09-09T08:09:51.207Z"
     },
     {
       "id": "saib-إل-بي-إم-إل-بي-إم",
@@ -1320,7 +1358,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "sabb-الإلكترونية-الحديثة-سوني-الإلكترونية-الحديثة-سوني",
@@ -1341,7 +1379,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-09-08T08:05:51.120Z"
+      "updatedAt": "2026-09-09T08:09:51.207Z"
     },
     {
       "id": "aljazira-التميمي-للأقمشة-التميمي-للأقمشة",
@@ -1363,7 +1401,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-09-08T08:05:51.114Z"
+      "updatedAt": "2026-09-09T08:09:51.199Z"
     },
     {
       "id": "sabb-الحلاب-1881-hallab-1881",
@@ -1385,7 +1423,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-09-08T08:05:51.120Z"
+      "updatedAt": "2026-09-09T08:09:51.207Z"
     },
     {
       "id": "anb-الركن-السويسري-الركن-السويسري",
@@ -1406,7 +1444,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-09-08T08:05:51.115Z"
+      "updatedAt": "2026-09-09T08:09:51.201Z"
     },
     {
       "id": "232",
@@ -1425,7 +1463,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.196Z"
     },
     {
       "id": "sabb-الفوزان-سنتر-alfouzan-center",
@@ -1447,7 +1485,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-09-08T08:05:51.120Z"
+      "updatedAt": "2026-09-09T08:09:51.207Z"
     },
     {
       "id": "saib-القصر-الصيني-القصر-الصيني",
@@ -1468,7 +1506,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "264",
@@ -1487,7 +1525,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "269",
@@ -1506,7 +1544,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "223",
@@ -1525,7 +1563,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.111Z"
+      "updatedAt": "2026-09-09T08:09:51.196Z"
     },
     {
       "id": "anb-إي-إم-بوكس-إي-إم-بوكس",
@@ -1547,7 +1585,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-09-08T08:05:51.115Z"
+      "updatedAt": "2026-09-09T08:09:51.201Z"
     },
     {
       "id": "anb-ايرث-كافيه-ايرث-كافيه",
@@ -1568,7 +1606,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-09-08T08:05:51.115Z"
+      "updatedAt": "2026-09-09T08:09:51.200Z"
     },
     {
       "id": "sabb-با-لا-دي-7-pala-de7",
@@ -1590,7 +1628,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-09-08T08:05:51.120Z"
+      "updatedAt": "2026-09-09T08:09:51.207Z"
     },
     {
       "id": "sabb-بادل-الرياض-riyadh-padel",
@@ -1612,7 +1650,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-09-08T08:05:51.120Z"
+      "updatedAt": "2026-09-09T08:09:51.207Z"
     },
     {
       "id": "saib-بادل-ان-بادل-ان",
@@ -1633,7 +1671,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "sabb-بادل-هب-padel-hub",
@@ -1655,7 +1693,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-09-08T08:05:51.120Z"
+      "updatedAt": "2026-09-09T08:09:51.207Z"
     },
     {
       "id": "anb-بلاي-ويل-بلاي-ويل",
@@ -1677,7 +1715,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-09-08T08:05:51.115Z"
+      "updatedAt": "2026-09-09T08:09:51.201Z"
     },
     {
       "id": "sabb-بلش-نيل-بوتيك-plush-nail-boutique",
@@ -1699,7 +1737,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-09-08T08:05:51.120Z"
+      "updatedAt": "2026-09-09T08:09:51.207Z"
     },
     {
       "id": "aljazira-بنش-هوم-بنش-هوم",
@@ -1721,7 +1759,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-09-08T08:05:51.114Z"
+      "updatedAt": "2026-09-09T08:09:51.199Z"
     },
     {
       "id": "260",
@@ -1740,7 +1778,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "saib-بول-بول",
@@ -1761,7 +1799,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "252",
@@ -1780,7 +1818,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "226",
@@ -1799,7 +1837,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.196Z"
     },
     {
       "id": "257",
@@ -1818,7 +1856,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "sabb-بيت-الشاورما-shawarma-house",
@@ -1840,7 +1878,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-09-08T08:05:51.120Z"
+      "updatedAt": "2026-09-09T08:09:51.207Z"
     },
     {
       "id": "265",
@@ -1859,7 +1897,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "saib-بيرد-بيرد",
@@ -1880,7 +1918,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "236",
@@ -1899,7 +1937,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "sabb-ترايبس-tribus",
@@ -1920,7 +1958,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-09-08T08:05:51.120Z"
+      "updatedAt": "2026-09-09T08:09:51.207Z"
     },
     {
       "id": "aljazira-تشيلك-تشيلك",
@@ -1942,7 +1980,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-09-08T08:05:51.114Z"
+      "updatedAt": "2026-09-09T08:09:51.199Z"
     },
     {
       "id": "227",
@@ -1961,7 +1999,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.196Z"
     },
     {
       "id": "anb-توب-غان-توب-غان",
@@ -1983,7 +2021,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-09-08T08:05:51.115Z"
+      "updatedAt": "2026-09-09T08:09:51.201Z"
     },
     {
       "id": "saib-توينا-توينا",
@@ -2004,7 +2042,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "sabb-تيولا-tola",
@@ -2026,7 +2064,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-09-08T08:05:51.120Z"
+      "updatedAt": "2026-09-09T08:09:51.207Z"
     },
     {
       "id": "sabb-ثنايا-كلينيك-thanaya-clinic",
@@ -2048,7 +2086,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-09-08T08:05:51.120Z"
+      "updatedAt": "2026-09-09T08:09:51.207Z"
     },
     {
       "id": "saib-جاريز-جاريز",
@@ -2069,7 +2107,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "238",
@@ -2088,7 +2126,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "saib-جست-لوفت-جست-لوفت",
@@ -2109,7 +2147,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "sabb-جيلا-jayla",
@@ -2130,7 +2168,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-09-08T08:05:51.120Z"
+      "updatedAt": "2026-09-09T08:09:51.207Z"
     },
     {
       "id": "sabb-داشن-dashn",
@@ -2152,7 +2190,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-09-08T08:05:51.120Z"
+      "updatedAt": "2026-09-09T08:09:51.207Z"
     },
     {
       "id": "254",
@@ -2171,7 +2209,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "saib-دبليو-فايف-دبليو-فايف",
@@ -2192,7 +2230,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "263",
@@ -2211,7 +2249,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "262",
@@ -2230,7 +2268,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "sabb-دلال-بوتيك-dalal-boutique",
@@ -2252,7 +2290,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-09-08T08:05:51.120Z"
+      "updatedAt": "2026-09-09T08:09:51.207Z"
     },
     {
       "id": "saib-دوز-دوز",
@@ -2273,7 +2311,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "saib-ذا-بوتشر-شوب-اند-جريل-ذا-بوتشر-شوب-اند-جريل",
@@ -2294,7 +2332,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "saib-ذا-غلوب-ذا-غلوب",
@@ -2315,7 +2353,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "aljazira-رمز-الأعمال-رمز-الأعمال",
@@ -2337,7 +2375,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-09-08T08:05:51.114Z"
+      "updatedAt": "2026-09-09T08:09:51.199Z"
     },
     {
       "id": "saib-روما-وي-روما-وي",
@@ -2358,7 +2396,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "229",
@@ -2377,7 +2415,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.196Z"
     },
     {
       "id": "aljazira-ريفي-ريفي",
@@ -2399,7 +2437,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-09-08T08:05:51.114Z"
+      "updatedAt": "2026-09-09T08:09:51.199Z"
     },
     {
       "id": "235",
@@ -2418,7 +2456,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "saib-سان-كارلو-تشيكتي-سان-كارلو-تشيكتي",
@@ -2439,7 +2477,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "233",
@@ -2458,7 +2496,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.196Z"
     },
     {
       "id": "aljazira-ستايلي-ستايلي",
@@ -2480,7 +2518,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-09-08T08:05:51.114Z"
+      "updatedAt": "2026-09-09T08:09:51.199Z"
     },
     {
       "id": "saib-ستيك-هاوس-ستيك-هاوس",
@@ -2501,7 +2539,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "saib-سكونيزا-سكونيزا",
@@ -2522,7 +2560,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "saib-سنشري-برجر-سنشري-برجر",
@@ -2543,7 +2581,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "saib-سوشال-دايننج-سوشال-دايننج",
@@ -2564,7 +2602,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "aljazira-سيفي-سيفي",
@@ -2586,7 +2624,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-09-08T08:05:51.114Z"
+      "updatedAt": "2026-09-09T08:09:51.199Z"
     },
     {
       "id": "saib-شلفن-شلتس-شلفن-شلتس",
@@ -2607,7 +2645,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "231",
@@ -2626,7 +2664,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.196Z"
     },
     {
       "id": "258",
@@ -2645,7 +2683,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "anb-صالون-أيوليت-صالون-أيوليت",
@@ -2667,7 +2705,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-09-08T08:05:51.115Z"
+      "updatedAt": "2026-09-09T08:09:51.201Z"
     },
     {
       "id": "saib-صب-واي-صب-واي",
@@ -2688,7 +2726,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "256",
@@ -2707,7 +2745,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "aljazira-عبدالغني-إرث-المجوهرات-عبدالغني-إرث-المجوهرات",
@@ -2729,7 +2767,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-09-08T08:05:51.114Z"
+      "updatedAt": "2026-09-09T08:09:51.199Z"
     },
     {
       "id": "anb-فايانا-فايانا",
@@ -2751,7 +2789,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-09-08T08:05:51.115Z"
+      "updatedAt": "2026-09-09T08:09:51.200Z"
     },
     {
       "id": "saib-فلامنجو-روم-فلامنجو-روم",
@@ -2772,7 +2810,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "sabb-فلاور-ادرس-flower-address",
@@ -2794,7 +2832,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-09-08T08:05:51.120Z"
+      "updatedAt": "2026-09-09T08:09:51.207Z"
     },
     {
       "id": "anb-فلورينا-فلورينا",
@@ -2816,7 +2854,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-09-08T08:05:51.115Z"
+      "updatedAt": "2026-09-09T08:09:51.201Z"
     },
     {
       "id": "anb-فندق-ميسان-رحاب-المسك-فندق-ميسان-رحاب-المسك",
@@ -2838,7 +2876,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-09-08T08:05:51.115Z"
+      "updatedAt": "2026-09-09T08:09:51.201Z"
     },
     {
       "id": "saib-فوغو-دي-تشاو-فوغو-دي-تشاو",
@@ -2859,7 +2897,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "251",
@@ -2878,7 +2916,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "saib-فيفث-سيزون-فيفث-سيزون",
@@ -2899,7 +2937,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "anb-فيكت-هوم-فيكت-هوم",
@@ -2921,7 +2959,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-09-08T08:05:51.115Z"
+      "updatedAt": "2026-09-09T08:09:51.201Z"
     },
     {
       "id": "saib-فينكي-فينكي",
@@ -2942,7 +2980,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "saib-كانتون-كانتون",
@@ -2963,7 +3001,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "anb-كت-اند-كوت-كت-اند-كوت",
@@ -2985,7 +3023,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-09-08T08:05:51.115Z"
+      "updatedAt": "2026-09-09T08:09:51.201Z"
     },
     {
       "id": "259",
@@ -3004,7 +3042,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "anb-كراما-يوغا-كراما-يوغا",
@@ -3026,7 +3064,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-09-08T08:05:51.115Z"
+      "updatedAt": "2026-09-09T08:09:51.201Z"
     },
     {
       "id": "saib-كرك-غلامور-كرك-غلامور",
@@ -3047,7 +3085,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "247",
@@ -3066,7 +3104,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "saib-كلتشر-كلتشر",
@@ -3087,7 +3125,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "245",
@@ -3106,7 +3144,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "saib-لو-سوليه-لو-سوليه",
@@ -3127,7 +3165,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "253",
@@ -3146,7 +3184,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "saib-ماما-بنز-ماما-بنز",
@@ -3167,7 +3205,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "anb-مانترا-سبا-مانترا-سبا",
@@ -3189,7 +3227,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-09-08T08:05:51.115Z"
+      "updatedAt": "2026-09-09T08:09:51.200Z"
     },
     {
       "id": "250",
@@ -3208,7 +3246,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "266",
@@ -3227,7 +3265,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "anb-مزرود-مزرود",
@@ -3249,7 +3287,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-09-08T08:05:51.115Z"
+      "updatedAt": "2026-09-09T08:09:51.201Z"
     },
     {
       "id": "anb-مقهى-ومحمصة-سويل-مقهى-ومحمصة-سويل",
@@ -3271,7 +3309,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-09-08T08:05:51.115Z"
+      "updatedAt": "2026-09-09T08:09:51.201Z"
     },
     {
       "id": "saib-مقهى-ومحمصة-شرق-مقهى-ومحمصة-شرق",
@@ -3292,7 +3330,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "saib-مكرونة-فورنو-مكرونة-فورنو",
@@ -3313,7 +3351,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "aljazira-مكعب-مكعب",
@@ -3335,7 +3373,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-09-08T08:05:51.114Z"
+      "updatedAt": "2026-09-09T08:09:51.199Z"
     },
     {
       "id": "saib-ميز-ميز",
@@ -3356,7 +3394,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "anb-نادي-إلكسير-النسائي-نادي-إلكسير-النسائي",
@@ -3378,7 +3416,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-09-08T08:05:51.115Z"
+      "updatedAt": "2026-09-09T08:09:51.201Z"
     },
     {
       "id": "saib-نجمة-نجمة",
@@ -3399,7 +3437,7 @@
       ],
       "isExpired": false,
       "sourceFile": "Saib.txt",
-      "updatedAt": "2026-09-08T08:05:51.121Z"
+      "updatedAt": "2026-09-09T08:09:51.208Z"
     },
     {
       "id": "sabb-نمشي-namshi",
@@ -3420,7 +3458,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-09-08T08:05:51.120Z"
+      "updatedAt": "2026-09-09T08:09:51.207Z"
     },
     {
       "id": "aljazira-نور-غاليري-نور-غاليري",
@@ -3442,7 +3480,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-09-08T08:05:51.114Z"
+      "updatedAt": "2026-09-09T08:09:51.199Z"
     },
     {
       "id": "246",
@@ -3461,7 +3499,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "anb-هنقرستيشن-هنقرستيشن",
@@ -3482,7 +3520,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-09-08T08:05:51.115Z"
+      "updatedAt": "2026-09-09T08:09:51.200Z"
     },
     {
       "id": "aljazira-هنقرستيشن-رمضان-هنقرستيشن",
@@ -3503,7 +3541,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-09-08T08:05:51.113Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "anb-هوبو-هوبو",
@@ -3525,7 +3563,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ANB.txt",
-      "updatedAt": "2026-09-08T08:05:51.115Z"
+      "updatedAt": "2026-09-09T08:09:51.201Z"
     },
     {
       "id": "241",
@@ -3544,7 +3582,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "267",
@@ -3563,7 +3601,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "244",
@@ -3582,7 +3620,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "sabb-brands-for-less-brands-for-less",
@@ -3603,7 +3641,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-09-08T08:05:51.120Z"
+      "updatedAt": "2026-09-09T08:09:51.207Z"
     },
     {
       "id": "sabb-cartlow-cartlow",
@@ -3625,7 +3663,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-09-08T08:05:51.120Z"
+      "updatedAt": "2026-09-09T08:09:51.207Z"
     },
     {
       "id": "enbd-el-n-london-el-n-london",
@@ -3647,7 +3685,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ENBD.txt",
-      "updatedAt": "2026-09-08T08:05:51.117Z"
+      "updatedAt": "2026-09-09T08:09:51.203Z"
     },
     {
       "id": "255",
@@ -3666,7 +3704,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "228",
@@ -3685,7 +3723,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.196Z"
     },
     {
       "id": "261",
@@ -3704,7 +3742,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "sabb-flyin-flyin",
@@ -3726,7 +3764,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-09-08T08:05:51.120Z"
+      "updatedAt": "2026-09-09T08:09:51.207Z"
     },
     {
       "id": "270",
@@ -3745,7 +3783,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "248",
@@ -3764,7 +3802,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "225",
@@ -3783,7 +3821,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.196Z"
     },
     {
       "id": "239",
@@ -3802,7 +3840,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "enbd-jon-vinnys-jon-vinnys",
@@ -3823,7 +3861,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ENBD.txt",
-      "updatedAt": "2026-09-08T08:05:51.117Z"
+      "updatedAt": "2026-09-09T08:09:51.203Z"
     },
     {
       "id": "sabb-jones-the-grocer-jones-the-grocer",
@@ -3845,7 +3883,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-09-08T08:05:51.120Z"
+      "updatedAt": "2026-09-09T08:09:51.207Z"
     },
     {
       "id": "enbd-lulu-hypermarket-lulu-hypermarket",
@@ -3866,7 +3904,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ENBD.txt",
-      "updatedAt": "2026-09-08T08:05:51.117Z"
+      "updatedAt": "2026-09-09T08:09:51.203Z"
     },
     {
       "id": "enbd-lunch-in-a-box-lunch-in-a-box",
@@ -3888,7 +3926,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ENBD.txt",
-      "updatedAt": "2026-09-08T08:05:51.117Z"
+      "updatedAt": "2026-09-09T08:09:51.203Z"
     },
     {
       "id": "242",
@@ -3907,7 +3945,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "243",
@@ -3926,7 +3964,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "237",
@@ -3945,7 +3983,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "sabb-out-of-line-out-of-line",
@@ -3967,7 +4005,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-09-08T08:05:51.120Z"
+      "updatedAt": "2026-09-09T08:09:51.207Z"
     },
     {
       "id": "sabb-pieces-pieces",
@@ -3989,7 +4027,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-09-08T08:05:51.120Z"
+      "updatedAt": "2026-09-09T08:09:51.207Z"
     },
     {
       "id": "268",
@@ -4008,7 +4046,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "224",
@@ -4027,7 +4065,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.196Z"
     },
     {
       "id": "sabb-the-untitled-project-the-untitled-project",
@@ -4049,7 +4087,7 @@
       ],
       "isExpired": false,
       "sourceFile": "SABB.txt",
-      "updatedAt": "2026-09-08T08:05:51.120Z"
+      "updatedAt": "2026-09-09T08:09:51.207Z"
     },
     {
       "id": "aljazira-trendyol-trendyol",
@@ -4070,7 +4108,7 @@
       ],
       "isExpired": false,
       "sourceFile": "AlJazira.txt",
-      "updatedAt": "2026-09-08T08:05:51.114Z"
+      "updatedAt": "2026-09-09T08:09:51.199Z"
     },
     {
       "id": "249",
@@ -4089,7 +4127,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "enbd-truffleers-truffleers",
@@ -4111,7 +4149,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ENBD.txt",
-      "updatedAt": "2026-09-08T08:05:51.117Z"
+      "updatedAt": "2026-09-09T08:09:51.203Z"
     },
     {
       "id": "234",
@@ -4130,7 +4168,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "enbd-voco-riyadh-voco-riyadh",
@@ -4152,7 +4190,7 @@
       ],
       "isExpired": false,
       "sourceFile": "ENBD.txt",
-      "updatedAt": "2026-09-08T08:05:51.117Z"
+      "updatedAt": "2026-09-09T08:09:51.203Z"
     },
     {
       "id": "230",
@@ -4171,7 +4209,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.196Z"
     },
     {
       "id": "240",
@@ -4190,7 +4228,7 @@
       "tags": [],
       "isExpired": false,
       "sourceFile": "Ahli.txt",
-      "updatedAt": "2026-09-08T08:05:51.112Z"
+      "updatedAt": "2026-09-09T08:09:51.197Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-locator",
@@ -4209,7 +4247,7 @@
       "tags": [],
       "isExpired": true,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-contactus-bsf-care",
@@ -4228,7 +4266,7 @@
       "tags": [],
       "isExpired": true,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-faq",
@@ -4247,7 +4285,7 @@
       "tags": [],
       "isExpired": true,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "alrajhi-مسابقة-الصيف-مع-سوار",
@@ -4266,7 +4304,7 @@
       "tags": [],
       "isExpired": true,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-09-08T08:05:51.119Z"
+      "updatedAt": "2026-09-09T08:09:51.206Z"
     },
     {
       "id": "alrajhi-كون-زون",
@@ -4285,7 +4323,7 @@
       "tags": [],
       "isExpired": true,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-09-08T08:05:51.119Z"
+      "updatedAt": "2026-09-09T08:09:51.205Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-visa-buyers-protection",
@@ -4304,7 +4342,7 @@
       "tags": [],
       "isExpired": true,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-mastercard-platinum",
@@ -4323,7 +4361,7 @@
       "tags": [],
       "isExpired": true,
       "sourceFile": "BSF.txt",
-      "updatedAt": "2026-09-08T08:05:51.116Z"
+      "updatedAt": "2026-09-09T08:09:51.202Z"
     },
     {
       "id": "alrajhi-6th-street",
@@ -4342,7 +4380,7 @@
       "tags": [],
       "isExpired": true,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-09-08T08:05:51.119Z"
+      "updatedAt": "2026-09-09T08:09:51.205Z"
     },
     {
       "id": "alrajhi-هوم-سنتر",
@@ -4361,7 +4399,7 @@
       "tags": [],
       "isExpired": true,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-09-08T08:05:51.119Z"
+      "updatedAt": "2026-09-09T08:09:51.205Z"
     },
     {
       "id": "alrajhi-بطاقة-الفرسان-الائتمانية",
@@ -4380,7 +4418,7 @@
       "tags": [],
       "isExpired": true,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-09-08T08:05:51.119Z"
+      "updatedAt": "2026-09-09T08:09:51.205Z"
     },
     {
       "id": "alrajhi-بطاقة-الفرسان-الائتمانية",
@@ -4399,7 +4437,7 @@
       "tags": [],
       "isExpired": true,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-09-08T08:05:51.119Z"
+      "updatedAt": "2026-09-09T08:09:51.206Z"
     },
     {
       "id": "alrajhi-هوم-بوكس",
@@ -4418,7 +4456,7 @@
       "tags": [],
       "isExpired": true,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-09-08T08:05:51.119Z"
+      "updatedAt": "2026-09-09T08:09:51.205Z"
     },
     {
       "id": "alrajhi-فندق-المناخة-روتانا-المدينة",
@@ -4437,7 +4475,7 @@
       "tags": [],
       "isExpired": true,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-09-08T08:05:51.119Z"
+      "updatedAt": "2026-09-09T08:09:51.206Z"
     },
     {
       "id": "alrajhi-النهدي",
@@ -4456,7 +4494,7 @@
       "tags": [],
       "isExpired": true,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-09-08T08:05:51.119Z"
+      "updatedAt": "2026-09-09T08:09:51.205Z"
     },
     {
       "id": "alrajhi-6th-street",
@@ -4475,7 +4513,7 @@
       "tags": [],
       "isExpired": true,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-09-08T08:05:51.119Z"
+      "updatedAt": "2026-09-09T08:09:51.205Z"
     },
     {
       "id": "alrajhi-عبداللطيف-جميل",
@@ -4494,7 +4532,7 @@
       "tags": [],
       "isExpired": true,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-09-08T08:05:51.119Z"
+      "updatedAt": "2026-09-09T08:09:51.205Z"
     },
     {
       "id": "alrajhi-عبداللطيف-جميل",
@@ -4513,7 +4551,7 @@
       "tags": [],
       "isExpired": true,
       "sourceFile": "Rajhi.txt",
-      "updatedAt": "2026-09-08T08:05:51.119Z"
+      "updatedAt": "2026-09-09T08:09:51.205Z"
     }
   ]
 }
