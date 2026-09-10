@@ -9,9 +9,9 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-09-09",
+  "lastChecked": "2026-09-10",
   "fetchedCount": 44,
-  "previousCount": 42,
+  "previousCount": 44,
   "offers": [
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-extra",
@@ -45,23 +45,6 @@
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/travel/smart-holidays",
       "imageUrl": "https://bsf.sa/ContentFiles/13097Image.jpg",
-      "source": "bsf-offers-pages-scraper"
-    },
-    {
-      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-live-well-sisley-paris",
-      "merchant": "Sisley Paris",
-      "title": "سيسلي باريس",
-      "category": "كل العروض",
-      "discount": "خصم 25%",
-      "cards": [],
-      "cardText": "",
-      "promoCode": null,
-      "expiryDate": "2027-02-01",
-      "status": "active",
-      "notes": "استمتع بخصم 25% سيسلي باريس عند الدفع ببطاقات البنك السعودي الفرنسي المؤهلة BSF الائتمانية ومدى",
-      "terms": [],
-      "link": "https://bsf.sa/arabic/personal/cards/offers/live-well/sisley-paris",
-      "imageUrl": "https://bsf.sa/ContentFiles/13095Image.jpg",
       "source": "bsf-offers-pages-scraper"
     },
     {
@@ -147,6 +130,23 @@
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/restaurants/bbeirut",
       "imageUrl": "https://bsf.sa/ContentFiles/13077Image.png",
+      "source": "bsf-offers-pages-scraper"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-paul",
+      "merchant": "Paul",
+      "title": "Paul",
+      "category": "كل العروض",
+      "discount": "خصم 15%",
+      "cards": [],
+      "cardText": "",
+      "promoCode": null,
+      "expiryDate": "2027-03-01",
+      "status": "active",
+      "notes": "استمتع بخصم %15 لدى مطعم بول عند الدفع ببطاقات البنك السعودي الفرنسي المؤهلة BSF الائتمانية ومدى",
+      "terms": [],
+      "link": "https://bsf.sa/arabic/personal/cards/offers/restaurants/paul",
+      "imageUrl": "https://bsf.sa/ContentFiles/13076Image.png",
       "source": "bsf-offers-pages-scraper"
     },
     {
