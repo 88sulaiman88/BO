@@ -9,7 +9,7 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-09-14",
+  "lastChecked": "2026-09-15",
   "fetchedCount": 44,
   "previousCount": 44,
   "offers": [
@@ -45,23 +45,6 @@
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/sharaf-dg",
       "imageUrl": "https://bsf.sa/ContentFiles/13112Image.jpg",
-      "source": "bsf-offers-pages-scraper"
-    },
-    {
-      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-extra",
-      "merchant": "eXtra",
-      "title": "eXtra",
-      "category": "كل العروض",
-      "discount": "استرداد نقدي",
-      "cards": [],
-      "cardText": "",
-      "promoCode": null,
-      "expiryDate": "2026-09-10",
-      "status": "active",
-      "notes": "احصل على خصم فوري 15% على المنتجات المؤهلة ضمن فئة العودة للمدارس لدى اكسترا",
-      "terms": [],
-      "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/extra",
-      "imageUrl": "https://bsf.sa/ContentFiles/13107Image.jpg",
       "source": "bsf-offers-pages-scraper"
     },
     {
@@ -147,6 +130,23 @@
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/restaurants/olive-garden",
       "imageUrl": "https://bsf.sa/ContentFiles/13078Image.png",
+      "source": "bsf-offers-pages-scraper"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-bbeirut",
+      "merchant": "B.Beirut",
+      "title": "B.Beirut",
+      "category": "كل العروض",
+      "discount": "خصم 30%",
+      "cards": [],
+      "cardText": "",
+      "promoCode": null,
+      "expiryDate": "2027-02-17",
+      "status": "active",
+      "notes": "استمتع بخصم 30% لدى مطاعم B.Beirut عند الدفع ببطاقات البنك السعودي الفرنسي BSF الائتمانية ومدى",
+      "terms": [],
+      "link": "https://bsf.sa/arabic/personal/cards/offers/restaurants/bbeirut",
+      "imageUrl": "https://bsf.sa/ContentFiles/13077Image.png",
       "source": "bsf-offers-pages-scraper"
     },
     {
