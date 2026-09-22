@@ -9,10 +9,27 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-09-21",
+  "lastChecked": "2026-09-22",
   "fetchedCount": 44,
   "previousCount": 44,
   "offers": [
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-noon",
+      "merchant": "نون",
+      "title": "نون",
+      "category": "كل العروض",
+      "discount": "خصم 23%",
+      "cards": [],
+      "cardText": "",
+      "promoCode": null,
+      "expiryDate": "2026-09-25",
+      "status": "active",
+      "notes": "خصم 23% على Noon.com وSupermall وNoon Minutes عند الدفع باستخدام بطاقات BSF.",
+      "terms": [],
+      "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/noon",
+      "imageUrl": "https://bsf.sa/ContentFiles/13115Image.jpg",
+      "source": "bsf-offers-pages-scraper"
+    },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-saco",
       "merchant": "ساكو",
@@ -130,23 +147,6 @@
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/aleesayi-kids",
       "imageUrl": "https://bsf.sa/ContentFiles/13081Image.png",
-      "source": "bsf-offers-pages-scraper"
-    },
-    {
-      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-olive-garden",
-      "merchant": "Olive Garden",
-      "title": "Olive Garden",
-      "category": "كل العروض",
-      "discount": "خصم 10%",
-      "cards": [],
-      "cardText": "",
-      "promoCode": null,
-      "expiryDate": "2027-02-20",
-      "status": "active",
-      "notes": "استمتع 10% لدى مطاعم Olive Graden عند الدفع ببطاقات البنك السعودي الفرنسي BSF الائتمانية ومدى",
-      "terms": [],
-      "link": "https://bsf.sa/arabic/personal/cards/offers/restaurants/olive-garden",
-      "imageUrl": "https://bsf.sa/ContentFiles/13078Image.png",
       "source": "bsf-offers-pages-scraper"
     },
     {
@@ -303,6 +303,23 @@
       "source": "bsf-offers-pages-scraper"
     },
     {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-travel-makemytrip",
+      "merchant": "ميك ماي تريب",
+      "title": "ميك ماي تريب",
+      "category": "السفر",
+      "discount": "خصم يصل إلى 23%",
+      "cards": [],
+      "cardText": "",
+      "promoCode": null,
+      "expiryDate": "2026-09-30",
+      "status": "active",
+      "notes": "خصم يصل إلى 23% على الفنادق الدولية عبر ميك ماي تريب حتى 30 سبتمبر ببطاقة البنك السعودي الفرنسي",
+      "terms": [],
+      "link": "https://bsf.sa/arabic/personal/cards/offers/travel/makemytrip",
+      "imageUrl": "https://bsf.sa/ContentFiles/13040Image.jpg",
+      "source": "bsf-offers-pages-scraper"
+    },
+    {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-travel-drivado",
       "merchant": "Drivado",
       "title": "Drivado",
@@ -317,23 +334,6 @@
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/travel/drivado",
       "imageUrl": "https://bsf.sa/ContentFiles/13062Image.jpg",
-      "source": "bsf-offers-pages-scraper"
-    },
-    {
-      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-travel-emirates-holidays",
-      "merchant": "Emirates Holidays",
-      "title": "Emirates Holidays",
-      "category": "السفر",
-      "discount": "خصم 5%",
-      "cards": [],
-      "cardText": "",
-      "promoCode": null,
-      "expiryDate": "2026-09-30",
-      "status": "active",
-      "notes": "خصم 5% من Emirates Holidays",
-      "terms": [],
-      "link": "https://bsf.sa/arabic/personal/cards/offers/travel/emirates-holidays",
-      "imageUrl": "https://bsf.sa/ContentFiles/13070Image.jpg",
       "source": "bsf-offers-pages-scraper"
     },
     {
