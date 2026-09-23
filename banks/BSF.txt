@@ -9,10 +9,27 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-09-22",
+  "lastChecked": "2026-09-23",
   "fetchedCount": 44,
   "previousCount": 44,
   "offers": [
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-amazon",
+      "merchant": "أمازون",
+      "title": "أمازون",
+      "category": "كل العروض",
+      "discount": "خصم يصل إلى 25%",
+      "cards": [],
+      "cardText": "",
+      "promoCode": null,
+      "expiryDate": "2026-09-30",
+      "status": "active",
+      "notes": "احصل على خصم يصل إلى 25% لدى أمازون السعودية عند الدفع ببطاقات البنك السعودي الفرنسي الائتمانية",
+      "terms": [],
+      "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/amazon",
+      "imageUrl": "https://bsf.sa/ContentFiles/13120Image.png",
+      "source": "bsf-offers-pages-scraper"
+    },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-noon",
       "merchant": "نون",
@@ -130,23 +147,6 @@
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/live-well/enhance-fitness",
       "imageUrl": "https://bsf.sa/ContentFiles/13084Image.jpg",
-      "source": "bsf-offers-pages-scraper"
-    },
-    {
-      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-aleesayi-kids",
-      "merchant": "العيسائي للأطفال",
-      "title": "العيسائي للأطفال",
-      "category": "كل العروض",
-      "discount": "خصم 10%",
-      "cards": [],
-      "cardText": "",
-      "promoCode": null,
-      "expiryDate": "2026-11-10",
-      "status": "active",
-      "notes": "استمتع بخصم 10% محلات العيسائي للاطفال عند الدفع ببطاقات البنك السعودي الفرنسي المؤهلة BSF الائتمانية ومدى",
-      "terms": [],
-      "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/aleesayi-kids",
-      "imageUrl": "https://bsf.sa/ContentFiles/13081Image.png",
       "source": "bsf-offers-pages-scraper"
     },
     {
