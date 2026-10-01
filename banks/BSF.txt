@@ -9,14 +9,14 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-09-30",
+  "lastChecked": "2026-10-01",
   "fetchedCount": 44,
   "previousCount": 44,
   "offers": [
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-albagshi-gold",
-      "merchant": "Albagshi Gold",
-      "title": "Albagshi Gold",
+      "merchant": "البقشي للذهب",
+      "title": "البقشي للذهب",
       "category": "كل العروض",
       "discount": "خصم 7%",
       "cards": [],
