@@ -9,10 +9,27 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-10-04",
+  "lastChecked": "2026-10-05",
   "fetchedCount": 44,
   "previousCount": 44,
   "offers": [
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-entertainment-moshrfa-equestrian-retreat",
+      "merchant": "منتجع مُشرفة للفروسية",
+      "title": "منتجع مُشرفة للفروسية",
+      "category": "كل العروض",
+      "discount": "خصم 10%",
+      "cards": [],
+      "cardText": "",
+      "promoCode": null,
+      "expiryDate": "2027-08-15",
+      "status": "active",
+      "notes": "احصل على خصم 10% لدى منتجع مُشرفة للفروسية عند استخدامك بطاقات البنك السعودي الفرنسي مدى او الائتمانية",
+      "terms": [],
+      "link": "https://bsf.sa/arabic/personal/cards/offers/entertainment/moshrfa-equestrian-retreat",
+      "imageUrl": "https://bsf.sa/ContentFiles/13124Image.jpg",
+      "source": "bsf-offers-pages-scraper"
+    },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-albagshi-gold",
       "merchant": "البقشي للذهب",
@@ -130,23 +147,6 @@
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/aleesayi-kids",
       "imageUrl": "https://bsf.sa/ContentFiles/13081Image.png",
-      "source": "bsf-offers-pages-scraper"
-    },
-    {
-      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-olive-garden",
-      "merchant": "Olive Garden",
-      "title": "Olive Garden",
-      "category": "كل العروض",
-      "discount": "خصم 10%",
-      "cards": [],
-      "cardText": "",
-      "promoCode": null,
-      "expiryDate": "2027-02-20",
-      "status": "active",
-      "notes": "استمتع 10% لدى مطاعم Olive Graden عند الدفع ببطاقات البنك السعودي الفرنسي BSF الائتمانية ومدى",
-      "terms": [],
-      "link": "https://bsf.sa/arabic/personal/cards/offers/restaurants/olive-garden",
-      "imageUrl": "https://bsf.sa/ContentFiles/13078Image.png",
       "source": "bsf-offers-pages-scraper"
     },
     {
