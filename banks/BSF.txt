@@ -9,7 +9,7 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-10-30",
+  "lastChecked": "2026-10-31",
   "fetchedCount": 44,
   "previousCount": 44,
   "offers": [
@@ -129,7 +129,7 @@
       "notes": "استمتع بخصم 12% سمارت هوليدايز عند الدفع ببطاقات البنك السعودي الفرنسي المؤهلة BSF الائتمانية ومدى",
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/travel/smart-holidays",
-      "imageUrl": "https://bsf.sa/ContentFiles/13097Image.jpg?",
+      "imageUrl": "https://bsf.sa/ContentFiles/13097Image.jpg",
       "source": "bsf-offers-pages-scraper"
     },
     {
