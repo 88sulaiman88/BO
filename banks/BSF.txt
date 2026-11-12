@@ -9,7 +9,7 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-11-11",
+  "lastChecked": "2026-11-12",
   "fetchedCount": 44,
   "previousCount": 44,
   "offers": [
@@ -248,7 +248,7 @@
       "notes": "خصم 20% مع بطاقات BSF الائتمانية عند الدفع في RBG Grill Restaurant",
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/travel/rbg-grill-restaurant",
-      "imageUrl": "https://bsf.sa/ContentFiles/12925Image.png",
+      "imageUrl": "https://bsf.sa/ContentFiles/12925Image.png?",
       "source": "bsf-offers-pages-scraper"
     },
     {
