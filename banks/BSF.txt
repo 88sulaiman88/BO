@@ -9,10 +9,27 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-11-18",
+  "lastChecked": "2026-11-19",
   "fetchedCount": 44,
   "previousCount": 44,
   "offers": [
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-aliexpress",
+      "merchant": "AliExpress",
+      "title": "AliExpress",
+      "category": "كل العروض",
+      "discount": "",
+      "cards": [],
+      "cardText": "",
+      "promoCode": null,
+      "expiryDate": "2026-11-25",
+      "status": "active",
+      "notes": "عروض AliExpress لعملاء بطاقات الائتمان",
+      "terms": [],
+      "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/aliexpress",
+      "imageUrl": "https://bsf.sa/ContentFiles/13183Image.png",
+      "source": "bsf-offers-pages-scraper"
+    },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-travel-qatar-airways",
       "merchant": "الخطوط الجوية القطرية",
@@ -130,23 +147,6 @@
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/travel/smart-holidays",
       "imageUrl": "https://bsf.sa/ContentFiles/13097Image.jpg",
-      "source": "bsf-offers-pages-scraper"
-    },
-    {
-      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-namu",
-      "merchant": "Namu",
-      "title": "Namu",
-      "category": "كل العروض",
-      "discount": "خصم 15%",
-      "cards": [],
-      "cardText": "",
-      "promoCode": null,
-      "expiryDate": "2027-02-01",
-      "status": "active",
-      "notes": "استمتع بخصم 15% نامو عند الدفع ببطاقات البنك السعودي الفرنسي المؤهلة BSF الائتمانية ومدى",
-      "terms": [],
-      "link": "https://bsf.sa/arabic/personal/cards/offers/restaurants/namu",
-      "imageUrl": "https://bsf.sa/ContentFiles/13094Image.jpg",
       "source": "bsf-offers-pages-scraper"
     },
     {
