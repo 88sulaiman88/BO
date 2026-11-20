@@ -9,7 +9,7 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-11-19",
+  "lastChecked": "2026-11-20",
   "fetchedCount": 44,
   "previousCount": 44,
   "offers": [
@@ -28,6 +28,23 @@
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/aliexpress",
       "imageUrl": "https://bsf.sa/ContentFiles/13183Image.png",
+      "source": "bsf-offers-pages-scraper"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-restaurants-calo",
+      "merchant": "كالو",
+      "title": "كالو",
+      "category": "كل العروض",
+      "discount": "خصم 20%",
+      "cards": [],
+      "cardText": "",
+      "promoCode": null,
+      "expiryDate": "2026-11-26",
+      "status": "active",
+      "notes": "احصل على خصم 20% لدى كالو عند استخدام بطاقات BSF الائتمانية ومدى كوسيلة دفع",
+      "terms": [],
+      "link": "https://bsf.sa/arabic/personal/cards/offers/restaurants/calo",
+      "imageUrl": "https://bsf.sa/ContentFiles/13182Image.jpg",
       "source": "bsf-offers-pages-scraper"
     },
     {
@@ -130,23 +147,6 @@
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/albagshi-gold",
       "imageUrl": "https://bsf.sa/ContentFiles/13121Image.jpg",
-      "source": "bsf-offers-pages-scraper"
-    },
-    {
-      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-travel-smart-holidays",
-      "merchant": "سمارت هوليدايز",
-      "title": "سمارت هوليدايز",
-      "category": "كل العروض",
-      "discount": "خصم 12%",
-      "cards": [],
-      "cardText": "",
-      "promoCode": null,
-      "expiryDate": "2027-01-20",
-      "status": "active",
-      "notes": "استمتع بخصم 12% سمارت هوليدايز عند الدفع ببطاقات البنك السعودي الفرنسي المؤهلة BSF الائتمانية ومدى",
-      "terms": [],
-      "link": "https://bsf.sa/arabic/personal/cards/offers/travel/smart-holidays",
-      "imageUrl": "https://bsf.sa/ContentFiles/13097Image.jpg",
       "source": "bsf-offers-pages-scraper"
     },
     {
