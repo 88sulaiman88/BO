@@ -9,7 +9,7 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-11-23",
+  "lastChecked": "2026-11-24",
   "fetchedCount": 44,
   "previousCount": 44,
   "offers": [
@@ -490,23 +490,6 @@
       "source": "bsf-offers-pages-scraper"
     },
     {
-      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-amazon-prime",
-      "merchant": "أمازون برايم",
-      "title": "أمازون برايم",
-      "category": "التسوق",
-      "discount": "",
-      "cards": [],
-      "cardText": "",
-      "promoCode": null,
-      "expiryDate": "2026-10-30",
-      "status": "active",
-      "notes": "استمتع بفترة تصل إلى ٦ أشهر على أمازون برايم مع بطاقة ماستركارد من BSF.",
-      "terms": [],
-      "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/amazon-prime",
-      "imageUrl": "https://bsf.sa/ContentFiles/11599Image.png",
-      "source": "bsf-offers-pages-scraper"
-    },
-    {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-mastercard-platinum",
       "merchant": "ماستركارد بلاتينيوم الائتمانية",
       "title": "ماستركارد بلاتينيوم الائتمانية",
@@ -606,6 +589,23 @@
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/dettaglio-auto",
       "imageUrl": "https://bsf.sa/ContentFiles/12943Image.png",
+      "source": "bsf-offers-pages-scraper"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-natural-touch",
+      "merchant": "Natural Touch",
+      "title": "Natural Touch",
+      "category": "التسوق",
+      "discount": "خصم 25%",
+      "cards": [],
+      "cardText": "",
+      "promoCode": null,
+      "expiryDate": "2027-03-24",
+      "status": "active",
+      "notes": "احصل على خصم 25% في Natural Touch\nعند استخدام بطاقات BSF الائتمانية",
+      "terms": [],
+      "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/natural-touch",
+      "imageUrl": "https://bsf.sa/ContentFiles/12944Image.png",
       "source": "bsf-offers-pages-scraper"
     },
     {
