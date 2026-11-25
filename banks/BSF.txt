@@ -9,10 +9,27 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-11-24",
+  "lastChecked": "2026-11-25",
   "fetchedCount": 44,
   "previousCount": 44,
   "offers": [
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-live-well-nahdi",
+      "merchant": "النهدي",
+      "title": "النهدي",
+      "category": "كل العروض",
+      "discount": "خصم 25%",
+      "cards": [],
+      "cardText": "",
+      "promoCode": null,
+      "expiryDate": "2026-12-05",
+      "status": "active",
+      "notes": "احصل على خصم 25% لدى النهدي، بحد أقصى 250 ريال عند الشراء بقيمة 200 ريال أو أكثر، عند الدفع بالبطاقات الائتمانية والبطاقات مسبقة الدفع من البنك السعودي الفرنسي.",
+      "terms": [],
+      "link": "https://bsf.sa/arabic/personal/cards/offers/live-well/nahdi",
+      "imageUrl": "https://bsf.sa/ContentFiles/13187Image.png",
+      "source": "bsf-offers-pages-scraper"
+    },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-aliexpress",
       "merchant": "AliExpress",
@@ -130,23 +147,6 @@
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/entertainment/moshrfa-equestrian-retreat",
       "imageUrl": "https://bsf.sa/ContentFiles/13124Image.jpg",
-      "source": "bsf-offers-pages-scraper"
-    },
-    {
-      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-albagshi-gold",
-      "merchant": "البقشي للذهب",
-      "title": "البقشي للذهب",
-      "category": "كل العروض",
-      "discount": "خصم 7%",
-      "cards": [],
-      "cardText": "",
-      "promoCode": null,
-      "expiryDate": "2026-12-31",
-      "status": "active",
-      "notes": "احصل على خصم 7% لدى محلات البقشي للذهب عند استخدامك بطاقات البنك السعودي الفرنسي الائتمانية فقط",
-      "terms": [],
-      "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/albagshi-gold",
-      "imageUrl": "https://bsf.sa/ContentFiles/13121Image.jpg",
       "source": "bsf-offers-pages-scraper"
     },
     {
@@ -541,6 +541,23 @@
       "source": "bsf-offers-pages-scraper"
     },
     {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-iherb",
+      "merchant": "أيهيرب",
+      "title": "أيهيرب",
+      "category": "التسوق",
+      "discount": "",
+      "cards": [],
+      "cardText": "",
+      "promoCode": null,
+      "expiryDate": "2026-12-15",
+      "status": "active",
+      "notes": "احصل على خصم إضافي 30% لدى iHerb باستخدام الرمز الترويجي BSF30، بحد أقصى 350 ريال على الطلبات بقيمة 500 ريال أو أكثر، عند الدفع بالبطاقات الائتمانية من البنك السعودي الفرنسي.",
+      "terms": [],
+      "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/iherb",
+      "imageUrl": "https://bsf.sa/ContentFiles/12317Image.jpg",
+      "source": "bsf-offers-pages-scraper"
+    },
+    {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-little-flora",
       "merchant": "ليتل فلورا",
       "title": "ليتل فلورا",
@@ -589,23 +606,6 @@
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/dettaglio-auto",
       "imageUrl": "https://bsf.sa/ContentFiles/12943Image.png",
-      "source": "bsf-offers-pages-scraper"
-    },
-    {
-      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-natural-touch",
-      "merchant": "Natural Touch",
-      "title": "Natural Touch",
-      "category": "التسوق",
-      "discount": "خصم 25%",
-      "cards": [],
-      "cardText": "",
-      "promoCode": null,
-      "expiryDate": "2027-03-24",
-      "status": "active",
-      "notes": "احصل على خصم 25% في Natural Touch\nعند استخدام بطاقات BSF الائتمانية",
-      "terms": [],
-      "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/natural-touch",
-      "imageUrl": "https://bsf.sa/ContentFiles/12944Image.png",
       "source": "bsf-offers-pages-scraper"
     },
     {
