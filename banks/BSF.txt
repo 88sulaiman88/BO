@@ -9,10 +9,27 @@
     "https://bsf.sa/arabic/personal/cards/offers/restaurants",
     "https://bsf.sa/arabic/personal/cards/offers/entertainment"
   ],
-  "lastChecked": "2026-11-25",
-  "fetchedCount": 44,
+  "lastChecked": "2026-11-26",
+  "fetchedCount": 45,
   "previousCount": 44,
   "offers": [
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-shopping-extra",
+      "merchant": "إكسترا",
+      "title": "إكسترا",
+      "category": "كل العروض",
+      "discount": "",
+      "cards": [],
+      "cardText": "",
+      "promoCode": null,
+      "expiryDate": "2026-12-05",
+      "status": "active",
+      "notes": "احصل على خصم إضافي 20% لدى إكسترا على أسعار الجمعة البيضاء، بحد أقصى 250 ريال لكل عملية شراء على المنتجات التي يبلغ سعرها 300 ريال أو أكثر، عند الدفع بالبطاقات الائتمانية من البنك السعودي الفرنسي.",
+      "terms": [],
+      "link": "https://bsf.sa/arabic/personal/cards/offers/shopping/extra",
+      "imageUrl": "https://bsf.sa/ContentFiles/13188Image.png",
+      "source": "bsf-offers-pages-scraper"
+    },
     {
       "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-live-well-nahdi",
       "merchant": "النهدي",
@@ -130,23 +147,6 @@
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/travel/emirates",
       "imageUrl": "https://bsf.sa/ContentFiles/13126Image.png",
-      "source": "bsf-offers-pages-scraper"
-    },
-    {
-      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-entertainment-moshrfa-equestrian-retreat",
-      "merchant": "منتجع مُشرفة للفروسية",
-      "title": "منتجع مُشرفة للفروسية",
-      "category": "كل العروض",
-      "discount": "خصم 10%",
-      "cards": [],
-      "cardText": "",
-      "promoCode": null,
-      "expiryDate": "2027-08-15",
-      "status": "active",
-      "notes": "احصل على خصم 10% لدى منتجع مُشرفة للفروسية عند استخدامك بطاقات البنك السعودي الفرنسي مدى او الائتمانية",
-      "terms": [],
-      "link": "https://bsf.sa/arabic/personal/cards/offers/entertainment/moshrfa-equestrian-retreat",
-      "imageUrl": "https://bsf.sa/ContentFiles/13124Image.jpg",
       "source": "bsf-offers-pages-scraper"
     },
     {
@@ -759,6 +759,23 @@
       "terms": [],
       "link": "https://bsf.sa/arabic/personal/cards/offers/entertainment/vox-cinema",
       "imageUrl": "https://bsf.sa/ContentFiles/12441Image.png",
+      "source": "bsf-offers-pages-scraper"
+    },
+    {
+      "id": "bsf-https-bsf-sa-arabic-personal-cards-offers-entertainment-moshrfa-equestrian-retreat",
+      "merchant": "منتجع مُشرفة للفروسية",
+      "title": "منتجع مُشرفة للفروسية",
+      "category": "الترفيه",
+      "discount": "خصم 10%",
+      "cards": [],
+      "cardText": "",
+      "promoCode": null,
+      "expiryDate": "2027-08-15",
+      "status": "active",
+      "notes": "احصل على خصم 10% لدى منتجع مُشرفة للفروسية عند استخدامك بطاقات البنك السعودي الفرنسي مدى او الائتمانية",
+      "terms": [],
+      "link": "https://bsf.sa/arabic/personal/cards/offers/entertainment/moshrfa-equestrian-retreat",
+      "imageUrl": "https://bsf.sa/ContentFiles/13124Image.jpg",
       "source": "bsf-offers-pages-scraper"
     }
   ]
